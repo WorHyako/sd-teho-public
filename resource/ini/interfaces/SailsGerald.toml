@@ -1,0 +1,69 @@
+[MAIN]
+item = ["FRAME", "MAIN_FRAME", "300", "pc", "BUTTON", "EXIT_BTN", "100", "TEXTBUTTON2", "B_OK", "100", "TEXTBUTTON2", "B_CANCEL", "100", "TEXTBUTTON2", "B_REMOVE", "100", "FORMATEDTEXT", "INFO_CAPTION", "605", "SCROLLIMAGE", "SCROLL_GERALD", "606", "BUTTON", "SAILS_GERALD_LEFT_BUTTON", "606", "BUTTON", "SAILS_GERALD_RIGHT_BUTTON"]
+start = "SCROLL_GERALD"
+
+[MAIN_FRAME]
+captionheight = 24
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+position = [2, 119, 798, 449]
+
+[EXIT_BTN]
+position = [772, 123, 792, 143]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel", "deactivate", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+bshowglowcursor = "0;"
+shadowoffset = [-1, -1]
+
+[B_OK]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click"]
+position = [198, 394, 324, 426]
+string = "Accept"
+glowoffset = [0, 0]
+
+[B_REMOVE]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click"]
+position = [338, 394, 464, 426]
+string = "Remove"
+glowoffset = [0, 0]
+
+[B_CANCEL]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "event:exitCancel", "click", "event:exitCancel"]
+position = [478, 394, 604, 426]
+string = "Cancel"
+glowoffset = [0, 0]
+
+[INFO_CAPTION]
+position = [251, 122, 548, 148]
+fontscale = 1.1
+linespace = 18
+font = "interface_button"
+alignment = "center"
+color = [255, 255, 255, 255]
+string = "titleSailsGerald"
+
+[SCROLL_GERALD]
+command = ["activate", "deactivate", "event:exitCancel", "rightstep", "leftstep", "speedright", "speedleft", "click", "select:SCROLL_GERALD"]
+dwselectcolorargb1 = [255, 98, 98, 98]
+position = [30, 180, 770, 370]
+imagesize = [190, 190]
+wdelta = 0
+glowoffset = [0, 0]
+
+[SAILS_GERALD_LEFT_BUTTON]
+command = ["activate", "select:SCROLL_GERALD", "com:speedleft:SCROLL_GERALD", "click", "select:SCROLL_GERALD", "com:leftstep:SCROLL_GERALD", "com:activate:SCROLL_GERALD"]
+position = [4, 215, 27, 334]
+group = "ICONS"
+picture = ["left", "arrow"]
+
+[SAILS_GERALD_RIGHT_BUTTON]
+command = ["activate", "select:SCROLL_GERALD", "com:speedright:SCROLL_GERALD", "click", "select:SCROLL_GERALD", "com:rightstep:SCROLL_GERALD", "com:activate:SCROLL_GERALD"]
+position = [768, 215, 791, 334]
+group = "ICONS"
+picture = ["right", "arrow"]

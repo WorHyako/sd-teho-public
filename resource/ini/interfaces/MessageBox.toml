@@ -1,0 +1,41 @@
+[MAIN]
+item = ["20000", "RECTANGLE", "MB_MAIN_BACK", "20000", "IMAGECOLLECTION", "BACK", "20001", "FORMATEDTEXT", "MB_MESSAGE", "20000", "TEXTBUTTON2", "MB_BTN_OK", "20000", "TEXTBUTTON2", "MB_BTN_RETRY", "20000", "TEXTBUTTON2", "MB_BTN_CANCEL"]
+
+[MB_MAIN_BACK]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [32, 32, 32, 32]
+topcolor = [32, 32, 32, 32]
+rightcolor = [32, 32, 32, 32]
+bottomcolor = [32, 32, 32, 32]
+
+[MB_BTN_OK]
+bbreakcommand = 1
+command = ["click", "event:MB_BTN_Ok"]
+position = [178, 305, 324, 337]
+string = "txtMB_BTN_OK"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[MB_BTN_RETRY]
+bbreakcommand = 1
+command = ["click", "event:MB_BTN_Retry"]
+position = [178, 305, 324, 337]
+string = "txtMB_BTN_Retry"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[MB_BTN_CANCEL]
+bbreakcommand = 1
+command = ["click", "event:MB_BTN_Cancel"]
+position = [178, 305, 324, 337]
+string = "txtMB_BTN_Cancel"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[MB_MESSAGE]
+position = [8, 357, 118, 404]
+fontscale = 0.9
+linespace = 14
+alignment = "center"
+color = [255, 255, 255, 156]

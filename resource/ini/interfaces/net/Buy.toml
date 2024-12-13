@@ -1,0 +1,554 @@
+[MAIN]
+item = ["PICTURE", "MAIN_BACK", "TITLE", "TITLE", "200", "IMAGECOLLECTION", "INFO_BORDER", "200", "IMAGECOLLECTION", "SEPARATOR", "200", "STRINGCOLLECTION", "CAPTIONS", "200", "IMAGECOLLECTION", "PICTURES_SHIPCANNONS_GOLD", "200", "STRINGCOLLECTION", "STRINGS_SHIPCANNONS_MONEY", "200", "STRINGCOLLECTION", "STRINGS_SHIPCANNONS_TYPE", "FRAME", "FRAME_SHIPANDCANNONS", "201", "FRAME_METAL", "FRAME_SHIPPICTURE", "200", "PICTURE", "PICTURE_SHIP", "200", "BUTTON", "SHIPSLIST_LEFT", "200", "BUTTON", "SHIPSLIST_RIGHT", "201", "PICTURE", "PICTURE_SHIP_UPGRADE_HULL", "201", "PICTURE", "PICTURE_SHIP_UPGRADE_RIGGING", "200", "SCROLLBAR", "SBAR_SHIP_UPGRADE_HULL", "200", "SCROLLBAR", "SBAR_SHIP_UPGRADE_RIGGING", "200", "IMAGECOLLECTION", "PICTURES_SHIP_UPGRADE_GOLD", "200", "STRINGCOLLECTION", "STRINGS_SHIP_UPGRADE_TYPE", "200", "STRINGCOLLECTION", "STRINGS_SHIP_UPGRADE_MONEY", "201", "FRAME_METAL", "FRAME_CANNONPICTURE", "200", "PICTURE", "PICTURE_CANNON", "200", "BUTTON", "CANNONSLIST_LEFT", "200", "BUTTON", "CANNONSLIST_RIGHT", "200", "RADIOBUTTON", "RADIO_CANNONS_UPGRADELIST", "201", "PICTURE", "PICTURE_CANNON_UPGRADE_COPPER", "201", "PICTURE", "PICTURE_CANNON_UPGRADE_BRONZE", "201", "PICTURE", "PICTURE_CANNON_UPGRADE_IRON", "200", "IMAGECOLLECTION", "PICTURES_CANNON_UPGRADE_GOLD", "200", "STRINGCOLLECTION", "STRINGS_CANNON_UPGRADE_MONEY", "FRAME", "FRAME_SKILLS", "200", "IMAGECOLLECTION", "PICTURES_SKILLS", "200", "STRINGCOLLECTION", "CAPTION_SKILLS", "200", "IMAGECOLLECTION", "PICTURES_SKILLS_GOLD", "200", "STRINGCOLLECTION", "STRINGS_SKILLS_QUANTITY", "200", "STRINGCOLLECTION", "STRINGS_SKILLS_MONEY", "199", "SCROLLBAR", "SBAR_SKILL_ACCURACY", "199", "SCROLLBAR", "SBAR_SKILL_CANNONS", "199", "SCROLLBAR", "SBAR_SKILL_SAILING", "199", "SCROLLBAR", "SBAR_SKILL_DEFENCE", "199", "SCROLLBAR", "SBAR_SKILL_REPAIR", "FRAME", "FRAME_AMMO", "200", "IMAGECOLLECTION", "PICTURES_AMMO", "200", "STRINGCOLLECTION", "CAPTION_GOODS", "200", "IMAGECOLLECTION", "PICTURES_AMMO_GOLD", "200", "STRINGCOLLECTION", "STRINGS_AMMO_MONEY", "200", "STRINGCOLLECTION", "STRINGS_AMMO_QUANTITY", "199", "SCROLLBAR", "SBAR_GOOD_BALLS", "199", "SCROLLBAR", "SBAR_GOOD_GRAPES", "199", "SCROLLBAR", "SBAR_GOOD_KNIPPELS", "199", "SCROLLBAR", "SBAR_GOOD_BOMBS", "199", "SCROLLBAR", "SBAR_GOOD_PLANKS", "199", "SCROLLBAR", "SBAR_GOOD_SAILCLOTH", "200", "TABLE", "TABLE_PLAYERS", "200", "SCROLLER", "SCROLL_PLAYERS", "100", "FRAME", "FRAME_MAP", "200", "PICTURE", "SERVER_MAP_PICTURE", "201", "FRAME", "FRAME_MAP2", "203", "FORMATEDTEXT", "CAPTION_MAP_NAME", "203", "STRINGCOLLECTION", "STRINGS_MAP_INFO", "203", "STRINGCOLLECTION", "STRINGS_MAP_INFO_VALUE", "200", "TEXTBUTTON2", "BTN_START", "200", "TEXTBUTTON2", "BTN_DISCONNECT", "300", "RECTANGLE", "RECTANGLE_WAITINFO_DARKENING", "301", "FRAME", "FRAME_WAITINFO_DARKENING", "302", "FORMATEDTEXT", "CAPTION_WAITINFO", "302", "RECTANGLE", "RECTANGLE_WAITINFO_PROGRESS", "302", "TEXTBUTTON2", "BTN_WAITINFO_DISCONNECT", "300", "RECTANGLE", "RECTANGLE_STARTGAME_WAIT_DARKENING", "301", "TABLE", "TABLE_STARTGAME_WAIT_PLAYERS", "302", "SCROLLER", "SCROLL_STARTGAME_WAIT_PLAYERS", "300", "RECTANGLE", "RECTANGLE_SELECTTEAM", "301", "FRAME", "FRAME_SELECTTEAM", "302", "IMAGECOLLECTION", "BORDER_SELECTTEAM", "302", "STRINGCOLLECTION", "STRINGS_SELECTTEAM", "302", "STRINGCOLLECTION", "STRINGS_SELECTTEAM_QUANTITY", "302", "IMAGECOLLECTION", "PICTURES_SELECTTEAM", "303", "FRAME", "FRAME_TEAM0", "303", "FRAME", "FRAME_TEAM1", "303", "FRAME", "FRAME_TEAM2", "303", "FRAME", "FRAME_TEAM3", "304", "RECTANGLE", "RECTANGLE_TEAM0", "304", "RECTANGLE", "RECTANGLE_TEAM1", "304", "RECTANGLE", "RECTANGLE_TEAM2", "304", "RECTANGLE", "RECTANGLE_TEAM3", "302", "FORMATEDTEXT", "TEXT_SELECTTEAM", "302", "TEXTBUTTON2", "BTN_SELECTTEAM_OK", "302", "TEXTBUTTON2", "BTN_SELECTTEAM_CANCEL", "WINDOW", "WND_NETBUY", "WINDOW", "WND_NETBUY_WAITINFO", "WINDOW", "WND_STARTGAME_WAIT", "WINDOW", "WND_SELECT_TEAM"]
+
+[SERVER_MAP_PICTURE]
+position = [522, 47, 785, 277]
+
+[BTN_START]
+bbreakcommand = 1
+command = ["click", "event:OnTmpStart"]
+position = [180, 562, 376, 594]
+string = "btnNetBuy_Start"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[BTN_RESET]
+bbreakcommand = 1
+command = ["click", "event:OnReset"]
+position = [356, 562, 503, 594]
+string = "btnNetBuy_Reset"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[BTN_DISCONNECT]
+bbreakcommand = 1
+command = ["click", "event:OnDisconnect", "activate", "event:OnDisconnect", "deactivate", "event:OnDisconnect"]
+position = [422, 562, 599, 594]
+string = "btnNetBuy_Disconnect"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[WND_NETBUY_WAITINFO]
+nodelist = ["RECTANGLE_WAITINFO_DARKENING", "FRAME_WAITINFO_DARKENING", "RECTANGLE_WAITINFO_PROGRESS", "CAPTION_WAITINFO", "BTN_WAITINFO_DISCONNECT"]
+
+[RECTANGLE_WAITINFO_DARKENING]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [255, 255, 255, 255]
+bottomcolor = [255, 1, 5, 30]
+rightcolor = [255, 255, 255, 255]
+topcolor = [125, 2, 11, 75]
+
+[FRAME_WAITINFO_DARKENING]
+position = [160, 220, 660, 364]
+
+[RECTANGLE_WAITINFO_PROGRESS]
+babsoluterectangle = 5
+position = [180, 273, 640, 299]
+leftcolor = [255, 255, 255, 255]
+bottomcolor = [255, 1, 5, 30]
+rightcolor = [255, 255, 255, 255]
+topcolor = [125, 2, 11, 75]
+
+[CAPTION_WAITINFO]
+position = [242, 231, 568, 270]
+fontscale = 1.4
+font = "interface_button"
+linespace = 14
+alignment = "center"
+color = [255, 255, 255, 156]
+string = "capNetBuy_WaitInfo"
+
+[BTN_WAITINFO_DISCONNECT]
+bbreakcommand = 1
+command = ["click", "event:OnDisconnect", "activate", "event:OnDisconnect", "deactivate", "event:OnDisconnect"]
+position = [332, 312, 479, 344]
+string = "btnNetBuy_Disconnect"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[WND_STARTGAME_WAIT]
+nodelist = ["RECTANGLE_STARTGAME_WAIT_DARKENING", "TABLE_STARTGAME_WAIT_PLAYERS", "SCROLL_STARTGAME_WAIT_PLAYERS", "BTN_STARTGAME_WAIT_DISCONNECT"]
+
+[RECTANGLE_STARTGAME_WAIT_DARKENING]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [255, 255, 255, 255]
+bottomcolor = [255, 1, 5, 30]
+rightcolor = [255, 255, 255, 255]
+topcolor = [125, 2, 11, 75]
+
+[BTN_STARTGAME_WAIT_DISCONNECT]
+bbreakcommand = 1
+command = ["click", "event:OnDisconnect", "activate", "event:OnDisconnect", "deactivate", "event:OnDisconnect"]
+position = [331, 545, 488, 577]
+string = "btnNetBuy_Disconnect"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[TABLE_STARTGAME_WAIT_PLAYERS]
+command = ["click", "event:Players_StartGameWait_OnClick", "select:TABLE_STARTGAME_WAIT_PLAYERS", "upstep", "downstep"]
+position = [160, 70, 660, 528]
+rowquantity = 14
+colquantity = 7
+vlinewidth = 1
+hlineheight = 1
+colswidth = [35, 35, 303, 18, 35, 35, 35]
+scroller = "SCROLL_STARTGAME_WAIT_PLAYERS"
+rowsheight = [36, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
+selectimage = ["color=(100", "200", "120", "55)"]
+
+[SCROLL_STARTGAME_WAIT_PLAYERS]
+command = ["click", "select:TABLE_STARTGAME_WAIT_PLAYERS", "downstep", "upstep"]
+position = [537, 70, 551, 524]
+basetexture = "interfaces\\icons.tga"
+rollertexture = "interfaces\\icons.tga"
+scrolltexpos = [0.0, 0.75, 0.045, 1.0]
+rolltexpos = [0.0625, 0.875, 0.1075, 0.96]
+begendtexsize = 0.0835
+begendbasesize = 18
+rollerheight = 18
+ownedcontrol = "TABLE_STARTGAME_WAIT_PLAYERS"
+
+[WND_NETBUY]
+nodelist = ["MAIN_BACK", "TITLE", "INFO_BORDER", "SEPARATOR", "CAPTIONS", "PICTURES_SHIPCANNONS_GOLD", "STRINGS_SHIPCANNONS_MONEY", "STRINGS_SHIPCANNONS_TYPE", "FRAME_SHIPANDCANNONS", "FRAME_SHIPPICTURE", "PICTURE_SHIP", "SHIPSLIST_LEFT", "SHIPSLIST_RIGHT", "PICTURE_SHIP_UPGRADE_HULL", "PICTURE_SHIP_UPGRADE_RIGGING", "SBAR_SHIP_UPGRADE_HULL", "SBAR_SHIP_UPGRADE_RIGGING", "PICTURES_SHIP_UPGRADE_GOLD", "STRINGS_SHIP_UPGRADE_TYPE", "STRINGS_SHIP_UPGRADE_MONEY", "FRAME_CANNONPICTURE", "PICTURE_CANNON", "CANNONSLIST_LEFT", "CANNONSLIST_RIGHT", "RADIO_CANNONS_UPGRADELIST", "PICTURE_CANNON_UPGRADE_COPPER", "PICTURE_CANNON_UPGRADE_BRONZE", "PICTURE_CANNON_UPGRADE_IRON", "PICTURES_CANNON_UPGRADE_GOLD", "STRINGS_CANNON_UPGRADE_MONEY", "FRAME_SKILLS", "PICTURES_SKILLS", "CAPTION_SKILLS", "PICTURES_SKILLS_GOLD", "STRINGS_SKILLS_QUANTITY", "STRINGS_SKILLS_MONEY", "SBAR_SKILL_ACCURACY", "SBAR_SKILL_CANNONS", "SBAR_SKILL_SAILING", "SBAR_SKILL_DEFENCE", "SCROLLBAR", "SBAR_SKILL_REPAIR", "PICTURES_PERKS", "PICTURES_PERKS_GOLD", "STRINGS_PERKS_MONEY", "CHECKBUTTONS_PERKS", "FRAME_AMMO", "PICTURES_AMMO", "CAPTION_GOODS", "PICTURES_AMMO_GOLD", "STRINGS_AMMO_MONEY", "STRINGS_AMMO_QUANTITY", "SBAR_GOOD_BALLS", "SBAR_GOOD_GRAPES", "SBAR_GOOD_KNIPPELS", "SBAR_GOOD_BOMBS", "SBAR_GOOD_PLANKS", "SBAR_GOOD_SAILCLOTH", "TABLE_PLAYERS", "SCROLL_PLAYERS", "FRAME_MAP", "SERVER_MAP_PICTURE", "FRAME_MAP2", "CAPTION_MAP_NAME", "STRINGS_MAP_INFO", "STRINGS_MAP_INFO_VALUE", "BTN_START", "BTN_READY", "BTN_RESET", "BTN_DISCONNECT"]
+
+[TITLE]
+stringwidth = 220
+
+[FRAME_SHIPANDCANNONS]
+position = [10, 290, 311, 558]
+
+[FRAME_MAP]
+position = [518, 43, 788, 281]
+
+[FRAME_MAP2]
+position = [518, 43, 788, 281]
+backimage = "null"
+
+[CAPTION_MAP_NAME]
+position = [532, 61, 778, 100]
+fontscale = 1.4
+font = "interface_button"
+linespace = 14
+alignment = "center"
+color = [255, 255, 255, 156]
+
+[FRAME_SKILLS]
+position = [342, 340, 589, 560, 330, 290, 541, 558]
+
+[FRAME_AMMO]
+position = [560, 290, 787, 558]
+
+[MAIN_BACK]
+position = [0, 0, 800, 600]
+texturename = "interfaces\\mainback.tga"
+
+[TABLE_PLAYERS]
+command = ["click", "event:Players_OnClick", "select:TABLE_PLAYERS", "upstep", "downstep"]
+position = [10, 43, 508, 281]
+rowquantity = 7
+colquantity = 7
+vlinewidth = 2
+hlineheight = 2
+cellspacesize = [0, 0]
+fontcellscale = 0.9
+colswidth = [35, 35, 305, 15, 34, 35, 35]
+scroller = "SCROLL_PLAYERS"
+rowsheight = [36, 33, 33, 33, 33, 33, 33]
+selectimage = ["color=(100", "200", "120", "55)"]
+
+[SCROLL_PLAYERS]
+command = ["click", "select:TABLE_PLAYERS", "downstep", "upstep"]
+position = [386, 47, 400, 278]
+basetexture = "interfaces\\icons.tga"
+rollertexture = "interfaces\\icons.tga"
+scrolltexpos = [0.0, 0.75, 0.045, 1.0]
+rolltexpos = [0.0625, 0.875, 0.1075, 0.96]
+begendtexsize = 0.0835
+begendbasesize = 18
+rollerheight = 18
+ownedcontrol = "TABLE_PLAYERS"
+
+[FRAME_SHIPPICTURE]
+position = [47, 337, 124, 414]
+backimage = "null"
+
+[PICTURE_SHIP]
+position = [49, 339, 121, 411]
+groupname = "null"
+picname = "null"
+
+[SHIPSLIST_LEFT]
+command = ["click", "event:ShipLeft"]
+position = [28, 337, 43, 413]
+group = "MAIN_ICONS"
+picture = "left_button3"
+shadowoffset = [0, 0]
+glowoffset = [0, 0]
+
+[SHIPSLIST_RIGHT]
+command = ["click", "event:ShipRight"]
+position = [128, 337, 142, 413]
+group = "MAIN_ICONS"
+picture = "right_button3"
+shadowoffset = [0, 0]
+glowoffset = [0, 0]
+
+[SBAR_SHIP_UPGRADE_HULL]
+command = ["leftstep", "event:DecUpgradeHull", "select:SBAR_SHIP_UPGRADE_HULL", "rightstep", "event:AddUpgradeHull", "select:SBAR_SHIP_UPGRADE_HULL", "click"]
+position = [21, 468, 78, 499]
+barwidth = 25
+bshowglowcursor = 0
+
+[SBAR_SHIP_UPGRADE_RIGGING]
+command = ["leftstep", "event:DecUpgradeRigging", "select:SBAR_SHIP_UPGRADE_RIGGING", "rightstep", "event:AddUpgradeRigging", "select:SBAR_SHIP_UPGRADE_RIGGING", "click"]
+position = [21, 511, 78, 542]
+barwidth = 25
+bshowglowcursor = 0
+
+[FRAME_CANNONPICTURE]
+position = [195, 338, 272, 414]
+backimage = "null"
+
+[PICTURE_CANNON]
+position = [198, 341, 270, 411, 198, 341, 270, 411, 198, 341, 270, 411]
+groupname = ["CANNONS", "CANNONS", "CANNONS"]
+picname = ["cannon42", "cannon42", "cannon42"]
+
+[CANNONSLIST_LEFT]
+command = ["click", "event:CannonLeft"]
+position = [176, 338, 191, 413]
+group = "MAIN_ICONS"
+picture = "left_button3"
+shadowoffset = [0, 0]
+glowoffset = [0, 0]
+
+[CANNONSLIST_RIGHT]
+command = ["click", "event:CannonRight"]
+position = [276, 338, 291, 414]
+group = "MAIN_ICONS"
+picture = "right_button3"
+shadowoffset = [0, 0]
+glowoffset = [0, 0]
+
+[RADIO_CANNONS_UPGRADELIST]
+command = "click"
+iconsize = [14, 14]
+position = [212, 457, 309, 544]
+rect_textoffset = [20, 0, 0, 0]
+alignment = "left"
+sectioninterval = 17
+section1 = ["0", "0", "radioNetBuy_Copper"]
+section2 = ["0", "0", "radioNetBuy_Bronze"]
+section3 = ["0", "0", "radioNetBuy_Iron"]
+
+[SBAR_SKILL_ACCURACY]
+command = ["leftstep", "event:DecAccuracy", "select:SBAR_SKILL_ACCURACY", "rightstep", "event:AddAccuracy", "select:SBAR_SKILL_ACCURACY", "click"]
+position = [372, 331, 429, 362]
+barwidth = 25
+bshowglowcursor = 0
+
+[SBAR_SKILL_SAILING]
+command = ["leftstep", "event:DecSailing", "select:SBAR_SKILL_SAILING", "rightstep", "event:AddSailing", "select:SBAR_SKILL_SAILING", "click"]
+position = [371, 418, 428, 449]
+barwidth = 25
+bshowglowcursor = 0
+
+[SBAR_SKILL_CANNONS]
+command = ["leftstep", "event:DecCannons", "select:SBAR_SKILL_CANNONS", "rightstep", "event:AddCannons", "select:SBAR_SKILL_CANNONS", "click"]
+position = [371, 375, 428, 406]
+barwidth = 25
+bshowglowcursor = 0
+
+[SBAR_SKILL_DEFENCE]
+command = ["leftstep", "event:DecDefence", "select:SBAR_SKILL_DEFENCE", "rightstep", "event:AddDefence", "select:SBAR_SKILL_DEFENCE", "click"]
+position = [371, 461, 428, 492]
+barwidth = 25
+bshowglowcursor = 0
+
+[SBAR_SKILL_REPAIR]
+command = ["leftstep", "event:DecRepair", "select:SBAR_SKILL_REPAIR", "rightstep", "event:AddRepair", "select:SBAR_SKILL_REPAIR", "click"]
+position = [371, 505, 428, 536]
+barwidth = 25
+bshowglowcursor = 0
+
+[SBAR_GOOD_BALLS]
+command = ["leftstep", "event:DecBalls", "select:SBAR_GOOD_BALLS", "rightstep", "event:AddBalls", "select:SBAR_GOOD_BALLS", "click"]
+position = [574, 325, 631, 356]
+barwidth = 25
+bshowglowcursor = 0
+
+[SBAR_GOOD_GRAPES]
+command = ["leftstep", "event:DecGrapes", "select:SBAR_GOOD_GRAPES", "rightstep", "event:AddGrapes", "select:SBAR_GOOD_GRAPES", "click"]
+position = [574, 363, 631, 394]
+barwidth = 25
+bshowglowcursor = 0
+
+[SBAR_GOOD_KNIPPELS]
+command = ["leftstep", "event:DecKnippels", "select:SBAR_GOOD_KNIPPELS", "rightstep", "event:AddKnippels", "select:SBAR_GOOD_KNIPPELS", "click"]
+position = [574, 401, 631, 432]
+barwidth = 25
+bshowglowcursor = 0
+
+[SBAR_GOOD_BOMBS]
+command = ["leftstep", "event:DecBombs", "select:SBAR_GOOD_BOMBS", "rightstep", "event:AddBombs", "select:SBAR_GOOD_BOMBS", "click"]
+position = [574, 439, 631, 470]
+barwidth = 25
+bshowglowcursor = 0
+
+[SBAR_GOOD_PLANKS]
+command = ["leftstep", "event:DecPlanks", "select:SBAR_GOOD_PLANKS", "rightstep", "event:AddPlanks", "select:SBAR_GOOD_PLANKS", "click"]
+position = [574, 477, 631, 508]
+barwidth = 25
+bshowglowcursor = 0
+
+[SBAR_GOOD_SAILCLOTH]
+command = ["leftstep", "event:DecSailcloth", "select:SBAR_GOOD_SAILCLOTH", "rightstep", "event:AddSailcloth", "select:SBAR_GOOD_SAILCLOTH", "click"]
+position = [573, 515, 631, 546]
+barwidth = 25
+bshowglowcursor = 0
+
+[CHECKBUTTONS_PERKS]
+command = "click"
+iconsize = [16, 16]
+position = [504, 325, 606, 548]
+rect_textoffset = [20, 0, 0, 0]
+alignment = "left"
+sectioninterval = 22
+section1 = ["0", "0", "checkNetBuy_TriggerPester"]
+section2 = ["0", "0", "checkNetBuy_Protector"]
+section3 = ["0", "0", "checkNetBuy_HolyShit"]
+section4 = ["0", "0", "checkNetBuy_Flayer"]
+section5 = ["0", "0", "checkNetBuy_CrazyGunner"]
+section6 = ["0", "0", "checkNetBuy_MuscetFire"]
+
+[PICTURES_PERKS]
+offset = [581, -144]
+groupname = "SKILLS"
+picture = ["editsection:trigger", "pester", "accuracy", "col:{255", "128", "128", "128}", "pos:{471", "325", "503", "358}", "editsection:protector", "cannons", "col:{255", "128", "128", "128}", "pos:{471", "363", "503", "396}", "editsection:holy", "shit", "navigation", "col:{255", "128", "128", "128}", "pos:{471", "401", "503", "434}", "editsection:flayer", "defence", "col:{255", "128", "128", "128}", "pos:{471", "439", "503", "472}", "editsection:crazy", "gunner", "repair", "col:{255", "128", "128", "128}", "pos:{471", "477", "503", "510}", "editsection:muscet", "fire", "repair", "col:{255", "128", "128", "128}", "pos:{471", "515", "503", "548}"]
+
+[SEPARATOR]
+offset = [1539, 568]
+groupname = "MAIN_ICONS"
+picture = ["editsection:SHIP", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{156", "324", "160", "552}"]
+
+[PICTURES_SHIPCANNONS_GOLD]
+offset = [1169, -510]
+groupname = "ICONS"
+picture = ["editsection:goldicon_ship", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{53", "415", "70", "432}", "editsection:goldicon_cannons", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{203", "415", "220", "432}"]
+
+[STRINGS_SHIPCANNONS_MONEY]
+string = ["#55000", "font:interface_normal", "pos:{72", "416}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#2160", "font:interface_normal", "pos:{222", "416}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+
+[STRINGS_SHIPCANNONS_TYPE]
+string = ["Tartane", "font:interface_normal", "pos:{86", "319}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#Кулеврина", "16", "фунт.", "font:interface_normal", "pos:{233", "319}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]
+
+[PICTURE_CANNON_UPGRADE_COPPER]
+position = [174, 458, 204, 489]
+groupname = "CANNONS"
+picname = "cannon42"
+
+[PICTURE_CANNON_UPGRADE_BRONZE]
+position = [174, 491, 204, 521]
+groupname = "CANNONS"
+picname = "cannon42"
+
+[PICTURE_CANNON_UPGRADE_IRON]
+position = [174, 523, 204, 553]
+groupname = "CANNONS"
+picname = "cannon42"
+
+[PICTURES_CANNON_UPGRADE_GOLD]
+offset = [1271, -490]
+groupname = "ICONS"
+picture = ["editsection:goldicon_cannonupgrade_copper", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{210", "471", "227", "488}", "editsection:goldicon_cannonupgrade_bronze", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{210", "504", "227", "521}", "editsection:goldicon_cannonupgrade_iron", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{210", "537", "227", "554}"]
+
+[STRINGS_CANNON_UPGRADE_MONEY]
+string = ["#20", "font:interface_normal", "pos:{232", "472}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#30", "font:interface_normal", "pos:{231", "506}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#40", "font:interface_normal", "pos:{231", "538}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+
+[PICTURE_SHIP_UPGRADE_HULL]
+position = [34, 468, 66, 501]
+groupname = "null"
+picname = "null"
+
+[PICTURE_SHIP_UPGRADE_RIGGING]
+position = [34, 511, 66, 544]
+groupname = "null"
+picname = "null"
+
+[PICTURES_SHIP_UPGRADE_GOLD]
+offset = [1143, -467]
+groupname = "ICONS"
+picture = ["editsection:goldicon_hull", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{82", "484", "99", "501}", "editsection:goldicon_rigging", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{82", "527", "99", "544}"]
+
+[STRINGS_SHIP_UPGRADE_MONEY]
+string = ["#20", "font:interface_normal", "pos:{102", "486}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#30", "font:interface_normal", "pos:{102", "528}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+
+[WND_SELECT_TEAM]
+nodelist = ["RECTANGLE_SELECTTEAM", "FRAME_SELECTTEAM", "BORDER_SELECTTEAM", "PICTURES_SELECTTEAM", "STRINGS_SELECTTEAM", "STRINGS_SELECTTEAM_QUANTITY", "BTN_SELECTTEAM_OK", "BTN_SELECTTEAM_CANCEL", "TEXT_SELECTTEAM", "FRAME_TEAM0", "FRAME_TEAM1", "FRAME_TEAM2", "FRAME_TEAM3"]
+
+[RECTANGLE_SELECTTEAM]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [255, 255, 255, 255]
+bottomcolor = [255, 1, 5, 30]
+rightcolor = [255, 255, 255, 255]
+topcolor = [125, 2, 11, 75]
+
+[FRAME_SELECTTEAM]
+position = [260, 174, 540, 364]
+
+[BTN_SELECTTEAM_OK]
+bbreakcommand = 1
+command = ["click", "event:OnSelectTeamOk"]
+position = [276, 322, 393, 354]
+string = "btnNetBuy_SelectTeamOk"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[BTN_SELECTTEAM_CANCEL]
+bbreakcommand = 1
+command = ["click", "event:OnSelectTeamCancel"]
+position = [406, 323, 523, 355]
+string = "btnNetBuy_SelectTeamCancel"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[TEXT_SELECTTEAM]
+position = [275, 212, 525, 245]
+fontscale = 1.0
+linespace = 14
+alignment = "center"
+color = [255, 255, 255, 156]
+
+[BORDER_SELECTTEAM]
+offset = [239, -180]
+groupname = "MAIN_ICONS"
+picture = ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{261", "178", "537", "204}"]
+
+[STRINGS_SELECTTEAM]
+string = ["capNetBuy_SelectTeam", "font:interface_button", "pos:{402", "179}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]
+
+[STRINGS_SELECTTEAM_QUANTITY]
+string = ["#5", "font:interface_button", "pos:{310", "293}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#10", "font:interface_button", "pos:{370", "293}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#20", "font:interface_button", "pos:{430", "293}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#30", "font:interface_button", "pos:{490", "293}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]
+
+[FRAME_TEAM0]
+backimage = "piclist=none"
+position = [291, 253, 331, 293]
+
+[FRAME_TEAM1]
+backimage = "piclist=none"
+position = [351, 253, 391, 293]
+
+[FRAME_TEAM2]
+backimage = "piclist=none"
+position = [410, 253, 450, 293]
+
+[FRAME_TEAM3]
+backimage = "piclist=none"
+position = [470, 253, 510, 293]
+
+[RECTANGLE_TEAM0]
+command = ["click", "event:OnClickTeam"]
+position = [291, 253, 331, 293]
+leftcolor = [0, 41, 17, 0]
+topcolor = [0, 41, 17, 0]
+rightcolor = [0, 41, 17, 0]
+bottomcolor = [0, 41, 17, 0]
+bordercolor = [0, 106, 76, 57]
+
+[RECTANGLE_TEAM1]
+command = ["click", "event:OnClickTeam"]
+position = [351, 253, 391, 293]
+leftcolor = [0, 41, 17, 0]
+topcolor = [0, 41, 17, 0]
+rightcolor = [0, 41, 17, 0]
+bottomcolor = [0, 41, 17, 0]
+bordercolor = [0, 106, 76, 57]
+
+[RECTANGLE_TEAM2]
+command = ["click", "event:OnClickTeam"]
+position = [410, 253, 450, 293]
+leftcolor = [0, 41, 17, 0]
+topcolor = [0, 41, 17, 0]
+rightcolor = [0, 41, 17, 0]
+bottomcolor = [0, 41, 17, 0]
+bordercolor = [0, 106, 76, 57]
+
+[RECTANGLE_TEAM3]
+command = ["click", "event:OnClickTeam"]
+position = [470, 253, 510, 293]
+leftcolor = [0, 41, 17, 0]
+topcolor = [0, 41, 17, 0]
+rightcolor = [0, 41, 17, 0]
+bottomcolor = [0, 41, 17, 0]
+bordercolor = [0, 106, 76, 57]
+
+[PICTURES_SELECTTEAM]
+offset = [1911, 385]
+groupname = "NET_TEAMICONS"
+picture = ["editsection:team0", "team0", "col:{255", "128", "128", "128}", "pos:{275", "238", "348", "310}", "editsection:team1", "team1", "col:{255", "128", "128", "128}", "pos:{336", "238", "408", "310}", "editsection:team2", "team2", "col:{255", "30", "30", "30}", "pos:{395", "238", "466", "310}", "editsection:team3", "team3", "col:{255", "30", "30", "30}", "pos:{456", "238", "526", "310}"]
+
+[STRINGS_PERKS_MONEY]
+string = ["#1000", "font:interface_normal", "pos:{523", "343}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#2000", "font:interface_normal", "pos:{523", "381}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#3000", "font:interface_normal", "pos:{523", "419}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#3000", "font:interface_normal", "pos:{523", "457}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#4000", "font:interface_normal", "pos:{523", "496}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#15000", "font:interface_normal", "pos:{523", "533}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+
+[PICTURES_PERKS_GOLD]
+offset = [1565, -610]
+groupname = "ICONS"
+picture = ["editsection:goldicon_trigger_pester", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{504", "342", "521", "359}", "editsection:goldicon_protector", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{504", "380", "521", "397}", "editsection:goldicon_holy_shit", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{504", "418", "521", "435}", "editsection:goldicon_flayer", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{504", "456", "521", "473}", "editsection:goldicon_crazy_gunner", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{504", "494", "521", "511}", "editsection:goldicon_muscet_fire", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{504", "532", "521", "549}"]
+
+[STRINGS_SHIP_UPGRADE_TYPE]
+string = ["capNetBuy_UpgradeHull", "font:interface_normal", "pos:{83", "467}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capNetBuy_UpgradeSails", "font:interface_normal", "pos:{83", "510}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+
+[STRINGS_MAP_INFO]
+string = ["capFGMapGameType", "font:interface_normal", "pos:{531", "204}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capFGMapCredit", "font:interface_normal", "pos:{532", "221}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capFGMapPlayers", "font:interface_normal", "pos:{532", "238}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capFGMapMaxShip", "font:interface_normal", "pos:{532", "255}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+
+[STRINGS_MAP_INFO_VALUE]
+string = ["txtCS_TeamDeathmatch", "font:interface_normal", "pos:{776", "204}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "#750", "/", "300000", "font:interface_normal", "pos:{777", "221}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "#1", "/", "16", "font:interface_normal", "pos:{777", "238}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "#3", "font:interface_normal", "pos:{777", "255}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]
+
+[PICTURES_AMMO]
+offset = [315, -192]
+groupname = "GOODS"
+picture = ["editsection:Balls", "Balls", "col:{255", "128", "128", "128}", "pos:{588", "325", "620", "358}", "editsection:Grapes", "Grapes", "col:{255", "128", "128", "128}", "pos:{588", "363", "620", "396}", "editsection:Knippels", "Knippels", "col:{255", "128", "128", "128}", "pos:{588", "401", "620", "434}", "editsection:Bombs", "Bombs", "col:{255", "128", "128", "128}", "pos:{588", "439", "620", "472}", "editsection:Planks", "Planks", "col:{255", "128", "128", "128}", "pos:{588", "477", "620", "510}", "editsection:Sailcloth", "Sailcloth", "col:{255", "128", "128", "128}", "pos:{588", "515", "620", "548}"]
+
+[CAPTION_GOODS]
+string = ["Balls", "font:interface_normal", "pos:{646", "325}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "Grapes", "font:interface_normal", "pos:{646", "363}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "Knippels", "font:interface_normal", "pos:{646", "401}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "Bombs", "font:interface_normal", "pos:{646", "439}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "Planks", "font:interface_normal", "pos:{646", "477}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "Sailcloth", "font:interface_normal", "pos:{646", "515}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+
+[PICTURES_AMMO_GOLD]
+offset = [1706, -610]
+groupname = "ICONS"
+picture = ["editsection:goldicon_balls", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{645", "342", "662", "359}", "editsection:goldicon_grapes", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{645", "380", "662", "397}", "editsection:goldicon_knippels", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{645", "418", "662", "435}", "editsection:goldicon_bombs", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{645", "456", "662", "473}", "editsection:goldicon_planks", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{645", "494", "662", "511}", "editsection:goldicon_sailcloth", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{645", "532", "662", "549}"]
+
+[STRINGS_AMMO_MONEY]
+string = ["#100", "font:interface_normal", "pos:{664", "343}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#150", "font:interface_normal", "pos:{664", "381}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#200", "font:interface_normal", "pos:{664", "419}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#500", "font:interface_normal", "pos:{664", "457}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#1500", "font:interface_normal", "pos:{664", "496}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#2000", "font:interface_normal", "pos:{664", "533}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+
+[STRINGS_AMMO_QUANTITY]
+string = ["#200", "font:interface_normal", "pos:{604", "343}", "fc:{255", "255", "255", "55}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#0", "font:interface_normal", "pos:{604", "381}", "fc:{255", "255", "255", "55}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#0", "font:interface_normal", "pos:{604", "419}", "fc:{255", "255", "255", "55}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#0", "font:interface_normal", "pos:{604", "457}", "fc:{255", "255", "255", "55}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#0", "font:interface_normal", "pos:{604", "495}", "fc:{255", "255", "255", "55}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#0", "font:interface_normal", "pos:{604", "533}", "fc:{255", "255", "255", "55}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]
+
+[CAPTIONS]
+string = ["capNetBuy_Ships", "font:interface_button", "pos:{86", "295}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capNetBuy_Cannons", "font:interface_button", "pos:{236", "295}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capNetBuy_ShipUpgradeList", "font:interface_button", "pos:{84", "434}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capNetBuy_CannonUpgradeList", "font:interface_button", "pos:{233", "435}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capNetBuy_SkillsList", "font:interface_button", "pos:{431", "295}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capNetBuy_AmmoList", "font:interface_button", "pos:{664", "295}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]
+
+[INFO_BORDER]
+offset = [433, 787]
+groupname = "MAIN_ICONS"
+picture = ["editsection:SHIP", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{12", "293", "307", "319}", "editsection:SHIP_UPGRADE", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{14", "434", "156", "457}", "editsection:CANNON_UPGRADE", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{160", "434", "307", "457}", "editsection:SKILLS", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{334", "294", "537", "319}", "editsection:AMMO", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{564", "294", "783", "319}"]
+
+[PICTURES_SKILLS]
+offset = [-44, -125]
+groupname = "SKILLS"
+picture = ["editsection:accuracy", "accuracy", "col:{255", "128", "128", "128}", "pos:{385", "332", "418", "365}", "editsection:cannons", "cannons", "col:{255", "128", "128", "128}", "pos:{385", "376", "418", "409}", "editsection:navigation", "navigation", "col:{255", "128", "128", "128}", "pos:{385", "419", "418", "452}", "editsection:defence", "defence", "col:{255", "128", "128", "128}", "pos:{385", "462", "418", "495}", "editsection:repair", "repair", "col:{255", "128", "128", "128}", "pos:{385", "506", "418", "539}"]
+
+[CAPTION_SKILLS]
+string = ["capNetBuy_SkillAccuracy", "font:interface_normal", "pos:{441", "331}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capNetBuy_SkillSailing", "font:interface_normal", "pos:{441", "416}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capNetBuy_SkillCannons", "font:interface_normal", "pos:{441", "375}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capNetBuy_SkillDefence", "font:interface_normal", "pos:{441", "461}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capNetBuy_SkillRepair", "font:interface_normal", "pos:{441", "503}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+
+[PICTURES_SKILLS_GOLD]
+offset = [1745, -610]
+groupname = "ICONS"
+picture = ["editsection:goldicon_accuracy", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{440", "347", "457", "364}", "editsection:goldicon_cannons", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{440", "391", "457", "408}", "editsection:goldicon_repair", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{440", "520", "457", "537}", "editsection:goldicon_sailing", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{440", "434", "457", "451}", "editsection:goldicon_defence", "commerce", "skill", "icon", "col:{255", "128", "128", "128}", "pos:{440", "477", "457", "494}"]
+
+[STRINGS_SKILLS_MONEY]
+string = ["#150", "font:interface_normal", "pos:{459", "348}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#150", "font:interface_normal", "pos:{459", "392}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#100", "font:interface_normal", "pos:{459", "435}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#150", "font:interface_normal", "pos:{459", "478}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#200", "font:interface_normal", "pos:{459", "521}", "fc:{255", "196", "196", "196}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+
+[STRINGS_SKILLS_QUANTITY]
+string = ["#10", "font:bold_numbers", "pos:{402", "341}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:0.76", "state:{CS}", "#1", "font:bold_numbers", "pos:{402", "385}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:0.76", "state:{CS}", "#1", "font:bold_numbers", "pos:{402", "429}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:0.76", "state:{CS}", "#1", "font:bold_numbers", "pos:{402", "471}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:0.76", "state:{CS}", "#1", "font:bold_numbers", "pos:{402", "515}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:0.76", "state:{CS}"]

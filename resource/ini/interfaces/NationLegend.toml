@@ -1,0 +1,47 @@
+[MAIN]
+item = ["FRAME", "MAIN_FRAME", "90", "FORMATEDTEXT", "INFO_TEXT", "90", "FORMATEDTEXT", "INFO_TEXT_QUESTION", "100", "TEXTBUTTON2", "B_OK", "100", "FORMATEDTEXT", "INFO_CAPTION", "PICTURE", "Nat1", "PICTURE", "Nat2", "PICTURE", "RelNat"]
+start = "B_OK"
+
+[MAIN_FRAME]
+captionheight = 24
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+position = [225, 119, 574, 449]
+
+[Nat1]
+position = [248, 172, 348, 272]
+
+[Nat2]
+position = [451, 172, 551, 272]
+
+[RelNat]
+position = [360, 182, 440, 262]
+
+[B_OK]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_CANCEL"]
+position = [338, 394, 464, 426]
+string = "Ok"
+glowoffset = [0, 0]
+
+[INFO_TEXT]
+position = [258, 283, 542, 394]
+fontscale = 1.2
+linespace = 20
+color = [255, 255, 255, 255]
+glowoffset = [0, 0]
+
+[INFO_TEXT_QUESTION]
+position = [241, 405, 557, 433]
+fontscale = 0.9
+linespace = 13
+
+[INFO_CAPTION]
+position = [251, 123, 548, 149]
+fontscale = 1.1
+linespace = 18
+font = "interface_button"
+alignment = "center"
+color = [255, 255, 255, 255]
+string = "titleNationLegend"

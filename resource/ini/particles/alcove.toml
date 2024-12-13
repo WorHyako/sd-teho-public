@@ -1,0 +1,46 @@
+[stars]
+technique = "particlesfire"
+emissiontime = 80
+windeffect = 0
+texture = "star.tga"
+particles_num = 175
+lifetime = 10000
+emitradius = 20.5
+psize_max = 0.04
+psize_min = 0.0
+ddeviation = 10
+gravity = 0
+initial_speed = 0.2
+weight = [0.0, 0.0]
+weight_deviation = 0.0
+ptime = 0
+pscale = 3.0
+spin = [0.5, 0.2025, 0.0, 0.0, 0.03, 20000.0]
+spin_deviation = 0.2025
+speed = [1.5, 2.0, 0.0002, 0.0, 1e-05, 6000.0, 5e-05, 9000.0]
+speed_deviation = 2
+key_alpha = [1.0, 0.0, 1.0, 500.0, 0.0, 10000.0]
+nonstopemit = [0, 0]
+key_psize = [0.0, 0.0, 0.8, 500.0, 0.1, 6000.0]
+
+[stars_fire]
+technique = "particlesfire"
+nonstopemit = [0, 0]
+emissiontime = 80
+windeffect = 0
+texture = "fire3.tga"
+particles_num = 1
+lifetime = 250
+emitradius = 20.5
+psize_max = 0.04
+psize_min = 0.0
+ddeviation = 10
+gravity = 0
+initial_speed = 0.2
+weight = [0.0, 0.0]
+ptime = 0
+pscale = 3.0
+spin = [0.5, 0.2025, 0.0, 0.0, 0.03, 20000.0]
+speed = [1.5, 2.0, 0.0002, 0.0, 1e-05, 6000.0, 5e-05, 9000.0]
+key_alpha = [1.0, 0.0, 1.0, 500.0, 0.0, 10000.0]
+key_psize = [0.0, 0.0, 0.8, 500.0, 0.1, 6000.0]

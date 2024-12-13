@@ -1,0 +1,1141 @@
+[MAIN]
+item = ["PICTURE", "MAIN_BACK", "TITLE", "TITLE", "100", "pc", "BUTTON", "EXIT_BTN", "400", "PICTURE", "MAIN_CHARACTER_PICTURE", "PICTURE", "SHIP_BIG_PICTURE", "406", "IMAGECOLLECTION", "SHIP_BIG_PICTURE_BORDER", "400", "IMAGECOLLECTION", "SUBSTRATE1", "400", "IMAGECOLLECTION", "SUBSTRATE2", "504", "FORMATEDTEXT", "SHIP_RANK", "504", "FORMATEDTEXT", "SHIP_TYPE", "504", "FORMATEDTEXT", "SHIP_NAME", "200", "TABLE", "TABLE_OTHER", "400", "PICTURE", "MAIN_CHARACTER_PICTURE2", "PICTURE", "SHIP_BIG_PICTURE2", "406", "IMAGECOLLECTION", "SHIP_BIG_PICTURE_BORDER2", "400", "IMAGECOLLECTION", "SUBSTRATE12", "400", "IMAGECOLLECTION", "SUBSTRATE22", "504", "FORMATEDTEXT", "SHIP_RANK2", "504", "FORMATEDTEXT", "SHIP_TYPE2", "504", "FORMATEDTEXT", "SHIP_NAME2", "200", "TABLE", "TABLE_OTHER2", "FRAME", "INFO_FRAME", "403", "TEXTBUTTON2", "CREW_BUTTON", "403", "TEXTBUTTON2", "CAPTAN_BUTTON", "403", "TEXTBUTTON2", "SWAP_BUTTON", "403", "TEXTBUTTON2", "TAKE_GOODS", "200", "TABLE", "TABLE_LIST", "201", "SCROLLER", "SCROLL_LIST", "201", "BUTTON", "B_LEFT", "201", "BUTTON", "B_RIGHT", "400", "FRAME", "CREW_FRAME", "400", "FORMATEDTEXT", "CREW_Win_fix", "406", "IMAGECOLLECTION", "CREW_FRAME_BORDER", "406", "FORMATEDTEXT", "CREW_CAPTION", "406", "BUTTON", "CREW_EXIT_BTN", "406", "BUTTON", "CREW_LEFT", "406", "BUTTON", "CREW_RIGHT", "400", "PICTURE", "CREW_PICTURE", "504", "FORMATEDTEXT", "CREW_QTY", "403", "PICTURE", "CREW_MORALE_PIC", "400", "TABLE", "TABLE_CREW", "403", "FORMATEDTEXT", "CREW_MORALE_TEXT", "400", "STATUSLINE", "BAR_Sailors", "400", "STATUSLINE", "BAR_Cannoners", "400", "STATUSLINE", "BAR_Soldiers", "400", "PICTURE", "CREW_PICTURE2", "504", "FORMATEDTEXT", "CREW_QTY2", "403", "PICTURE", "CREW_MORALE_PIC2", "400", "TABLE", "TABLE_CREW2", "403", "FORMATEDTEXT", "CREW_MORALE_TEXT2", "400", "STATUSLINE", "BAR_Sailors2", "400", "STATUSLINE", "BAR_Cannoners2", "400", "STATUSLINE", "BAR_Soldiers2", "WINDOW", "CREW_WINDOW", "400", "FORMATEDTEXT", "FOOD", "FORMATEDTEXT", "FOOD_SHIP", "FORMATEDTEXT", "MONEY_SHIP", "403", "PICTURE", "Money_PIC", "403", "FORMATEDTEXT", "Money_TEXT", "WINDOW", "MAIN_WINDOW", "550", "RECTANGLE", "RPGRFADER", "555", "FRAME", "RPG_WINDOW_FRAME", "555", "FORMATEDTEXT", "RPG_WINDOW_CAPTION", "555", "TABLE", "TABLE_SMALLSKILL2", "555", "TABLE", "TABLE_SMALLOTHER2", "555", "FORMATEDTEXT", "RPG_NAME", "WINDOW", "RPG_WINDOW", "550", "RECTANGLE", "OFFICERFADER", "555", "FRAME", "OFFICERS_WINDOW_FRAME", "555", "SCROLLIMAGE", "PASSENGERSLIST", "555", "BUTTON", "LEFTSCROLLBUTTON", "555", "BUTTON", "RIGHTSCROLLBUTTON", "555", "FORMATEDTEXT", "OFFICERS_WINDOW_CAPTION", "555", "TABLE", "TABLE_SMALLSKILL", "555", "TABLE", "TABLE_SMALLOTHER", "555", "FORMATEDTEXT", "OFFICER_NAME", "555", "TEXTBUTTON2", "ACCEPT_ADD_OFFICER", "555", "TEXTBUTTON2", "CANCEL_ADD_OFFICER", "555", "pc", "BUTTON", "OFFICER_EXIT_BTN", "WINDOW", "OFFICERS_WINDOW", "555", "RECTANGLE", "REMOVE_OFFICER_FADER", "555", "FRAME", "REMOVE_WINDOW_FRAME", "555", "TEXTBUTTON2", "REMOVE_ACCEPT_OFFICER", "555", "TEXTBUTTON2", "REMOVE_OK", "555", "TEXTBUTTON2", "REMOVE_CANCEL_OFFICER", "555", "FORMATEDTEXT", "REMOVE_WINDOW_CAPTION", "555", "FORMATEDTEXT", "REMOVE_WINDOW_TEXT", "555", "pc", "BUTTON", "REMOVE_EXIT_BTN", "WINDOW", "REMOVE_OFFICER_WINDOW", "555", "RECTANGLE", "CAPTURE_FADER", "555", "FRAME", "CAPTURE_FRAME", "555", "PICTURE", "CAPTUR_PICTURE", "555", "TEXTBUTTON2", "CAPTURE_CAPTAIN_KILL", "555", "TEXTBUTTON2", "CAPTURE_CAPTAIN_PRISON", "555", "TEXTBUTTON2", "CAPTURE_CANCEL", "555", "FORMATEDTEXT", "CAPTURE_CAPTION", "555", "FORMATEDTEXT", "CAPTURE_TEXT", "555", "pc", "BUTTON", "CAPTURE_EXIT_BTN", "WINDOW", "CAPTURE_WINDOW", "555", "RECTANGLE", "CAPTURE_CREW_FADER", "555", "FRAME", "CAPTURE_CREW_FRAME", "555", "PICTURE", "CAPTUR_CREW_PICTURE", "555", "TEXTBUTTON2", "CAPTURE_CREW_KILL", "555", "TEXTBUTTON2", "CAPTURE_CREW_PRISON", "555", "TEXTBUTTON2", "CAPTURE_CREW_FREE", "555", "FORMATEDTEXT", "CAPTURE_CREW_CAPTION", "555", "FORMATEDTEXT", "CAPTURE_TEXT_CREW", "WINDOW", "CAPTURE_CREW_WINDOW", "560", "FRAME", "HIRE_FRAME", "560", "pc", "BUTTON", "HIRE_EXIT_BTN", "560", "FORMATEDTEXT", "HIRECAPTION1", "560", "FRAME", "HIRE_SECOND_FRAME", "560", "PICTURE", "MAIN_SHIP_PICTURE1", "560", "PICTURE", "MAIN_SHIP_PICTURE2", "560", "PICTURE", "MAIN_HERO_PICTURE", "560", "PICTURE", "BORDER_PICTURE_1", "560", "PICTURE", "BORDER_PICTURE_2", "560", "PICTURE", "BORDER_PICTURE_3", "560", "FORMATEDTEXT", "CAPACITY", "560", "FORMATEDTEXT", "HIRE_CAPACITY", "560", "FORMATEDTEXT", "MAIN_HERO_NAME", "560", "FORMATEDTEXT", "HIRE_FOOD_SHIP", "560", "FORMATEDTEXT", "HIRE_RUM_SHIP", "560", "FORMATEDTEXT", "HIRE_CREW_CAPACITY", "560", "FORMATEDTEXT", "HIRED_CREW", "570", "PICTURE", "HIRE_CREW_PICTURE", "570", "FORMATEDTEXT", "HIRE_CREW_QTY", "570", "PICTURE", "HIRE_CREW_MORALE_PIC", "570", "TABLE", "HIRE_TABLE_CREW", "570", "FORMATEDTEXT", "HIRE_CREW_MORALE_TEXT", "570", "STATUSLINE", "HIRE_BAR_Sailors", "570", "STATUSLINE", "HIRE_BAR_Cannoners", "570", "STATUSLINE", "HIRE_BAR_Soldiers", "570", "PICTURE", "HIRE_CREW_PICTURE2", "570", "FORMATEDTEXT", "HIRE_CREW_QTY2", "570", "PICTURE", "HIRE_CREW_MORALE_PIC2", "570", "TABLE", "HIRE_TABLE_CREW2", "570", "FORMATEDTEXT", "HIRE_CREW_MORALE_TEXT2", "570", "STATUSLINE", "HIRE_BAR_Sailors2", "570", "STATUSLINE", "HIRE_BAR_Cannoners2", "570", "STATUSLINE", "HIRE_BAR_Soldiers2", "580", "FORMATEDTEXT", "HIRE_QTY_TypeOperation", "580", "BUTTON", "HIRE_QTY_ADD_BUTTON", "580", "BUTTON", "HIRE_QTY_REMOVE_BUTTON", "580", "BUTTON", "HIRE_QTY_ADD_ALL_BUTTON", "580", "BUTTON", "HIRE_QTY_REMOVE_ALL_BUTTON", "580", "TEXTBUTTON2", "HIRE_QTY_OK_BUTTON", "580", "TEXTBUTTON2", "HIRE_QTY_CANCEL_BUTTON", "WINDOW", "HIRE_CREW_WINDOW", "600", "RECTANGLE", "QTY_FADER", "600", "FRAME", "QTY_FRAME", "600", "FORMATEDTEXT", "QTY_Win_fix", "600", "FORMATEDTEXT", "QTY_CAPTION", "600", "pc", "BUTTON", "QTY_EXIT_BTN", "600", "FORMATEDTEXT", "QTY_TypeOperation", "600", "FORMATEDTEXT", "QTY_Result", "600", "FORMATEDTEXT", "QTY_INFO_SHIP_QTY", "600", "FORMATEDTEXT", "QTY_INFO_STORE_QTY", "600", "FORMATEDTEXT", "QTY_INFO_SHIP_PRICE", "600", "FORMATEDTEXT", "QTY_INFO_STORE_PRICE", "600", "FORMATEDTEXT", "QTY_GOODS_INFO", "600", "PCEDITBOX", "QTY_EDIT", "600", "BUTTON", "QTY_ADD_BUTTON", "600", "BUTTON", "QTY_REMOVE_BUTTON", "600", "BUTTON", "QTY_ADD_ALL_BUTTON", "600", "BUTTON", "QTY_REMOVE_ALL_BUTTON", "600", "TEXTBUTTON2", "QTY_OK_BUTTON", "600", "TEXTBUTTON2", "QTY_CANCEL_BUTTON", "600", "PICTURE", "QTY_GOODS_PICTURE", "WINDOW", "QTY_WINDOW"]
+
+[CREW_WINDOW]
+show = 0
+nodelist = ["CREW_FRAME", "CREW_FRAME_BORDER", "CREW_Win_fix", "CREW_CAPTION", "CREW_EXIT_BTN", "CREW_LEFT", "CREW_RIGHT", "CREW_QTY", "CREW_MORALE_PIC", "TABLE_CREW", "CREW_MORALE_TEXT", "BAR_Sailors", "BAR_Cannoners", "BAR_Soldiers", "CREW_PICTURE", "CREW_QTY2", "CREW_MORALE_PIC2", "TABLE_CREW2", "CREW_MORALE_TEXT2", "BAR_Sailors2", "BAR_Cannoners2", "BAR_Soldiers2", "CREW_PICTURE2"]
+
+[MAIN_WINDOW]
+show = 1
+nodelist = ["EXIT_BTN", "SHIP_BIG_PICTURE", "MAIN_CHARACTER_PICTURE", "TABLE_OTHER", "SHIP_BIG_PICTURE2", "MAIN_CHARACTER_PICTURE2", "TABLE_OTHER2", "SCROLL_LIST", "TABLE_LIST", "B_RIGHT", "B_LEFT", "CREW_BUTTON", "CAPTAN_BUTTON", "SWAP_BUTTON", "TAKE_GOODS"]
+
+[MAIN_BACK]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+texturename = "interfaces\\card_desk.tga"
+
+[EXIT_BTN]
+position = [774, 18, 796, 40]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+
+[TITLE]
+position = [0, 14, 800, 46]
+
+[CREW_BUTTON]
+command = ["activate", "click", "deactivate", "event:exitCancel"]
+position = [235, 69, 425, 101]
+string = ["Crew", "Transfer"]
+fontscale = 1.0
+glowoffset = [0, 0]
+
+[CAPTAN_BUTTON]
+command = ["activate", "click", "deactivate", "event:exitCancel"]
+position = [235, 111, 425, 143]
+string = ["Set", "Captain"]
+fontscale = 1.0
+glowoffset = [0, 0]
+
+[SWAP_BUTTON]
+command = ["activate", "click", "deactivate", "event:exitCancel"]
+position = [235, 155, 425, 187]
+string = ["Swap", "Ship"]
+fontscale = 1.0
+glowoffset = [0, 0]
+
+[TAKE_GOODS]
+command = ["activate", "click", "deactivate", "event:exitCancel"]
+position = [235, 200, 425, 232]
+string = ["Take", "All", "Goods"]
+fontscale = 0.95
+glowoffset = [0, 0]
+
+[MAIN_CHARACTER_PICTURE]
+command = ["click", "deactivate", "event:exitCancel", "rclick", "select:MAIN_CHARACTER_PICTURE", "event:ShowInfoWindow"]
+position = [17, 83, 67, 133]
+texturename = "interfaces\\portraits\\128\\face_1.tga"
+bshowglowcursor = 0
+
+[SHIP_BIG_PICTURE]
+command = ["click", "deactivate", "event:exitCancel", "rclick", "select:SHIP_BIG_PICTURE", "event:ShowInfoWindow"]
+position = [9, 78, 219, 288]
+texturename = "interfaces\\ships\\barque.tga"
+bshowglowcursor = 0
+
+[SUBSTRATE1]
+groupname = "SKILLS"
+picture = ["skillborder", "col:{255", "128", "128", "128}", "pos:{13", "56", "217", "81}"]
+
+[SUBSTRATE2]
+groupname = "SKILLS"
+picture = ["skillborder", "col:{255", "128", "128", "128}", "pos:{13", "287", "217", "312}"]
+
+[SHIP_RANK]
+position = [184, 260, 213, 286]
+linespace = 19
+font = ["Bold_numbers", "0.9"]
+
+[SHIP_TYPE]
+position = [11, 57, 218, 80]
+font = ["interface_button", "1.0"]
+linespace = 16
+alignment = "center"
+
+[SHIP_NAME]
+position = [11, 289, 218, 312]
+font = ["interface_button", "1.0"]
+linespace = 16
+alignment = "center"
+
+[TABLE_OTHER]
+command = ["click", "select:TABLE_OTHER", "rclick", "select:TABLE_OTHER", "event:ShowInfoWindow", "deactivate", "event:exitCancel", "dblclick", "event:ShowOtherClick", "select:TABLE_OTHER", "activate", "event:ShowOtherClick", "upstep", "downstep"]
+position = [9, 318, 220, 590]
+vlinewidth = 0
+hlineheight = 2
+rowquantity = 10
+colquantity = 4
+fontcellvalignment = "center"
+selectimage = ["color=(100", "200", "120", "55)"]
+colswidth = [35, 80, 87, 5]
+rowsheight = [1, 30, 29, 30, 29, 30, 30, 30, 29, 30]
+normallineheight = 31
+
+[MAIN_CHARACTER_PICTURE2]
+command = ["click", "deactivate", "event:exitCancel", "rclick", "select:MAIN_CHARACTER_PICTURE2", "event:ShowInfoWindow"]
+position = [590, 83, 640, 133]
+texturename = "interfaces\\portraits\\128\\face_1.tga"
+bshowglowcursor = 0
+
+[SHIP_BIG_PICTURE2]
+command = ["click", "deactivate", "event:exitCancel", "rclick", "select:SHIP_BIG_PICTURE2", "event:ShowInfoWindow"]
+position = [582, 78, 792, 288]
+texturename = "interfaces\\ships\\barque.tga"
+bshowglowcursor = 0
+
+[SHIP_RANK2]
+position = [757, 260, 786, 286]
+linespace = 19
+font = ["Bold_numbers", "0.9"]
+
+[SHIP_TYPE2]
+position = [584, 57, 791, 80]
+font = ["interface_button", "1.0"]
+linespace = 16
+alignment = "center"
+
+[SHIP_NAME2]
+position = [584, 289, 791, 312]
+font = ["interface_button", "1.0"]
+linespace = 16
+alignment = "center"
+
+[TABLE_OTHER2]
+command = ["click", "select:TABLE_OTHER2", "rclick", "select:TABLE_OTHER2", "event:ShowInfoWindow", "deactivate", "event:exitCancel", "dblclick", "event:ShowOtherClick", "select:TABLE_OTHER2", "activate", "event:ShowOtherClick", "upstep", "downstep"]
+position = [582, 318, 793, 590]
+vlinewidth = 0
+hlineheight = 2
+rowquantity = 10
+colquantity = 4
+fontcellvalignment = "center"
+selectimage = ["color=(100", "200", "120", "55)"]
+colswidth = [35, 80, 87, 5]
+rowsheight = [1, 30, 29, 30, 29, 30, 30, 30, 29, 30]
+normallineheight = 31
+
+[TABLE_LIST]
+command = ["deactivate", "event:exitCancel", "click", "select:TABLE_LIST", "rclick", "event:ShowInfoWindow", "select:TABLE_LIST", "dblclick", "event:ShowItemInfo", "select:TABLE_LIST", "activate", "event:ShowItemInfo", "upstep", "downstep", "rightstep", "com:click:B_RIGHT", "leftstep", "com:click:B_LEFT", "speedright", "com:click:B_RIGHT", "speedleft", "com:click:B_LEFT"]
+position = [225, 258, 635, 590]
+scroller = "SCROLL_LIST"
+vlinewidth = 2
+hlineheight = 2
+rowquantity = 11
+colquantity = 6
+fontcellvalignment = "center"
+selectimage = ["color=(100", "200", "120", "55)"]
+colswidth = [44, 37, 140, 44, 37, 36]
+rowsheight = [38, 29, 29, 29, 29, 29, 29, 29, 29, 29, 29]
+normallineheight = 29
+
+[SCROLL_LIST]
+command = ["click", "select:TABLE_LIST", "deactivate", "event:exitCancel", "downstep", "upstep"]
+position = [566, 259, 577, 590]
+basetexture = "interfaces\\icons.tga"
+rollertexture = "interfaces\\icons.tga"
+scrolltexpos = [0.0, 0.75, 0.045, 1.0]
+rolltexpos = [0.0625, 0.875, 0.1075, 0.96]
+begendtexsize = 0.0835
+begendbasesize = 18
+rollerheight = 18
+ownedcontrol = "TABLE_LIST"
+
+[B_RIGHT]
+group = "ICONS"
+command = ["click", "rclick"]
+position = [425, 296, 455, 324]
+picture = ["right", "arrow"]
+
+[B_LEFT]
+group = "ICONS"
+command = ["click", "rclick"]
+position = [292, 296, 322, 324]
+picture = ["left", "arrow"]
+
+[INFO_FRAME]
+position = [225, 53, 577, 253]
+
+[OFFICERS_WINDOW]
+show = 0
+nodelist = ["PASSENGERSLIST", "LEFTSCROLLBUTTON", "RIGHTSCROLLBUTTON", "ACCEPT_ADD_OFFICER", "CANCEL_ADD_OFFICER", "OFFICER_BORDER", "TABLE_SMALLSKILL", "TABLE_SMALLOTHER", "OFFICERS_WINDOW_FRAME", "OFFICERFADER", "OFFICER_NAME", "OFFICERS_WINDOW_CAPTION", "OFFICER_EXIT_BTN"]
+
+[OFFICER_EXIT_BTN]
+position = [616, 141, 638, 163]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:ExitOfficerMenu"]
+shadowcolor = [0, 0, 0, 0]
+
+[OFFICERS_WINDOW_FRAME]
+position = [159, 136, 644, 492]
+captionheight = 28
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+
+[OFFICERS_WINDOW_CAPTION]
+command = "click"
+babsoluterectangle = 5
+position = [247, 142, 555, 174]
+font = ["interface_button", "1.0"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 255]
+backoffset = [1, 2, 0, -2]
+string = "AddCompanionCaption"
+
+[PASSENGERSLIST]
+command = ["activate", "deactivate", "event:ExitOfficerMenu", "rclick", "event:ShowInfoWindow", "select:PASSENGERSLIST", "rightstep", "leftstep", "speedright", "speedleft", "click", "select:PASSENGERSLIST"]
+position = [166, 171, 636, 240]
+imagesize = [64, 64]
+wdelta = 4
+glowoffset = [0, 0]
+
+[LEFTSCROLLBUTTON]
+command = ["activate", "select:PASSENGERSLIST", "com:speedleft:PASSENGERSLIST", "click", "select:PASSENGERSLIST", "com:leftstep:PASSENGERSLIST", "com:activate:LEFTSCROLLBUTTON"]
+position = [341, 188, 373, 220]
+group = "ICONS"
+picture = ["left", "arrow"]
+presspictureoffset = [1, 1]
+shadowoffset = [1, 1]
+pressshadowoffset = [0, 0]
+pressdelay = 10
+
+[RIGHTSCROLLBUTTON]
+command = ["activate", "select:PASSENGERSLIST", "com:speedright:PASSENGERSLIST", "click", "select:PASSENGERSLIST", "com:rightstep:PASSENGERSLIST", "com:activate:RIGHTSCROLLBUTTON"]
+position = [437, 188, 469, 220]
+group = "ICONS"
+picture = ["right", "arrow"]
+presspictureoffset = [1, 1]
+shadowoffset = [1, 1]
+pressshadowoffset = [0, 0]
+pressdelay = 10
+
+[ACCEPT_ADD_OFFICER]
+bbreakcommand = 1
+command = ["activate", "click", "event:AcceptAddOfficer", "deactivate", "event:ExitOfficerMenu"]
+position = [242, 453, 393, 485]
+string = ["Add", "Officer"]
+glowoffset = [0, 0]
+
+[CANCEL_ADD_OFFICER]
+bbreakcommand = 1
+command = ["activate", "click", "event:ExitOfficerMenu", "deactivate", "event:ExitOfficerMenu"]
+position = [398, 453, 569, 485]
+string = "Cancel"
+glowoffset = [0, 0]
+
+[TABLE_SMALLSKILL]
+command = ["click", "select:TABLE_SMALLSKILL", "deactivate", "event:ExitOfficerMenu", "upstep", "downstep"]
+position = [371, 248, 627, 439]
+vlinewidth = 2
+hlineheight = 2
+rowquantity = 7
+colquantity = 7
+fontcellvalignment = "center"
+fontcellalignment = "center"
+selectimage = ["color=(0", "128", "48", "48)"]
+colswidth = [36, 36, 36, 36, 36, 36, 36]
+rowsheight = [1, 34, 28, 34, 28, 34, 28]
+normallineheight = 28
+fontlist1 = "INTERFACE_MENU"
+fontlist2 = "INTERFACE_TITLE"
+
+[TABLE_SMALLOTHER]
+command = ["click", "select:TABLE_SMALLOTHER", "deactivate", "event:ExitOfficerMenu", "upstep", "downstep"]
+position = [174, 289, 361, 439]
+vlinewidth = 0
+hlineheight = 2
+rowquantity = 6
+colquantity = 4
+fontcellvalignment = "center"
+fontcellalignment = "center"
+selectimage = ["color=(0", "128", "48", "48)"]
+colswidth = [30, 65, 85, 3]
+rowsheight = [1, 29, 29, 29, 29, 29]
+normallineheight = 29
+fontlist1 = "INTERFACE_TITLE"
+
+[OFFICERFADER]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [150, 0, 0, 0]
+topcolor = [150, 0, 0, 0]
+rightcolor = [150, 0, 0, 0]
+bottomcolor = [150, 0, 0, 0]
+bordercolor = [0, 0, 0, 0]
+
+[OFFICER_NAME]
+position = [168, 255, 373, 281]
+linespace = 19
+font = ["INTERFACE_TITLE", "0.9"]
+
+[RPG_WINDOW]
+show = 0
+nodelist = ["TABLE_SMALLSKILL2", "TABLE_SMALLOTHER2", "RPG_WINDOW_FRAME", "RPGRFADER", "RPG_NAME", "RPG_WINDOW_CAPTION"]
+
+[RPG_WINDOW_FRAME]
+position = [159, 206, 644, 453]
+captionheight = 28
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+
+[RPG_WINDOW_CAPTION]
+command = "click"
+babsoluterectangle = 5
+position = [247, 212, 555, 244]
+font = ["interface_button", "1.0"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 255]
+backoffset = [1, 2, 0, -2]
+string = "Captain"
+
+[TABLE_SMALLSKILL2]
+command = ["click", "select:TABLE_SMALLSKILL", "deactivate", "event:ExitOfficerMenu", "upstep", "downstep"]
+position = [371, 248, 627, 439]
+vlinewidth = 2
+hlineheight = 2
+rowquantity = 7
+colquantity = 7
+fontcellvalignment = "center"
+fontcellalignment = "center"
+selectimage = ["color=(0", "128", "48", "48)"]
+colswidth = [36, 36, 36, 36, 36, 36, 36]
+rowsheight = [1, 34, 28, 34, 28, 34, 28]
+normallineheight = 28
+fontlist1 = "INTERFACE_MENU"
+fontlist2 = "INTERFACE_TITLE"
+
+[TABLE_SMALLOTHER2]
+command = ["click", "select:TABLE_SMALLOTHER", "deactivate", "event:ExitOfficerMenu", "upstep", "downstep"]
+position = [174, 289, 361, 439]
+vlinewidth = 0
+hlineheight = 2
+rowquantity = 6
+colquantity = 4
+fontcellvalignment = "center"
+fontcellalignment = "center"
+selectimage = ["color=(0", "128", "48", "48)"]
+colswidth = [30, 65, 85, 3]
+rowsheight = [1, 29, 29, 29, 29, 29]
+normallineheight = 29
+fontlist1 = "INTERFACE_TITLE"
+
+[RPGRFADER]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [150, 0, 0, 0]
+topcolor = [150, 0, 0, 0]
+rightcolor = [150, 0, 0, 0]
+bottomcolor = [150, 0, 0, 0]
+bordercolor = [0, 0, 0, 0]
+
+[RPG_NAME]
+position = [168, 255, 373, 281]
+linespace = 19
+font = ["INTERFACE_TITLE", "0.9"]
+
+[FOOD_SHIP]
+position = [434, 96, 573, 129]
+fontscale = 0.85
+linespace = 15
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[FOOD]
+position = [431, 60, 571, 93]
+alignment = "center"
+font = ["interface_button", "0.85"]
+linespace = 16
+
+[MONEY_SHIP]
+position = [425, 140, 588, 179]
+fontscale = 0.85
+linespace = 15
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[QTY_WINDOW]
+show = 0
+nodelist = ["QTY_FRAME", "QTY_EDIT", "QTY_OK_BUTTON", "QTY_CANCEL_BUTTON", "QTY_TypeOperation", "QTY_GOODS_INFO", "QTY_GOODS_PICTURE", "QTY_CAPTION", "QTY_ADD_BUTTON", "QTY_REMOVE_BUTTON", "QTY_ADD_ALL_BUTTON", "QTY_REMOVE_ALL_BUTTON", "QTY_FADER", "QTY_INFO_STORE_QTY", "QTY_INFO_SHIP_QTY", "QTY_INFO_SHIP_PRICE", "QTY_INFO_STORE_PRICE", "QTY_Result", "QTY_Win_fix"]
+
+[QTY_FADER]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [150, 0, 0, 0]
+topcolor = [150, 0, 0, 0]
+rightcolor = [150, 0, 0, 0]
+bottomcolor = [150, 0, 0, 0]
+bordercolor = [0, 0, 0, 0]
+
+[QTY_FRAME]
+position = [130, 150, 670, 520]
+backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "118", "118", "128)"]
+rowquantity = 2
+colquantity = 1
+hlineheight = 2
+headerlineheight = 4
+cellspacesize = [2, 1]
+fontcellscale = 0.8
+colswidth = 348
+rowsheight = [30, 444]
+vlinewidth = 1
+captionheight = 30
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captiondividerheight = 4
+
+[QTY_CAPTION]
+babsoluterectangle = 5
+position = [239, 155, 572, 185]
+font = ["interface_button", "1.1"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 200]
+backoffset = [1, 2, 0, -2]
+
+[QTY_EDIT]
+command = ["click", "select:QTY_EDIT", "deactivate", "event:GoodsExitCancel", "activate", "event:confirmChangeQTY_EDIT"]
+position = [373, 430, 436, 457]
+strfont = "interface_button"
+argbfontcolor = [255, 255, 255, 255]
+stringlength = 5
+stringwidth = 80
+stringalign = "left"
+stringoffset = [9, 4]
+middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+excludechars = ["*", "?.\\/qwertyuiop[]asdfghjkl'zxcvbnm", "+="]
+
+[QTY_ADD_ALL_BUTTON]
+command = ["click", "event:ADD_ALL_BUTTON"]
+group = "ARROWS"
+picture = "left_all"
+position = [314, 430, 339, 455]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[QTY_ADD_BUTTON]
+command = ["click", "event:ADD_BUTTON"]
+group = "ARROWS"
+picture = "left"
+position = [342, 430, 367, 455]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[QTY_REMOVE_BUTTON]
+command = ["click", "event:REMOVE_BUTTON"]
+group = "ARROWS"
+picture = "right"
+position = [439, 430, 464, 455]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[QTY_REMOVE_ALL_BUTTON]
+command = ["click", "event:REMOVE_ALL_BUTTON", "activate"]
+group = "ARROWS"
+picture = "right_all"
+position = [467, 430, 492, 455]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[QTY_OK_BUTTON]
+command = ["activate", "click", "event:TransactionOK", "deactivate", "event:MouseRClickUP", "rightstep", "com:click:QTY_REMOVE_BUTTON", "leftstep", "com:click:QTY_ADD_BUTTON", "speedright", "com:click:QTY_REMOVE_ALL_BUTTON", "speedleft", "com:click:QTY_ADD_ALL_BUTTON"]
+position = [288, 480, 388, 505]
+string = "Ok"
+fontscale = 0.85
+glowoffset = [0, 0]
+
+[QTY_CANCEL_BUTTON]
+command = ["activate", "event:GoodsExitCancel", "click", "event:GoodsExitCancel", "deactivate", "event:GoodsExitCancel", "rightstep", "com:click:QTY_REMOVE_BUTTON", "leftstep", "com:click:QTY_ADD_BUTTON", "speedright", "com:click:QTY_REMOVE_ALL_BUTTON", "speedleft", "com:click:QTY_ADD_ALL_BUTTON"]
+position = [419, 480, 519, 505]
+string = "Cancel"
+fontscale = 0.85
+glowoffset = [0, 0]
+
+[QTY_TypeOperation]
+position = [239, 388, 572, 412]
+fontscale = 1.2
+linespace = 20
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+color = [255, 255, 255, 156]
+
+[QTY_Result]
+position = [239, 411, 572, 432]
+fontscale = 0.9
+linespace = 20
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+color = [255, 255, 255, 156]
+
+[QTY_INFO_SHIP_QTY]
+position = [209, 433, 315, 458]
+fontscale = 1.2
+linespace = 10
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+
+[QTY_INFO_STORE_QTY]
+position = [492, 433, 598, 458]
+fontscale = 1.2
+linespace = 10
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+
+[QTY_INFO_SHIP_PRICE]
+position = [209, 391, 315, 431]
+fontscale = 0.9
+linespace = 20
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+color = [255, 255, 255, 156]
+
+[QTY_INFO_STORE_PRICE]
+position = [492, 391, 598, 431]
+fontscale = 0.9
+linespace = 20
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+color = [255, 255, 255, 156]
+
+[QTY_GOODS_INFO]
+position = [211, 190, 661, 374]
+fontscale = 1.0
+linespace = 17
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+
+[QTY_Win_fix]
+command = ["click", "event:None", "activate", "event:None"]
+position = [150, 150, 650, 520]
+
+[QTY_GOODS_PICTURE]
+position = [135, 235, 215, 315]
+texturename = "interfaces\\store_64.tga"
+bshowglowcursor = 0
+
+[Money_PIC]
+position = [439, 221, 464, 246]
+texturename = "interfaces\\empty_spyglass.tga"
+bshowglowcursor = 0
+
+[Money_TEXT]
+position = [448, 224, 592, 243]
+fontscale = 1.0
+linespace = 16
+alignment = "center"
+color = [255, 255, 228, 80]
+
+[REMOVE_OFFICER_WINDOW]
+show = 0
+nodelist = ["REMOVE_OFFICER_FADER", "REMOVE_ACCEPT_OFFICER", "REMOVE_OK", "REMOVE_CANCEL_OFFICER", "REMOVE_WINDOW_FRAME", "REMOVE_WINDOW_CAPTION", "REMOVE_WINDOW_TEXT", "REMOVE_EXIT_BTN"]
+
+[REMOVE_WINDOW_CAPTION]
+command = "click"
+babsoluterectangle = 5
+position = [247, 192, 555, 224]
+font = ["interface_button", "1.0"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 255]
+backoffset = [1, 2, 0, -2]
+
+[REMOVE_WINDOW_TEXT]
+command = "click"
+position = [213, 263, 580, 337]
+fontscale = 1.0
+linespace = 20
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[REMOVE_OFFICER_FADER]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [150, 0, 0, 0]
+topcolor = [150, 0, 0, 0]
+rightcolor = [150, 0, 0, 0]
+bottomcolor = [150, 0, 0, 0]
+bordercolor = [0, 0, 0, 0]
+
+[REMOVE_ACCEPT_OFFICER]
+bbreakcommand = 1
+command = ["activate", "click", "event:GoToShipChange", "deactivate", "event:ExitShipChangeMenu"]
+position = [240, 344, 400, 374]
+string = "Ok"
+glowoffset = [0, 0]
+
+[REMOVE_OK]
+bbreakcommand = 1
+command = ["activate", "click", "event:ExitShipChangeMenu", "deactivate", "event:ExitShipChangeMenu"]
+position = [321, 344, 481, 374]
+string = "Ok"
+glowoffset = [0, 0]
+
+[REMOVE_CANCEL_OFFICER]
+bbreakcommand = 1
+command = ["activate", "click", "event:ExitShipChangeMenu", "deactivate", "event:ExitShipChangeMenu"]
+position = [405, 344, 565, 374]
+string = "Cancel"
+glowoffset = [0, 0]
+
+[REMOVE_WINDOW_FRAME]
+position = [179, 186, 624, 382]
+captionheight = 28
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+
+[REMOVE_EXIT_BTN]
+position = [596, 191, 618, 213]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:ExitShipChangeMenu"]
+shadowcolor = [0, 0, 0, 0]
+
+[SUBSTRATE12]
+offset = [573, 0]
+groupname = "SKILLS"
+picture = ["skillborder", "col:{255", "128", "128", "128}", "pos:{586", "56", "790", "81}"]
+
+[SUBSTRATE22]
+offset = [573, 0]
+groupname = "SKILLS"
+picture = ["skillborder", "col:{255", "128", "128", "128}", "pos:{586", "287", "790", "312}"]
+
+[CREW_PICTURE]
+position = [227, 296, 302, 371]
+texturename = "interfaces\\portraits\\128\\face_1.tga"
+bshowglowcursor = 0
+
+[CREW_QTY]
+position = [215, 376, 316, 401]
+linespace = 22
+font = ["Bold_numbers", "0.95"]
+
+[CREW_MORALE_PIC]
+position = [248, 395, 288, 435]
+texturename = "interfaces\\empty_spyglass.tga"
+bshowglowcursor = 0
+
+[CREW_MORALE_TEXT]
+position = [258, 409, 516, 428]
+fontscale = 1.0
+linespace = 16
+alignment = "center"
+
+[BAR_Sailors]
+position = [382, 324, 482, 327]
+
+[BAR_Cannoners]
+position = [382, 356, 482, 359]
+
+[BAR_Soldiers]
+position = [382, 388, 482, 391]
+
+[TABLE_CREW]
+command = ["click", "select:CREW_Win_fix", "rclick", "select:CREW_Win_fix", "event:ShowInfoWindow", "deactivate", "event:ExitCrewWindow", "upstep", "downstep"]
+position = [300, 297, 491, 398]
+vlinewidth = 0
+hlineheight = 2
+rowquantity = 4
+colquantity = 4
+fontcellvalignment = "center"
+selectimage = ["color=(0", "128", "48", "48)"]
+colswidth = [30, 56, 97, 4]
+rowsheight = [1, 32, 32, 32]
+normallineheight = 32
+
+[CREW_PICTURE2]
+position = [304, 446, 379, 521]
+texturename = "interfaces\\portraits\\128\\face_1.tga"
+bshowglowcursor = 0
+
+[CREW_QTY2]
+position = [292, 526, 393, 551]
+linespace = 22
+font = ["Bold_numbers", "0.95"]
+
+[CREW_MORALE_PIC2]
+position = [324, 547, 364, 587]
+texturename = "interfaces\\empty_spyglass.tga"
+bshowglowcursor = 0
+
+[CREW_MORALE_TEXT2]
+position = [335, 559, 593, 578]
+fontscale = 1.0
+linespace = 16
+alignment = "center"
+
+[BAR_Sailors2]
+position = [459, 474, 559, 477]
+
+[BAR_Cannoners2]
+position = [459, 506, 559, 509]
+
+[BAR_Soldiers2]
+position = [459, 538, 559, 541]
+
+[TABLE_CREW2]
+command = ["click", "select:CREW_Win_fix", "rclick", "select:CREW_Win_fix", "event:ShowInfoWindow", "deactivate", "event:ExitCrewWindow", "upstep", "downstep"]
+position = [377, 447, 568, 548]
+vlinewidth = 0
+hlineheight = 2
+rowquantity = 4
+colquantity = 4
+fontcellvalignment = "center"
+selectimage = ["color=(0", "128", "48", "48)"]
+colswidth = [30, 56, 97, 4]
+rowsheight = [1, 32, 32, 32]
+normallineheight = 32
+
+[CREW_CAPTION]
+position = [234, 262, 567, 292]
+font = ["interface_button", "1.0"]
+linespace = 10
+alignment = "center"
+string = ["Crew", "Transfer"]
+
+[CREW_EXIT_BTN]
+position = [548, 262, 570, 284]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:ExitCrewWindow"]
+shadowcolor = [0, 0, 0, 0]
+
+[CREW_Win_fix]
+command = ["click", "select:CREW_Win_fix", "event:None", "activate", "event:None", "deactivate", "event:ExitCrewWindow", "rightstep", "com:click:CREW_RIGHT", "leftstep", "com:click:CREW_LEFT", "speedright", "com:click:CREW_RIGHT", "speedleft", "com:click:CREW_LEFT"]
+position = [225, 257, 577, 590]
+
+[CREW_FRAME]
+position = [225, 257, 577, 590]
+captionheight = 28
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+
+[CREW_RIGHT]
+group = "ICONS"
+command = ["click", "select:CREW_Win_fix", "rclick", "select:CREW_Win_fix"]
+position = [498, 307, 548, 387]
+picture = ["right", "arrow"]
+
+[CREW_LEFT]
+group = "ICONS"
+command = ["click", "select:CREW_Win_fix", "rclick", "select:CREW_Win_fix"]
+position = [249, 457, 299, 537]
+picture = ["left", "arrow"]
+
+[CAPTURE_WINDOW]
+show = 0
+nodelist = ["CAPTURE_FADER", "CAPTURE_CAPTAIN_PRISON", "CAPTURE_CAPTAIN_KILL", "CAPTURE_CANCEL", "CAPTURE_FRAME", "CAPTURE_CAPTION", "CAPTURE_TEXT", "CAPTURE_EXIT_BTN", "CAPTUR_PICTURE"]
+
+[CAPTURE_CAPTION]
+command = "click"
+position = [247, 192, 555, 224]
+font = ["interface_button", "1.0"]
+linespace = 10
+alignment = "center"
+string = "Surrendered_caption_2"
+
+[CAPTURE_TEXT]
+command = "click"
+position = [249, 267, 639, 341]
+fontscale = 1.0
+linespace = 20
+alignment = "center"
+
+[CAPTURE_FADER]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [150, 0, 0, 0]
+topcolor = [150, 0, 0, 0]
+rightcolor = [150, 0, 0, 0]
+bottomcolor = [150, 0, 0, 0]
+bordercolor = [0, 0, 0, 0]
+
+[CAPTURE_CAPTAIN_KILL]
+bbreakcommand = 1
+command = ["activate", "click", "deactivate", "event:ExitCaptureWindow"]
+position = [161, 344, 321, 374]
+string = "Surrendered_captain_capture_1"
+glowoffset = [0, 0]
+
+[CAPTURE_CAPTAIN_PRISON]
+bbreakcommand = 1
+command = ["activate", "click", "deactivate", "event:ExitCaptureWindow"]
+position = [329, 344, 489, 374]
+string = "Surrendered_captain_capture_2"
+glowoffset = [0, 0]
+
+[CAPTURE_CANCEL]
+bbreakcommand = 1
+command = ["activate", "click", "event:ExitCaptureWindow", "deactivate", "event:ExitCaptureWindow"]
+position = [496, 344, 642, 374]
+string = "Cancel"
+glowoffset = [0, 0]
+
+[CAPTURE_FRAME]
+position = [149, 186, 654, 382]
+captionheight = 28
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+
+[CAPTURE_EXIT_BTN]
+position = [624, 191, 646, 213]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:ExitCaptureWindow"]
+shadowcolor = [0, 0, 0, 0]
+
+[CAPTUR_PICTURE]
+position = [166, 237, 246, 317]
+texturename = "interfaces\\portraits\\128\\face_1.tga"
+bshowglowcursor = 0
+
+[CAPTURE_CREW_WINDOW]
+show = 0
+nodelist = ["CAPTURE_CREW_FADER", "CAPTURE_CREW_FRAME", "CAPTURE_CREW_CAPTION", "CAPTURE_CREW_KILL", "CAPTURE_CREW_PRISON", "CAPTURE_CREW_FREE", "CAPTUR_CREW_PICTURE", "CAPTURE_TEXT_CREW"]
+
+[CAPTURE_CREW_CAPTION]
+command = "click"
+position = [246, 182, 554, 214]
+font = ["interface_button", "1.0"]
+linespace = 10
+alignment = "center"
+string = "Surrendered_caption_2"
+
+[CAPTURE_TEXT_CREW]
+command = "click"
+position = [245, 230, 575, 270]
+fontscale = 1.0
+linespace = 20
+alignment = "center"
+
+[CAPTURE_CREW_FADER]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [150, 0, 0, 0]
+topcolor = [150, 0, 0, 0]
+rightcolor = [150, 0, 0, 0]
+bottomcolor = [150, 0, 0, 0]
+bordercolor = [0, 0, 0, 0]
+
+[CAPTURE_CREW_KILL]
+bbreakcommand = 1
+command = ["activate", "click"]
+position = [337, 275, 563, 305]
+string = "Surrendered_crew_capture_1"
+glowoffset = [0, 0]
+
+[CAPTURE_CREW_PRISON]
+bbreakcommand = 1
+command = ["activate", "click"]
+position = [337, 325, 563, 355]
+string = "Surrendered_crew_capture_2"
+glowoffset = [0, 0]
+
+[CAPTURE_CREW_FREE]
+bbreakcommand = 1
+command = ["activate", "click"]
+position = [337, 375, 563, 405]
+string = "Surrendered_crew_capture_3"
+glowoffset = [0, 0]
+
+[CAPTURE_CREW_FRAME]
+position = [217, 175, 583, 425]
+captionheight = 28
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+
+[CAPTUR_CREW_PICTURE]
+position = [237, 275, 317, 355]
+texturename = "interfaces\\portraits\\128\\face_1.tga"
+bshowglowcursor = 0
+
+[HIRE_FRAME]
+position = [100, 80, 714, 540]
+backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "118", "118", "128)"]
+rowquantity = 2
+colquantity = 1
+hlineheight = 2
+headerlineheight = 4
+cellspacesize = [2, 1]
+fontcellscale = 0.8
+colswidth = 348
+rowsheight = [30, 444]
+vlinewidth = 1
+captionheight = 30
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captiondividerheight = 4
+
+[HIRE_EXIT_BTN]
+position = [688, 87, 708, 107]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel", "deactivate", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+bshowglowcursor = "0;"
+shadowoffset = [-1, -1]
+
+[HIRECAPTION1]
+babsoluterectangle = 5
+position = [239, 84, 572, 114]
+font = ["interface_button", "1.1"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 200]
+string = "titleHireCrewEnemy"
+
+[HIRE_SECOND_FRAME]
+position = [108, 201, 706, 499]
+
+[MAIN_SHIP_PICTURE1]
+position = [157, 115, 221, 179]
+texturename = "interfaces\\blank_ship2.tga"
+
+[MAIN_SHIP_PICTURE2]
+position = [593, 115, 657, 179]
+texturename = "interfaces\\blank_ship2.tga"
+bshowglowcursor = 0
+
+[MAIN_HERO_PICTURE]
+position = [372, 115, 436, 179]
+texturename = "interfaces\\empty_face.tga"
+bshowglowcursor = 0
+
+[MAIN_HERO_NAME]
+position = [340, 184, 468, 204]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[BORDER_PICTURE_1]
+texturename = "interfaces\\emptyborder.tga"
+position = [157, 115, 221, 179]
+
+[BORDER_PICTURE_2]
+texturename = "interfaces\\emptyborder.tga"
+position = [593, 115, 657, 179]
+
+[BORDER_PICTURE_3]
+texturename = "interfaces\\emptyborder.tga"
+position = [372, 115, 436, 179]
+
+[CAPACITY]
+position = [125, 184, 253, 204]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[HIRE_CAPACITY]
+position = [561, 184, 689, 204]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[HIRE_CREW_WINDOW]
+show = 0
+nodelist = ["HIRE_QTY_TypeOperation", "HIRE_QTY_ADD_BUTTON", "HIRE_QTY_ADD_ALL_BUTTON", "HIRE_QTY_REMOVE_ALL_BUTTON", "HIRE_QTY_REMOVE_BUTTON", "HIRE_QTY_OK_BUTTON", "HIRE_QTY_CANCEL_BUTTON", "HIRED_CREW", "HIRE_FRAME", "HIRE_EXIT_BTN", "HIRECAPTION1", "HIRE_SECOND_FRAME", "MAIN_SHIP_PICTURE1", "MAIN_SHIP_PICTURE2", "MAIN_HERO_PICTURE", "HIRE_CREW_CAPACITY", "BORDER_PICTURE_1", "BORDER_PICTURE_2", "BORDER_PICTURE_3", "CAPACITY", "HIRE_CAPACITY", "HIRE_FOOD_SHIP", "HIRE_RUM_SHIP", "HIRE_CREW_PICTURE", "MAIN_HERO_NAME", "HIRE_CREW_QTY", "HIRE_CREW_MORALE_PIC", "HIRE_TABLE_CREW", "HIRE_CREW_MORALE_TEXT", "HIRE_BAR_Sailors", "HIRE_BAR_Cannoners", "HIRE_BAR_Soldiers", "PICTURE", "HIRE_CREW_PICTURE2", "HIRE_CREW_QTY2", "HIRE_CREW_MORALE_PIC2", "HIRE_TABLE_CREW2", "HIRE_CREW_MORALE_TEXT2", "HIRE_BAR_Sailors2", "HIRE_BAR_Cannoners2", "HIRE_BAR_Soldiers2"]
+
+[HIRE_CREW_PICTURE]
+position = [125, 218, 200, 293]
+texturename = "interfaces\\portraits\\128\\face_1.tga"
+bshowglowcursor = 0
+
+[HIRE_CREW_QTY]
+position = [113, 298, 214, 323]
+linespace = 22
+font = ["Bold_numbers", "0.95"]
+
+[HIRE_CREW_MORALE_PIC]
+position = [140, 320, 185, 365]
+texturename = "interfaces\\empty_spyglass.tga"
+bshowglowcursor = 0
+
+[HIRE_CREW_MORALE_TEXT]
+position = [156, 331, 414, 350]
+fontscale = 1.0
+linespace = 16
+alignment = "center"
+
+[HIRE_BAR_Sailors]
+position = [280, 246, 380, 249]
+
+[HIRE_BAR_Cannoners]
+position = [280, 278, 380, 281]
+
+[HIRE_BAR_Soldiers]
+position = [280, 310, 380, 313]
+
+[HIRE_TABLE_CREW]
+command = ["click", "select:TABLE_CREW", "rclick", "select:TABLE_CREW", "event:ShowInfoWindow", "deactivate", "event:exitCancel", "upstep", "downstep"]
+position = [198, 219, 389, 320]
+vlinewidth = 0
+hlineheight = 2
+rowquantity = 4
+colquantity = 4
+fontcellvalignment = "center"
+selectimage = ["color=(0", "128", "48", "48)"]
+colswidth = [30, 56, 97, 4]
+rowsheight = [1, 32, 32, 32]
+normallineheight = 32
+
+[HIRE_CREW_PICTURE2]
+position = [423, 218, 498, 293]
+texturename = "interfaces\\portraits\\128\\face_1.tga"
+bshowglowcursor = 0
+
+[HIRE_CREW_QTY2]
+position = [411, 298, 512, 323]
+linespace = 22
+font = ["Bold_numbers", "0.95"]
+
+[HIRE_CREW_MORALE_PIC2]
+position = [438, 320, 483, 365]
+texturename = "interfaces\\empty_spyglass.tga"
+bshowglowcursor = 0
+
+[HIRE_CREW_MORALE_TEXT2]
+position = [454, 331, 712, 350]
+fontscale = 1.0
+linespace = 16
+alignment = "center"
+
+[HIRE_BAR_Sailors2]
+position = [578, 246, 678, 249]
+
+[HIRE_BAR_Cannoners2]
+position = [578, 278, 678, 281]
+
+[HIRE_BAR_Soldiers2]
+position = [578, 310, 678, 313]
+
+[HIRE_TABLE_CREW2]
+command = ["click", "select:TABLE_CREW2", "rclick", "select:TABLE_CREW2", "event:ShowInfoWindow", "deactivate", "event:exitCancel", "upstep", "downstep"]
+position = [496, 219, 687, 320]
+vlinewidth = 0
+hlineheight = 2
+rowquantity = 4
+colquantity = 4
+fontcellvalignment = "center"
+selectimage = ["color=(0", "128", "48", "48)"]
+colswidth = [30, 56, 97, 4]
+rowsheight = [1, 32, 32, 32]
+normallineheight = 32
+
+[HIRE_FOOD_SHIP]
+position = [126, 502, 296, 535]
+fontscale = 0.85
+linespace = 15
+alignment = "center"
+color = [255, 192, 255, 192]
+
+[HIRE_RUM_SHIP]
+position = [322, 502, 492, 535]
+fontscale = 0.85
+linespace = 15
+alignment = "center"
+color = [255, 192, 255, 192]
+
+[HIRE_CREW_CAPACITY]
+position = [518, 502, 688, 535]
+fontscale = 0.85
+linespace = 15
+alignment = "center"
+color = [255, 192, 255, 192]
+
+[HIRED_CREW]
+position = [364, 405, 447, 432]
+linespace = 22
+font = ["Bold_numbers", "0.95"]
+alignment = "center"
+
+[HIRE_QTY_ADD_ALL_BUTTON]
+command = ["click", "event:HIRE_ADD_ALL_BUTTON"]
+group = "ARROWS"
+picture = "left_all"
+position = [305, 401, 330, 426]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[HIRE_QTY_ADD_BUTTON]
+command = ["click", "event:HIRE_ADD_BUTTON"]
+group = "ARROWS"
+picture = "left"
+position = [333, 401, 358, 426]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[HIRE_QTY_REMOVE_BUTTON]
+command = ["click", "event:HIRE_REMOVE_BUTTON"]
+group = "ARROWS"
+picture = "right"
+position = [450, 401, 475, 426]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[HIRE_QTY_REMOVE_ALL_BUTTON]
+command = ["click", "event:HIRE_REMOVE_ALL_BUTTON", "activate"]
+group = "ARROWS"
+picture = "right_all"
+position = [478, 401, 503, 426]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[HIRE_QTY_OK_BUTTON]
+command = ["activate", "event:HireTransactionOK", "click", "event:HireTransactionOK", "deactivate", "event:exitCancel", "rightstep", "com:click:HIRE_QTY_REMOVE_BUTTON", "leftstep", "com:click:HIRE_QTY_ADD_BUTTON", "speedright", "com:click:HIRE_QTY_REMOVE_ALL_BUTTON", "speedleft", "com:click:HIRE_QTY_ADD_ALL_BUTTON"]
+position = [289, 436, 389, 461]
+string = "btnAccept"
+fontscale = 0.85
+glowoffset = [0, 0]
+
+[HIRE_QTY_CANCEL_BUTTON]
+command = ["activate", "event:HireTransactionCancel", "click", "event:HireTransactionCancel", "deactivate", "event:exitCancel", "rightstep", "com:click:HIRE_QTY_REMOVE_BUTTON", "leftstep", "com:click:HIRE_QTY_ADD_BUTTON", "speedright", "com:click:HIRE_QTY_REMOVE_ALL_BUTTON", "speedleft", "com:click:HIRE_QTY_ADD_ALL_BUTTON"]
+position = [420, 436, 520, 461]
+string = "btnReject"
+fontscale = 0.85
+glowoffset = [0, 0]
+
+[HIRE_QTY_TypeOperation]
+position = [140, 371, 673, 395]
+fontscale = 1.2
+linespace = 20
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+color = [255, 255, 255, 156]

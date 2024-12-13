@@ -1,0 +1,65 @@
+[MAIN]
+item = ["RECTANGLE", "INFO_WINDOW_FADER", "FRAME", "INFO_FRAME", "FORMATEDTEXT", "INFO_TEXT", "FORMATEDTEXT", "INFO_WINDOW_CAPTION"]
+start = "INFO_TEXT"
+
+[INFO_WINDOW_FADER]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [150, 0, 0, 0]
+topcolor = [150, 0, 0, 0]
+rightcolor = [150, 0, 0, 0]
+bottomcolor = [150, 0, 0, 0]
+bordercolor = [0, 0, 0, 0]
+
+[INFO_WINDOW_BACK]
+groupname = "PAPIRUS"
+picture = ["papirus_characters_perks_add", "col:{255", "128", "128", "128}", "pos:{250", "192", "550", "407}"]
+
+[INFO_WINDOW_BORDERS]
+groupname = "MAIN_ICONS"
+picture = ["editsection:", "info", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{250", "197", "550", "222}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{250", "192", "550", "197}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{250", "220", "550", "223}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{250", "192", "255", "407}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{545", "192", "550", "407}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{250", "402", "550", "407}", "BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{249", "191", "258", "200}", "BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{542", "191", "551", "200}", "BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{250", "399", "259", "408}", "BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{541", "399", "550", "408}", "editsection:", "end"]
+
+[INFO_WINDOW_CAPTION]
+command = "click"
+babsoluterectangle = 5
+position = [260, 205, 540, 235]
+font = ["interface_button", "1.1"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 255]
+backoffset = [1, 2, 0, -2]
+string = "titleQuickSave"
+
+[INFO_WINDOW_GRADIENT1]
+babsoluterectangle = 5
+position = [255, 222, 546, 231]
+leftcolor = [255, 255, 255, 255]
+topcolor = [175, 0, 0, 0]
+rightcolor = [255, 255, 255, 255]
+bottomcolor = [0, 0, 0, 0]
+
+[EXIT_BTN]
+position = [506, 83, 528, 105]
+group = "ICONS"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+
+[B_OK]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click"]
+position = [303, 367, 503, 399]
+string = "OK"
+glowoffset = [0, 0]
+
+[INFO_TEXT]
+position = [240, 233, 568, 318]
+linespace = 21
+bshowglowcursor = 0
+
+[INFO_FRAME]
+captionheight = 32
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+position = [235, 197, 574, 325]

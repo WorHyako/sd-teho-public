@@ -1,0 +1,21 @@
+[MAST]
+water_slide_step = 2.0
+fmaxangle = 2.5
+downfall_acceleration = 0.5
+downfall_maxspeed = 3.0
+ftraceheight = 1.0
+ftraceheightadding = 0.01
+fmastwidth = 0.15
+ftracesliding = 0.1
+fmaxposchange = 0.5
+fmaxslidelenght = 0.5
+fminzcompare = 1.0
+fmaxdeep = 20.0
+fdeepstep = 3.0
+maxmovecicles = 100
+minmovecicles = 10
+fminxdang = -0.01
+fvarxdang = 0.02
+fminzdang = 0.04
+fvarzdang = 0.02
+fangsignificant = 0.01

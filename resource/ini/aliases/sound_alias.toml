@@ -1,0 +1,1568 @@
+[step_stone]
+mindistance = 0.5
+maxdistance = 6.0
+volume = 0.3
+name = ["PEOPLE\\asf-man2-01.wav", "PEOPLE\\asf-man2-02.wav", "PEOPLE\\asf-man2-03.wav", "PEOPLE\\asf-man2-04.wav"]
+
+[run_stone]
+mindistance = 0.5
+maxdistance = 6.0
+volume = 0.9
+name = ["PEOPLE\\asf-man2-01.wav", "PEOPLE\\asf-man2-02.wav", "PEOPLE\\asf-man2-03.wav", "PEOPLE\\asf-man2-04.wav"]
+
+[step_grass]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.3
+name = ["PEOPLE\\grnd-man1-01.wav", "PEOPLE\\grnd-man1-02.wav", "PEOPLE\\grnd-man1-03.wav", "PEOPLE\\grnd-man1-04.wav"]
+
+[run_grass]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.8
+name = ["PEOPLE\\grnd-man1-01.wav", "PEOPLE\\grnd-man1-02.wav", "PEOPLE\\grnd-man1-03.wav", "PEOPLE\\grnd-man1-04.wav"]
+
+[grass_noise]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.3
+name = ["PEOPLE\\trv-man1-01.wav", "PEOPLE\\trv-man1-02.wav", "PEOPLE\\trv-man1-03.wav", "PEOPLE\\trv-man1-04.wav"]
+
+[run_grass_noise]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.64
+name = ["PEOPLE\\trv-man1-01.wav", "PEOPLE\\trv-man1-02.wav", "PEOPLE\\trv-man1-03.wav", "PEOPLE\\trv-man1-04.wav"]
+
+[step_wood]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.3
+name = ["PEOPLE\\der-man1-01.wav", "PEOPLE\\der-man1-02.wav", "PEOPLE\\der-man1-03.wav", "PEOPLE\\der-man1-04.wav"]
+
+[run_wood]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.99
+name = ["PEOPLE\\der-man1-01.wav", "PEOPLE\\der-man1-02.wav", "PEOPLE\\der-man1-03.wav", "PEOPLE\\der-man1-04.wav"]
+
+[step_church]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.4
+name = ["PEOPLE\\step_church.wav", "PEOPLE\\step_church1.wav", "PEOPLE\\step_church2.wav", "PEOPLE\\step_church3.wav"]
+
+[run_church]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.9
+name = ["PEOPLE\\step_church.wav", "PEOPLE\\step_church1.wav", "PEOPLE\\step_church2.wav", "PEOPLE\\step_church3.wav"]
+
+[step_echo]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.4
+name = ["PEOPLE\\step_echo.wav", "0.5", "PEOPLE\\step_echo1.wav", "0.5", "PEOPLE\\step_echo2.wav", "0.5", "PEOPLE\\step_echo3.wav", "0.5"]
+
+[run_echo]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.7
+name = ["PEOPLE\\step_echo.wav", "0.5", "PEOPLE\\step_echo1.wav", "0.5", "PEOPLE\\step_echo2.wav", "0.5", "PEOPLE\\step_echo3.wav", "0.5"]
+
+[step_water]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.3
+name = ["PEOPLE\\step_water.wav", "0.3", "PEOPLE\\step_water1.wav", "0.3", "PEOPLE\\step_water2.wav", "0.4", "PEOPLE\\step_water3.wav", "0.4"]
+
+[run_water]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.87
+name = ["PEOPLE\\step_water.wav", "0.3", "PEOPLE\\step_water1.wav", "0.3", "PEOPLE\\step_water2.wav", "0.4", "PEOPLE\\step_water3.wav", "0.4"]
+
+[step_carpet]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.3
+name = ["PEOPLE\\kov-man1-01.wav", "0.3", "PEOPLE\\kov-man1-02.wav", "0.3", "PEOPLE\\kov-man1-03.wav", "0.3", "PEOPLE\\kov-man1-04.wav", "0.3"]
+
+[run_carpet]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.8
+name = ["PEOPLE\\kov-man1-01.wav", "0.3", "PEOPLE\\kov-man1-02.wav", "0.3", "PEOPLE\\kov-man1-03.wav", "0.3", "PEOPLE\\kov-man1-04.wav", "0.3"]
+
+[step_stairway]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.87
+name = ["PEOPLE\\step_stairway.wav", "PEOPLE\\step_stairway3.wav", "PEOPLE\\der-man1-01.wav", "PEOPLE\\der-man1-02.wav", "PEOPLE\\step_stairway1.wav", "PEOPLE\\der-man1-03.wav", "PEOPLE\\step_stairway2.wav", "PEOPLE\\der-man1-04.wav"]
+
+[run_stairway]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.87
+name = ["PEOPLE\\step_stairway.wav", "PEOPLE\\step_stairway3.wav", "PEOPLE\\der-man1-01.wav", "PEOPLE\\der-man1-02.wav", "PEOPLE\\step_stairway1.wav", "PEOPLE\\der-man1-03.wav", "PEOPLE\\step_stairway2.wav", "PEOPLE\\der-man1-04.wav"]
+
+[step_sand]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.4
+name = ["PEOPLE\\cave-man1-01.wav", "PEOPLE\\cave-man1-02.wav", "PEOPLE\\cave-man1-03.wav", "PEOPLE\\cave-man1-04.wav"]
+
+[run_sand]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 1.2
+name = ["PEOPLE\\cave-man1-01.wav", "PEOPLE\\cave-man1-02.wav", "PEOPLE\\cave-man1-03.wav", "PEOPLE\\cave-man1-04.wav"]
+
+[step_ground]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.3
+name = ["PEOPLE\\grnd-man1-01.wav", "PEOPLE\\grnd-man1-02.wav", "PEOPLE\\grnd-man1-03.wav", "PEOPLE\\grnd-man1-04.wav"]
+
+[run_ground]
+mindistance = 0.4
+maxdistance = 6.0
+volume = 0.8
+name = ["PEOPLE\\grnd-man1-01.wav", "PEOPLE\\grnd-man1-02.wav", "PEOPLE\\grnd-man1-03.wav", "PEOPLE\\grnd-man1-04.wav"]
+
+[seagull]
+name = ["AMBIENT\\SEA\\krik_001.wav", "AMBIENT\\SEA\\krik_002.wav", "AMBIENT\\SEA\\krik_003.wav", "AMBIENT\\SEA\\krik_004.wav", "AMBIENT\\SEA\\Gull_01.WAV", "AMBIENT\\SEA\\Gull_02.WAV", "AMBIENT\\SEA\\Gull_03.WAV", "AMBIENT\\SEA\\Gull_04.WAV", "AMBIENT\\SEA\\Gull_05.WAV", "AMBIENT\\SEA\\Gull_06.WAV", "AMBIENT\\SEA\\Gull_07.WAV", "AMBIENT\\SEA\\Gull_08.WAV", "AMBIENT\\SEA\\Gull_09.WAV", "AMBIENT\\SEA\\Gull_10.WAV", "AMBIENT\\SEA\\Gull_11.WAV", "AMBIENT\\SEA\\Gull_12.WAV", "AMBIENT\\SEA\\Gull_13.WAV", "AMBIENT\\SEA\\Gull_14.WAV", "AMBIENT\\SEA\\Gull_15.WAV", "AMBIENT\\SEA\\Gull_16.WAV", "AMBIENT\\SEA\\Gull_17.WAV", "AMBIENT\\SEA\\Gull_18.WAV", "AMBIENT\\SEA\\Gull_19.WAV", "AMBIENT\\SEA\\Gull_20.WAV", "AMBIENT\\SEA\\Gull_21.WAV", "AMBIENT\\SEA\\Gull_22.WAV", "AMBIENT\\SEA\\Gull_23.WAV", "AMBIENT\\SEA\\Gull_24.WAV", "AMBIENT\\SEA\\Gull_25.WAV", "AMBIENT\\SEA\\Gull_26.WAV", "AMBIENT\\SEA\\Gull_27.WAV", "AMBIENT\\SEA\\Gull_28.WAV", "AMBIENT\\SEA\\Gull_29.WAV", "AMBIENT\\SEA\\Gull_30.WAV", "AMBIENT\\SEA\\Gull_31.WAV"]
+
+[birds]
+mindistance = 10.0
+maxdistance = 20.0
+volume = 1.0
+name = "AMBIENT\\LAND\\bird_land_001.WAV"
+
+[seashore]
+mindistance = 18.0
+maxdistance = 40.0
+volume = 0.5
+name = "AMBIENT\\LAND\\sea_for_menu_01.wav"
+
+[land_rain]
+name = "WEATHER\\land_rain_01.wav"
+
+[storm_land_rain]
+name = "WEATHER\\Storm_land_rain_01.WAV"
+
+[sea_rain]
+name = "WEATHER\\Sea_rain_01.WAV"
+
+[storm_sea_rain]
+name = "WEATHER\\Storm_sea_rain_01.WAV"
+
+[night_wind]
+name = "WEATHER\\Night_wind_01.WAV"
+
+[day_wind]
+name = "WEATHER\\wind_for_sea_01.wav"
+
+[storm_wind]
+name = "WEATHER\\All_for_sea_Storm_01.WAV"
+
+[storm_sea_water]
+name = "WEATHER\\Storm_water_01.WAV"
+
+[strong_rain]
+name = "WEATHER\\strong_rain1.wav"
+
+[wind_tornado]
+mindistance = 470.0
+maxdistance = 1500.0
+name = "AMBIENT\\SEA\\wind_tornado.wav"
+volume = 1.0
+
+[thunder]
+mindistance = 1000.0
+maxdistance = 8000.0
+volume = 1.0
+name = ["WEATHER\\thunder_01.wav", "WEATHER\\thunder_02.wav", "WEATHER\\thunder_03.wav", "WEATHER\\thunder_04.wav", "WEATHER\\thunder_05.wav", "WEATHER\\thunder_06.wav"]
+
+[land_rain2]
+name = "WEATHER\\land_rain_01.wav"
+volume = 0.18
+
+[storm_land_rain2]
+name = "WEATHER\\Storm_land_rain_01.WAV"
+volume = 0.18
+
+[sea_rain2]
+name = "WEATHER\\Sea_rain_01.WAV"
+volume = 0.18
+
+[storm_sea_rain2]
+name = "WEATHER\\Storm_sea_rain_01.WAV"
+volume = 0.19
+
+[night_wind2]
+name = "WEATHER\\Night_wind_01.WAV"
+volume = 0.18
+
+[day_wind2]
+name = "WEATHER\\wind_for_sea_01.wav"
+volume = 0.18
+
+[storm_wind2]
+name = "WEATHER\\All_for_sea_Storm_01.WAV"
+volume = 0.18
+
+[storm_sea_water2]
+name = "WEATHER\\All_for_sea_Storm_02.WAV"
+volume = 0.1
+
+[strong_rain2]
+name = "WEATHER\\strong_rain1.wav"
+volume = 0.7
+
+[thunder2]
+mindistance = 1000.0
+maxdistance = 8000.0
+volume = 0.1
+name = ["WEATHER\\thunder_01.wav", "WEATHER\\thunder_02.wav", "WEATHER\\thunder_03.wav", "WEATHER\\thunder_04.wav", "WEATHER\\thunder_05.wav", "WEATHER\\thunder_06.wav"]
+
+[squeak_sea]
+mindistance = 4.0
+maxdistance = 90.0
+volume = 0.3
+name = ["SHIP\\just_creak_01.wav", "SHIP\\just_creak_02.wav", "SHIP\\just_creak_03.wav", "SHIP\\just_creak_04.wav", "SHIP\\just_creak_05.wav", "SHIP\\just_creak_06.wav", "SHIP\\just_creak_07.wav", "SHIP\\just_creak_08.wav", "SHIP\\just_creak_09.wav", "SHIP\\just_creak_10.wav", "SHIP\\just_creak_11.wav", "SHIP\\just_creak_12.wav", "SHIP\\just_creak_13.wav", "SHIP\\just_creak_14.wav", "SHIP\\just_creak_15.wav"]
+
+[squeak_sea_storm]
+mindistance = 4.0
+maxdistance = 90.0
+volume = 0.9
+name = ["SHIP\\just_creak_01.wav", "SHIP\\just_creak_02.wav", "SHIP\\just_creak_03.wav", "SHIP\\just_creak_04.wav", "SHIP\\storm_creak_01.wav", "SHIP\\storm_creak_02.wav", "SHIP\\storm_creak_03.wav", "SHIP\\storm_creak_04.wav", "SHIP\\storm_creak_05.wav", "SHIP\\storm_creak_06.wav", "SHIP\\storm_creak_07.wav", "SHIP\\storm_creak_08.wav"]
+
+[squeak_LSC]
+mindistance = 4.0
+maxdistance = 90.0
+volume = 0.3
+name = ["SHIP\\just_creak_04.wav", "SHIP\\just_creak_04.wav", "SHIP\\just_creak_11.wav", "SHIP\\just_creak_12.wav", "SHIP\\just_creak_13.wav", "SHIP\\just_creak_14.wav", "SHIP\\just_creak_15.wav"]
+
+[squeak_LSC_storm]
+mindistance = 4.0
+maxdistance = 90.0
+volume = 1.0
+name = ["SHIP\\storm_creak_01.wav", "SHIP\\storm_creak_01.wav", "SHIP\\storm_creak_02.wav", "SHIP\\storm_creak_03.wav", "SHIP\\storm_creak_04.wav", "SHIP\\storm_creak_05.wav", "SHIP\\storm_creak_06.wav", "SHIP\\storm_creak_07.wav", "SHIP\\storm_creak_08.wav"]
+
+[squeak_LSC_inside]
+mindistance = 4.0
+maxdistance = 90.0
+volume = 0.1
+name = ["SHIP\\just_creak_04.wav", "SHIP\\just_creak_04.wav", "SHIP\\just_creak_11.wav", "SHIP\\just_creak_12.wav", "SHIP\\just_creak_13.wav", "SHIP\\just_creak_14.wav", "SHIP\\just_creak_15.wav"]
+
+[squeak_LSC_storm_inside]
+mindistance = 4.0
+maxdistance = 90.0
+volume = 0.5
+name = ["SHIP\\storm_creak_01.wav", "SHIP\\storm_creak_01.wav", "SHIP\\storm_creak_02.wav", "SHIP\\storm_creak_03.wav", "SHIP\\storm_creak_04.wav", "SHIP\\storm_creak_05.wav", "SHIP\\storm_creak_06.wav", "SHIP\\storm_creak_07.wav", "SHIP\\storm_creak_08.wav"]
+
+[sails_ambient]
+mindistance = 4.0
+maxdistance = 90.0
+volume = 0.0
+name = ["SHIPS\\parusa_hlp_002.wav", "SHIPS\\parusa_hlp_003.wav", "SHIPS\\parusa_hlp_004.wav", "SHIPS\\parusa_hlp_005.wav", "SHIPS\\parusa_hlp_006.wav", "SHIPS\\parusa_hlp_007.wav", "SHIPS\\parusa_hlp_010.wav"]
+
+[sails_up_lugger]
+prior = 10
+mindistance = 12.0
+maxdistance = 60.0
+volume = 0.0
+name = "SHIP\\sail_loop_01.wav"
+
+[sails_up_corvette]
+prior = 10
+mindistance = 15.0
+maxdistance = 80.0
+volume = 0.0
+name = "SHIP\\sail_loop_01.wav"
+
+[sails_up_frigate]
+prior = 10
+mindistance = 25.0
+maxdistance = 140.0
+volume = 0.0
+name = "SHIP\\sail_loop_01.wav"
+
+[sails_up_lineship]
+prior = 10
+mindistance = 35.0
+maxdistance = 160.0
+volume = 0.0
+name = "SHIP\\sail_loop_01.wav"
+
+[sails_up_manowar]
+prior = 10
+mindistance = 50.0
+maxdistance = 185.0
+volume = 0.0
+name = "SHIP\\sail_loop_01.wav"
+
+[ship_water_lugger]
+prior = 10
+mindistance = 12.0
+maxdistance = 60.0
+volume = 0.0
+name = "SHIP\\float_boat_01.wav"
+
+[ship_water_corvette]
+prior = 10
+mindistance = 15.0
+maxdistance = 90.0
+volume = 0.0
+name = "SHIP\\float_boat_01.wav"
+
+[ship_water_frigate]
+prior = 10
+mindistance = 25.0
+maxdistance = 125.0
+volume = 0.0
+name = "SHIP\\float_boat_01.wav"
+
+[ship_water_lineship]
+prior = 10
+mindistance = 35.0
+maxdistance = 160.0
+volume = 0.0
+name = "SHIP\\float_boat_01.wav"
+
+[ship_water_manowar]
+prior = 10
+mindistance = 50.0
+maxdistance = 185.0
+volume = 0.0
+name = "SHIP\\float_boat_01.wav"
+
+[ship_turn_lugger]
+prior = 10
+mindistance = 12.0
+maxdistance = 60.0
+volume = 0.0
+name = "SHIP\\turn_loop_01.wav"
+
+[ship_turn_corvette]
+prior = 10
+mindistance = 15.0
+maxdistance = 90.0
+volume = 0.0
+name = "SHIP\\turn_loop_01.wav"
+
+[ship_turn_frigate]
+prior = 10
+mindistance = 25.0
+maxdistance = 140.0
+volume = 0.0
+name = "SHIP\\turn_loop_01.wav"
+
+[ship_turn_lineship]
+prior = 10
+mindistance = 35.0
+maxdistance = 160.0
+volume = 0.0
+name = "SHIP\\turn_loop_01.wav"
+
+[ship_turn_manowar]
+prior = 10
+mindistance = 50.0
+maxdistance = 185.0
+volume = 0.0
+name = "SHIP\\turn_loop_01.wav"
+
+[cricket]
+name = "AMBIENT\\LAND\\tsikadi_001.wav"
+
+[cricket_02]
+name = ["AMBIENT\\LAND\\kuzn_001.wav", "0.6", "AMBIENT\\LAND\\kuzn_002.wav", "0.6"]
+
+[cricket_night]
+name = "AMBIENT\\LAND\\tsikadi_nigth_01.wav"
+
+[cricket_night_02]
+name = ["AMBIENT\\LAND\\kuzn_night_001.wav", "0.4", "AMBIENT\\LAND\\kuzn_night_002.wav", "0.4", "AMBIENT\\LAND\\kuzn_night_003.wav", "0.1", "AMBIENT\\LAND\\kuzn_night_003.wav", "0.1"]
+
+[animals_night]
+name = ["AMBIENT\\LAND\\animals_night_001.wav", "AMBIENT\\LAND\\animals_night_002.wav", "AMBIENT\\LAND\\animals_night_003.wav", "AMBIENT\\LAND\\animals_night_004.wav", "AMBIENT\\LAND\\animals_night_005.wav", "AMBIENT\\LAND\\animals_night_006.wav", "AMBIENT\\LAND\\animals_night_007.wav", "AMBIENT\\LAND\\animals_night_008.wav"]
+
+[bird_night]
+name = ["AMBIENT\\LAND\\bird_night_001.wav", "AMBIENT\\LAND\\bird_night_002.wav", "AMBIENT\\LAND\\bird_night_003.wav", "AMBIENT\\LAND\\bird_night_004.wav", "AMBIENT\\LAND\\bird_night_005.wav", "AMBIENT\\LAND\\bird_night_006.wav"]
+
+[popugay]
+name = ["AMBIENT\\LAND\\popugay_001.wav", "AMBIENT\\LAND\\popugay_002.wav", "AMBIENT\\LAND\\popugay_003.wav", "AMBIENT\\LAND\\popugay_004.wav", "AMBIENT\\LAND\\popugay_005.wav", "AMBIENT\\LAND\\popugay_006.wav", "AMBIENT\\LAND\\popugay_007.wav", "AMBIENT\\LAND\\popugay_008.wav", "AMBIENT\\LAND\\popugay_009.wav"]
+
+[solovey]
+name = ["AMBIENT\\LAND\\solovey_001.wav", "AMBIENT\\LAND\\solovey_002.wav", "AMBIENT\\LAND\\solovey_003.wav", "AMBIENT\\LAND\\solovey_004.wav"]
+
+[monkey]
+name = ["AMBIENT\\LAND\\obezyna_001.wav", "AMBIENT\\LAND\\obezyna_002.wav", "AMBIENT\\LAND\\obezyna_003.wav", "AMBIENT\\LAND\\obezyna_004.wav", "AMBIENT\\LAND\\solovey_005.wav"]
+
+[rat]
+name = ["AMBIENT\\LAND\\pisk_krisi_001.wav", "AMBIENT\\LAND\\pisk_krisi_002.wav", "AMBIENT\\LAND\\pisk_krisi_003.wav"]
+
+[dog]
+name = ["AMBIENT\\LAND\\sobaka_001.wav", "AMBIENT\\LAND\\sobaka_002.wav", "AMBIENT\\LAND\\sobaka_003.wav", "AMBIENT\\LAND\\sobaka_004.wav", "AMBIENT\\LAND\\sobaka_005.wav", "AMBIENT\\LAND\\sobaka_006.wav"]
+
+[door]
+name = ["AMBIENT\\LAND\\door_001.wav", "AMBIENT\\LAND\\door_002.wav", "AMBIENT\\LAND\\door_003.wav", "AMBIENT\\LAND\\door_004.wav"]
+
+[cough]
+name = ["AMBIENT\\LAND\\cough_01.WAV", "AMBIENT\\LAND\\cough_02.WAV", "AMBIENT\\LAND\\cough_03.WAV", "AMBIENT\\LAND\\cough_04.WAV", "AMBIENT\\LAND\\cough_05.WAV", "AMBIENT\\LAND\\cough_06.WAV"]
+
+[river]
+mindistance = 5.0
+maxdistance = 20.0
+volume = 2.0
+name = "AMBIENT\\LAND\\water_brooke_01.wav"
+
+[torch]
+mindistance = 0.05
+maxdistance = 4.5
+volume = 0.4
+name = "AMBIENT\\LAND\\Torch_01.wav"
+
+[bridge]
+mindistance = 5.0
+maxdistance = 30.0
+volume = 0.75
+name = "AMBIENT\\LAND\\bridge.wav"
+
+[horror]
+mindistance = 1.0
+maxdistance = 10.0
+volume = 0.95
+name = ["AMBIENT\\HORROR\\horror1.wav", "AMBIENT\\HORROR\\horror2.wav", "AMBIENT\\HORROR\\horror3.wav", "AMBIENT\\HORROR\\horror1.wav"]
+
+[reef]
+mindistance = 1.0
+maxdistance = 10.0
+volume = 0.95
+name = ["Reef\\reef_01.wav", "Reef\\reef_02.wav", "Reef\\reef_03.wav", "Reef\\reef_01.wav"]
+
+[fountain]
+mindistance = 3.0
+maxdistance = 16.0
+volume = 0.3
+name = "AMBIENT\\LAND\\water_fountain_02.wav"
+
+[fountsml]
+mindistance = 3.0
+maxdistance = 16.0
+volume = 0.15
+name = "AMBIENT\\LAND\\water_fountain_01.wav"
+
+[waterfall]
+mindistance = 10.0
+maxdistance = 32.0
+volume = 0.3
+name = "AMBIENT\\LAND\\water_falls_01.wav"
+
+[shipyard]
+mindistance = 0.1
+maxdistance = 9.0
+volume = 0.3
+name = "AMBIENT\\SHIPYARD\\Fon_Out_01.wav"
+
+[tavern]
+mindistance = 0.1
+maxdistance = 12.0
+volume = 0.4
+name = "AMBIENT\\pirates.WAV"
+
+[church]
+mindistance = 0.1
+maxdistance = 7.0
+volume = 0.3
+name = "AMBIENT\\CHURCH\\pope_out_01.wav"
+
+[church_inside]
+mindistance = 1.5
+maxdistance = 7.0
+volume = 1.0
+name = "AMBIENT\\CHURCH\\pope_out_01.wav"
+
+[waterdrops]
+mindistance = 4.0
+maxdistance = 19.0
+volume = 1.0
+name = "AMBIENT\\LAND\\drops_01.wav"
+
+[cavewind]
+mindistance = 18.0
+maxdistance = 40.0
+volume = 1.0
+name = "WEATHER\\sea_wind_01.wav"
+
+[fireplace]
+mindistance = 1.0
+maxdistance = 6.0
+volume = 0.5
+name = "AMBIENT\\TAVERN\\ochag_003.WAV"
+
+[drop_tavern]
+name = ["AMBIENT\\TAVERN\\krujki_001.wav", "AMBIENT\\TAVERN\\krujki_002.wav", "AMBIENT\\TAVERN\\krujki_003.wav", "AMBIENT\\TAVERN\\krujki_004.wav", "AMBIENT\\TAVERN\\krujki_005.wav"]
+
+[man_tavern]
+name = ["AMBIENT\\TAVERN\\chavk_001.wav", "AMBIENT\\TAVERN\\chavk_002.wav", "AMBIENT\\TAVERN\\chavk_003.wav", "AMBIENT\\TAVERN\\glotok_001.wav", "AMBIENT\\TAVERN\\glotok_002.wav", "AMBIENT\\TAVERN\\glotok_003.wav"]
+
+[otr_tavern]
+name = ["AMBIENT\\TAVERN\\orijka_001.wav", "AMBIENT\\TAVERN\\orijka_002.wav", "AMBIENT\\TAVERN\\orijka_003.wav"]
+
+[talks_tavern]
+name = ["AMBIENT\\TAVERN\\razgovor_001.wav", "AMBIENT\\TAVERN\\razgovor_002.wav", "AMBIENT\\TAVERN\\razgovor_003.wav"]
+
+[money]
+name = ["AMBIENT\\TAVERN\\monetki_taverna_001.wav", "AMBIENT\\TAVERN\\monetki_taverna_002.wav", "AMBIENT\\TAVERN\\monetki_taverna_003.wav"]
+
+[fill_up]
+name = ["AMBIENT\\TAVERN\\naliv_001.wav", "AMBIENT\\TAVERN\\naliv_002.wav", "AMBIENT\\TAVERN\\naliv_003.wav"]
+
+[shipyard_sound]
+name = ["AMBIENT\\SHIPYARD\\molotok_verf_001.wav", "0.2", "AMBIENT\\SHIPYARD\\molotok_verf_002.wav", "0.2", "AMBIENT\\SHIPYARD\\molotok_verf_003.wav", "0.2", "AMBIENT\\SHIPYARD\\topor_001", "AMBIENT\\SHIPYARD\\topor_002", "AMBIENT\\SHIPYARD\\topor_003", "AMBIENT\\SHIPYARD\\pila_001.wav", "AMBIENT\\SHIPYARD\\pila_002.wav", "AMBIENT\\SHIPYARD\\pila_003.wav"]
+
+[people_talk_town]
+name = ["AMBIENT\\TOWNS\\razg_001.wav", "AMBIENT\\TOWNS\\razg_002.wav", "AMBIENT\\TOWNS\\razg_003.wav", "AMBIENT\\TOWNS\\razg_004.wav", "AMBIENT\\TOWNS\\razg_005.wav"]
+
+[crow_town]
+name = ["AMBIENT\\TOWNS\\vorona_001.wav", "AMBIENT\\TOWNS\\vorona_002.wav", "AMBIENT\\TOWNS\\vorona_003.wav"]
+
+[fly_town]
+name = ["AMBIENT\\TOWNS\\muhi_001.wav", "AMBIENT\\TOWNS\\muhi_002.wav", "AMBIENT\\TOWNS\\muhi_003.wav"]
+
+[golub_town]
+name = ["AMBIENT\\TOWNS\\vorkovanie_001.wav", "AMBIENT\\TOWNS\\vorkovanie_002.wav", "AMBIENT\\TOWNS\\vorkovanie_003.wav"]
+
+[hammer_town]
+name = ["AMBIENT\\TOWNS\\molotok_001.wav", "AMBIENT\\TOWNS\\molotok_002.wav", "AMBIENT\\TOWNS\\molotok_003.wav"]
+
+[pistol_shot]
+mindistance = 5.4
+maxdistance = 200.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\PistolShot.wav"]
+
+[rifle_shot]
+mindistance = 5.4
+maxdistance = 200.0
+volume = 1.6
+name = ["PEOPLE", "FIGHT\\MushketShot.wav"]
+
+[bullethit]
+mindistance = 5.4
+maxdistance = 100.0
+volume = 0.77
+name = ["PEOPLE", "FIGHT\\sabl_po_ploti_001.wav"]
+
+[sword_sh]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Blade_Take_Out_01.wav"]
+
+[sword_out]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Blade_Take_In_01.wav", "PEOPLE", "FIGHT\\Blade_Take_In_02.wav", "PEOPLE", "FIGHT\\Blade_Take_In_03.wav"]
+
+[attack_thrust1]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Player_man_01_01.wav", "PEOPLE", "FIGHT\\Player_man_01_02.wav", "PEOPLE", "FIGHT\\Player_man_01_03.wav"]
+
+[attack_thrust2]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Player_man_02_01.wav", "PEOPLE", "FIGHT\\Player_man_02_02.wav", "PEOPLE", "FIGHT\\Player_man_02_03.wav"]
+
+[attack_slash1]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Player_man_03_01.wav", "PEOPLE", "FIGHT\\Player_man_03_02.wav", "PEOPLE", "FIGHT\\Player_man_03_03.wav"]
+
+[attack_slash2]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Player_man_07_01.wav", "PEOPLE", "FIGHT\\Player_man_07_02.wav"]
+
+[attack_round]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Player_man_04_01.wav", "PEOPLE", "FIGHT\\Player_man_04_02.wav", "PEOPLE", "FIGHT\\Player_man_04_03.wav"]
+
+[attack_break]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Player_man_05_01.wav"]
+
+[attack_parry]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Player_man_08_01.wav", "PEOPLE", "FIGHT\\Player_man_08_02.wav", "PEOPLE", "FIGHT\\Player_man_08_03.wav"]
+
+[parryhit]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\sabl_po_ploti_001.wav"]
+
+[attack_feint]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Player_man_05_02.wav"]
+
+[attack_feintc]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Player_man_01_02.wav"]
+
+[manHit]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Damage_NPC_06.wav", "PEOPLE", "FIGHT\\Damage_NPC_07.wav", "PEOPLE", "FIGHT\\Damage_NPC_08.wav", "PEOPLE", "FIGHT\\Damage_NPC_09.wav", "PEOPLE", "FIGHT\\Damage_NPC_10.wav", "PEOPLE", "FIGHT\\Damage_NPC_11.wav"]
+
+[manZapad]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 2.4
+name = ["PEOPLE", "FIGHT\\Zapad.wav"]
+
+[BlockHit]
+mindistance = 4.0
+maxdistance = 57.0
+volume = 0.8
+name = ["PEOPLE", "FIGHT\\blades_hits_04.wav", "PEOPLE", "FIGHT\\blades_hits_06.wav", "PEOPLE", "FIGHT\\blades_hits_07.wav", "PEOPLE", "FIGHT\\blades_hits_08.wav", "PEOPLE", "FIGHT\\blades_hits_12.wav", "PEOPLE", "FIGHT\\blades_hits_13.wav"]
+
+[BlockBreak]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Damage_NPC_01.wav", "PEOPLE", "FIGHT\\Damage_NPC_02.wav", "PEOPLE", "FIGHT\\Damage_NPC_03.wav", "PEOPLE", "FIGHT\\Damage_NPC_04.wav", "PEOPLE", "FIGHT\\Damage_NPC_05.wav"]
+
+[fight_death1]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Body_fall_01.wav"]
+
+[fight_death2]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Body_fall_02.wav"]
+
+[fight_death3]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Body_fall_03.wav"]
+
+[fight_death4]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\Body_fall_04.wav"]
+
+[recoil]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.99
+name = "PEOPLE\\recoil.wav"
+
+[fgt_collision]
+mindistance = 4.0
+maxdistance = 57.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\blades_hits_01.wav", "PEOPLE", "FIGHT\\blades_hits_02.wav", "PEOPLE", "FIGHT\\blades_hits_03.wav", "PEOPLE", "FIGHT\\blades_hits_04.wav", "PEOPLE", "FIGHT\\blades_hits_05.wav", "PEOPLE", "FIGHT\\blades_hits_06.wav", "PEOPLE", "FIGHT\\blades_hits_07.wav", "PEOPLE", "FIGHT\\blades_hits_08.wav", "PEOPLE", "FIGHT\\blades_hits_09.wav", "PEOPLE", "FIGHT\\blades_hits_10.wav", "PEOPLE", "FIGHT\\blades_hits_11.wav", "PEOPLE", "FIGHT\\blades_hits_12.wav"]
+
+[N_attack_thrust1]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+
+[N_attack_thrust2]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+
+[N_attack_slash1]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+
+[N_attack_slash2]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+
+[N_attack_round]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+
+[N_attack_break]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+
+[N_attack_parry]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+
+[N_attack_feint]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+
+[N_attack_feintc]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+
+[N_BlockBreak]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\Damage_NPC_01.wav", "PEOPLE", "FIGHT\\Damage_NPC_02.wav", "PEOPLE", "FIGHT\\Damage_NPC_03.wav", "PEOPLE", "FIGHT\\Damage_NPC_04.wav", "PEOPLE", "FIGHT\\Damage_NPC_05.wav"]
+
+[N_manHit]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\damage_NPC_01.wav", "PEOPLE", "FIGHT\\damage_NPC_02.wav", "PEOPLE", "FIGHT\\damage_NPC_03.wav", "PEOPLE", "FIGHT\\damage_NPC_04.wav", "PEOPLE", "FIGHT\\damage_NPC_05.wav", "PEOPLE", "FIGHT\\damage_NPC_06.wav", "PEOPLE", "FIGHT\\damage_NPC_07.wav", "PEOPLE", "FIGHT\\damage_NPC_08.wav", "PEOPLE", "FIGHT\\damage_NPC_09.wav", "PEOPLE", "FIGHT\\damage_NPC_10.wav", "PEOPLE", "FIGHT\\damage_NPC_11.wav"]
+
+[S_manHit]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\skeleton_hit_01.wav", "PEOPLE", "FIGHT\\skeleton_hit_02.wav", "PEOPLE", "FIGHT\\skeleton_hit_01.wav", "PEOPLE", "FIGHT\\damage_NPC_10.wav", "PEOPLE", "FIGHT\\damage_NPC_11.wav", "PEOPLE", "FIGHT\\damage_NPC_10.wav", "PEOPLE", "FIGHT\\damage_NPC_11.wav"]
+
+[N_parryhit]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav"]
+
+[N_fight_death1]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\death_npc_01.wav", "PEOPLE", "FIGHT\\death_npc_05.wav"]
+
+[N_fight_death2]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\death_npc_02.wav", "PEOPLE", "FIGHT\\death_npc_06.wav"]
+
+[N_fight_death3]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\death_npc_03.wav", "PEOPLE", "FIGHT\\death_npc_07.wav"]
+
+[N_fight_death4]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\death_npc_04.wav", "PEOPLE", "FIGHT\\death_npc_08.wav"]
+
+[N_skeleton_death1]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\skeleton_death_01.wav"]
+
+[N_skeleton_death2]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\skeleton_death_02.wav"]
+
+[N_afraid]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\afraid_01.wav"]
+
+[N_afraid_death1]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\afraid_death_01.wav"]
+
+[N_afraid_death2]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\afraid_death_02.wav"]
+
+[W_attack_thrust1]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\beatris_hits_01.wav", "PEOPLE", "FIGHT\\beatris_hits_02.wav"]
+
+[W_attack_thrust11]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\jessika_hits_04.wav"]
+
+[W_attack_thrust2]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\beatris_hits_03.wav"]
+
+[W_attack_thrust21]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\jessika_hits_04.wav"]
+
+[W_attack_slash1]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\beatris_hits_04.wav", "PEOPLE", "FIGHT\\beatris_hits_05.wav"]
+
+[W_attack_slash11]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\jessika_hits_06.wav"]
+
+[W_attack_slash2]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\beatris_hits_06.wav", "PEOPLE", "FIGHT\\beatris_hits_07.wav"]
+
+[W_attack_slash21]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\jessika_hits_01.wav"]
+
+[W_attack_round]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\beatris_hits_08.wav", "PEOPLE", "FIGHT\\beatris_hits_09.wav"]
+
+[W_attack_round_1]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\jessika_hits_03.wav"]
+
+[W_attack_break]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 1.05
+name = ["PEOPLE", "FIGHT\\beatris_hits_10.wav"]
+
+[W_attack_break_1]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 1.05
+name = ["PEOPLE", "FIGHT\\jessika_damage_01.wav"]
+
+[W_attack_parry]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\beatris_hits_03.wav"]
+
+[W_attack_parry_1]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\jessika_hits_05.wav"]
+
+[W_attack_feint]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\beatris_hits_10.wav"]
+
+[W_attack_feint_1]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\jessika_damage_01.wav"]
+
+[W_attack_feintc]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.85
+name = ["PEOPLE", "FIGHT\\beatris_hits_03.wav"]
+
+[W_attack_feintc_1]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.85
+name = ["PEOPLE", "FIGHT\\jessika_hits_02.wav"]
+
+[W_blockbreak]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\Damage_NPC_07.wav"]
+
+[W_manhit]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\Beatris_damage_01.wav", "PEOPLE", "FIGHT\\Beatris_damage_02.wav", "PEOPLE", "FIGHT\\Beatris_damage_03.wav"]
+
+[W_manhit_1]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\Jessika_damage_02.wav"]
+
+[W_parryhit]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav"]
+
+[W_fight_death1]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\body_fall_01.wav"]
+
+[W_fight_death2]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\body_fall_02.wav"]
+
+[W_fight_death3]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\body_fall_03.wav"]
+
+[W_fight_death4]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\body_fall_04.wav"]
+
+[w_recoil]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\Beatris_bounce_01.wav"]
+
+[w_recoil_1]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\jessika_hits_01.wav"]
+
+[citizen_death1]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\citiz_death_01.wav"]
+
+[citizen_death2]
+mindistance = 4.0
+maxdistance = 17.0
+volume = 0.7
+name = ["PEOPLE", "FIGHT\\citiz_death_02.wav"]
+
+[hitnofight]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\Damage_NPC_04.wav"]
+
+[w_death1]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\peace_woman_death_01.wav"]
+
+[w_death2]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\Peace_woman_death_02.WAV"]
+
+[w_death3]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\peace_woman_death_03.wav"]
+
+[w_death4]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\peace_woman_death_04.wav"]
+
+[w_death5]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\peace_woman_death_05.wav"]
+
+[w_death6]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\peace_woman_death_06.wav"]
+
+[w_death7]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\peace_woman_death_07.wav"]
+
+[w_death8]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\peace_woman_death_08.wav"]
+
+[w_death9]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\peace_woman_death_09.wav"]
+
+[w_hit]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\beatris_damage_01.wav"]
+
+[w_deathAfraid1]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\afraid_death_woman_01.wav"]
+
+[w_deathAfraid2]
+mindistance = 4.0
+maxdistance = 17.0
+name = ["PEOPLE", "FIGHT\\afraid_death_woman_01.wav"]
+
+[misc_cough]
+volume = 0.7
+mindistance = 4.0
+maxdistance = 17.0
+name = "PEOPLE\\misc_cough.wav"
+
+[w_misc_cough]
+volume = 0.7
+mindistance = 4.0
+maxdistance = 17.0
+name = "PEOPLE\\w_misc_cough.wav"
+
+[ass]
+volume = 0.7
+mindistance = 4.0
+maxdistance = 17.0
+name = "PEOPLE\\scratch_back_01.wav"
+
+[hair]
+volume = 0.7
+mindistance = 4.0
+maxdistance = 17.0
+name = "PEOPLE\\hair_01.wav"
+
+[sleeves]
+volume = 0.7
+mindistance = 4.0
+maxdistance = 17.0
+name = "PEOPLE\\shake_sleeve_01.wav"
+
+[abordage]
+volume = 1.5
+name = ["people", "fight\\boarding_people_01.wav", "people", "fight\\boarding_people_02.wav"]
+
+[barmen_clean]
+mindistance = 2.0
+maxdistance = 4.0
+name = "PEOPLE\\barmen_cleaning.wav"
+
+[barmen2table]
+mindistance = 2.0
+maxdistance = 4.0
+name = "PEOPLE\\barmen2table.wav"
+
+[catchfly]
+volume = 0.4
+mindistance = 1.0
+maxdistance = 3.0
+name = "PEOPLE\\fly_catcher_01.wav"
+
+[kirka_kick]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["Sea", "Battles\\udar_metal_003.wav", "Sea", "Battles\\udar_metal_003.wav", "Sea", "Battles\\udar_metal_002.wav"]
+
+[cannon_fire]
+prior = 120
+mindistance = 15.0
+maxdistance = 300.0
+volume = 1.0
+name = ["SEA", "BATTLES\\cannon_fire_01.wav", "SEA", "BATTLES\\cannon_fire_02.wav", "SEA", "BATTLES\\cannon_fire_03.wav"]
+
+[fort_cannon_fire]
+prior = 120
+mindistance = 300.0
+maxdistance = 600.0
+volume = 1.0
+name = ["SEA", "BATTLES\\fort_cannon_01.wav", "SEA", "BATTLES\\fort_cannon_02.wav", "SEA", "BATTLES\\fort_cannon_03.wav"]
+
+[cannon_fire_cannon_3]
+prior = 120
+mindistance = 15.0
+maxdistance = 300.0
+volume = 1.0
+name = ["SEA", "BATTLES\\cannon_fire_05.wav"]
+
+[cannon_fire_cannon_6]
+prior = 120
+mindistance = 15.0
+maxdistance = 300.0
+volume = 1.0
+name = ["SEA", "BATTLES\\cannon_fire_01.wav"]
+
+[cannon_fire_cannon_12]
+prior = 120
+mindistance = 15.0
+maxdistance = 300.0
+volume = 1.0
+name = ["SEA", "BATTLES\\cannon_fire_02.wav"]
+
+[cannon_fire_cannon_16]
+prior = 120
+mindistance = 15.0
+maxdistance = 300.0
+volume = 1.0
+name = ["SEA", "BATTLES\\cannon_fire_03.wav"]
+
+[cannon_fire_cannon_20]
+prior = 120
+mindistance = 300.0
+maxdistance = 600.0
+volume = 1.0
+name = ["SEA", "BATTLES\\cannon_fire_07.wav"]
+
+[cannon_fire_cannon_24]
+prior = 120
+mindistance = 300.0
+maxdistance = 600.0
+volume = 1.0
+name = ["SEA", "BATTLES\\cannon_fire_11.wav"]
+
+[cannon_fire_cannon_32]
+prior = 120
+mindistance = 300.0
+maxdistance = 600.0
+volume = 1.0
+name = ["SEA", "BATTLES\\fort_cannon_02.wav"]
+
+[cannon_fire_cannon_36]
+prior = 120
+mindistance = 300.0
+maxdistance = 600.0
+volume = 1.0
+name = ["SEA", "BATTLES\\fort_cannon_03.wav"]
+
+[cannon_fire_cannon_42]
+prior = 120
+mindistance = 300.0
+maxdistance = 600.0
+volume = 1.0
+name = ["SEA", "BATTLES\\cannon_fire_10.wav"]
+
+[cannon_fire_cannon_48]
+prior = 120
+mindistance = 300.0
+maxdistance = 600.0
+volume = 1.0
+name = ["SEA", "BATTLES\\cannon_fire_09.wav"]
+
+[cannon_fire_culverine_8]
+prior = 120
+mindistance = 15.0
+maxdistance = 300.0
+volume = 1.0
+name = ["SEA", "BATTLES\\cannon_fire_06.wav"]
+
+[cannon_fire_culverine_18]
+prior = 120
+mindistance = 15.0
+maxdistance = 300.0
+volume = 1.0
+name = ["SEA", "BATTLES\\cannon_fire_08.wav"]
+
+[cannon_fire_culverine_36]
+prior = 120
+mindistance = 300.0
+maxdistance = 600.0
+volume = 1.0
+name = ["SEA", "BATTLES\\fort_cannon_01.wav"]
+
+[ball_splash]
+prior = 200
+mindistance = 2.0
+maxdistance = 30.0
+volume = 0.55
+name = ["SEA", "BATTLES_01\\splash_01.wav", "SEA", "BATTLES_01\\splash_02.wav", "SEA", "BATTLES_01\\splash_03.wav"]
+
+[ball2bort]
+prior = 200
+volume = 0.55
+mindistance = 20.0
+maxdistance = 100.0
+name = ["SEA", "BATTLES_01\\balls_board_01.wav", "SEA", "BATTLES_01\\balls_board_02.wav", "SEA", "BATTLES_01\\balls_board_03.wav", "SEA", "BATTLES_01\\balls_board_04.wav", "SEA", "BATTLES_01\\balls_board_05.wav", "SEA", "BATTLES_01\\balls_board_06.wav"]
+
+[bomb2bort]
+prior = 200
+volume = 0.55
+mindistance = 20.0
+maxdistance = 100.0
+name = ["SEA", "BATTLES_01\\bomb_explosion_01.wav", "SEA", "BATTLES_01\\bomb_explosion_02.wav", "SEA", "BATTLES_01\\bomb_explosion_03.wav", "SEA", "BATTLES_01\\bomb_explosion_04.wav", "SEA", "BATTLES_01\\bomb_explosion_05.wav", "SEA", "BATTLES_01\\bomb_explosion_06.wav"]
+
+[grapes2bort]
+prior = 200
+volume = 0.55
+mindistance = 20.0
+maxdistance = 100.0
+name = ["Sea", "Battles_01\\shrapnel_damage_01.wav", "Sea", "Battles_01\\shrapnel_damage_02.wav", "Sea", "Battles_01\\shrapnel_damage_03.wav", "Sea", "Battles_01\\shrapnel_damage_04.wav", "Sea", "Battles_01\\shrapnel_damage_05.wav", "Sea", "Battles_01\\shrapnel_damage_06.wav"]
+
+[ball2sail]
+prior = 200
+mindistance = 20.0
+maxdistance = 100.0
+name = ["Sea", "Battles_01\\sail_hit_small_01.wav", "SEA", "BATTLES_01\\sail_hit_small_02.wav", "SEA", "BATTLES_01\\sail_hit_small_03.wav"]
+
+[knippel2sail]
+prior = 200
+mindistance = 20.0
+maxdistance = 100.0
+name = ["SEA", "BATTLES_01\\sail_hit_small_01.wav", "SEA", "BATTLES_01\\sail_hit_small_02.wav", "SEA", "BATTLES_01\\sail_hit_small_03.wav"]
+
+[grapes2sail]
+prior = 200
+mindistance = 20.0
+maxdistance = 100.0
+name = ["SEA", "BATTLES_01\\sail_hit_small_01.wav", "SEA", "BATTLES_01\\sail_hit_small_02.wav", "SEA", "BATTLES_01\\sail_hit_small_03.wav"]
+
+[episode_boom]
+prior = 255
+mindistance = 20.0
+maxdistance = 100.0
+name = ["SEA", "BATTLES\\sdavl_kriki_001.wav", "SEA", "BATTLES\\sdavl_kriki_002.wav", "SEA", "BATTLES\\sdavl_kriki_003.wav", "SEA", "BATTLES\\sdavl_kriki_004.wav", "SEA", "BATTLES\\sdavl_kriki_005.wav"]
+
+[fly_ball]
+prior = 230
+mindistance = 2.0
+maxdistance = 30.0
+volume = 0.9
+name = ["SEA", "BATTLES_01\\swish_balls_01.wav", "SEA", "BATTLES_01\\swish_balls_02.wav", "SEA", "BATTLES_01\\swish_balls_03.wav", "SEA", "BATTLES_01\\swish_balls_04.wav", "SEA", "BATTLES_01\\swish_balls_05.wav", "SEA", "BATTLES_01\\swish_balls_06.wav"]
+
+[fly_ball_misc]
+prior = 230
+mindistance = 2.0
+maxdistance = 30.0
+volume = 0.9
+name = ["SEA", "BATTLES_01\\swish_balls_01.wav", "SEA", "BATTLES_01\\swish_balls_02.wav", "SEA", "BATTLES_01\\swish_balls_03.wav", "SEA", "BATTLES_01\\swish_balls_04.wav", "SEA", "BATTLES_01\\swish_balls_05.wav", "SEA", "BATTLES_01\\swish_balls_06.wav"]
+
+[mast_fall]
+mindistance = 50.0
+maxdistance = 250.0
+name = ["SEA", "BATTLES\\mast_fall_01.wav"]
+
+[coll_ship2rock]
+mindistance = 30.0
+maxdistance = 350.0
+name = ["SHIP\\korabl_v_skalu_001.wav", "SHIP\\korabl_v_skalu_002.wav", "SHIP\\korabl_v_skalu_003.wav"]
+
+[coll_ship2ship]
+mindistance = 30.0
+maxdistance = 350.0
+name = "SHIP\\ship_hit_ship_01.wav"
+
+[fort_cann_explode]
+mindistance = 30.0
+maxdistance = 350.0
+prior = 255
+name = ["SEA", "BATTLES_01\\cannon_explosion_01.wav", "SEA", "BATTLES_01\\cannon_explosion_02.wav"]
+
+[cannon_explosion]
+mindistance = 30.0
+maxdistance = 350.0
+prior = 255
+volume = 0.6
+name = ["SEA", "BATTLES_01\\cannon_explosion_01.wav", "SEA", "BATTLES_01\\cannon_explosion_02.wav"]
+
+[ship_aground]
+mindistance = 11.0
+maxdistance = 30.0
+volume = 1.0
+name = ["SHIP\\korabl_v_skalu_001.wav", "SHIP\\korabl_v_skalu_002.wav", "SHIP\\korabl_v_skalu_003.wav"]
+
+[ship_onfire]
+mindistance = 50.0
+maxdistance = 100.0
+volume = 0.3
+name = ["SEA", "BATTLES_01\\ship_burn_01.wav"]
+
+[ship_explosion]
+prior = 128
+mindistance = 20.0
+maxdistance = 250.0
+volume = 0.5
+name = ["SEA", "BATTLES\\vzriv_pogreb_001.wav", "SEA", "BATTLES\\vzriv_pogreb_002.wav", "SEA", "BATTLES\\vzriv_pogreb_003.wav"]
+
+[ship_sink]
+mindistance = 20.0
+maxdistance = 350.0
+volume = 0.65
+name = ["SEA", "BATTLES\\korabl_tonet_001.wav", "SEA", "BATTLES\\korabl_tonet_002.wav", "SEA", "BATTLES\\korabl_tonet_003.wav"]
+
+[bortreloaded_cannonl]
+mindistance = 20.0
+maxdistance = 350.0
+name = "Lokk\\_GunReadyL.wav"
+
+[bortreloaded_cannonr]
+mindistance = 20.0
+maxdistance = 350.0
+name = "Lokk\\_GunReadyR.wav"
+
+[bortreloaded_all]
+mindistance = 20.0
+maxdistance = 350.0
+name = "ship\\jakor_002.wav"
+
+[reloadstart_balls]
+mindistance = 20.0
+maxdistance = 350.0
+name = "Lokk\\_balls.wav"
+
+[reloadstart_knippels]
+mindistance = 20.0
+maxdistance = 350.0
+name = "Lokk\\_chain.wav"
+
+[reloadstart_grapes]
+mindistance = 20.0
+maxdistance = 350.0
+name = "Lokk\\_grapes.wav"
+
+[reloadstart_bombs]
+mindistance = 20.0
+maxdistance = 350.0
+name = "Lokk\\_bombs.wav"
+
+[water_menu]
+name = "AMBIENT\\LAND\\sea_for_menu_01.wav"
+
+[notebook]
+name = "INTERFACE\\notebook_01.wav"
+
+[torch_deck]
+mindistance = 0.05
+maxdistance = 5.5
+volume = 0.7
+name = "WEATHER\\koster_001.wav"
+
+[fortfire]
+mindistance = 1.5
+maxdistance = 15.5
+volume = 0.7
+name = ["SEA", "BATTLES\\korabl_gorit_001.wav", "SEA", "BATTLES\\korabl_gorit_002.wav", "SEA", "BATTLES\\korabl_gorit_003.wav"]
+
+[Explode]
+prior = 128
+mindistance = 10.0
+maxdistance = 100.0
+volume = 1.0
+name = ["SEA", "BATTLES\\vzriv_pogreb_002.wav"]
+
+[Boom]
+prior = 128
+mindistance = 10.0
+maxdistance = 100.0
+volume = 1.0
+name = "Interface\\Boom.wav"
+
+[cannon_fire_1]
+prior = 128
+mindistance = 10.0
+maxdistance = 100.0
+volume = 10.0
+name = ["SEA", "BATTLES\\cannon_fire_07.wav"]
+
+[cannon_fire_2]
+prior = 128
+mindistance = 10.0
+maxdistance = 100.0
+volume = 10.0
+name = ["SEA", "BATTLES\\Fort_cannon_01.wav"]
+
+[Big_ring]
+prior = 128
+mindistance = 5.0
+maxdistance = 50.0
+volume = 1.0
+name = "Ambient\\Teno_inside\\big_ring.wav"
+
+[knock]
+name = "INTERFACE\\knock.wav"
+
+[door_locked]
+name = "INTERFACE\\door_locked.wav"
+
+[drop_cave]
+name = ["AMBIENT\\Cave\\cap1.wav", "AMBIENT\\Cave\\cap2.wav", "AMBIENT\\Cave\\cap3.wav", "AMBIENT\\Cave\\cap4.wav", "AMBIENT\\Cave\\cap5.wav", "AMBIENT\\Cave\\cap6.wav"]
+
+[coins]
+name = ["AMBIENT\\TAVERN\\monetki_taverna_001.wav", "AMBIENT\\TAVERN\\monetki_taverna_002.wav", "AMBIENT\\TAVERN\\monetki_taverna_003.wav", "AMBIENT\\TAVERN\\monetki_taverna_001.wav"]
+
+[noise]
+name = ["AMBIENT\\SHOP\\noise1.wav", "AMBIENT\\SHOP\\noise2.wav", "AMBIENT\\SHOP\\noise3.wav", "AMBIENT\\SHOP\\noise4.wav"]
+
+[zalp]
+name = ["Sea", "Battles\\mushketn_zalp_001.wav", "Sea", "Battles\\mushketn_zalp_002.wav", "Sea", "Battles\\mushketn_zalp_003.wav"]
+
+[svist_shrapneli]
+name = ["Sea", "Battles\\svist_shrapneli_001.wav", "Sea", "Battles\\svist_shrapneli_002.wav", "Sea", "Battles\\svist_shrapneli_003.wav"]
+
+[sigh]
+mindistance = 0.5
+maxdistance = 6.0
+volume = 2.4
+name = ["AMBIENT\\SHOP\\sigh1.wav", "AMBIENT\\SHOP\\sigh2.wav"]
+
+[waitress]
+volume = 1.5
+name = ["AMBIENT\\SHOP\\noise4.wav", "AMBIENT\\SHOP\\noise1.wav", "AMBIENT\\SHOP\\noise2.wav", "AMBIENT\\SHOP\\noise3.wav", "AMBIENT\\SHOP\\noise4.wav", "AMBIENT\\TAVERN\\naliv_001.wav", "AMBIENT\\TAVERN\\naliv_002.wav", "AMBIENT\\TAVERN\\naliv_003.wav"]
+
+[waitress_brm]
+name = ["AMBIENT\\SHOP\\sigh1.wav", "AMBIENT\\TAVERN\\monetki_taverna_001.wav", "AMBIENT\\TAVERN\\monetki_taverna_002.wav", "AMBIENT\\TAVERN\\monetki_taverna_003.wav", "AMBIENT\\SHOP\\sigh1.wav", "AMBIENT\\SHOP\\sigh1.wav", "AMBIENT\\SHOP\\sigh1.wav"]
+
+[barman_do]
+name = ["AMBIENT\\SHOP\\noise4.wav", "AMBIENT\\SHOP\\noise1.wav", "AMBIENT\\SHOP\\noise2.wav", "AMBIENT\\SHOP\\noise3.wav", "AMBIENT\\SHOP\\noise4.wav", "AMBIENT\\TAVERN\\naliv_001.wav", "AMBIENT\\TAVERN\\naliv_002.wav", "AMBIENT\\TAVERN\\naliv_003.wav"]
+
+[barman_wtrs]
+name = ["AMBIENT\\SHOP\\sigh2.wav", "AMBIENT\\TAVERN\\monetki_taverna_001.wav", "AMBIENT\\TAVERN\\monetki_taverna_002.wav", "AMBIENT\\TAVERN\\monetki_taverna_003.wav", "AMBIENT\\SHOP\\sigh2.wav", "AMBIENT\\SHOP\\sigh2.wav", "AMBIENT\\SHOP\\sigh2.wav"]
+
+[owner]
+volume = 2.5
+name = ["AMBIENT\\SHOP\\noise4.wav", "AMBIENT\\SHOP\\noise1.wav", "AMBIENT\\SHOP\\noise2.wav", "AMBIENT\\SHOP\\noise3.wav", "AMBIENT\\SHOP\\noise4.wav", "AMBIENT\\SHOP\\sigh1.wav", "AMBIENT\\SHOP\\sigh2.wav"]
+
+[warrior]
+mindistance = 0.5
+maxdistance = 15.0
+volume = 3.5
+name = ["Types\\warrior05.wav", "Types\\warrior_dam02.wav", "Types\\warrior_dam03.wav", "Types\\warrior_dam01.wav", "Types\\warrior01.wav", "Types\\warrior02.wav", "Types\\warrior03.wav", "Types\\warrior04.wav", "Types\\warrior05.wav"]
+
+[skeleton]
+mindistance = 0.5
+maxdistance = 7.0
+volume = 2.0
+name = "Types\\skel.wav"
+
+[toArm]
+mindistance = 0.5
+maxdistance = 20.0
+volume = 1.0
+name = "VOICE\\Russian\\EvilPirates01.wav"
+
+[sold_weapon_off]
+mindistance = 0.1
+maxdistance = 50.0
+volume = 2.0
+name = ["Types\\soldiers1.wav", "Types\\soldiers2.wav", "Types\\soldiers1.wav", "Types\\soldiers2.wav"]
+
+[cit_common]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\cit_common_1.wav", "VOICE\\Russian\\cit_common_1.wav", "VOICE\\Russian\\cit_common_2.wav", "VOICE\\Russian\\cit_common_3.wav", "VOICE\\Russian\\cit_common_4.wav"]
+
+[Gr_Woman_Citizen]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 1.0
+name = ["VOICE\\Russian\\Gr_Woman_Citizen_1.wav", "VOICE\\Russian\\Gr_Woman_Citizen_2.wav", "VOICE\\Russian\\Gr_Woman_Citizen_3.wav", "VOICE\\Russian\\Gr_Woman_Citizen_4.wav", "VOICE\\Russian\\Gr_Woman_Citizen_5.wav", "VOICE\\Russian\\Gr_Woman_Citizen_6.wav", "VOICE\\Russian\\Gr_Woman_Citizen_7.wav", "VOICE\\Russian\\Gr_Woman_Citizen_8.wav", "VOICE\\Russian\\Gr_Woman_Citizen_9.wav", "VOICE\\Russian\\Gr_Woman_Citizen_10.wav", "VOICE\\Russian\\Gr_Woman_Citizen_11.wav", "VOICE\\Russian\\Gr_Woman_Citizen_12.wav", "VOICE\\Russian\\Gr_Woman_Citizen_13.wav", "VOICE\\Russian\\Gr_Woman_Citizen_14.wav", "VOICE\\Russian\\Gr_Woman_Citizen_15.wav", "VOICE\\Russian\\Gr_Woman_Citizen_16.wav", "VOICE\\Russian\\Gr_Woman_Citizen_17.wav", "VOICE\\Russian\\Gr_Woman_Citizen_1.wav"]
+
+[jump]
+mindistance = 0.57
+maxdistance = 50.0
+volume = 0.76
+name = "PEOPLE\\jump.wav"
+
+[jump_water]
+mindistance = 0.62
+maxdistance = 50.0
+volume = 0.85
+name = "PEOPLE\\jump_water.wav"
+
+[swiming]
+mindistance = 0.6
+maxdistance = 40.0
+volume = 0.5
+name = "PEOPLE\\swiming.wav"
+
+[clothes]
+mindistance = 0.95
+maxdistance = 10.0
+volume = 0.4
+name = ["PEOPLE\\clothes1.wav", "PEOPLE\\clothes2.wav", "PEOPLE\\clothes3.wav", "PEOPLE\\clothes4.wav"]
+
+[underwater_al]
+mindistance = 0.1
+maxdistance = 100.0
+volume = 2.0
+name = "Music\\Underwater.mp3"
+
+[attack_crab_fast]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\crab_fast1.wav", "PEOPLE", "FIGHT\\crab_fast2.wav", "PEOPLE", "FIGHT\\crab_fast3.wav", "PEOPLE", "FIGHT\\crab_fast1.wav"]
+
+[attack_crab_mid]
+mindistance = 4.0
+maxdistance = 37.0
+volume = 0.99
+name = ["PEOPLE", "FIGHT\\crab_mid1.wav"]
+
+[pellet]
+mindistance = 5.4
+maxdistance = 200.0
+volume = 2.0
+name = ["Sea", "Battles_01\\Bomb_Explosion_03.wav"]
+
+[grenade]
+mindistance = 5.4
+maxdistance = 200.0
+volume = 2.0
+name = ["Sea", "Battles\\popadan_bomb_002.wav"]

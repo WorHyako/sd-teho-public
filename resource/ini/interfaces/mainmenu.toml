@@ -1,0 +1,69 @@
+[MAIN]
+
+[MAIN_WINDOW]
+show = 1
+nodelist = ["VIDEOBASE", "B_NEWGAME", "B_LOAD", "B_OPTIONS", "B_CREDITS", "B_QUIT", "EXIT_BTN", "BACKPICTURE"]
+
+[B_NEWGAME]
+command = ["click", "activate", "downstep", "select:B_LOAD"]
+position = [500, 350, 740, 380]
+font = "interface_button"
+string = ["New", "Game"]
+
+[B_LOAD]
+command = ["click", "activate", "upstep", "select:B_NEWGAME", "downstep", "select:B_OPTIONS"]
+position = [500, 390, 740, 420]
+font = "interface_button"
+string = "Load"
+
+[B_OPTIONS]
+command = ["click", "activate", "upstep", "select:B_LOAD", "downstep", "select:B_CREDITS"]
+position = [500, 430, 740, 460]
+font = "interface_button"
+string = "Options"
+
+[B_CREDITS]
+command = ["click", "activate", "upstep", "select:B_OPTIONS", "downstep", "select:B_QUIT"]
+position = [500, 470, 740, 500]
+font = "interface_button"
+string = "Credits"
+
+[B_QUIT]
+command = ["click", "activate", "upstep", "select:B_CREDITS"]
+position = [500, 510, 740, 540]
+font = "interface_button"
+string = "Quit"
+
+[EXIT_BTN]
+command = "click"
+position = [770, 5, 795, 30]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+shadowcolor = [0, 0, 0, 0]
+
+[BACKPICTURE]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+texturename = "loading\\SeaStand.tga"
+
+[CONFIRM_EXIT_WINDOW]
+show = 0
+nodelist = ["CONFIRM_EXIT_FRAME", "CONFIRM_TEXTWINDOW", "CONFIRM_YES_BUTTON", "CONFIRM_NO_BUTTON", "CONFIRM_RECTANGLE"]
+
+[CONFIRM_EXIT_FRAME]
+position = [200, 270, 600, 400]
+
+[CONFIRM_TEXTWINDOW]
+position = [210, 300, 590, 400]
+linespace = 20
+string = "Confirm_exit_from_menu"
+
+[CONFIRM_YES_BUTTON]
+command = ["activate", "event:ExitProgram", "click", "event:ExitProgram", "rightstep", "select:CONFIRM_NO_BUTTON"]
+position = [210, 360, 395, 390]
+string = "Yes"
+
+[CONFIRM_NO_BUTTON]
+command = ["activate", "click", "leftstep", "select:CONFIRM_YES_BUTTON"]
+position = [405, 360, 590, 390]
+string = "No"

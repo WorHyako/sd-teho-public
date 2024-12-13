@@ -1,0 +1,45 @@
+[MAIN]
+item = ["PICTURE", "MAIN_BACK", "TITLE", "TITLE", "200", "TEXTBUTTON2", "BTN_CANCEL", "200", "TABLE", "TABLE_LIST", "201", "SCROLLER", "SCROLL_LIST"]
+start = "BTN_CANCEL"
+
+[MAIN_BACK]
+position = [0, 0, 800, 600]
+texturename = "interfaces\\mainback.tga"
+
+[TITLE]
+stringwidth = 260
+
+[BTN_CANCEL]
+bbreakcommand = 1
+command = ["deactivate", "event:OnCancel", "click", "event:OnCancel", "activate", "event:OnCancel"]
+position = [314, 556, 491, 588]
+string = "btnNetTopList_Cancel"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[TABLE_LIST]
+command = ["deactivate", "event:OnCancel", "click", "event:List_OnClick", "select:TABLE_LIST", "upstep", "downstep"]
+position = [14, 55, 787, 545]
+scroller = "SCROLL_LIST"
+vlinewidth = 2
+hlineheight = 2
+rowquantity = 15
+colquantity = 7
+fontcellvalignment = "center"
+selectimage = ["color=(100", "200", "120", "55)"]
+colswidth = [246, 15, 62, 89, 63, 234, 60]
+rowsheight = [34, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 8]
+isvariablelineheight = 1
+normallineheight = 32
+
+[SCROLL_LIST]
+command = ["click", "select:TABLE_LIST", "downstep", "upstep"]
+position = [261, 55, 275, 541]
+basetexture = "interfaces\\icons.tga"
+rollertexture = "interfaces\\icons.tga"
+scrolltexpos = [0.0, 0.75, 0.045, 1.0]
+rolltexpos = [0.0625, 0.875, 0.1075, 0.96]
+begendtexsize = 0.0835
+begendbasesize = 18
+rollerheight = 18
+ownedcontrol = "TABLE_LIST"

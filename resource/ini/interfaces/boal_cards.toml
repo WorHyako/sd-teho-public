@@ -1,0 +1,57 @@
+[MAIN]
+item = ["VIDEO", "VIDEOBASE", "PICTURE", "SCROLLPICT", "100", "pc", "BUTTON", "EXIT_BTN", "200", "BUTTON", "B_PACK", "RECTANGLE", "INF_RECT", "100", "PICTURE", "ICON_1", "100", "PICTURE", "ICON_2", "100", "PICTURE", "ICON_GOLD", "100", "PICTURE", "ICON_CHECT", "FORMATEDTEXT", "INFO_TEXT", "200", "BUTTON", "B_ICON_1", "200", "BUTTON", "B_ICON_2"]
+
+[EXIT_BTN]
+position = [777, 0, 799, 22]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+
+[SCROLLPICT]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+texturename = "interfaces\\card_desk.tga"
+
+[B_PACK]
+bbreakcommand = 1
+command = "click"
+position = [95, 215, 200, 370]
+
+[INF_RECT]
+position = [480, 230, 750, 380]
+leftcolor = [205, 255, 255, 255]
+topcolor = [128, 50, 30, 30]
+rightcolor = [205, 255, 255, 255]
+bottomcolor = [128, 50, 30, 30]
+
+[ICON_1]
+position = [710, 232, 748, 270]
+texturename = "interfaces\\empty_face.tga"
+
+[ICON_2]
+position = [710, 340, 748, 378]
+texturename = "interfaces\\empty_face.tga"
+
+[ICON_GOLD]
+position = [482, 338, 520, 376]
+texturename = "interfaces\\BoxImage.tga"
+
+[ICON_CHECT]
+position = [482, 284, 524, 326]
+texturename = "interfaces\\gold.tga"
+
+[INFO_TEXT]
+position = [480, 238, 710, 289]
+linespace = 13
+font = ["interface_ultrasmall", "1"]
+
+[B_ICON_1]
+bbreakcommand = 1
+command = "click"
+position = [710, 232, 748, 270]
+
+[B_ICON_2]
+bbreakcommand = 1
+command = "click"
+position = [710, 340, 748, 378]

@@ -1,0 +1,45 @@
+[MAIN]
+item = ["PICTURE", "MAIN_BACK", "TITLE", "TITLE", "200", "TABLE", "TABLE_LIST", "200", "TEXTBUTTON2", "BTN_CANCEL", "200", "CHECKBUTTON", "CHECKBUTTON_LOADICONS", "201", "SCROLLER", "SCROLL_LIST"]
+start = "BTN_CANCEL"
+
+[CHECKBUTTON_LOADICONS]
+command = ["deactivate", "event:OnCancel", "click"]
+iconsize = [16, 16]
+position = [25, 554, 164, 577]
+rect_textoffset = [20, 0, 0, 0]
+alignment = "left"
+sectioninterval = 22
+section1 = ["0", "0", "checkNetTopList_LoadIcons"]
+
+[BTN_CANCEL]
+bbreakcommand = 1
+command = ["deactivate", "event:OnCancel", "activate", "event:OnCancel", "click", "event:OnCancel"]
+position = [310, 557, 487, 589]
+string = "btnNetTopList_Cancel"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[MAIN_BACK]
+position = [0, 0, 800, 600]
+texturename = "interfaces\\mainback.tga"
+
+[TITLE]
+stringwidth = 260
+
+[TABLE_LIST]
+command = ["deactivate", "event:OnCancel", "click", "event:List_OnClick", "select:TABLE_LIST", "upstep", "downstep"]
+position = [14, 55, 774, 547]
+vlinewidth = 2
+hlineheight = 2
+rowquantity = 15
+colquantity = 9
+fontcellvalignment = "center"
+rowsheight = [40, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
+selectimage = ["color=(100", "200", "120", "55)"]
+colswidth = [207, 84, 52, 63, 61, 60, 66, 71, 92]
+nodelist = "SCROLL_LIST"
+
+[SCROLL_LIST]
+command = ["deactivate", "event:OnCancel", "click", "select:TABLE_INETSERVER", "downstep", "upstep"]
+position = [774, 55, 788, 547]
+ownedcontrol = "TABLE_LIST"

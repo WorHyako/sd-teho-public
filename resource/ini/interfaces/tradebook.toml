@@ -1,0 +1,141 @@
+[MAIN]
+item = ["PICTURE", "MAIN_BACK", "TITLE", "TITLE", "100", "pc", "BUTTON", "EXIT_BTN", "200", "BUTTON", "I_CHARACTER_2", "200", "BUTTON", "I_SHIP_2", "200", "BUTTON", "I_QUESTBOOK_2", "200", "BUTTON", "I_NATIONS_2", "200", "BUTTON", "I_ITEMS_2", "100", "pc", "BUTTON", "I_CHARACTER", "100", "pc", "BUTTON", "I_SHIP", "100", "pc", "BUTTON", "I_QUESTBOOK", "100", "pc", "BUTTON", "I_NATIONS", "100", "pc", "BUTTON", "I_ITEMS", "STRINGCOLLECTION", "STR_BUTTONS", "FRAME", "BACK_FRAME", "200", "TABLE", "TABLE_CITY", "201", "SCROLLER", "SCROLL_CITY", "200", "TABLE", "TABLE_GOODS", "201", "SCROLLER", "SCROLL_GOODS"]
+
+[MAIN_BACK]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+texturename = "interfaces\\card_desk.tga"
+
+[EXIT_BTN]
+position = [774, 45, 796, 67]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+
+[STR_BUTTONS]
+string = ["buttonCharacter", "font:INTERFACE_TITLE", "pos:{70", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}", "buttonShip", "font:INTERFACE_TITLE", "pos:{230", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}", "buttonQuestBook", "font:INTERFACE_TITLE", "pos:{390", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}", "buttonNation", "font:INTERFACE_TITLE", "pos:{550", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}", "Sel", "Items", "font:INTERFACE_TITLE", "pos:{710", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}"]
+
+[I_CHARACTER]
+bbreakcommand = 1
+command = ["click", "deactivate", "event:exitCancel"]
+group = "ICONS_SPEC"
+picture = ["pers", "button"]
+position = [0, 0, 50, 50]
+shadowcolor = [0, 0, 0, 0]
+
+[I_SHIP]
+bbreakcommand = 1
+command = ["click", "deactivate", "event:exitCancel"]
+group = "ICONS_SPEC"
+picture = ["ship", "button"]
+position = [160, 0, 210, 50]
+shadowcolor = [0, 0, 0, 0]
+
+[I_QUESTBOOK]
+bbreakcommand = 1
+command = ["click", "deactivate", "event:exitCancel"]
+group = "ICONS_SPEC"
+picture = ["questbook", "button"]
+position = [320, 0, 370, 50]
+shadowcolor = [0, 0, 0, 0]
+
+[I_NATIONS]
+bbreakcommand = 1
+command = ["click", "deactivate", "event:exitCancel"]
+group = "ICONS_SPEC"
+picture = ["nations", "button"]
+position = [480, 0, 530, 50]
+shadowcolor = [0, 0, 0, 0]
+
+[I_ITEMS]
+bbreakcommand = 1
+command = ["click", "deactivate", "event:exitCancel"]
+group = "ICONS_SPEC"
+picture = ["items", "button"]
+position = [640, 0, 690, 50]
+shadowcolor = [0, 0, 0, 0]
+
+[I_CHARACTER_2]
+bbreakcommand = 1
+command = "click"
+position = [50, 0, 160, 39]
+
+[I_SHIP_2]
+bbreakcommand = 1
+command = "click"
+position = [210, 0, 320, 39]
+
+[I_QUESTBOOK_2]
+bbreakcommand = 1
+command = "click"
+position = [370, 0, 480, 39]
+
+[I_NATIONS_2]
+bbreakcommand = 1
+command = "click"
+position = [530, 0, 640, 39]
+
+[I_ITEMS_2]
+bbreakcommand = 1
+command = "click"
+position = [690, 0, 800, 39]
+
+[TITLE]
+position = [0, 40, 800, 72]
+
+[BACK_FRAME]
+position = [14, 85, 791, 591]
+backimage = ["piclist=PAPIRUS_BIG", "picname=papirus", "big", "color=(255", "128", "128", "128)"]
+
+[TABLE_CITY]
+command = ["deactivate", "event:exitCancel", "click", "select:TABLE_CITY", "upstep", "downstep"]
+position = [21, 105, 309, 565]
+scroller = "SCROLL_CITY"
+vlinewidth = 2
+hlineheight = 2
+rowquantity = 14
+colquantity = 4
+fontcellvalignment = "center"
+selectimage = ["color=(100", "200", "120", "55)"]
+colswidth = [39, 88, 92, 65]
+rowsheight = [40, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
+normallineheight = 32
+
+[SCROLL_CITY]
+command = ["click", "select:TABLE_CITY", "deactivate", "event:exitCancel", "downstep", "upstep"]
+position = [309, 105, 323, 565]
+basetexture = "interfaces\\icons.tga"
+rollertexture = "interfaces\\icons.tga"
+scrolltexpos = [0.0, 0.75, 0.045, 1.0]
+rolltexpos = [0.0625, 0.875, 0.1075, 0.96]
+begendtexsize = 0.0835
+begendbasesize = 18
+rollerheight = 18
+ownedcontrol = "TABLE_CITY"
+
+[TABLE_GOODS]
+command = ["deactivate", "event:exitCancel", "click", "select:TABLE_GOODS", "rclick", "select:TABLE_GOODS", "event:ShowInfoWindow", "upstep", "downstep"]
+position = [328, 105, 772, 565]
+scroller = "SCROLL_GOODS"
+vlinewidth = 2
+hlineheight = 2
+rowquantity = 14
+colquantity = 7
+fontcellvalignment = "center"
+selectimage = ["color=(100", "200", "120", "55)"]
+colswidth = [137, 28, 55, 55, 65, 50, 50]
+rowsheight = [40, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
+normallineheight = 32
+
+[SCROLL_GOODS]
+command = ["click", "select:TABLE_GOODS", "deactivate", "event:exitCancel", "downstep", "upstep"]
+position = [772, 105, 786, 565]
+basetexture = "interfaces\\icons.tga"
+rollertexture = "interfaces\\icons.tga"
+scrolltexpos = [0.0, 0.75, 0.045, 1.0]
+rolltexpos = [0.0625, 0.875, 0.1075, 0.96]
+begendtexsize = 0.0835
+begendbasesize = 18
+rollerheight = 18
+ownedcontrol = "TABLE_GOODS"

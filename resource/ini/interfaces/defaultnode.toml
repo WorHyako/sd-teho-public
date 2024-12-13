@@ -1,0 +1,508 @@
+[LIST]
+glow_cursor = ["300", "GLOWCURSOR", "GLOWCURSOR"]
+
+[GLOWCURSOR]
+fonecolor = [255, 128, 128, 128]
+blindcolor = [255, 255, 255, 255]
+blinduptime = 1.0
+blinddowntime = 0.5
+offset = [40, 30]
+backtexture = "interfaces\\glow_button.tga"
+
+[TEXTBUTTON]
+facecolor = [255, 128, 128, 128]
+facecolorpressed = [255, 128, 128, 128]
+facecolorselected = [255, 128, 128, 128]
+shadowcolor = [255, 0, 0, 0]
+fontcolor = [255, 255, 255, 255]
+unselectablefontcolor = [255, 128, 128, 128]
+group = "MAIN_ICONS"
+presspictureoffset = [2, 2]
+pressdelay = 20
+font = "interface_button"
+stroffset = 7
+buttonleft = ["left", "side", "button"]
+buttonmiddle = ["middle", "side", "button"]
+selectbuttonmiddle = ["select", "middle", "side", "button"]
+selectbuttonleft = ["select", "left", "side", "button"]
+backcolor = [0, 0, 0, 0]
+class = "TEXTBUTTON"
+useactionbydeclick = 1
+
+[TEXTBUTTON2]
+facecolor = [255, 128, 128, 128]
+facecolorpressed = [255, 128, 128, 128]
+facecolorselected = [255, 128, 128, 128]
+shadowcolor = [255, 0, 0, 0]
+fontcolor = [255, 255, 255, 255]
+unselectablefontcolor = [255, 128, 128, 128]
+group = "MAIN_ICONS"
+pressdelay = 20
+font = "interface_button"
+stroffset = 7
+buttonleft = ["left", "side", "button2"]
+buttonmiddle = ["middle", "side", "button"]
+selectbuttonmiddle = ["select", "middle", "side", "button"]
+selectbuttonleft = ["select", "left", "side", "button2"]
+backcolor = [0, 0, 0, 0]
+class = "TEXTBUTTON"
+presspictureoffset = [2, 2]
+useactionbydeclick = 1
+
+[GLOWS]
+texture = "interfaces\\highlight.tga"
+spritesize = 24
+mincolor = [0, 255, 255, 255]
+maxcolor = [255, 255, 255, 255]
+minglowtime = 200
+maxglowtime = 200
+minshowtime = 100
+maxshowtime = 100
+createprobability = 0.001
+minrotatespeed = 70
+maxrotatespeed = 100
+
+[VIDEO]
+babsoluterectangle = 15
+stexture = "back"
+texturerect = [0, 0, 1, 1]
+position = [0, 0, 800, 600]
+color = [255, 128, 128, 128]
+
+[SLIDEPICTURE]
+babsoluterectangle = 15
+position = [0, 0, 800, 600]
+texturename = "interfaces\\old_map.tga"
+texturerect = [0.0, 0.0, 1.5, 1.0]
+color = [50, 128, 128, 128]
+rotate = [0.01, 0.005]
+speed = [6000.0, 0.03, 0.0]
+
+[RECTANGLE]
+position = [5, 176, 635, 475]
+leftcolor = [205, 255, 255, 255]
+topcolor = [205, 100, 50, 11]
+rightcolor = [205, 255, 255, 255]
+bottomcolor = [205, 100, 50, 11]
+
+[BOUNDER]
+position = [5, 176, 635, 475]
+color = [96, 128, 128, 128]
+groupname = "ICONS"
+pictures = ["border", "angle", "border", "line"]
+linesize = [43, 21]
+
+[TITLE]
+position = [0, 2, 800, 34]
+babsoluterectangle = 5
+imagecolor = [255, 128, 128, 128]
+fontcolor = [255, 255, 255, 255]
+backfontcolor = [0, 0, 0, 0]
+font = "interface_title"
+fontscale = 1.0
+imggroupname = "MAIN_ICONS"
+titletiled = "tile"
+titlemedium = "left"
+titlecenter = "center"
+stringoffset = 5
+
+[SLIDER]
+basetexture = "interfaces\\slider_line_base.tga"
+selecttexture = "interfaces\\slider_line.tga"
+pointertexture = "interfaces\\slider_pointer.tga"
+pointerwidth = 32
+pointerheight = 32
+baseleft = 32
+pointerleft = 18
+pitchcounter = 100
+speedslide = 10
+
+[SCROLLIMAGE]
+babsoluterectangle = 0
+position = [0, 39, 800, 167]
+fmovedelta = 35.0
+speedmul = 3
+imagesize = [128, 128]
+fboundscale = 1.0
+wdelta = 4
+blendcolor = [255, 128, 128, 128]
+blinddelay = 400
+layerquantity = 1
+dwnormalcolorargb1 = [255, 128, 128, 128]
+dwselectcolorargb1 = [255, 48, 48, 48]
+dwnormalcolorargb2 = [255, 128, 128, 128]
+dwselectcolorargb2 = [255, 168, 168, 168]
+bordershowup = 1
+border = ["ICONS", "select", "border"]
+font1 = "interface_normal"
+dwyoffset1 = 92
+dwforecolor1 = [255, 255, 255, 155]
+dwbackcolor1 = [0, 0, 0, 0]
+font2 = "interface_normal"
+dwforecolor2 = [255, 255, 255, 255]
+dwbackcolor2 = [0, 0, 0, 0]
+
+[BUTTON]
+disablecolor = [128, 128, 128, 128]
+facecolor = [255, 128, 128, 128]
+shadowcolor = [155, 0, 0, 0]
+blindtimesec = 0.5
+presspictureoffset = [2, 2]
+shadowoffset = [5, 5]
+pressshadowoffset = [0, 0]
+pressdelay = 20
+
+[FORMATEDTEXT]
+alignment = "center"
+linespace = 32
+color = [255, 255, 255, 255]
+font = "interface_normal"
+bwheeluse = 1
+
+[SCROLLER]
+position = [614, 36, 634, 478]
+basetexture = "interfaces\\icons.tga"
+rollertexture = "interfaces\\icons.tga"
+scrolltexpos = [0.0, 0.75, 0.045, 1.0]
+rolltexpos = [0.0625, 0.875, 0.1075, 0.96]
+begendtexsize = 0.0835
+begendbasesize = 21
+rollerheight = 21
+
+[CONTEXTHELP]
+color = [255, 13, 11, 63]
+bordercolor = [255, 128, 110, 20]
+delay = 2000
+fontcolor = [255, 128, 128, 128]
+font = "interface_normal"
+offset = 1
+
+[FOURIMAGES]
+commoncolor = [255, 128, 128, 128]
+lightselectcol = [255, 168, 168, 168]
+darkselectcol = [255, 48, 48, 48]
+wblinddelay = 500
+border = ["ICONS", "select", "border"]
+position1 = [15, 187, 143, 315]
+position2 = [497, 187, 625, 315]
+position3 = [15, 335, 143, 463]
+position4 = [497, 335, 625, 463]
+
+[STATUSLINE]
+groupname = "ICONS"
+filledpicture = ["status", "line", "filled"]
+emptypicture = ["status", "line", "empty"]
+
+[SCROLLBAR]
+fontid = "interface_normal"
+fontcolor = [255, 255, 255, 255]
+fontscale = 1.0
+fontoffset = [0, 0]
+facecolor = [255, 128, 128, 128]
+shadowcolor = [155, 0, 0, 0]
+group = "ICONS"
+presspictureoffset = [2, 2]
+shadowoffset = [3, 3]
+pressshadowoffset = [1, 1]
+pressdelay = 20
+leftpicture = ["left", "arrow"]
+rightpicture = ["right", "arrow"]
+centerpicture = "scrollbar"
+selectcenterpicture = ["select", "scrollbar"]
+barwidth = 100
+valueshow = 0
+valuemin = 0
+valuemax = 100
+valuestart = 0
+valuestep = 1
+valuestepmultiply = 10
+
+[LRCHANGER]
+spacewidth = 8
+facecolor = [255, 128, 128, 128]
+shadowcolor = [155, 0, 0, 0]
+lightselectcolor = [255, 168, 168, 168]
+darkselectcolor = [255, 48, 48, 48]
+blinddelay = 400
+group = "ICONS"
+lpicture = ["left", "arrow"]
+rpicture = ["right", "arrow"]
+presspictureoffset = [2, 2]
+shadowoffset = [5, 5]
+pressshadowoffset = [0, 0]
+pressdelay = 20
+
+[VIMAGESCROLL]
+babsoluterectangle = 5
+position = [16, 200, 144, 480]
+fmovedelta = 35.0
+speedmul = 3
+imagesize = [128, 128]
+fboundscale = 1.0
+wdelta = 4
+blendcolor = [255, 128, 128, 128]
+blinddelay = 400
+layerquantity = 1
+dwnormalcolorargb1 = [255, 128, 128, 128]
+dwselectcolorargb1 = [255, 48, 48, 48]
+dwnormalcolorargb2 = [255, 128, 128, 128]
+dwselectcolorargb2 = [255, 168, 168, 168]
+bordershowup = 1
+border = ["ICONS", "select", "border"]
+font1 = "interface_normal"
+dwyoffset1 = 42
+dwxoffset1 = 82
+dwforecolor1 = [255, 255, 255, 155]
+dwbackcolor1 = [0, 0, 0, 0]
+font2 = "interface_normal"
+dwforecolor2 = [255, 255, 255, 255]
+dwbackcolor2 = [0, 0, 0, 0]
+lefttextlimit = 0
+righttextlimit = 0
+
+[PICTURE]
+blinduptime = 1.5
+blinddowntime = 1.0
+blindmincolor = [255, 128, 128, 128]
+blindmaxcolor = [255, 168, 168, 168]
+
+[CHECKBUTTON]
+class = "CHECKBUTTON"
+command = "click"
+exclusivechoose = 0
+textclickable = 1
+font = "interface_normal"
+fontscale = 1.0
+normalfontcolor = [255, 200, 200, 200]
+selectfontcolor = [255, 255, 255, 255]
+disablefontcolor = [255, 128, 128, 128]
+rect_textoffset = [40, 0, 0, 0]
+lineheight = 16
+alignment = "center"
+sectioninterval = 12
+iconsize = [32, 32]
+icongroup = "CHECKBUTTON_ICON"
+normalpicture = "check_no"
+normalpiccolor = [255, 128, 128, 128]
+selectpicture = "check_yes"
+selectpiccolor = [255, 128, 128, 128]
+disablepiccolor = [255, 32, 32, 32]
+iconoffset = [0, 0]
+
+[RADIOBUTTON]
+class = "CHECKBUTTON"
+command = "click"
+exclusivechoose = 1
+textclickable = 1
+font = "interface_normal"
+fontscale = 1.0
+normalfontcolor = [255, 200, 200, 200]
+selectfontcolor = [255, 255, 255, 255]
+disablefontcolor = [255, 128, 128, 128]
+rect_textoffset = [40, 0, 0, 0]
+lineheight = 16
+alignment = "center"
+sectioninterval = 12
+iconsize = [32, 32]
+icongroup = "CHECKBUTTON_ICON"
+normalpicture = "check_no"
+normalpiccolor = [255, 128, 128, 128]
+selectpicture = "check_yes"
+selectpiccolor = [255, 128, 128, 128]
+disablepiccolor = [255, 128, 128, 128]
+iconoffset = [0, 0]
+
+[TABLE]
+class = "TABLE"
+bwheeluse = 1
+fontcell = "interface_normal"
+fontcellcolor = [255, 255, 255, 255]
+fontcellscale = 1.0
+fontcellalignment = "center"
+fontcellvalignment = "top"
+fonttitle = "interface_normal"
+fonttitlecolor = [255, 255, 255, 156]
+fonttitlescale = 1.0
+fonttitlealignment = "center"
+fonttitlevalignment = "center"
+backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "128", "128", "128)"]
+selectimage = ["color=(100", "200", "120", "55)"]
+iscolselect = 0
+bordericongroup = "MAIN_ICONS"
+borderlefttop = "BORDER_UPLEFT"
+borderleftbottom = "BORDER_DOWNLEFT"
+borderrighttop = "BORDER_UPRIGHT"
+borderrightbottom = "BORDER_DOWNRIGHT"
+borderleft = "BORDER_LEFT"
+borderright = "BORDER_LEFT"
+bordertop = "BORDER_CENTER"
+borderbottom = "BORDER_CENTER"
+bordervline = "BORDER_LEFT"
+borderhline = "BORDER_CENTER"
+bordercolor = [255, 128, 128, 128]
+borderwidth = 4
+vlinewidth = 4
+hlineheight = 4
+headerlineheight = 4
+hlineisbreakable = 0
+bordercornersize = [9, 9]
+cellspacesize = [2, 0]
+
+[FRAME]
+backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "128", "128", "128)"]
+color = [255, 128, 128, 128]
+groupname = "main_icons"
+lefttop_pic = "border_upleft"
+lefttop_size = [9, 9]
+righttop_pic = "border_upright"
+righttop_size = [9, 9]
+leftbottom_pic = "border_downleft"
+leftbottom_size = [9, 9]
+rightbottom_pic = "border_downright"
+rightbottom_size = [9, 9]
+topline_pic = "border_center"
+topline_height = 4
+bottomline_pic = "border_center"
+bottomline_height = 4
+leftline_pic = "border_left"
+leftline_width = 4
+rightline_pic = "border_left"
+rightline_width = 4
+
+[FRAME_METAL]
+backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "128", "128", "128)"]
+color = [255, 128, 128, 128]
+groupname = "main_icons"
+lefttop_pic = "border_upleft"
+lefttop_size = [9, 9]
+righttop_pic = "border_upright"
+righttop_size = [9, 9]
+leftbottom_pic = "border_downleft"
+leftbottom_size = [9, 9]
+rightbottom_pic = "border_downright"
+rightbottom_size = [9, 9]
+topline_pic = "border_center"
+topline_height = 4
+bottomline_pic = "border_center"
+bottomline_height = 4
+leftline_pic = "border_left"
+leftline_width = 4
+rightline_pic = "border_left"
+rightline_width = 4
+class = "FRAME"
+
+[ToolTip]
+font_id = "interface_normal"
+font_scale = 0.7
+font_color = [255, 255, 255, 255]
+str_width = 400
+str_offset = [6, 4]
+back_color = [255, 128, 128, 128]
+back_leftwidth = 4
+back_rightwidth = 4
+back_imagegroup = "tooltipback"
+back_imageleft = "left"
+back_imageright = "right"
+back_imagemiddle = "middle"
+turnondelay = 2.0
+horzcursoroffset = 0
+vertupcursoroffset = 0
+vertdowncursoroffset = 32
+
+[TOOLTIP_FRAME]
+class = "frame"
+position = [204, 123, 610, 487]
+backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "128", "128", "128)"]
+color = [255, 128, 128, 128]
+groupname = "main_icons"
+lefttop_pic = "border_upleft"
+lefttop_size = [9, 9]
+righttop_pic = "border_upright"
+righttop_size = [9, 9]
+leftbottom_pic = "border_downleft"
+leftbottom_size = [9, 9]
+rightbottom_pic = "border_downright"
+rightbottom_size = [9, 9]
+topline_pic = "border_center"
+topline_height = 4
+bottomline_pic = "border_center"
+bottomline_height = 4
+leftline_pic = "border_left"
+leftline_width = 4
+rightline_pic = "border_left"
+rightline_width = 4
+captionheight = 32
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+
+[TOOLTIP_TITLERECT]
+class = "rectangle"
+position = [209, 127, 605, 148]
+leftcolor = [0, 255, 255, 255]
+topcolor = [0, 100, 50, 11]
+rightcolor = [0, 255, 255, 255]
+bottomcolor = [0, 100, 50, 11]
+
+[TOOLTIP_PICTURE]
+class = "picture"
+position = [358, 156, 448, 229]
+
+[TOOLTIP_TEXTRECT]
+class = "rectangle"
+position = [220, 291, 594, 391]
+leftcolor = [150, 200, 200, 200]
+topcolor = [150, 200, 200, 200]
+rightcolor = [150, 200, 200, 2000]
+bottomcolor = [150, 200, 200, 200]
+bordercolor = [255, 0, 0, 0]
+
+[TOOLTIP_TITLE]
+class = "stringcollection"
+string = ["#Title", "font:interface_button", "pos:{400", "128}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.0", "state:{CS}"]
+
+[TOOLTIP_TEXT1]
+class = "formatedtext"
+position = [210, 123, 604, 487]
+alignment = "center"
+fontscale = 0.9
+linespace = 16
+color = [255, 255, 255, 255]
+font = "interface_normal"
+
+[TOOLTIP_TEXT2]
+class = "formatedtext"
+position = [228, 123, 585, 487]
+alignment = "center"
+fontscale = 0.9
+linespace = 16
+color = [255, 255, 255, 255]
+font = "interface_normal"
+
+[TOOLTIP_TEXT3]
+class = "formatedtext"
+position = [210, 123, 604, 487]
+alignment = "center"
+fontscale = 0.9
+linespace = 16
+color = [255, 255, 255, 255]
+font = "interface_normal"
+
+[TOOLTIP_TEXT4]
+class = "formatedtext"
+position = [228, 123, 585, 487]
+alignment = "center"
+fontscale = 0.9
+linespace = 16
+color = [255, 255, 255, 255]
+font = "interface_normal"
+
+[TOOLTIP_FADER]
+class = "rectangle"
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [150, 0, 0, 0]
+topcolor = [150, 0, 0, 0]
+rightcolor = [150, 0, 0, 0]
+bottomcolor = [150, 0, 0, 0]
+bordercolor = [0, 0, 0, 0]

@@ -1,0 +1,291 @@
+[MAIN]
+item = ["FRAME", "MAIN_FRAME", "100", "pc", "BUTTON", "EXIT_BTN", "201", "PICTURE", "MAIN_CHARACTER_PICTURE", "201", "PICTURE", "MAIN_CHARACTER_BORDER", "201", "PICTURE", "OTHER_PICTURE", "201", "PICTURE", "OTHER_BORDER", "201", "FORMATEDTEXT", "NAME_STR", "201", "FORMATEDTEXT", "LOCATION_STR", "201", "FORMATEDTEXT", "TIME_STR", "201", "FORMATEDTEXT", "REPAIR_STATUS_HULL_STR", "201", "FORMATEDTEXT", "REPAIR_STATUS_MAST_STR", "201", "FORMATEDTEXT", "REPAIR_STATUS_SAIL_STR", "201", "FORMATEDTEXT", "REPAIR_QTY_HULL_STR", "201", "FORMATEDTEXT", "REPAIR_QTY_MAST_STR", "201", "FORMATEDTEXT", "REPAIR_QTY_SAIL_STR", "201", "IMAGECOLLECTION", "BIG_PICTURE_BORDER", "555", "SCROLLIMAGE", "SHIPS_SCROLL", "555", "BUTTON", "LEFTSCROLLBUTTON", "555", "BUTTON", "RIGHTSCROLLBUTTON", "555", "FORMATEDTEXT", "REPAIR_WINDOW_CAPTION", "555", "FORMATEDTEXT", "REPAIR_HULL_CAPTION", "555", "FORMATEDTEXT", "REPAIR_MAST_CAPTION", "555", "FORMATEDTEXT", "REPAIR_SAIL_CAPTION", "555", "FORMATEDTEXT", "REPAIR_SHIP_NAME", "555", "PICTURE", "REPAIR_Hull_PIC", "555", "PICTURE", "REPAIR_Sail_PIC", "555", "PICTURE", "REPAIR_Mast_PIC", "600", "BUTTON", "REPAIR_LEFT_H", "600", "BUTTON", "REPAIR_RIGHT_H", "600", "BUTTON", "REPAIR_LEFT_S", "600", "BUTTON", "REPAIR_RIGHT_S", "600", "BUTTON", "REPAIR_LEFT_M", "600", "BUTTON", "REPAIR_RIGHT_M", "555", "FORMATEDTEXT", "REPAIR_QTY_H", "555", "FORMATEDTEXT", "REPAIR_QTY_S", "555", "FORMATEDTEXT", "REPAIR_QTY_M", "555", "PICTURE", "REPAIR_HULL_P_PIC", "555", "PICTURE", "REPAIR_MAST_P_PIC", "555", "PICTURE", "REPAIR_SAIL_S_PIC", "555", "TEXTBUTTON2", "REPAIR_OK", "555", "TEXTBUTTON2", "REPAIR_CANCEL", "555", "TEXTBUTTON2", "REPAIR_ALL_SHIP", "555", "TEXTBUTTON2", "REPAIR_ALL_SQUADRON"]
+start = "REPAIR_OK"
+
+[EXIT_BTN]
+position = [698, 74, 722, 98]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel", "deactivate", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+bshowglowcursor = "0;"
+shadowoffset = [-1, -1]
+
+[REPAIR_WINDOW_CAPTION]
+command = "click"
+position = [130, 76, 670, 96]
+font = ["interface_button", "1.1"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 255]
+backoffset = [1, 2, 0, -2]
+string = "titleSelfRepair"
+
+[REPAIR_SHIP_NAME]
+position = [235, 160, 565, 180]
+fontscale = 1.0
+linespace = 16
+alignment = "center"
+color = [255, 255, 228, 80]
+
+[REPAIR_OK]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click"]
+position = [310, 490, 430, 520]
+string = "Ok"
+glowoffset = [0, 0]
+
+[REPAIR_CANCEL]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click"]
+position = [440, 490, 560, 520]
+string = "Cancel"
+glowoffset = [0, 0]
+
+[REPAIR_ALL_SHIP]
+command = ["activate", "click"]
+position = [210, 490, 300, 520]
+string = "RepairThisShip"
+glowoffset = [0, 0]
+
+[REPAIR_ALL_SQUADRON]
+command = ["activate", "click"]
+position = [78, 490, 200, 520]
+string = "RepairAllShips"
+glowoffset = [0, 0]
+
+[MAIN_FRAME]
+position = [70, 70, 730, 530]
+backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "118", "118", "128)"]
+headerlineheight = 4
+captionheight = 30
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+
+[MAIN_CHARACTER_PICTURE]
+position = [78, 105, 142, 169]
+texturename = "interfaces\\portraits\\128\\face_1.tga"
+
+[MAIN_CHARACTER_BORDER]
+texturename = "interfaces\\emptyborder.tga"
+position = [78, 105, 142, 169]
+
+[OTHER_PICTURE]
+position = [661, 105, 722, 169]
+texturename = "interfaces\\repair.tga"
+bshowglowcursor = 0
+
+[OTHER_BORDER]
+texturename = "interfaces\\emptyborder.tga"
+position = [661, 105, 722, 169]
+
+[NAME_STR]
+position = [140, 105, 234, 169]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[LOCATION_STR]
+position = [566, 105, 663, 169]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[TIME_STR]
+position = [570, 480, 720, 530]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[REPAIR_HULL_CAPTION]
+position = [300, 185, 500, 205]
+font = ["interface_button", "1.1"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 255]
+backoffset = [1, 2, 0, -2]
+string = "HullRepair"
+
+[REPAIR_MAST_CAPTION]
+position = [300, 285, 500, 305]
+font = ["interface_button", "1.1"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 255]
+backoffset = [1, 2, 0, -2]
+string = "MastRepair"
+
+[REPAIR_SAIL_CAPTION]
+position = [300, 385, 500, 405]
+font = ["interface_button", "1.1"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 255]
+backoffset = [1, 2, 0, -2]
+string = "SailRepair"
+
+[SHIPS_SCROLL]
+command = ["activate", "deactivate", "event:ExitCancel", "rightstep", "leftstep", "speedright", "speedleft", "click", "select:SHIPS_SCROLL"]
+position = [235, 105, 565, 169]
+imagesize = [64, 64]
+wdelta = 3
+glowoffset = [0, 0]
+
+[LEFTSCROLLBUTTON]
+command = ["activate", "select:SHIPS_SCROLL", "com:speedleft:SHIPS_SCROLL", "click", "select:SHIPS_SCROLL", "com:leftstep:SHIPS_SCROLL", "com:activate:LEFTSCROLLBUTTON"]
+position = [335, 116, 367, 158]
+group = "ICONS"
+picture = ["left", "arrow"]
+presspictureoffset = [1, 1]
+shadowoffset = [1, 1]
+pressshadowoffset = [0, 0]
+pressdelay = 10
+
+[RIGHTSCROLLBUTTON]
+command = ["activate", "select:SHIPS_SCROLL", "com:speedright:SHIPS_SCROLL", "click", "select:SHIPS_SCROLL", "com:rightstep:SHIPS_SCROLL", "com:activate:RIGHTSCROLLBUTTON"]
+position = [432, 116, 464, 158]
+group = "ICONS"
+picture = ["right", "arrow"]
+presspictureoffset = [1, 1]
+shadowoffset = [1, 1]
+pressshadowoffset = [0, 0]
+pressdelay = 10
+
+[REPAIR_Hull_PIC]
+position = [226, 193, 300, 267]
+texturename = "interfaces\\empty_spyglass.tga"
+bshowglowcursor = 0
+
+[REPAIR_HULL_P_PIC]
+position = [500, 193, 574, 267]
+texturename = "interfaces\\empty_spyglass.tga"
+bshowglowcursor = 0
+
+[REPAIR_STATUS_HULL_STR]
+position = [85, 180, 220, 280]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[REPAIR_QTY_HULL_STR]
+position = [580, 180, 715, 280]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[REPAIR_QTY_H]
+position = [360, 223, 440, 253]
+linespace = 26
+font = ["Bold_numbers", "1.2"]
+
+[REPAIR_RIGHT_H]
+command = ["click", "rclick"]
+group = "ARROWS"
+picture = "right"
+position = [460, 215, 480, 255]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[REPAIR_LEFT_H]
+command = ["click", "rclick"]
+group = "ARROWS"
+picture = "left"
+position = [320, 215, 340, 255]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[REPAIR_Mast_PIC]
+position = [226, 293, 300, 367]
+texturename = "interfaces\\empty_spyglass.tga"
+bshowglowcursor = 0
+
+[REPAIR_MAST_P_PIC]
+position = [500, 293, 574, 367]
+texturename = "interfaces\\empty_spyglass.tga"
+bshowglowcursor = 0
+
+[REPAIR_STATUS_MAST_STR]
+position = [85, 280, 220, 380]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[REPAIR_QTY_MAST_STR]
+position = [580, 280, 715, 380]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[REPAIR_QTY_M]
+position = [360, 323, 440, 353]
+linespace = 26
+font = ["Bold_numbers", "1.2"]
+
+[REPAIR_RIGHT_M]
+command = ["click", "rclick"]
+group = "ARROWS"
+picture = "right"
+position = [460, 315, 480, 355]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[REPAIR_LEFT_M]
+command = ["click", "rclick"]
+group = "ARROWS"
+picture = "left"
+position = [320, 315, 340, 355]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[REPAIR_Sail_PIC]
+position = [226, 393, 300, 467]
+texturename = "interfaces\\empty_spyglass.tga"
+bshowglowcursor = 0
+
+[REPAIR_SAIL_S_PIC]
+position = [500, 393, 574, 467]
+texturename = "interfaces\\empty_spyglass.tga"
+bshowglowcursor = 0
+
+[REPAIR_STATUS_SAIL_STR]
+position = [85, 380, 220, 480]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[REPAIR_QTY_SAIL_STR]
+position = [580, 380, 715, 480]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[REPAIR_QTY_S]
+position = [360, 423, 440, 453]
+linespace = 26
+font = ["Bold_numbers", "1.2"]
+
+[REPAIR_RIGHT_S]
+command = ["click", "rclick"]
+group = "ARROWS"
+picture = "right"
+position = [460, 415, 480, 455]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[REPAIR_LEFT_S]
+command = ["click", "rclick"]
+group = "ARROWS"
+picture = "left"
+position = [320, 415, 340, 455]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]

@@ -1,0 +1,49 @@
+[MAIN]
+item = ["PICTURE", "MAIN_BACK", "200", "TABLE", "TABLE_CHAT", "200", "SCROLLER", "SCROLL_CHAT", "200", "PCEDITBOX", "EDITBOX_MESSAGE", "200", "TEXTBUTTON2", "BTN_SEND"]
+
+[MAIN_BACK]
+position = [50, 100, 750, 450]
+texturename = "interfaces\\mainback.tga"
+
+[TABLE_CHAT]
+command = ["click", "event:Players_OnClick", "select:TABLE_CHAT", "deactivate", "event:OnCancel", "upstep", "downstep"]
+position = [150, 140, 718, 404]
+rowquantity = 8
+colquantity = 2
+vlinewidth = 1
+hlineheight = 1
+colswidth = [32, 32, 32, 32, 32, 32, 372]
+scroller = "SCROLL_CHAT"
+rowsheight = [36, 32, 32, 32, 32, 32, 32, 32]
+selectimage = ["color=(100", "200", "120", "55)"]
+
+[SCROLL_CHAT]
+command = ["click", "select:TABLE_CHAT", "deactivate", "event:OnCancel", "downstep", "upstep"]
+position = [718, 140, 732, 404]
+basetexture = "interfaces\\icons.tga"
+rollertexture = "interfaces\\icons.tga"
+scrolltexpos = [0.0, 0.75, 0.045, 1.0]
+rolltexpos = [0.0625, 0.875, 0.1075, 0.96]
+begendtexsize = 0.0835
+begendbasesize = 18
+rollerheight = 18
+ownedcontrol = "TABLE_CHAT"
+
+[EDITBOX_MESSAGE]
+command = ["click", "select:EDITBOX_MESSAGE", "deactivate", "event:OnCancel", "activate"]
+position = [150, 411, 605, 440]
+strfont = "interface_normal"
+fontscale = 1.0
+argbfontcolor = [255, 255, 255, 255]
+stringlength = 32
+stringoffset = [4, 7]
+stringalign = "left"
+middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+
+[BTN_SEND]
+bbreakcommand = 1
+command = ["click", "event:OnSend", "deactivate", "event:OnCancel"]
+position = [624, 409, 731, 441]
+string = "btnNetChat_Send"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]

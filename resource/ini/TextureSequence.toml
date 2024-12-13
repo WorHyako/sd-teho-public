@@ -1,0 +1,34 @@
+[BACK]
+timedelay = 100
+width = 64
+height = 32
+horzq = 8
+vertq = 8
+
+[BUTTON]
+texturefile = "TextureSequence\\back.tga"
+fliph = 1
+flipv = 1
+timedelay = 100
+width = 64
+height = 32
+horzq = 8
+vertq = 8
+
+[BIGBUTTON]
+texturefile = "TextureSequence\\back.tga"
+fliph = 1
+flipv = 1
+timedelay = 100
+width = 64
+height = 32
+horzq = 8
+vertq = 8
+
+[SKILLUPPOINTER]
+texturefile = "TextureSequence\\SkillUpPointer.tga"
+timedelay = 200
+width = 32
+height = 32
+horzq = 2
+vertq = 2

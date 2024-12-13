@@ -1,0 +1,181 @@
+[MAIN]
+item = ["PICTURE", "MAIN_BACK", "TITLE", "TITLE", "IMAGECOLLECTION", "BACK", "SCROLLEDPICTURE", "MAP", "IMAGECOLLECTION", "MAP_BORDER", "300", "pc", "BUTTON", "EXIT_BTN", "200", "TABLE", "TABLE_MAPS", "201", "SCROLLER", "SCROLL_MAPS", "201", "FORMATEDTEXT", "STR_1", "WINDOW", "MAIN_WINDOW", "400", "RECTANGLE", "INFO_FADER", "401", "IMAGECOLLECTION", "INFO_BACK", "401", "IMAGECOLLECTION", "INFO_BORDERS", "401", "FORMATEDTEXT", "INFO_CAPTION", "401", "PICTURE", "INFO_NATION_PICTURE", "401", "FORMATEDTEXT", "COLONY_INFO_TEXT", "401", "FORMATEDTEXT", "COLONY_INFO_TEXT2", "401", "FORMATEDTEXT", "COLONY_INFO_SIEGE", "401", "FORMATEDTEXT", "COLONY_INFO_LABEL", "401", "FORMATEDTEXT", "COLONY_TIME_INFO", "401", "FORMATEDTEXT", "COLONY_TRAVEL_INFO", "401", "FORMATEDTEXT", "IMPORT_CAPTION", "401", "PICTURE", "IMPORT1_PICTURE", "401", "PICTURE", "IMPORT2_PICTURE", "401", "PICTURE", "IMPORT3_PICTURE", "401", "FORMATEDTEXT", "IMPORT_INFO", "401", "FORMATEDTEXT", "EXPORT_INFO", "401", "FORMATEDTEXT", "EXPORT_CAPTION", "401", "PICTURE", "EXPORT1_PICTURE", "401", "PICTURE", "EXPORT2_PICTURE", "401", "PICTURE", "EXPORT3_PICTURE", "WINDOW", "INFO_WINDOW"]
+start = "TABLE_MAPS"
+
+[MAIN_WINDOW]
+show = 1
+nodelist = ["MAIN_BACK", "TITLE", "BACK", "MAP", "SCROLL_MAPS", "TABLE_MAPS", "MAP_BORDER", "EXIT_BTN"]
+
+[MAIN_BACK]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+texturename = "interfaces\\papirus_big.tga"
+
+[EXIT_BTN]
+position = [770, 5, 795, 30]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+
+[MAP]
+command = ["click", "rclick", "event:SelectRColony"]
+position = [6, 44, 611, 586]
+texturename = "interfaces\\maps\\kayman.tga"
+basesize = [2048, 2048]
+scale1 = [1, 1]
+startscale = 1
+
+[BACK]
+groupname = "PAPIRUS"
+picture = ["editsection:colonylist", "papirus_map_colony_list", "col:{255", "128", "128", "128}", "pos:{638", "35", "795", "595}", "editsection:end"]
+
+[INFO_WINDOW]
+show = 0
+nodelist = ["INFO_BORDERS", "INFO_FADER", "INFO_BACK", "INFO_CAPTION", "INFO_NATION_PICTURE", "COLONY_INFO_TEXT", "COLONY_INFO_TEXT2", "IMPORT1_PICTURE", "IMPORT2_PICTURE", "IMPORT3_PICTURE", "COLONY_INFO", "COLONY_TIME_INFO", "COLONY_TRAVEL_INFO", "IMPORT_CAPTION", "EXPORT_CAPTION", "EXPORT1_PICTURE", "EXPORT2_PICTURE", "EXPORT3_PICTURE", "IMPORT_INFO", "EXPORT_INFO", "COLONY_INFO_LABEL", "COLONY_INFO_SIEGE"]
+
+[INFO_FADER]
+babsoluterectangle = 5
+position = [0, 33, 800, 600]
+leftcolor = [200, 0, 0, 0]
+topcolor = [200, 0, 0, 0]
+rightcolor = [200, 0, 0, 0]
+bottomcolor = [200, 0, 0, 0]
+bordercolor = [0, 0, 0, 0]
+
+[MAP_BORDER]
+groupname = "MAIN_ICONS"
+picture = ["editsection:map", "BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{5", "43", "14", "52}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{14", "43", "603", "48}", "BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{603", "43", "612", "52}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{14", "586", "603", "591}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{5", "52", "10", "582}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{607", "52", "612", "582}", "BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{5", "582", "14", "591}", "BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{603", "582", "612", "591}", "editsection:end"]
+
+[TABLE_MAPS]
+command = ["deactivate", "event:exitCancel", "click", "select:TABLE_MAPS", "rclick", "select:TABLE_ITEMS", "event:ShowInfoWindow", "upstep", "downstep"]
+position = [613, 43, 782, 591]
+scroller = "SCROLL_MAPS"
+vlinewidth = 2
+hlineheight = 2
+rowquantity = 17
+colquantity = 1
+fontcellvalignment = "center"
+selectimage = ["color=(100", "200", "120", "55)"]
+colswidth = 169
+rowsheight = [32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
+normallineheight = 32
+
+[SCROLL_MAPS]
+command = ["click", "select:TABLE_MAPS", "deactivate", "event:exitCancel", "downstep", "upstep"]
+position = [783, 43, 792, 591]
+basetexture = "interfaces\\icons.tga"
+rollertexture = "interfaces\\icons.tga"
+scrolltexpos = [0.0, 0.75, 0.045, 1.0]
+rolltexpos = [0.0625, 0.875, 0.1075, 0.96]
+begendtexsize = 0.0835
+begendbasesize = 18
+rollerheight = 18
+ownedcontrol = "TABLE_MAPS"
+
+[STR_1]
+position = [630, 50, 782, 76]
+linespace = 19
+font = ["INTERFACE_TITLE", "0.9"]
+
+[INFO_CAPTION]
+position = [304, 124, 498, 153]
+linespace = 16
+alignment = "center"
+font = "interface_button"
+color = [255, 255, 255, 255]
+
+[INFO_BORDERS]
+groupname = "MAIN_ICONS"
+picture = ["editsection:UP", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{204", "120", "593", "145}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{209", "118", "589", "123}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{205", "144", "593", "149}", "editsection:left", "BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{201", "118", "210", "127}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{201", "127", "206", "452}", "BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{201", "443", "210", "452}", "editsection:right", "BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{585", "118", "594", "127}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{589", "127", "594", "452}", "BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{585", "443", "594", "452}", "editsection:down", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{210", "447", "585", "452}"]
+
+[INFO_BACK]
+offset = [-432, 69]
+groupname = "PAPIRUS"
+picture = ["editsection:colonylist", "papirus_papermap_info", "col:{255", "128", "128", "128}", "pos:{206", "119", "593", "451}"]
+
+[INFO_NATION_PICTURE]
+position = [220, 155, 285, 220]
+
+[COLONY_TRAVEL_INFO]
+position = [276, 162, 585, 182]
+linespace = 16
+alignment = "center"
+
+[COLONY_TIME_INFO]
+position = [276, 182, 585, 220]
+linespace = 16
+alignment = "center"
+
+[COLONY_INFO_LABEL]
+position = [220, 225, 365, 243]
+linespace = 18
+alignment = "left"
+color = [255, 255, 255, 255]
+
+[COLONY_INFO_TEXT]
+position = [220, 250, 365, 380]
+fontscale = 0.8
+linespace = 20
+alignment = "left"
+color = [255, 255, 255, 255]
+
+[COLONY_INFO_TEXT2]
+position = [375, 250, 400, 380]
+fontscale = 0.8
+linespace = 20
+alignment = "left"
+color = [255, 255, 255, 255]
+
+[COLONY_INFO_SIEGE]
+position = [220, 395, 500, 415]
+fontscale = 0.8
+linespace = 20
+alignment = "left"
+color = [255, 255, 255, 255]
+
+[EXPORT_CAPTION]
+babsoluterectangle = 5
+position = [400, 225, 600, 250]
+linespace = 16
+alignment = "center"
+font = "interface_button"
+
+[IMPORT_CAPTION]
+babsoluterectangle = 5
+position = [400, 340, 600, 365]
+linespace = 16
+font = "interface_button"
+alignment = "center"
+
+[EXPORT1_PICTURE]
+position = [453, 246, 481, 273]
+
+[EXPORT2_PICTURE]
+position = [453, 275, 481, 302]
+
+[EXPORT3_PICTURE]
+position = [453, 304, 481, 331]
+
+[IMPORT1_PICTURE]
+position = [453, 360, 481, 387]
+
+[IMPORT2_PICTURE]
+position = [453, 389, 481, 416]
+
+[IMPORT3_PICTURE]
+position = [453, 418, 481, 445]
+
+[IMPORT_INFO]
+position = [487, 368, 612, 465]
+fontscale = 0.8
+linespace = 30
+alignment = "left"
+color = [255, 255, 255, 255]
+
+[EXPORT_INFO]
+position = [487, 253, 612, 351]
+fontscale = 0.8
+linespace = 30
+alignment = "left"
+color = [255, 255, 255, 255]

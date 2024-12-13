@@ -1,0 +1,78 @@
+[MAIN]
+item = ["VIDEO", "VIDEOBASE", "PICTURE", "SCROLLPICT", "100", "pc", "BUTTON", "EXIT_BTN", "200", "BUTTON", "B_PACK", "RECTANGLE", "INF_RECT", "100", "PICTURE", "ICON_1", "100", "PICTURE", "ICON_2", "100", "PICTURE", "ICON_GOLD", "FORMATEDTEXT", "INFO_TEXT", "200", "BUTTON", "B_ICON_1", "200", "BUTTON", "B_ICON_2", "200", "BUTTON", "B_HeroDice1", "200", "BUTTON", "B_HeroDice2", "200", "BUTTON", "B_HeroDice3", "200", "BUTTON", "B_HeroDice4", "200", "BUTTON", "B_HeroDice5"]
+
+[EXIT_BTN]
+position = [777, 0, 799, 22]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+
+[SCROLLPICT]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+texturename = "interfaces\\card_desk.tga"
+
+[B_PACK]
+bbreakcommand = 1
+command = "click"
+position = [560, 80, 680, 240]
+
+[INF_RECT]
+position = [480, 390, 750, 540]
+leftcolor = [205, 255, 255, 255]
+topcolor = [128, 50, 30, 30]
+rightcolor = [205, 255, 255, 255]
+bottomcolor = [128, 50, 30, 30]
+
+[ICON_1]
+position = [710, 392, 748, 430]
+texturename = "interfaces\\money.tga"
+
+[ICON_2]
+position = [710, 500, 748, 538]
+texturename = "interfaces\\money.tga"
+
+[ICON_GOLD]
+position = [482, 498, 520, 536]
+texturename = "interfaces\\BoxImage.tga"
+
+[INFO_TEXT]
+position = [480, 398, 710, 449]
+linespace = 13
+font = ["interface_ultrasmall", "1"]
+
+[B_ICON_1]
+bbreakcommand = 1
+command = "click"
+position = [710, 392, 748, 430]
+
+[B_ICON_2]
+bbreakcommand = 1
+command = "click"
+position = [710, 500, 748, 538]
+
+[B_HeroDice1]
+bbreakcommand = 1
+command = "click"
+position = [75, 495, 130, 550]
+
+[B_HeroDice2]
+bbreakcommand = 1
+command = "click"
+position = [155, 495, 210, 550]
+
+[B_HeroDice3]
+bbreakcommand = 1
+command = "click"
+position = [235, 495, 290, 550]
+
+[B_HeroDice4]
+bbreakcommand = 1
+command = "click"
+position = [315, 495, 370, 550]
+
+[B_HeroDice5]
+bbreakcommand = 1
+command = "click"
+position = [395, 495, 430, 550]

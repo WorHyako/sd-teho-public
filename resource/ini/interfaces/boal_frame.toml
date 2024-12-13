@@ -1,0 +1,16 @@
+[MAIN]
+item = ["VIDEO", "VIDEOBASE", "PICTURE", "BACKSCROLLPICT", "PICTURE", "SCROLLPICT", "IMAGECOLLECTION", "BORDERS", "FORMATEDTEXT", "INFO_TEXT"]
+
+[BACKSCROLLPICT]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+texturename = "loading\\ImgBack.tga"
+
+[SCROLLPICT]
+position = [25, 20, 775, 580]
+texturename = "interfaces\\FrameForm.tga"
+
+[INFO_TEXT]
+position = [60, 50, 740, 550]
+linespace = 35
+font = ["NORMAL", "2.2"]

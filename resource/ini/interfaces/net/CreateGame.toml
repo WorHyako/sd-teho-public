@@ -1,0 +1,407 @@
+[MAIN]
+item = ["PICTURE", "MAIN_BACK", "TITLE", "TITLE", "IMAGECOLLECTION", "BACK", "FRAME", "FRAME_MAINFRAME", "FRAME", "FRAME_MAP", "401", "IMAGECOLLECTION", "SEPARATOR", "200", "FORMATEDTEXT", "CAPTION_GAMENAME", "83", "PCEDITBOX", "EDITBOX_GAMENAME", "200", "FORMATEDTEXT", "CAPTION_GAMEPASSWORD", "83", "PCEDITBOX", "EDITBOX_GAMEPASSWORD", "300", "CHECKBUTTON", "CHECKBUTTON_DEDICATED", "300", "CHECKBUTTON", "CHECKBUTTON_LAN", "300", "CHECKBUTTON", "CHECKBUTTON_INET", "200", "FORMATEDTEXT", "CAPTION_MAP", "200", "FORMATEDTEXT", "CAPTION_GAMETYPE", "400", "TABLE", "TABLE_GAMETYPE", "200", "FORMATEDTEXT", "CAPTION_TEAMS", "90", "SCROLLBAR", "SBAR_TEAMS", "200", "FORMATEDTEXT", "CAPTION_PLAYERS", "90", "SCROLLBAR", "SBAR_PLAYERS", "200", "FORMATEDTEXT", "CAPTION_GAMESPEED", "90", "SCROLLBAR", "SBAR_GAMESPEED", "200", "FORMATEDTEXT", "CAPTION_TIMELIMIT", "90", "SCROLLBAR", "SBAR_TIMELIMIT", "200", "FORMATEDTEXT", "CAPTION_STARTPOSITION", "90", "SCROLLBAR", "SBAR_STARTPOSITION", "200", "FORMATEDTEXT", "CAPTION_CREDIT", "90", "SCROLLBAR", "SBAR_CREDIT", "200", "FORMATEDTEXT", "CAPTION_MAXSHIPCLASS", "90", "SCROLLBAR", "SBAR_MAXSHIPCLASS", "200", "PICTURE", "SERVER_MAP_PICTURE", "200", "FORMATEDTEXT", "CAPTION_MAPLIST", "400", "TABLE", "TABLE_MAPLIST", "81", "SCROLLER", "SCROLL_MAPLIST", "400", "TABLE", "TABLE_MAPLIST_FORT", "81", "SCROLLER", "SCROLL_MAPLIST_FORT", "200", "FORMATEDTEXT", "CAPTION_GAMETIME", "400", "TABLE", "TABLE_GAMETIME", "200", "FORMATEDTEXT", "CAPTION_WEATHER", "400", "TABLE", "TABLE_WEATHER", "200", "TEXTBUTTON2", "BTN_CANCEL", "200", "TEXTBUTTON2", "BTN_CREATE", "300", "STRINGCOLLECTION", "STRINGS_VALUE", "500", "RECTANGLE", "RECTANGLE_OK", "501", "FRAME", "FRAME_OK", "502", "IMAGECOLLECTION", "BORDER_OK", "502", "FORMATEDTEXT", "TEXT_OK", "503", "STRINGCOLLECTION", "STRINGS_OK", "503", "TEXTBUTTON2", "BTN_OK", "500", "RECTANGLE", "RECTANGLE_RECREATE", "501", "FRAME", "FRAME_RECREATE", "502", "IMAGECOLLECTION", "BORDER_RECREATE", "502", "FORMATEDTEXT", "TEXT_RECREATE", "503", "STRINGCOLLECTION", "STRINGS_RECREATE", "503", "TEXTBUTTON2", "BTN_RECREATE_OK", "503", "TEXTBUTTON2", "BTN_RECREATE_CANCEL", "WINDOW", "WND_NETCREATEGAME", "WINDOW", "WND_OK", "WINDOW", "WND_RECREATE"]
+
+[WND_OK]
+nodelist = ["RECTANGLE_OK", "FRAME_OK", "BORDER_OK", "TEXT_OK", "STRINGS_OK", "BTN_OK"]
+
+[WND_RECREATE]
+nodelist = ["RECTANGLE_RECREATE", "FRAME_RECREATE", "BORDER_RECREATE", "TEXT_RECREATE", "STRINGS_RECREATE", "BTN_RECREATE_OK", "BTN_RECREATE_CANCEL"]
+
+[WND_NETCREATEGAME]
+nodelist = ["MAIN_BACK", "TITLE", "BACK", "SEPARATOR", "FRAME_MAINFRAME", "FRAME_MAP", "CAPTION_GAMENAME", "EDITBOX_GAMENAME", "CAPTION_GAMEPASSWORD", "EDITBOX_GAMEPASSWORD", "CHECKBUTTON_DEDICATED", "CHECKBUTTON_LAN", "CHECKBUTTON_INET", "CAPTION_GAMETYPE", "TABLE_GAMETYPE", "CAPTION_TEAMS", "SBAR_TEAMS", "CAPTION_PLAYERS", "SBAR_PLAYERS", "CAPTION_GAMESPEED", "SBAR_GAMESPEED", "CAPTION_TIMELIMIT", "SBAR_TIMELIMIT", "CAPTION_STARTPOSITION", "SBAR_STARTPOSITION", "CAPTION_CREDIT", "SBAR_CREDIT", "CAPTION_MAXSHIPCLASS", "SBAR_MAXSHIPCLASS", "CAPTION_MAP", "SERVER_MAP_PICTURE", "CAPTION_MAPLIST", "TABLE_MAPLIST", "SCROLL_MAPLIST", "TABLE_MAPLIST_FORT", "SCROLL_MAPLIST_FORT", "CAPTION_GAMETIME", "TABLE_GAMETIME", "CAPTION_WEATHER", "TABLE_WEATHER", "BTN_CANCEL", "BTN_CREATE", "STRINGS_VALUE"]
+
+[SEPARATOR]
+groupname = "MAIN_ICONS"
+picture = ["BORDER_CENTER", "pos:{130", "165", "670", "168}", "BORDER_CENTER", "pos:{130", "290", "670", "293}"]
+
+[BACK]
+groupname = "PAPIRUS"
+picture = ["papirus_net_cgsettings", "pos:{120", "50", "680", "550}"]
+
+[TABLE_GAMETYPE]
+command = ["click", "event:GameType_OnClick", "select:TABLE_GAMETYPE", "upstep", "downstep"]
+position = [133, 189, 263, 276]
+rowquantity = 4
+colquantity = 1
+colswidth = 130
+vlinewidth = 2
+hlineheight = 2
+rowsheight = [21, 21, 21, 21]
+
+[FRAME_MAINFRAME]
+position = [120, 50, 680, 550]
+
+[FRAME_MAP]
+position = [133, 320, 322, 509]
+
+[CAPTION_MAP]
+position = [168, 300, 278, 347]
+fontscale = 0.9
+linespace = 14
+alignment = "center"
+color = [255, 255, 255, 156]
+string = "capNetCS_Map"
+
+[SERVER_MAP_PICTURE]
+position = [138, 325, 317, 504]
+
+[CAPTION_MAPLIST]
+position = [360, 300, 470, 347]
+fontscale = 0.9
+linespace = 14
+alignment = "center"
+color = [255, 255, 255, 156]
+string = "capNetCS_MapList"
+
+[TABLE_MAPLIST]
+command = ["click", "select:TABLE_MAPLIST", "select:TABLE_MAPLIST", "upstep", "downstep"]
+position = [332, 319, 506, 512]
+rowquantity = 9
+colquantity = 1
+colswidth = 170
+vlinewidth = 2
+hlineheight = 2
+rowsheight = [21, 21, 21, 21, 21, 21, 21, 21, 21]
+scroller = "SCROLL_MAPLIST"
+
+[SCROLL_MAPLIST]
+command = ["click", "select:TABLE_MAPLIST", "downstep", "upstep"]
+position = [506, 319, 520, 512]
+basetexture = "interfaces\\icons.tga"
+rollertexture = "interfaces\\icons.tga"
+scrolltexpos = [0.0, 0.75, 0.045, 1.0]
+rolltexpos = [0.0625, 0.875, 0.1075, 0.96]
+begendtexsize = 0.0835
+begendbasesize = 18
+rollerheight = 18
+ownedcontrol = "TABLE_MAPLIST"
+
+[TABLE_MAPLIST_FORT]
+command = ["click", "select:TABLE_MAPLIST_FORT", "select:TABLE_MAPLIST_FORT", "upstep", "downstep"]
+position = [332, 319, 502, 511]
+rowquantity = 9
+colquantity = 1
+colswidth = 170
+vlinewidth = 2
+hlineheight = 2
+rowsheight = [21, 21, 21, 21, 21, 21, 21, 21, 21]
+scroller = "SCROLL_MAPLIST_FORT"
+
+[SCROLL_MAPLIST_FORT]
+command = ["click", "select:TABLE_MAPLIST_FORT", "downstep", "upstep"]
+position = [506, 319, 520, 511]
+basetexture = "interfaces\\icons.tga"
+rollertexture = "interfaces\\icons.tga"
+scrolltexpos = [0.0, 0.75, 0.045, 1.0]
+rolltexpos = [0.0625, 0.875, 0.1075, 0.96]
+begendtexsize = 0.0835
+begendbasesize = 18
+rollerheight = 18
+ownedcontrol = "TABLE_MAPLIST_FORT"
+
+[CAPTION_GAMETIME]
+position = [538, 300, 648, 347]
+fontscale = 0.9
+linespace = 14
+alignment = "center"
+color = [255, 255, 255, 156]
+string = "capNetCS_GameTime"
+
+[TABLE_GAMETIME]
+command = ["click", "select:TABLE_GAMETIME", "upstep", "downstep"]
+position = [530, 319, 664, 407]
+rowquantity = 4
+colquantity = 1
+colswidth = 130
+vlinewidth = 2
+hlineheight = 2
+rowsheight = [21, 21, 21, 21]
+
+[CAPTION_WEATHER]
+position = [538, 408, 648, 455]
+fontscale = 0.9
+linespace = 14
+alignment = "center"
+color = [255, 255, 255, 156]
+string = "capNetCS_Weather"
+
+[TABLE_WEATHER]
+command = ["click", "select:TABLE_WEATHER", "upstep", "downstep"]
+position = [530, 424, 664, 512]
+rowquantity = 4
+colquantity = 1
+colswidth = 130
+vlinewidth = 2
+hlineheight = 2
+rowsheight = [21, 21, 21, 21]
+
+[BTN_CANCEL]
+bbreakcommand = 1
+command = ["click", "event:OnCancel"]
+position = [440, 557, 587, 589]
+string = "btnNetCS_Cancel"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[BTN_CREATE]
+bbreakcommand = 1
+command = ["click", "event:OnCreate"]
+position = [220, 557, 367, 589]
+string = "btnNetCS_Create"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[TITLE]
+stringwidth = 210
+
+[MAIN_BACK]
+position = [0, 0, 800, 600]
+texturename = "interfaces\\mainback.tga"
+
+[CAPTION_GAMETYPE]
+position = [142, 169, 252, 216]
+fontscale = 0.9
+linespace = 14
+alignment = "center"
+color = [255, 255, 255, 156]
+string = "capNetCS_GameType"
+
+[CAPTION_PLAYERS]
+position = [249, 205, 359, 230]
+fontscale = 0.9
+linespace = 14
+alignment = "right"
+color = [255, 255, 255, 156]
+string = "capNetCS_Players"
+
+[SBAR_PLAYERS]
+command = ["leftstep", "event:DecPlayer", "select:SBAR_PLAYERS", "rightstep", "event:AddPlayer", "select:SBAR_PLAYERS", "click"]
+position = [360, 204, 444, 223]
+barwidth = 65
+bshowglowcursor = 0
+
+[CAPTION_TEAMS]
+position = [249, 175, 359, 192]
+fontscale = 0.9
+linespace = 14
+alignment = "right"
+color = [255, 255, 255, 156]
+string = "capNetCS_Teams"
+
+[SBAR_TEAMS]
+command = ["leftstep", "event:DecTeams", "select:SBAR_TEAMS", "rightstep", "event:AddTeams", "select:SBAR_TEAMS", "click"]
+position = [360, 174, 444, 193]
+barwidth = 65
+bshowglowcursor = 0
+
+[CAPTION_GAMESPEED]
+position = [249, 235, 359, 252]
+fontscale = 0.9
+linespace = 14
+alignment = "right"
+color = [255, 255, 255, 156]
+string = "capNetCS_GameSpeed"
+
+[SBAR_GAMESPEED]
+command = ["leftstep", "event:DecGameSpeed", "select:SBAR_GAMESPEED", "rightstep", "event:AddGameSpeed", "select:SBAR_GAMESPEED", "click"]
+position = [360, 234, 444, 253]
+barwidth = 65
+bshowglowcursor = 0
+
+[CAPTION_TIMELIMIT]
+position = [249, 266, 359, 313]
+fontscale = 0.9
+linespace = 14
+alignment = "right"
+color = [255, 255, 255, 156]
+string = "capNetCS_TimeLimit"
+
+[SBAR_TIMELIMIT]
+command = ["leftstep", "event:DecTimeLimit", "select:SBAR_TIMELIMIT", "rightstep", "event:AddTimeLimit", "select:SBAR_TIMELIMIT", "click"]
+position = [360, 264, 444, 283]
+barwidth = 65
+bshowglowcursor = 0
+
+[CAPTION_STARTPOSITION]
+position = [442, 191, 562, 218]
+fontscale = 0.9
+linespace = 14
+alignment = "right"
+color = [255, 255, 255, 156]
+string = "capNetCS_StartPosition"
+
+[SBAR_STARTPOSITION]
+command = ["leftstep", "event:DecStartPosition", "select:SBAR_STARTPOSITION", "rightstep", "event:AddStartPosition", "select:SBAR_STARTPOSITION", "click"]
+position = [564, 190, 672, 209]
+barwidth = 90
+bshowglowcursor = 0
+
+[CAPTION_CREDIT]
+position = [449, 222, 562, 242]
+fontscale = 0.9
+linespace = 14
+alignment = "right"
+color = [255, 255, 255, 156]
+string = "capNetCS_Credit"
+
+[SBAR_CREDIT]
+command = ["leftstep", "event:DecCredit", "select:SBAR_CREDIT", "rightstep", "event:AddCredit", "select:SBAR_CREDIT", "click"]
+position = [564, 220, 672, 239]
+barwidth = 90
+bshowglowcursor = 0
+
+[CAPTION_MAXSHIPCLASS]
+position = [431, 252, 563, 285]
+fontscale = 0.9
+linespace = 14
+alignment = "right"
+color = [255, 255, 255, 156]
+string = "capNetCS_MaxShipClass"
+
+[SBAR_MAXSHIPCLASS]
+command = ["leftstep", "event:DecMaxShipClass", "select:SBAR_MAXSHIPCLASS", "rightstep", "event:AddMaxShipClass", "select:SBAR_MAXSHIPCLASS", "click"]
+position = [564, 250, 672, 269]
+barwidth = 90
+bshowglowcursor = 0
+
+[CAPTION_GAMENAME]
+position = [180, 65, 290, 92]
+fontscale = 0.9
+linespace = 14
+alignment = "right"
+color = [255, 255, 255, 156]
+string = "capNetCS_GameName"
+
+[CAPTION_GAMEPASSWORD]
+position = [199, 94, 290, 121]
+fontscale = 0.9
+linespace = 14
+alignment = "right"
+color = [255, 255, 255, 156]
+string = "capNetCS_GamePassword"
+
+[CHECKBUTTON_DEDICATED]
+command = "click"
+iconsize = [16, 16]
+position = [342, 121, 497, 138]
+rect_textoffset = [24, 0, 0, 0]
+alignment = "left"
+section1 = ["0", "0", "capNetCS_Dedicated"]
+
+[CHECKBUTTON_LAN]
+command = "click"
+iconsize = [16, 16]
+position = [414, 143, 536, 160]
+rect_textoffset = [24, 0, 0, 0]
+alignment = "left"
+section1 = ["0", "0", "capNetCS_Lan"]
+
+[CHECKBUTTON_INET]
+command = "click"
+iconsize = [16, 16]
+position = [298, 143, 383, 160]
+rect_textoffset = [24, 0, 0, 0]
+alignment = "left"
+section1 = ["0", "0", "capNetCS_Inet"]
+
+[EDITBOX_GAMENAME]
+command = ["click", "select:EDITBOX_GAMENAME", "deactivate", "event:OnCancel", "activate"]
+position = [295, 59, 630, 86]
+strfont = "interface_normal"
+fontscale = 1.0
+argbfontcolor = [255, 255, 255, 255]
+stringlength = 24
+stringoffset = [4, 7]
+stringalign = "left"
+middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+
+[EDITBOX_GAMEPASSWORD]
+command = ["click", "select:EDITBOX_GAMEPASSWORD", "deactivate", "event:OnCancel", "activate"]
+position = [295, 90, 630, 117]
+strfont = "interface_normal"
+disguisestring = 1
+fontscale = 1.0
+argbfontcolor = [255, 255, 255, 255]
+stringlength = 12
+stringoffset = [4, 7]
+stringalign = "left"
+middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+
+[STRINGS_VALUE]
+string = ["#teams", "font:interface_normal", "pos:{404", "176}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#players", "font:interface_normal", "pos:{404", "206}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#gamespeed", "font:interface_normal", "pos:{404", "236}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#timelimit", "font:interface_normal", "pos:{404", "266}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#startpos", "font:interface_normal", "pos:{621", "192}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#credit", "font:interface_normal", "pos:{621", "222}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#maxshipclass", "font:interface_normal", "pos:{621", "252}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]
+
+[RECTANGLE_RECREATE]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [255, 255, 255, 255]
+bottomcolor = [255, 1, 5, 30]
+rightcolor = [255, 255, 255, 255]
+topcolor = [125, 2, 11, 75]
+
+[BTN_RECREATE_OK]
+bbreakcommand = 1
+command = ["click", "event:OnRecreateOk"]
+position = [270, 298, 377, 330]
+string = "btnCS_RecreateOk"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[BTN_RECREATE_CANCEL]
+bbreakcommand = 1
+command = ["click", "event:OnRecreateCancel"]
+position = [410, 298, 517, 330]
+string = "btnCS_RecreateCancel"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[FRAME_RECREATE]
+position = [160, 204, 640, 340]
+
+[BORDER_RECREATE]
+offset = [139, -150]
+groupname = "MAIN_ICONS"
+picture = ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{161", "208", "636", "234}"]
+
+[STRINGS_RECREATE]
+string = ["capCS_ServerAlreadyExist", "font:interface_button", "pos:{402", "211}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]
+
+[TEXT_RECREATE]
+position = [215, 251, 585, 288]
+fontscale = 1.0
+linespace = 14
+alignment = "center"
+color = [255, 255, 255, 156]
+
+[RECTANGLE_OK]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [255, 255, 255, 255]
+bottomcolor = [255, 1, 5, 30]
+rightcolor = [255, 255, 255, 255]
+topcolor = [125, 2, 11, 75]
+
+[BTN_OK]
+bbreakcommand = 1
+command = ["click", "event:OnOk"]
+position = [340, 298, 447, 330]
+string = "btnCS_Ok"
+glowoffset = [0, 0]
+presspictureoffset = [2, 2]
+
+[FRAME_OK]
+position = [160, 204, 640, 340]
+
+[BORDER_OK]
+offset = [139, -150]
+groupname = "MAIN_ICONS"
+picture = ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{161", "208", "636", "234}"]
+
+[STRINGS_OK]
+string = ["capCS_ErrorOk", "font:interface_button", "pos:{402", "211}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]
+
+[TEXT_OK]
+position = [215, 251, 585, 288]
+fontscale = 1.0
+linespace = 14
+alignment = "center"
+color = [255, 255, 255, 156]

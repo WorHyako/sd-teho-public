@@ -1,0 +1,61 @@
+[MAIN]
+item = ["FRAME", "MAIN_FRAME", "PICTURE", "INFO_PICTURE", "90", "FORMATEDTEXT", "INFO_TEXT", "90", "FORMATEDTEXT", "INFO_TEXT_QUESTION", "100", "TEXTBUTTON2", "B_OK", "100", "TEXTBUTTON2", "B_CANCEL", "100", "FORMATEDTEXT", "MAP_CAPTION", "IMAGECOLLECTION", "INFO_BORDERS"]
+start = "B_OK"
+
+[MAIN_FRAME]
+captionheight = 24
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+position = [225, 119, 574, 469]
+
+[INFO_PICTURE]
+position = [250, 152, 550, 342]
+texturename = "loading\\sea.tga"
+
+[B_OK]
+bbreakcommand = 1
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_CANCEL"]
+position = [253, 430, 379, 462]
+string = "map_yes"
+glowoffset = [0, 0]
+
+[B_CANCEL]
+bbreakcommand = 1
+command = ["deactivate", "event:exitCancel", "activate", "click", "leftstep", "select:B_OK"]
+position = [383, 430, 546, 462]
+string = "map_no"
+glowoffset = [0, 0]
+
+[INFO_TEXT]
+position = [223, 333, 577, 414]
+fontscale = 0.9
+linespace = 13
+color = [255, 255, 255, 255]
+backoffset = [1, 0, 0, -2]
+glowoffset = [0, 0]
+
+[INFO_TEXT_QUESTION]
+position = [241, 405, 557, 433]
+fontscale = 0.9
+linespace = 13
+
+[MAP_CAPTION]
+babsoluterectangle = 5
+position = [251, 123, 548, 149]
+fontscale = 1.1
+linespace = 18
+font = "interface_button"
+alignment = "center"
+color = [255, 255, 255, 255]
+backoffset = [1, 0, 0, -2]
+glowoffset = [0, 0]
+
+[RECTANGLE_MIDDLE]
+position = [253, 319, 546, 347]
+leftcolor = [120, 41, 17, 0]
+topcolor = [120, 41, 17, 0]
+rightcolor = [120, 41, 17, 0]
+bottomcolor = [120, 41, 17, 0]
+bordercolor = [255, 106, 76, 57]
+glowoffset = [0, 0]

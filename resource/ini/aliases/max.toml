@@ -1,0 +1,10 @@
+[tornado]
+mindistance = 0.0
+maxdistance = 500.0
+name = "AMBIENT\\SEA\\wind_tornado.wav"
+volume = 2.0
+
+[TornadoCrackSound]
+mindistance = 270.0
+maxdistance = 800.0
+name = ["SHIP\\SHIPCHARGE\\ball2bort1.wav", "SHIP\\SHIPCHARGE\\ball2bort2.wav", "SHIP\\SHIPCHARGE\\coll_ship2rock1.wav", "SHIP\\SHIPCHARGE\\coll_ship2rock2.wav", "SHIP\\SHIPCHARGE\\coll_ship2rock3.wav", "SHIP\\SHIPCHARGE\\grapes2bort1.wav", "SHIP\\SHIPCHARGE\\grapes2bort2.wav"]

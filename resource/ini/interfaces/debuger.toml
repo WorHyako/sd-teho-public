@@ -1,0 +1,264 @@
+[MAIN]
+item = ["RECTANGLE", "INFO_WINDOW_FADER", "FRAME", "INFO_FRAME", "FRAME", "FRAME_2", "FORMATEDTEXT", "INFO_TEXT", "FORMATEDTEXT", "INFO_TEXT2", "100", "pc", "BUTTON", "EXIT_BTN", "TEXTBUTTON2", "B_F1", "TEXTBUTTON2", "B_F2", "TEXTBUTTON2", "B_F3", "TEXTBUTTON2", "B_F4", "TEXTBUTTON2", "B_F5", "TEXTBUTTON2", "B_F6", "TEXTBUTTON2", "B_F7", "TEXTBUTTON2", "B_F8", "TEXTBUTTON2", "B_F9", "TEXTBUTTON2", "B_F10", "TEXTBUTTON2", "B_F11", "TEXTBUTTON2", "B_F12", "TEXTBUTTON2", "B_F13", "TEXTBUTTON2", "B_F14", "TEXTBUTTON2", "B_F15", "TEXTBUTTON2", "B_F16", "TEXTBUTTON2", "B_F17", "TEXTBUTTON2", "B_F18", "TEXTBUTTON2", "B_F19", "TEXTBUTTON2", "B_F20", "TEXTBUTTON2", "B_F21", "TEXTBUTTON2", "B_F22", "TEXTBUTTON2", "B_F23", "TEXTBUTTON2", "B_F24", "TEXTBUTTON2", "B_F25", "TEXTBUTTON2", "B_F26", "TEXTBUTTON2", "B_F27", "TEXTBUTTON2", "B_F28", "TEXTBUTTON2", "B_F29", "TEXTBUTTON2", "B_F30", "TEXTBUTTON2", "B_BETA", "TEXTBUTTON2", "B_RELOAD", "TEXTBUTTON2", "B_31", "TEXTBUTTON2", "B_32", "TEXTBUTTON2", "B_33", "400", "PCEDITBOX", "RELOAD_EDIT", "SCROLLER", "QUESTSCROLL"]
+start = "INFO_TEXT"
+
+[QUESTSCROLL]
+position = [620, 39, 630, 389]
+command = ["click", "select:INFO_TEXT", "deactivate", "event:exitCancel", "downstep", "upstep"]
+
+[TITLE]
+position = [0, 0, 640, 30]
+
+[INFO_WINDOW_FADER]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [150, 0, 0, 0]
+topcolor = [150, 0, 0, 0]
+rightcolor = [150, 0, 0, 0]
+bottomcolor = [150, 0, 0, 0]
+bordercolor = [0, 0, 0, 0]
+
+[EXIT_BTN]
+position = [613, 6, 635, 28]
+group = "MAIN_ICONS"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+
+[B_F1]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F2", "leftstep", "select:B_F18"]
+position = [30, 400, 110, 432]
+string = "D_F1"
+
+[B_F2]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F3", "leftstep", "select:B_F1"]
+position = [130, 400, 210, 432]
+string = "D_F2"
+
+[B_F3]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F4", "leftstep", "select:B_F2"]
+position = [230, 400, 310, 432]
+string = "D_F3"
+
+[B_F4]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F5", "leftstep", "select:B_F3"]
+position = [330, 400, 410, 432]
+string = "D_F4"
+
+[B_F5]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F6", "leftstep", "select:B_F4"]
+position = [430, 400, 510, 432]
+string = "D_F5"
+
+[B_F6]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F7", "leftstep", "select:B_F5"]
+position = [530, 400, 610, 432]
+string = "D_F6"
+
+[B_F7]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F8", "leftstep", "select:B_F6"]
+position = [30, 440, 110, 472]
+string = "D_F7"
+
+[B_F8]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F9", "leftstep", "select:B_F7"]
+position = [130, 440, 210, 472]
+string = "D_F8"
+
+[B_F9]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F10", "leftstep", "select:B_F8"]
+position = [230, 440, 310, 472]
+string = "D_F9"
+
+[B_F10]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F11", "leftstep", "select:B_F9"]
+position = [330, 440, 410, 472]
+string = "D_F10"
+
+[B_F11]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F12", "leftstep", "select:B_F10"]
+position = [430, 440, 510, 472]
+string = "D_F11"
+
+[B_F12]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F13", "leftstep", "select:B_F12"]
+position = [530, 440, 610, 472]
+string = "D_F12"
+
+[B_F13]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F14", "leftstep", "select:B_F12"]
+position = [30, 480, 110, 512]
+string = "D_F13"
+
+[B_F14]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F15", "leftstep", "select:B_F13"]
+position = [130, 480, 210, 512]
+string = "D_F14"
+
+[B_F15]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F16", "leftstep", "select:B_F4"]
+position = [230, 480, 310, 512]
+string = "D_F15"
+
+[B_F16]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F17", "leftstep", "select:B_F15"]
+position = [330, 480, 410, 512]
+string = "D_F16"
+
+[B_F17]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F18", "leftstep", "select:B_F16"]
+position = [430, 480, 510, 512]
+string = "D_F17"
+
+[B_F18]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F19", "leftstep", "select:B_F17"]
+position = [530, 480, 610, 512]
+string = "D_F18"
+
+[B_F19]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F20", "leftstep", "select:B_F18"]
+position = [30, 520, 110, 552]
+string = "D_F19"
+
+[B_F20]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F21", "leftstep", "select:B_F19"]
+position = [130, 520, 210, 552]
+string = "D_F20"
+
+[B_F21]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F22", "leftstep", "select:B_F20"]
+position = [230, 520, 310, 552]
+string = "D_F21"
+
+[B_F22]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F21", "leftstep", "select:B_F23"]
+position = [330, 520, 410, 552]
+string = "D_F22"
+
+[B_F23]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F24", "leftstep", "select:B_F22"]
+position = [430, 520, 510, 552]
+string = "D_F23"
+
+[B_F24]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F25", "leftstep", "select:B_F23"]
+position = [530, 520, 610, 552]
+string = "D_F24"
+
+[B_F25]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F26", "leftstep", "select:B_F24"]
+position = [30, 560, 110, 592]
+string = "D_F25"
+
+[B_F26]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F27", "leftstep", "select:B_F25"]
+position = [130, 560, 210, 592]
+string = "D_F26"
+
+[B_F27]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F28", "leftstep", "select:B_F26"]
+position = [230, 560, 310, 592]
+string = "D_F27"
+
+[B_F28]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F29", "leftstep", "select:B_F27"]
+position = [330, 560, 410, 592]
+string = "D_F28"
+
+[B_F29]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F30", "leftstep", "select:B_F28"]
+position = [430, 560, 510, 592]
+string = "D_F29"
+
+[B_F30]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_F1", "leftstep", "select:B_F29"]
+position = [530, 560, 610, 592]
+string = "D_F30"
+
+[B_31]
+command = ["activate", "deactivate", "event:exitCancel", "click", "downstep", "select:B_BETA"]
+position = [700, 520, 790, 550]
+string = "D_F31"
+
+[B_32]
+command = ["activate", "deactivate", "event:exitCancel", "click", "downstep", "select:B_BETA"]
+position = [700, 480, 790, 510]
+string = "D_F32"
+
+[B_33]
+command = ["activate", "deactivate", "event:exitCancel", "click", "downstep", "select:B_BETA"]
+position = [700, 440, 790, 470]
+string = "D_F33"
+
+[B_BETA]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "upstep", "select:B_ANCHEAT"]
+position = [700, 560, 790, 590]
+string = "titleBoal_SetupGame"
+
+[B_RELOAD]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click"]
+position = [430, 8, 570, 38]
+string = "Ok"
+
+[INFO_TEXT]
+position = [25, 40, 615, 395]
+linespace = 16
+font = "DIALOG_QUEST"
+command = ["downstep", "upstep", "speeddown", "speedup", "deactivate", "event:exitCancel", "activate", "select:INFO_TEXT", "click", "select:INFO_TEXT"]
+bshowglowcursor = 0
+alignment = "left"
+
+[INFO_TEXT2]
+position = [660, 10, 820, 500]
+linespace = 14
+bshowglowcursor = 0
+fontscale = 0.7
+alignment = "left"
+
+[INFO_FRAME]
+position = [0, 0, 640, 600]
+
+[FRAME_2]
+position = [650, 0, 800, 427]
+
+[RELOAD_EDIT]
+command = ["click", "select:RELOAD_EDIT", "deactivate", "event:exitCancel"]
+position = [10, 8, 400, 38]
+strfont = "interface_normal"
+argbfontcolor = [255, 255, 255, 255]
+stringlength = 100
+stringalign = "left"
+stringoffset = [9, 6]
+middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]

@@ -1,0 +1,20 @@
+[COMMON]
+defaultlanguage = "russian"
+strings = "common.ini"
+globalfile = "globals.txt"
+
+[DIRECTORY]
+english = "english"
+spanish = "spanish"
+german = "german"
+french = "french"
+russian = "russian"
+italian = "italian"
+
+[FONTS]
+english = "fonts.ini"
+spanish = "fonts.ini"
+german = "fonts.ini"
+french = "fonts.ini"
+italian = "fonts.ini"
+russian = "fonts_rus.ini"

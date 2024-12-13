@@ -1,0 +1,31 @@
+[COMMON]
+repeatdelay = 250
+mouseoutzonewidth = 5
+mouseoutzoneheight = 5
+mousedblclickinterval = 600
+mousepointer = ["Interfaces\\cursor32.tga", "10", "size:(32", "32)", "pos:(-16", "-16)"]
+columnquantity = 15
+waveamplitude = 0.1
+wavephase = 0.4
+wavespeed = 0.2
+wavestepquantity = 300
+blendspeed = 4
+blindtime = 1.0
+
+[XBOX_SCREEN]
+fscale = 1.0
+wscreenwidth = 720
+wscreenheight = 576
+wscreenleft = 40
+wscreentop = 48
+wscreenright = 679
+wscreendown = 527
+
+[PC_SCREEN]
+fscale = 1.0
+wscreenwidth = 800
+wscreenheight = 600
+wscreenleft = 0
+wscreentop = 0
+wscreenright = 800
+wscreendown = 600

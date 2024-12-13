@@ -1,0 +1,49 @@
+[MAIN]
+item = ["FRAME", "MAIN_FRAME", "200", "BUTTON", "EXIT_BTN", "90", "FORMATEDTEXT", "INFO_TEXT", "100", "FORMATEDTEXT", "MAP_CAPTION", "200", "TABLE", "TABLE_HERO"]
+
+[EXIT_BTN]
+position = [646, 51, 668, 73]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel", "deactivate", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+glowoffset = [0, 0]
+
+[MAIN_FRAME]
+captionheight = 24
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+position = [105, 49, 694, 559]
+
+[INFO_TEXT]
+position = [223, 360, 577, 441]
+fontscale = 0.9
+linespace = 13
+color = [255, 255, 255, 255]
+backoffset = [1, 0, 0, -2]
+glowoffset = [0, 0]
+
+[MAP_CAPTION]
+babsoluterectangle = 5
+position = [251, 51, 548, 77]
+fontscale = 1.1
+linespace = 18
+font = "interface_button"
+alignment = "center"
+color = [255, 255, 255, 255]
+backoffset = [1, 0, 0, -2]
+glowoffset = [0, 0]
+
+[TABLE_HERO]
+command = ["deactivate", "event:exitCancel", "click", "select:TABLE_HERO", "rclick", "select:TABLE_HERO", "event:ShowInfoWindow", "upstep", "downstep"]
+position = [127, 85, 581, 545]
+vlinewidth = 2
+hlineheight = 2
+rowquantity = 14
+colquantity = 7
+fontcellvalignment = "center"
+selectimage = ["color=(100", "200", "120", "55)"]
+colswidth = [120, 90, 55, 55, 60, 80, 80]
+rowsheight = [40, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
+normallineheight = 32

@@ -1,0 +1,3082 @@
+[SOME_ICONS]
+stexturename = "..\\BATTLE_INTERFACE\\LIST_ICON2.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["England", "256", "256", "320", "320", "Spain", "320", "256", "384", "320", "France", "384", "256", "448", "320", "Holland", "448", "256", "512", "320", "Pirate", "0", "384", "64", "448", "Flow", "384", "384", "448", "448", "Quest", "0", "128", "64", "192", "Task", "64", "128", "128", "192"]
+
+[NATION_ICONS]
+stexturename = "..\\BATTLE_INTERFACE\\pers_nations.tga"
+wtexturewidth = 512
+wtextureheight = 64
+picture = ["England", "0", "0", "64", "64", "Holland", "64", "0", "128", "64", "Spain", "128", "0", "192", "64", "France", "192", "0", "256", "64", "Pirate", "256", "0", "320", "64"]
+
+[ALCOHOL]
+stexturename = "alco\\alcohol.tga"
+wtexturewidth = 256
+wtextureheight = 64
+picture = ["alcohol1", "0", "0", "64", "64", "alcohol2", "64", "0", "128", "64", "alcohol3", "128", "0", "192", "64", "alcohol4", "192", "0", "256", "64"]
+
+[HULL_UPGRADE_1]
+stexturename = "hull_upgrade1.tga"
+wtexturewidth = 64
+wtextureheight = 64
+picture = ["hull", "0", "0", "64", "64"]
+
+[HULL_UPGRADE_2]
+stexturename = "hull_upgrade2.tga"
+wtexturewidth = 64
+wtextureheight = 64
+picture = ["hull", "0", "0", "64", "64"]
+
+[HULL_UPGRADE_3]
+stexturename = "hull_upgrade3.tga"
+wtexturewidth = 64
+wtextureheight = 64
+picture = ["hull", "0", "0", "64", "64"]
+
+[SAILS_UPGRADE_1]
+stexturename = "sails_upgrade1.tga"
+wtexturewidth = 64
+wtextureheight = 64
+picture = ["sails", "0", "0", "64", "64"]
+
+[SAILS_UPGRADE_2]
+stexturename = "sails_upgrade2.tga"
+wtexturewidth = 64
+wtextureheight = 64
+picture = ["sails", "0", "0", "64", "64"]
+
+[SAILS_UPGRADE_3]
+stexturename = "sails_upgrade3.tga"
+wtexturewidth = 64
+wtextureheight = 64
+picture = ["sails", "0", "0", "64", "64"]
+
+[CANNONS_UPGRADE_1]
+stexturename = "cannons\\cannon1.tga"
+wtexturewidth = 256
+wtextureheight = 256
+picture = ["cannons1", "0", "0", "64", "64", "cannons2", "64", "0", "128", "64", "cannons3", "128", "0", "192", "64", "cannons4", "192", "0", "256", "64", "cannons5", "0", "64", "64", "128", "cannons6", "64", "64", "128", "128", "cannons7", "128", "64", "192", "128", "cannons8", "192", "64", "256", "128", "cannons9", "0", "128", "64", "192", "cannons10", "64", "128", "128", "192", "cannons11", "128", "128", "192", "192", "cannons12", "192", "128", "256", "192", "cannons13", "0", "192", "64", "256"]
+
+[CANNONS_UPGRADE_2]
+stexturename = "cannons\\cannon2.tga"
+wtexturewidth = 256
+wtextureheight = 256
+picture = ["cannons1", "0", "0", "64", "64", "cannons2", "64", "0", "128", "64", "cannons3", "128", "0", "192", "64", "cannons4", "192", "0", "256", "64", "cannons5", "0", "64", "64", "128", "cannons6", "64", "64", "128", "128", "cannons7", "128", "64", "192", "128", "cannons8", "192", "64", "256", "128", "cannons9", "0", "128", "64", "192", "cannons10", "64", "128", "128", "192", "cannons11", "128", "128", "192", "192", "cannons12", "192", "128", "256", "192", "cannons13", "0", "192", "64", "256"]
+
+[CANNONS_UPGRADE_3]
+stexturename = "cannons\\cannon3.tga"
+wtexturewidth = 256
+wtextureheight = 256
+picture = ["cannons1", "0", "0", "64", "64", "cannons2", "64", "0", "128", "64", "cannons3", "128", "0", "192", "64", "cannons4", "192", "0", "256", "64", "cannons5", "0", "64", "64", "128", "cannons6", "64", "64", "128", "128", "cannons7", "128", "64", "192", "128", "cannons8", "192", "64", "256", "128", "cannons9", "0", "128", "64", "192", "cannons10", "64", "128", "128", "192", "cannons11", "128", "128", "192", "192", "cannons12", "192", "128", "256", "192", "cannons13", "0", "192", "64", "256"]
+
+[TABS]
+stexturename = "tabs.tga"
+wtexturewidth = 128
+wtextureheight = 64
+picture = ["TabSelected", "0", "0", "128", "31", "TabDeSelected", "0", "32", "128", "64"]
+
+[TITLE]
+stexturename = "title.tga"
+wtexturewidth = 512
+wtextureheight = 64
+picture = ["Center", "64", "0", "192", "64", "Left", "0", "0", "64", "64", "tile", "256", "0", "512", "64"]
+
+[JOURNAL_ICONS]
+stexturename = "questbook.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["JOURNAL", "0", "0", "195", "151", "RUMOURS", "196", "0", "390", "151", "NATIONS", "0", "154", "195", "305", "TRADEBOOK", "196", "154", "390", "312"]
+
+[CANCEL_BUTTON]
+stexturename = "cancelbutton.tga"
+wtexturewidth = 64
+wtextureheight = 64
+picture = ["cancel_button", "0", "0", "64", "64"]
+
+[MAINCHARACTERS]
+stexturename = "main_characters.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["Blaze", "0", "0", "256", "511", "Beatrice", "256", "0", "512", "511"]
+
+[NATIONS]
+stexturename = "nations.tga"
+wtexturewidth = 1024
+wtextureheight = 128
+picture = ["Spain", "0", "0", "128", "128", "Pirate", "128", "0", "256", "128", "Holland", "256", "0", "384", "128", "France", "384", "0", "512", "128", "England", "512", "0", "640", "128"]
+
+[SEA_UPGRADES_ICONS]
+stexturename = "main_icons.tga"
+wtexturewidth = 1024
+wtextureheight = 256
+picture = ["Hull1", "192", "0", "224", "32", "Hull2", "224", "0", "256", "32", "Hull3", "192", "32", "224", "64", "Rigging1", "224", "32", "256", "64", "Rigging2", "192", "64", "224", "96", "Rigging3", "224", "64", "256", "96", "Copper", "192", "96", "224", "128", "Bronze", "224", "96", "256", "128", "Iron", "192", "128", "224", "160"]
+
+[UPGRADES]
+stexturename = "upgrades.tga"
+wtexturewidth = 1024
+wtextureheight = 512
+picture = ["Fort1", "0", "0", "135", "100", "Fort2", "0", "0", "135", "100", "Fort3", "135", "0", "270", "100", "Fort4", "270", "0", "405", "100", "Shipyard1", "405", "0", "540", "100", "Shipyard2", "405", "0", "540", "100", "Shipyard3", "540", "0", "675", "100", "Shipyard4", "675", "0", "810", "100", "Wheatfield", "810", "0", "945", "100", "Fishingpier", "0", "100", "135", "200", "Mill", "135", "100", "270", "200", "Church", "270", "100", "405", "200", "Huts", "405", "100", "540", "200", "Academy", "540", "100", "675", "200", "Storehouse", "675", "100", "810", "200", "Expedition", "810", "100", "945", "200", "Silvermines", "0", "200", "135", "300", "Goldmines", "135", "200", "270", "300"]
+
+[MAIN_BACK]
+stexturename = "mainback.tga"
+wtexturewidth = 2048
+wtextureheight = 2048
+picture = ["mainback", "0", "0", "2048", "2048"]
+
+[COLONY_ICONS]
+stexturename = "colony_destiny.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["rob_colony", "0", "0", "149", "399", "destroy_colony", "151", "0", "301", "399", "capture_colony", "302", "0", "451", "399"]
+
+[SKILLS]
+stexturename = "skills.tga"
+wtexturewidth = 256
+wtextureheight = 256
+picture = ["accuracy", "0", "0", "64", "64", "leadership", "64", "0", "128", "64", "gun", "128", "0", "192", "64", "fencing", "192", "0", "256", "64", "defence", "0", "64", "64", "128", "cannons", "64", "64", "128", "128", "repair", "128", "64", "192", "128", "grappling", "192", "64", "256", "128", "commerce", "0", "128", "64", "192", "luck", "64", "128", "128", "192", "navigation", "128", "128", "192", "192", "tactic", "192", "128", "256", "192", "accuracy_small", "0", "192", "32", "224", "leadership_small", "32", "192", "64", "224", "gun_small", "64", "192", "96", "224", "fencing_small", "96", "192", "128", "224", "defence_small", "128", "192", "160", "224", "cannons_small", "160", "192", "192", "224", "repair_small", "192", "192", "224", "224", "grappling_small", "224", "192", "256", "224", "commerce_small", "0", "224", "32", "256", "luck_small", "32", "224", "64", "256", "navigation_small", "64", "224", "96", "256", "tactic_small", "224", "224", "256", "256", "skillborder", "105", "224", "224", "256"]
+
+[MAIN_ICONS]
+stexturename = "main_icons.tga"
+wtexturewidth = 1024
+wtextureheight = 256
+picture = ["Level", "0", "96", "32", "128", "Holland", "0", "128", "32", "160", "Smugglers", "32", "128", "64", "160", "Pirate", "0", "160", "32", "192", "England", "32", "160", "64", "192", "Spain", "0", "192", "32", "224", "France", "32", "192", "64", "224", "select_nation", "32", "223", "64", "255", "BORDER", "64", "0", "192", "128", "left", "side", "button", "256", "32", "303", "64", "middle", "side", "button", "303", "32", "402", "64", "select", "middle", "side", "button", "303", "64", "402", "96", "select", "left", "side", "button", "256", "64", "303", "96", "left", "side", "button2", "287", "32", "303", "64", "select", "left", "side", "button2", "287", "64", "303", "96", "left_button3", "416", "32", "430", "64", "select_left_button3", "416", "64", "430", "96", "right_button3", "434", "64", "448", "96", "select_right_button3", "434", "32", "448", "64", "check_no", "448", "32", "480", "64", "check_yes", "448", "64", "480", "96", "check_cancel", "544", "96", "576", "128", "plus", "481", "32", "496", "48", "minus", "480", "48", "495", "64", "bigplus", "497", "32", "513", "48", "bigminus", "496", "48", "512", "64", "repairb", "480", "64", "512", "96", "exchange", "512", "64", "544", "96", "upgrade", "512", "32", "544", "64", "capture", "512", "96", "544", "128", "raise", "512", "96", "544", "128", "leadership", "192", "0", "224", "32", "fencing", "224", "0", "256", "32", "gun", "192", "32", "224", "64", "navigation", "224", "32", "256", "64", "tactic", "224", "32", "256", "64", "cannons", "192", "64", "224", "96", "grappling", "224", "64", "256", "96", "repair", "192", "96", "224", "128", "defence", "224", "96", "256", "128", "commerce", "192", "128", "224", "160", "luck", "224", "128", "256", "160", "accuracy", "0", "224", "32", "256", "skillborder", "260", "0", "383", "32", "skillborder_green", "256", "96", "383", "128", "skillborder_silver", "383", "96", "511", "128", "skillup", "button", "416", "0", "448", "32", "BORDER_UPLEFT", "192", "160", "210", "178", "BORDER_LEFT", "192", "189", "202", "201", "BORDER_DOWNLEFT", "192", "239", "210", "256", "BORDER_CENTER", "222", "160", "236", "170", "BORDER_UPRIGHT", "734", "160", "752", "178", "BORDER_DOWNRIGHT", "734", "239", "752", "256", "upbutton", "448", "0", "480", "16", "downbutton", "448", "16", "480", "32", "exit", "button", "720", "128", "752", "160", "back", "544", "0", "672", "128", "Center", "573", "128", "712", "160", "Left", "566", "128", "573", "160", "tile", "256", "128", "566", "160"]
+
+[NET_TEAMICONS]
+stexturename = "net\\TeamIcons.tga"
+wtexturewidth = 256
+wtextureheight = 64
+picture = ["no_team", "0", "0", "48", "48", "team0", "48", "0", "96", "48", "team1", "96", "0", "144", "48", "team2", "144", "0", "192", "48", "team3", "192", "0", "240", "48"]
+
+[NET_BUYCHECKICONS]
+stexturename = "net\\CheckIcons.tga"
+wtexturewidth = 256
+wtextureheight = 64
+picture = ["check_yes", "0", "0", "48", "48", "check_no", "48", "0", "96", "48", "check_yes_no_choice", "96", "0", "144", "48", "check_empty", "144", "0", "192", "48"]
+
+[PAPIRUS]
+stexturename = "papirus_big.tga"
+wtexturewidth = 1024
+wtextureheight = 1024
+picture = ["papirus_characters_character", "0", "0", "210", "282", "papirus_characters_perks", "0", "0", "276", "258", "papirus_characters_reputation", "0", "0", "274", "254", "papirus_characters_perks_add", "0", "0", "418", "664", "papirus_characters_list", "0", "0", "180", "638", "papirus_characters_skills", "0", "0", "248", "549", "papirus_store_goods", "0", "0", "141", "437", "papirus_store_ship", "0", "0", "189", "360", "papirus_store_ships_list", "0", "0", "180", "689", "papirus_store_price", "0", "0", "432", "435", "papirus_store_buy_sell", "0", "0", "430", "161", "papirus_info", "0", "0", "810", "104", "papirus_character_remove_officer", "0", "0", "506", "165", "papirus_ship_additional_info", "0", "0", "540", "350", "papirus_ship_cargo_hold", "0", "0", "290", "250", "papirus_ship_goods_list", "0", "0", "120", "250", "papirus_ships_character", "0", "0", "260", "290", "papirus_ship_goods_management", "0", "0", "420", "85", "papirus_ship_ship_management", "0", "0", "420", "210", "papirus_ship_discrad_goods", "0", "0", "320", "160", "papirus_ship_exchange_goods", "0", "0", "310", "410", "papirus_map_colony_list", "0", "0", "157", "695", "papirus_map_colony_info", "0", "0", "180", "695", "papirus_map_small_info", "0", "0", "619", "90", "papirus_hireofficer_character", "0", "0", "263", "612", "papirus_hireofficer_info", "0", "0", "730", "85", "papirus_hireofficer_back", "0", "0", "612", "519", "papirus_choose_character", "0", "0", "262", "222", "papirus_choose_nation", "0", "0", "355", "120", "papirus_choose_flag", "0", "0", "145", "120", "papirus_choose_nation_descr", "0", "0", "560", "500", "papirus_capture_colony", "0", "0", "323", "313", "papirus_colonies_build", "0", "0", "538", "522", "papirus_net_fgserverslist", "20", "50", "187", "300", "papirus_net_fgserverslist2", "201", "50", "520", "300", "papirus_net_fguserprofile", "20", "342", "520", "580", "papirus_net_fgserverinfo", "540", "50", "780", "440", "papirus_net_fgserverinfo_map", "0", "0", "128", "128", "papirus_net_buyplayers_name", "20", "50", "315", "316", "papirus_net_buyplayers_other", "329", "50", "520", "316", "papirus_net_buybuy", "20", "342", "520", "580", "papirus_net_buyserverinfo", "540", "50", "780", "440", "papirus_net_buyserverinfo_map", "0", "0", "128", "128", "papirus_net_cgsettings", "120", "50", "680", "550", "papirus_choose_profile", "0", "0", "280", "74", "papirus_choose_WorldSettings", "0", "0", "280", "330", "papirus_choose_GameSettings", "0", "0", "231", "369", "papirus_choose_OkBack", "0", "0", "231", "50", "papirus_confirm_build", "0", "0", "400", "400", "papirus_info", "0", "0", "400", "160", "papirus_shipyard_main", "0", "0", "460", "500", "shipyard_papirus_message", "0", "0", "300", "150", "papirus_saveload", "0", "0", "1014", "430", "papirus_main_menu", "0", "0", "365", "401", "papirus_upgrade_prescie", "0", "0", "320", "421", "papirus_upgrade", "0", "0", "320", "203", "papirus_map", "0", "0", "310", "245", "papirus_abordage_ears", "0", "0", "210", "370", "papirus_abordage", "0", "0", "475", "455", "papirus_ship_thin_strip", "0", "100", "398", "32", "papirus_date_back", "0", "0", "160", "120", "papirus_papermap_info", "0", "0", "400", "330"]
+
+[PAPIRUS_BIG]
+stexturename = "papirus_big.tga"
+wtexturewidth = 1024
+wtextureheight = 1024
+picture = ["papirus", "big", "0", "0", "1024", "1024"]
+
+[BLANK_SHIP]
+stexturename = "blank_ship.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["Not", "Used", "0", "0", "128", "128"]
+
+[BLANK_SHIP2]
+stexturename = "blank_ship2.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["Not", "Used2", "0", "0", "128", "128"]
+
+[CHECKBUTTON_ICON]
+stexturename = "checkbtn.tga"
+wtexturewidth = 32
+wtextureheight = 64
+picture = ["check_yes", "0", "0", "32", "32", "check_no", "0", "32", "32", "64"]
+
+[ICONS]
+stexturename = "icons.tga"
+wtexturewidth = 512
+wtextureheight = 256
+picture = ["transp", "200", "64", "201", "64", "ship", "back", "256", "0", "384", "128", "culverine", "back", "0", "0", "128", "128", "cannon", "back", "0", "0", "128", "128", "special", "cannon", "back", "0", "0", "128", "128", "left", "arrow", "384", "0", "448", "64", "right", "arrow", "448", "0", "512", "64", "large", "title", "0", "128", "384", "160", "small", "title", "0", "128", "384", "160", "left", "side", "title", "0", "128", "24", "160", "middle", "side", "title", "24", "128", "360", "160", "select", "border", "128", "0", "256", "128", "border", "angle", "384", "64", "400", "80", "border", "line", "400", "64", "512", "80", "titleCenter", "352", "160", "384", "192", "titleMedium", "288", "160", "352", "192", "titleTiled", "128", "160", "288", "192", "status", "line", "filled", "384", "80", "512", "88", "status", "line", "empty", "384", "88", "512", "96", "scrollbar", "384", "128", "512", "160", "select", "scrollbar", "384", "96", "512", "128", "black", "rectangle", "384", "160", "512", "192", "small", "left", "arrow", "384", "224", "416", "256", "small", "right", "arrow", "448", "224", "480", "256", "buy", "all", "384", "224", "416", "256", "sell", "all", "448", "224", "480", "256", "small", "border", "angle", "384", "64", "400", "80", "small", "border", "line", "400", "64", "512", "80", "exit", "button", "416", "192", "448", "224", "pluss", "452", "163", "477", "188", "complete", "64", "160", "96", "192", "noncomplete", "96", "160", "128", "192", "ship", "class", "icon", "64", "192", "96", "224", "ship", "hull", "icon", "288", "224", "320", "256", "ship", "speed", "icon", "128", "224", "160", "256", "ship", "maneuver", "icon", "96", "224", "128", "256", "ship", "capacity", "icon", "192", "224", "224", "256", "ship", "max", "crew", "icon", "320", "224", "352", "256", "ship", "min", "crew", "icon", "352", "224", "384", "256", "ship", "cannons", "icon", "224", "224", "256", "256", "ship", "max", "caliber", "icon", "256", "224", "288", "256", "ship", "cost", "icon", "448", "192", "480", "224", "ship", "rig", "icon", "480", "192", "512", "224", "ship", "crew", "icon", "416", "224", "448", "256", "ship", "max", "hp", "icon", "320", "192", "354", "224", "current", "expirience", "icon", "352", "192", "384", "224", "next", "expirience", "icon", "384", "192", "416", "224", "money", "icon", "448", "192", "480", "224", "skill", "pointer", "icon", "320", "192", "352", "224", "health", "icon", "480", "224", "512", "256", "weight", "icon", "160", "224", "192", "256", "buy", "price", "icon", "448", "192", "480", "224", "sell", "price", "icon", "448", "192", "480", "224", "leadership", "skill", "icon", "64", "224", "96", "256", "fencing", "skill", "icon", "32", "192", "64", "224", "sailing", "skill", "icon", "64", "192", "96", "224", "accuracy", "skill", "icon", "96", "192", "128", "224", "cannons", "skill", "icon", "128", "192", "160", "224", "grappling", "skill", "icon", "160", "192", "192", "224", "repair", "skill", "icon", "192", "192", "224", "224", "deffence", "skill", "icon", "224", "192", "256", "224", "commerce", "skill", "icon", "256", "192", "288", "224", "sneak", "skill", "icon", "288", "192", "320", "224"]
+
+[EMPTYFACE]
+stexturename = "empty_face.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["emptyface", "0", "0", "128", "128"]
+
+[SINGLECANNON]
+stexturename = "singlecannon.tga"
+wtexturewidth = 64
+wtextureheight = 64
+picture = ["singlecannon", "0", "0", "64", "64"]
+
+[CREW_SMALL]
+stexturename = "crew.tga"
+wtexturewidth = 64
+wtextureheight = 64
+picture = ["crew_small", "0", "0", "64", "64"]
+
+[FACEICON]
+stexturename = "faces.tga"
+wtexturewidth = 1024
+wtextureheight = 512
+picture = ["face1", "0", "0", "128", "128", "face2", "128", "0", "256", "128", "face3", "256", "0", "384", "128", "face4", "384", "0", "512", "128", "face5", "512", "0", "640", "128", "face6", "640", "0", "768", "128", "face7", "768", "0", "896", "128", "face8", "896", "0", "1024", "128", "face9", "0", "128", "128", "256", "face10", "128", "128", "256", "256", "face11", "256", "128", "384", "256", "face12", "384", "128", "512", "256", "face13", "512", "128", "640", "256", "face14", "640", "128", "768", "256", "face15", "768", "128", "896", "256", "face16", "896", "128", "1024", "256", "face17", "0", "256", "128", "384", "face18", "128", "256", "256", "384", "face19", "256", "256", "384", "384", "face20", "384", "256", "512", "384", "face21", "512", "256", "640", "384", "face22", "640", "256", "768", "384", "face23", "768", "256", "896", "384", "face24", "896", "256", "1024", "384", "face25", "0", "384", "128", "512", "face26", "128", "384", "256", "512", "face27", "256", "384", "384", "512", "face28", "384", "384", "512", "512", "face29", "512", "384", "640", "512", "face30", "640", "384", "768", "512", "face31", "768", "384", "896", "512", "face32", "896", "384", "1024", "512"]
+
+[CANNONS]
+stexturename = "cannons.tga"
+wtexturewidth = 1024
+wtextureheight = 128
+picture = ["culverine8", "640", "0", "768", "128", "culverine18", "512", "0", "640", "128", "culverine36", "384", "0", "512", "128", "cannon3", "256", "0", "384", "128", "cannon6", "256", "0", "384", "128", "cannon12", "256", "0", "384", "128", "cannon16", "128", "0", "256", "128", "cannon20", "0", "0", "128", "128", "cannon24", "0", "0", "128", "128", "cannon32", "256", "0", "384", "128", "cannon36", "128", "0", "256", "128", "cannon42", "0", "0", "128", "128", "cannon48", "768", "0", "896", "128"]
+
+[GOODS]
+stexturename = "goods.tga"
+wtexturewidth = 1024
+wtextureheight = 1024
+picture = ["Balls", "128", "256", "256", "384", "Grapes", "256", "256", "384", "384", "Knippels", "512", "256", "640", "384", "Bombs", "384", "256", "512", "384", "Sailcloth", "256", "128", "384", "256", "Planks", "384", "384", "512", "512", "Slaves", "256", "384", "384", "512", "Wheat", "0", "128", "128", "256", "Ebony", "896", "256", "1024", "384", "Chocolate", "512", "0", "640", "128", "Sugar", "384", "128", "512", "256", "Wine", "768", "0", "896", "128", "ShipSilk", "640", "0", "768", "128", "Rum", "128", "128", "256", "256", "Tobacco", "512", "128", "640", "256", "Coffee", "0", "384", "128", "512", "Mahogany", "768", "256", "896", "384", "Cinnamon", "640", "256", "768", "384", "Copra", "768", "128", "896", "256", "Paprika", "0", "256", "128", "384", "Fruits", "384", "0", "512", "128", "Ale", "128", "0", "256", "128", "Oil", "256", "0", "384", "128", "Ropes", "896", "0", "1024", "128", "Clothes", "896", "128", "1024", "256", "Cotton", "0", "0", "128", "128", "Sandal", "128", "384", "256", "512", "Leather", "640", "128", "768", "256", "Food", "512", "384", "640", "512", "Weapon", "640", "384", "768", "512", "Gold", "768", "384", "896", "512", "Silver", "896", "384", "1024", "512", "Powder", "0", "512", "128", "640", "Brick", "128", "512", "256", "640", "Medicament", "256", "512", "384", "640", "Cannon_3", "384", "512", "512", "640", "Cannon_6", "512", "512", "640", "640", "Cannon_12", "640", "512", "768", "640", "Cannon_16", "768", "512", "896", "640", "Cannon_20", "896", "512", "1024", "640", "Cannon_24", "0", "640", "128", "768", "Cannon_32", "128", "640", "256", "768", "Cannon_36", "256", "640", "384", "768", "Cannon_42", "384", "640", "512", "768", "Cannon_48", "384", "640", "512", "768", "Culverine_8", "512", "640", "640", "768", "Culverine_18", "640", "640", "768", "768", "Culverine_36", "768", "640", "896", "768"]
+
+[MORALE]
+stexturename = "morality.tga"
+wtexturewidth = 512
+wtextureheight = 128
+picture = ["low", "morale", "256", "0", "384", "128", "medium", "morale", "128", "0", "256", "128", "high", "morale", "0", "0", "128", "128"]
+
+[MORALE_SMALL]
+stexturename = "morality_small.tga"
+wtexturewidth = 256
+wtextureheight = 64
+picture = ["low", "morale", "128", "0", "192", "64", "medium", "morale", "64", "0", "128", "64", "high", "morale", "0", "0", "64", "64"]
+
+[ISLANDSICON]
+stexturename = "Colonies.tga"
+wtexturewidth = 256
+wtextureheight = 256
+picture = ["Tortuga", "0", "0", "64", "64", "Stmartin", "64", "0", "128", "64", "Stkitts", "128", "0", "192", "64", "Steustatius", "192", "0", "256", "64", "Puertorico", "0", "64", "64", "128", "Nevis", "0", "64", "64", "128", "Montserrat", "0", "64", "64", "128", "Martinique", "0", "64", "64", "128", "Jamaica", "0", "128", "64", "192", "Hispaniola", "0", "128", "64", "192", "Guadeloupe", "0", "128", "64", "192", "Grenada", "0", "128", "64", "192", "Dominica", "0", "192", "64", "256", "Curacao", "0", "192", "64", "256", "Barbados", "0", "192", "64", "256", "Antigua", "0", "192", "64", "256"]
+
+[SHIP_STATE_ICONS]
+stexturename = "ship_status.tga"
+wtexturewidth = 512
+wtextureheight = 128
+picture = ["Hull", "0", "0", "128", "128", "Sails", "128", "0", "256", "128", "Cannons", "256", "0", "384", "128", "Crew", "384", "0", "512", "128"]
+
+[REPAIR_STATE_ICONS]
+stexturename = "repair_status.tga"
+wtexturewidth = 512
+wtextureheight = 128
+picture = ["Hull", "0", "0", "128", "128", "Mast", "128", "0", "256", "128", "Sail", "256", "0", "384", "128"]
+
+[NATIONS_1]
+stexturename = "nations_2.tga"
+wtexturewidth = 256
+wtextureheight = 128
+picture = ["Smuggler", "0", "0", "128", "128", "Spain", "128", "0", "256", "128"]
+
+[NATIONS_2]
+stexturename = "nations_4.tga"
+wtexturewidth = 512
+wtextureheight = 128
+picture = ["Pirate", "0", "0", "128", "128", "England", "128", "0", "256", "128", "Holland", "256", "0", "384", "128", "France", "384", "0", "512", "128"]
+
+[NATIONS_SMALL]
+stexturename = "nations_small_all.tga"
+wtexturewidth = 256
+wtextureheight = 64
+picture = ["Spain", "0", "0", "32", "32", "Smuggler", "32", "0", "64", "32", "France", "64", "0", "96", "32", "England", "96", "0", "128", "32", "Holland", "128", "0", "160", "32", "Pirate", "160", "0", "192", "32"]
+
+[RELATIONS]
+stexturename = ["relations", "icons.tga"]
+wtexturewidth = 512
+wtextureheight = 128
+picture = ["Enemy", "0", "0", "128", "128", "Friend", "128", "0", "256", "128", "Neutral", "256", "0", "384", "128"]
+
+[CORRUPTSAVE]
+stexturename = "CorruptSave.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["corruptsave", "0", "0", "128", "128"]
+
+[ITEMS_EMPTY]
+stexturename = "empty_item.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["empty", "0", "0", "128", "128"]
+
+[WEAPONS]
+stexturename = "LIST_WEAPON_HIGHLIGHT.tga"
+wtexturewidth = 1024
+wtextureheight = 512
+picture = ["blade1", "0", "0", "128", "128", "blade2", "128", "0", "256", "128", "blade3", "256", "0", "384", "128", "blade4", "384", "0", "512", "128", "blade5", "512", "0", "640", "128", "blade6", "0", "128", "128", "256", "blade7", "128", "128", "256", "256", "blade8", "256", "128", "384", "256", "blade9", "384", "128", "512", "256", "blade10", "512", "128", "640", "256", "blade11", "0", "256", "128", "384", "blade12", "128", "256", "256", "384", "blade13", "256", "256", "384", "384", "blade14", "384", "256", "512", "384", "blade15", "512", "256", "640", "384", "blade16", "0", "384", "128", "512", "blade17", "128", "384", "256", "512", "blade18", "256", "384", "384", "512", "blade19", "384", "384", "512", "512", "blade20", "512", "384", "640", "512", "gun1", "640", "0", "768", "128", "gun2", "768", "0", "896", "128", "gun3", "640", "128", "768", "256", "gun4", "768", "128", "896", "256", "gun5", "640", "256", "768", "384", "gun6", "768", "256", "896", "384", "gun7", "640", "384", "768", "512", "spyglass1", "896", "0", "1024", "128", "spyglass2", "896", "128", "1024", "256", "spyglass3", "896", "256", "1024", "384", "spyglass4", "896", "384", "1024", "512"]
+
+[USEDFLAG]
+stexturename = "usedflag.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["usedflag", "0", "0", "128", "128"]
+
+[HELP_MINIMAP]
+stexturename = "HELPPICTURES\\MINIMAP.tga"
+wtexturewidth = 256
+wtextureheight = 256
+picture = ["minimap", "0", "0", "256", "256"]
+
+[SWAP_ITEMS]
+stexturename = "SwapItem.tga"
+wtexturewidth = 64
+wtextureheight = 64
+picture = ["swapitem", "0", "0", "64", "64"]
+
+[EXCHANGE_BUTTONS]
+stexturename = "ExchangeButtons.tga"
+wtexturewidth = 256
+wtextureheight = 64
+picture = ["OneUp", "0", "0", "64", "64", "OneDown", "64", "0", "128", "64", "AllUp", "128", "0", "192", "64", "AllDown", "192", "0", "256", "64"]
+
+[AZTECSKULL_BUTTON]
+stexturename = "SkullButton.tga"
+wtexturewidth = 64
+wtextureheight = 64
+picture = ["AztecSkull", "0", "0", "64", "64"]
+
+[BOX_IMAGE]
+stexturename = "BoxImage.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["BoxImage", "0", "0", "128", "128"]
+
+[SEARCH_IMAGE]
+stexturename = "Search.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["BoxImage", "0", "0", "128", "128"]
+
+[BARREL_IMAGE]
+stexturename = "BarrelImage.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["BarrelImage", "0", "0", "128", "128"]
+
+[CORPSE_IMAGE]
+stexturename = "Corpse.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["BarrelImage", "0", "0", "128", "128"]
+
+[BUY_SELL]
+stexturename = "BuySellFlags.tga"
+wtexturewidth = 256
+wtextureheight = 128
+picture = ["buy", "0", "64", "64", "128", "sell", "192", "64", "256", "128"]
+
+[SHIPS_empty]
+stexturename = "ships\\empty_ship.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_tartane]
+stexturename = "ships\\tartane.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_wartartane]
+stexturename = "ships\\wartartane.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_lugger]
+stexturename = "ships\\lugger.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_barque]
+stexturename = "ships\\barque.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_schooner]
+stexturename = "ships\\schooner.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_barkentine]
+stexturename = "ships\\barkentine.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_shnyava]
+stexturename = "ships\\shnyava.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_fleut]
+stexturename = "ships\\fleut.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_caravel]
+stexturename = "ships\\caravel.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_pinnace]
+stexturename = "ships\\pinnace.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_caracca]
+stexturename = "ships\\caracca.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_luggerquest]
+stexturename = "ships\\luggerquest.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_sloop]
+stexturename = "ships\\sloop.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_brigantine]
+stexturename = "ships\\brigantine.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_brig]
+stexturename = "ships\\brig.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_schooner_w]
+stexturename = "ships\\schooner_w.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_galeon_l]
+stexturename = "ships\\galeon_l.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_corvette]
+stexturename = "ships\\corvette.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_XebekVML]
+stexturename = "ships\\XebekVML.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_Polacre]
+stexturename = "ships\\Polacre.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_Navio]
+stexturename = "ships\\Navio.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_EastIndiaMan]
+stexturename = "ships\\EastIndiaMan.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_galeon_h]
+stexturename = "ships\\galeon_h.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_frigate]
+stexturename = "ships\\frigate.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_frigate_h]
+stexturename = "ships\\frigate_h.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_lineship]
+stexturename = "ships\\lineship.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_warship]
+stexturename = "ships\\warship.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_battleship]
+stexturename = "ships\\battleship.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_manowar]
+stexturename = "ships\\manowar.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_manowar_e]
+stexturename = "ships\\manowar_e.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_Mayfang]
+stexturename = "ships\\Mayfang.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_MIRAGE]
+stexturename = "ships\\Mirage.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_VALCIRIA]
+stexturename = "ships\\valciria.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_corvette_quest]
+stexturename = "ships\\corvette_quest.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_Polacre_q]
+stexturename = "ships\\Polacre_q.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_ArabellaShip]
+stexturename = "ships\\ArabellaShip.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_Flyingdutchman]
+stexturename = "ships\\flyingdutchman.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_Flyingdutchman_l]
+stexturename = "ships\\flyingdutchman_l.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[SHIPS_Santisima]
+stexturename = "ships\\Santisima.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["ship", "0", "0", "128", "128"]
+
+[FACE128_0]
+stexturename = "portraits\\128\\face_0.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_1]
+stexturename = "portraits\\128\\face_1.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_2]
+stexturename = "portraits\\128\\face_2.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_3]
+stexturename = "portraits\\128\\face_3.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_4]
+stexturename = "portraits\\128\\face_4.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_5]
+stexturename = "portraits\\128\\face_5.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_6]
+stexturename = "portraits\\128\\face_6.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_7]
+stexturename = "portraits\\128\\face_7.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_8]
+stexturename = "portraits\\128\\face_8.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_9]
+stexturename = "portraits\\128\\face_9.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_10]
+stexturename = "portraits\\128\\face_10.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_11]
+stexturename = "portraits\\128\\face_11.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_12]
+stexturename = "portraits\\128\\face_12.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_13]
+stexturename = "portraits\\128\\face_13.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_14]
+stexturename = "portraits\\128\\face_14.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_15]
+stexturename = "portraits\\128\\face_15.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_16]
+stexturename = "portraits\\128\\face_16.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_17]
+stexturename = "portraits\\128\\face_17.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_18]
+stexturename = "portraits\\128\\face_18.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_19]
+stexturename = "portraits\\128\\face_19.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_20]
+stexturename = "portraits\\128\\face_20.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_21]
+stexturename = "portraits\\128\\face_21.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_22]
+stexturename = "portraits\\128\\face_22.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_23]
+stexturename = "portraits\\128\\face_23.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_24]
+stexturename = "portraits\\128\\face_24.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_25]
+stexturename = "portraits\\128\\face_25.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_26]
+stexturename = "portraits\\128\\face_26.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_27]
+stexturename = "portraits\\128\\face_27.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_28]
+stexturename = "portraits\\128\\face_28.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_29]
+stexturename = "portraits\\128\\face_29.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_30]
+stexturename = "portraits\\128\\face_30.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_31]
+stexturename = "portraits\\128\\face_31.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_32]
+stexturename = "portraits\\128\\face_32.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_33]
+stexturename = "portraits\\128\\face_33.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_34]
+stexturename = "portraits\\128\\face_34.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_35]
+stexturename = "portraits\\128\\face_35.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_36]
+stexturename = "portraits\\128\\face_36.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_37]
+stexturename = "portraits\\128\\face_37.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_38]
+stexturename = "portraits\\128\\face_38.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_39]
+stexturename = "portraits\\128\\face_39.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_40]
+stexturename = "portraits\\128\\face_40.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_41]
+stexturename = "portraits\\128\\face_41.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_42]
+stexturename = "portraits\\128\\face_42.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_43]
+stexturename = "portraits\\128\\face_43.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_44]
+stexturename = "portraits\\128\\face_44.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_45]
+stexturename = "portraits\\128\\face_45.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_46]
+stexturename = "portraits\\128\\face_46.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_47]
+stexturename = "portraits\\128\\face_47.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_48]
+stexturename = "portraits\\128\\face_48.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_49]
+stexturename = "portraits\\128\\face_49.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_50]
+stexturename = "portraits\\128\\face_50.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_51]
+stexturename = "portraits\\128\\face_51.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_52]
+stexturename = "portraits\\128\\face_52.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_53]
+stexturename = "portraits\\128\\face_53.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_54]
+stexturename = "portraits\\128\\face_54.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_55]
+stexturename = "portraits\\128\\face_55.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_56]
+stexturename = "portraits\\128\\face_56.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_57]
+stexturename = "portraits\\128\\face_57.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_58]
+stexturename = "portraits\\128\\face_58.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_59]
+stexturename = "portraits\\128\\face_59.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_60]
+stexturename = "portraits\\128\\face_60.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_61]
+stexturename = "portraits\\128\\face_61.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_62]
+stexturename = "portraits\\128\\face_62.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_63]
+stexturename = "portraits\\128\\face_63.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_64]
+stexturename = "portraits\\128\\face_64.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_65]
+stexturename = "portraits\\128\\face_65.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_66]
+stexturename = "portraits\\128\\face_66.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_67]
+stexturename = "portraits\\128\\face_67.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_68]
+stexturename = "portraits\\128\\face_68.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_69]
+stexturename = "portraits\\128\\face_69.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_70]
+stexturename = "portraits\\128\\face_70.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_71]
+stexturename = "portraits\\128\\face_71.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_72]
+stexturename = "portraits\\128\\face_72.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_73]
+stexturename = "portraits\\128\\face_73.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_74]
+stexturename = "portraits\\128\\face_74.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_75]
+stexturename = "portraits\\128\\face_75.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_76]
+stexturename = "portraits\\128\\face_76.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_77]
+stexturename = "portraits\\128\\face_77.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_78]
+stexturename = "portraits\\128\\face_78.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_79]
+stexturename = "portraits\\128\\face_79.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_80]
+stexturename = "portraits\\128\\face_80.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_81]
+stexturename = "portraits\\128\\face_81.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_82]
+stexturename = "portraits\\128\\face_82.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_83]
+stexturename = "portraits\\128\\face_83.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_84]
+stexturename = "portraits\\128\\face_84.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_85]
+stexturename = "portraits\\128\\face_85.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_86]
+stexturename = "portraits\\128\\face_86.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_87]
+stexturename = "portraits\\128\\face_87.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_88]
+stexturename = "portraits\\128\\face_88.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_89]
+stexturename = "portraits\\128\\face_89.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_90]
+stexturename = "portraits\\128\\face_90.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_91]
+stexturename = "portraits\\128\\face_91.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_92]
+stexturename = "portraits\\128\\face_92.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_93]
+stexturename = "portraits\\128\\face_93.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_94]
+stexturename = "portraits\\128\\face_94.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_95]
+stexturename = "portraits\\128\\face_95.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_96]
+stexturename = "portraits\\128\\face_96.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_97]
+stexturename = "portraits\\128\\face_97.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_98]
+stexturename = "portraits\\128\\face_98.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_99]
+stexturename = "portraits\\128\\face_99.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_100]
+stexturename = "portraits\\128\\face_100.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_101]
+stexturename = "portraits\\128\\face_101.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_102]
+stexturename = "portraits\\128\\face_102.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_103]
+stexturename = "portraits\\128\\face_103.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_104]
+stexturename = "portraits\\128\\face_104.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_105]
+stexturename = "portraits\\128\\face_105.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_106]
+stexturename = "portraits\\128\\face_106.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_107]
+stexturename = "portraits\\128\\face_107.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_108]
+stexturename = "portraits\\128\\face_108.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_109]
+stexturename = "portraits\\128\\face_109.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_110]
+stexturename = "portraits\\128\\face_110.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_111]
+stexturename = "portraits\\128\\face_111.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_112]
+stexturename = "portraits\\128\\face_112.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_113]
+stexturename = "portraits\\128\\face_113.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_114]
+stexturename = "portraits\\128\\face_114.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_115]
+stexturename = "portraits\\128\\face_115.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_116]
+stexturename = "portraits\\128\\face_116.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_117]
+stexturename = "portraits\\128\\face_117.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_118]
+stexturename = "portraits\\128\\face_118.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_119]
+stexturename = "portraits\\128\\face_119.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_120]
+stexturename = "portraits\\128\\face_120.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_121]
+stexturename = "portraits\\128\\face_121.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_122]
+stexturename = "portraits\\128\\face_122.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_123]
+stexturename = "portraits\\128\\face_123.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_124]
+stexturename = "portraits\\128\\face_124.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_125]
+stexturename = "portraits\\128\\face_125.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_126]
+stexturename = "portraits\\128\\face_126.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_127]
+stexturename = "portraits\\128\\face_127.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_128]
+stexturename = "portraits\\128\\face_128.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_129]
+stexturename = "portraits\\128\\face_129.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_130]
+stexturename = "portraits\\128\\face_130.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_131]
+stexturename = "portraits\\128\\face_131.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_132]
+stexturename = "portraits\\128\\face_132.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_133]
+stexturename = "portraits\\128\\face_133.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_134]
+stexturename = "portraits\\128\\face_134.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_135]
+stexturename = "portraits\\128\\face_135.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_136]
+stexturename = "portraits\\128\\face_136.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_137]
+stexturename = "portraits\\128\\face_137.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_138]
+stexturename = "portraits\\128\\face_138.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_139]
+stexturename = "portraits\\128\\face_139.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_140]
+stexturename = "portraits\\128\\face_140.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_141]
+stexturename = "portraits\\128\\face_141.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_142]
+stexturename = "portraits\\128\\face_142.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_143]
+stexturename = "portraits\\128\\face_143.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_144]
+stexturename = "portraits\\128\\face_144.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_145]
+stexturename = "portraits\\128\\face_145.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_146]
+stexturename = "portraits\\128\\face_146.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_147]
+stexturename = "portraits\\128\\face_147.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_148]
+stexturename = "portraits\\128\\face_148.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_149]
+stexturename = "portraits\\128\\face_149.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_150]
+stexturename = "portraits\\128\\face_150.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_151]
+stexturename = "portraits\\128\\face_151.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_152]
+stexturename = "portraits\\128\\face_152.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_153]
+stexturename = "portraits\\128\\face_153.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_154]
+stexturename = "portraits\\128\\face_154.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_155]
+stexturename = "portraits\\128\\face_155.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_156]
+stexturename = "portraits\\128\\face_156.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_157]
+stexturename = "portraits\\128\\face_157.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_158]
+stexturename = "portraits\\128\\face_158.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_159]
+stexturename = "portraits\\128\\face_159.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_160]
+stexturename = "portraits\\128\\face_160.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_161]
+stexturename = "portraits\\128\\face_161.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_162]
+stexturename = "portraits\\128\\face_162.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_163]
+stexturename = "portraits\\128\\face_163.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_164]
+stexturename = "portraits\\128\\face_164.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_165]
+stexturename = "portraits\\128\\face_165.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_166]
+stexturename = "portraits\\128\\face_166.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_167]
+stexturename = "portraits\\128\\face_167.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_168]
+stexturename = "portraits\\128\\face_168.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_169]
+stexturename = "portraits\\128\\face_169.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_170]
+stexturename = "portraits\\128\\face_170.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_171]
+stexturename = "portraits\\128\\face_171.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_172]
+stexturename = "portraits\\128\\face_172.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_173]
+stexturename = "portraits\\128\\face_173.tga"
+wtexturewidth = 128
+wtextureheight = 128
+
+[FACE128_174]
+stexturename = "portraits\\128\\face_174.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_175]
+stexturename = "portraits\\128\\face_175.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_176]
+stexturename = "portraits\\128\\face_176.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_177]
+stexturename = "portraits\\128\\face_177.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_178]
+stexturename = "portraits\\128\\face_178.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_179]
+stexturename = "portraits\\128\\face_179.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_180]
+stexturename = "portraits\\128\\face_180.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_181]
+stexturename = "portraits\\128\\face_181.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_182]
+stexturename = "portraits\\128\\face_182.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_183]
+stexturename = "portraits\\128\\face_183.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_184]
+stexturename = "portraits\\128\\face_184.tga"
+wtexturewidth = 128
+wtextureheight = 128
+
+[FACE128_185]
+stexturename = "portraits\\128\\face_185.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_186]
+stexturename = "portraits\\128\\face_186.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_187]
+stexturename = "portraits\\128\\face_187.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_188]
+stexturename = "portraits\\128\\face_188.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_189]
+stexturename = "portraits\\128\\face_189.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_190]
+stexturename = "portraits\\128\\face_190.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_191]
+stexturename = "portraits\\128\\face_191.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_192]
+stexturename = "portraits\\128\\face_192.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_193]
+stexturename = "portraits\\128\\face_193.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_194]
+stexturename = "portraits\\128\\face_194.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_195]
+stexturename = "portraits\\128\\face_195.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_196]
+stexturename = "portraits\\128\\face_196.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_197]
+stexturename = "portraits\\128\\face_197.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_198]
+stexturename = "portraits\\128\\face_198.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_199]
+stexturename = "portraits\\128\\face_199.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_200]
+stexturename = "portraits\\128\\face_200.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_201]
+stexturename = "portraits\\128\\face_201.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_202]
+stexturename = "portraits\\128\\face_202.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_203]
+stexturename = "portraits\\128\\face_203.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_204]
+stexturename = "portraits\\128\\face_204.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_205]
+stexturename = "portraits\\128\\face_205.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_206]
+stexturename = "portraits\\128\\face_206.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_207]
+stexturename = "portraits\\128\\face_207.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_208]
+stexturename = "portraits\\128\\face_208.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_209]
+stexturename = "portraits\\128\\face_209.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_210]
+stexturename = "portraits\\128\\face_210.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_211]
+stexturename = "portraits\\128\\face_211.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_212]
+stexturename = "portraits\\128\\face_212.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_213]
+stexturename = "portraits\\128\\face_213.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_214]
+stexturename = "portraits\\128\\face_214.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_215]
+stexturename = "portraits\\128\\face_215.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_216]
+stexturename = "portraits\\128\\face_216.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_217]
+stexturename = "portraits\\128\\face_217.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_218]
+stexturename = "portraits\\128\\face_218.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_219]
+stexturename = "portraits\\128\\face_219.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_220]
+stexturename = "portraits\\128\\face_220.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_221]
+stexturename = "portraits\\128\\face_221.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_222]
+stexturename = "portraits\\128\\face_222.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_223]
+stexturename = "portraits\\128\\face_223.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_224]
+stexturename = "portraits\\128\\face_224.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_225]
+stexturename = "portraits\\128\\face_225.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_226]
+stexturename = "portraits\\128\\face_226.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_227]
+stexturename = "portraits\\128\\face_227.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_228]
+stexturename = "portraits\\128\\face_228.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_229]
+stexturename = "portraits\\128\\face_229.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_230]
+stexturename = "portraits\\128\\face_230.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_231]
+stexturename = "portraits\\128\\face_231.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_232]
+stexturename = "portraits\\128\\face_232.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_233]
+stexturename = "portraits\\128\\face_233.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_234]
+stexturename = "portraits\\128\\face_234.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_235]
+stexturename = "portraits\\128\\face_235.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_236]
+stexturename = "portraits\\128\\face_236.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_237]
+stexturename = "portraits\\128\\face_237.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_238]
+stexturename = "portraits\\128\\face_238.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_239]
+stexturename = "portraits\\128\\face_239.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_240]
+stexturename = "portraits\\128\\face_240.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_241]
+stexturename = "portraits\\128\\face_241.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_242]
+stexturename = "portraits\\128\\face_242.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_243]
+stexturename = "portraits\\128\\face_243.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_244]
+stexturename = "portraits\\128\\face_244.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_245]
+stexturename = "portraits\\128\\face_245.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_246]
+stexturename = "portraits\\128\\face_246.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_247]
+stexturename = "portraits\\128\\face_247.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_248]
+stexturename = "portraits\\128\\face_248.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_249]
+stexturename = "portraits\\128\\face_249.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_250]
+stexturename = "portraits\\128\\face_250.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_251]
+stexturename = "portraits\\128\\face_251.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_252]
+stexturename = "portraits\\128\\face_252.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_253]
+stexturename = "portraits\\128\\face_253.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_254]
+stexturename = "portraits\\128\\face_254.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_255]
+stexturename = "portraits\\128\\face_255.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_256]
+stexturename = "portraits\\128\\face_256.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_257]
+stexturename = "portraits\\128\\face_257.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_258]
+stexturename = "portraits\\128\\face_258.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_259]
+stexturename = "portraits\\128\\face_259.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_260]
+stexturename = "portraits\\128\\face_260.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_261]
+stexturename = "portraits\\128\\face_261.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_262]
+stexturename = "portraits\\128\\face_262.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_263]
+stexturename = "portraits\\128\\face_263.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_264]
+stexturename = "portraits\\128\\face_264.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_265]
+stexturename = "portraits\\128\\face_265.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_266]
+stexturename = "portraits\\128\\face_266.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_267]
+stexturename = "portraits\\128\\face_267.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_268]
+stexturename = "portraits\\128\\face_268.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_269]
+stexturename = "portraits\\128\\face_269.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_270]
+stexturename = "portraits\\128\\face_270.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_271]
+stexturename = "portraits\\128\\face_271.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_272]
+stexturename = "portraits\\128\\face_272.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_273]
+stexturename = "portraits\\128\\face_273.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_274]
+stexturename = "portraits\\128\\face_274.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_275]
+stexturename = "portraits\\128\\face_275.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_276]
+stexturename = "portraits\\128\\face_276.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_277]
+stexturename = "portraits\\128\\face_277.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_278]
+stexturename = "portraits\\128\\face_278.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_279]
+stexturename = "portraits\\128\\face_279.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_280]
+stexturename = ["portraits\\128\\face_280.tga", "portraits\\128\\face_281.tga"]
+wtexturewidth = [128, 128]
+wtextureheight = [128, 128]
+picture = ["face", "0", "0", "128", "128", "face", "0", "0", "128", "128"]
+"face128_281]" = 0
+
+[FACE128_282]
+stexturename = "portraits\\128\\face_282.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_283]
+stexturename = "portraits\\128\\face_283.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_284]
+stexturename = "portraits\\128\\face_284.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_285]
+stexturename = "portraits\\128\\face_285.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_286]
+stexturename = "portraits\\128\\face_286.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_287]
+stexturename = "portraits\\128\\face_287.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_288]
+stexturename = "portraits\\128\\face_288.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_289]
+stexturename = "portraits\\128\\face_289.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_290]
+stexturename = "portraits\\128\\face_290.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_291]
+stexturename = "portraits\\128\\face_291.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_292]
+stexturename = "portraits\\128\\face_292.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_293]
+stexturename = "portraits\\128\\face_293.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_301]
+stexturename = "portraits\\128\\face_301.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_302]
+stexturename = "portraits\\128\\face_302.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_303]
+stexturename = "portraits\\128\\face_303.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_304]
+stexturename = "portraits\\128\\face_304.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_305]
+stexturename = "portraits\\128\\face_305.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_306]
+stexturename = "portraits\\128\\face_306.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_307]
+stexturename = "portraits\\128\\face_307.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_308]
+stexturename = "portraits\\128\\face_308.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_309]
+stexturename = "portraits\\128\\face_309.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_310]
+stexturename = "portraits\\128\\face_310.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_311]
+stexturename = "portraits\\128\\face_311.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_312]
+stexturename = "portraits\\128\\face_312.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_313]
+stexturename = "portraits\\128\\face_313.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_314]
+stexturename = "portraits\\128\\face_314.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_316]
+stexturename = "portraits\\128\\face_316.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_317]
+stexturename = "portraits\\128\\face_317.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_329]
+stexturename = "portraits\\128\\face_329.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_330]
+stexturename = "portraits\\128\\face_330.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_331]
+stexturename = "portraits\\128\\face_331.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_332]
+stexturename = "portraits\\128\\face_332.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_333]
+stexturename = "portraits\\128\\face_333.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_334]
+stexturename = "portraits\\128\\face_334.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_335]
+stexturename = "portraits\\128\\face_335.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_336]
+stexturename = "portraits\\128\\face_336.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_337]
+stexturename = "portraits\\128\\face_337.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_338]
+stexturename = "portraits\\128\\face_338.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_339]
+stexturename = "portraits\\128\\face_339.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_340]
+stexturename = "portraits\\128\\face_340.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_341]
+stexturename = "portraits\\128\\face_341.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_342]
+stexturename = "portraits\\128\\face_342.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_343]
+stexturename = "portraits\\128\\face_343.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_344]
+stexturename = "portraits\\128\\face_344.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_345]
+stexturename = "portraits\\128\\face_345.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_346]
+stexturename = "portraits\\128\\face_346.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_347]
+stexturename = "portraits\\128\\face_347.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_348]
+stexturename = "portraits\\128\\face_348.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_349]
+stexturename = "portraits\\128\\face_349.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_350]
+stexturename = "portraits\\128\\face_350.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_351]
+stexturename = "portraits\\128\\face_351.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_352]
+stexturename = "portraits\\128\\face_352.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_353]
+stexturename = "portraits\\128\\face_353.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_354]
+stexturename = "portraits\\128\\face_354.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_355]
+stexturename = "portraits\\128\\face_355.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_356]
+stexturename = "portraits\\128\\face_356.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_357]
+stexturename = "portraits\\128\\face_357.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_358]
+stexturename = "portraits\\128\\face_358.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_359]
+stexturename = "portraits\\128\\face_359.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_414]
+stexturename = "portraits\\128\\face_414.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_415]
+stexturename = "portraits\\128\\face_415.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_416]
+stexturename = "portraits\\128\\face_416.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_417]
+stexturename = "portraits\\128\\face_417.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_418]
+stexturename = "portraits\\128\\face_418.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_419]
+stexturename = "portraits\\128\\face_419.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_420]
+stexturename = "portraits\\128\\face_420.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_421]
+stexturename = "portraits\\128\\face_421.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_422]
+stexturename = "portraits\\128\\face_422.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_423]
+stexturename = "portraits\\128\\face_423.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_424]
+stexturename = "portraits\\128\\face_424.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_425]
+stexturename = "portraits\\128\\face_425.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_556]
+stexturename = "portraits\\128\\face_556.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_fighter]
+stexturename = "portraits\\128\\fighter.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_carpenter]
+stexturename = "portraits\\128\\carpenter.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_treasurer]
+stexturename = "portraits\\128\\treasurer.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_cannoner]
+stexturename = "portraits\\128\\cannoner.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_doctor]
+stexturename = "portraits\\128\\doctor.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_navigator]
+stexturename = "portraits\\128\\navigator.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[FACE128_boatswain]
+stexturename = "portraits\\128\\boatswain.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["face", "0", "0", "128", "128"]
+
+[NET_MODES]
+stexturename = "net\\netmodes.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["Deathmatch", "0", "0", "64", "64", "TeamDeathmatch", "64", "0", "128", "64", "DefendTheConvoy", "0", "64", "64", "128", "CaptureTheFort", "64", "64", "128", "128"]
+
+[TRADE_STATE]
+stexturename = "BuySellFlags.tga"
+wtexturewidth = 256
+wtextureheight = 128
+picture = ["buy", "0", "0", "128", "128", "sell", "128", "0", "256", "128"]
+
+[FRENDLY]
+stexturename = "frendly.tga"
+wtexturewidth = 64
+wtextureheight = 64
+picture = ["frendly", "0", "0", "64", "64"]
+
+[tooltipback]
+stexturename = "tooltipback.tga"
+wtexturewidth = 256
+wtextureheight = 64
+picture = ["left", "0", "0", "4", "64", "right", "252", "0", "256", "64", "middle", "4", "0", "252", "64"]
+
+[DEL_ITEMS_1]
+stexturename = "items1.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "64", "64", "itm2", "64", "0", "128", "64", "itm3", "128", "0", "192", "64", "itm4", "192", "0", "256", "64", "itm5", "256", "0", "320", "64", "itm6", "320", "0", "384", "64", "itm7", "384", "0", "448", "64", "itm8", "448", "0", "512", "64", "itm9", "0", "64", "64", "128", "itm10", "64", "64", "128", "128", "itm11", "128", "64", "192", "128", "itm12", "192", "64", "256", "128", "itm13", "256", "64", "320", "128", "itm14", "320", "64", "384", "128", "itm15", "384", "64", "448", "128", "itm16", "448", "64", "512", "128", "itm17", "0", "128", "64", "192", "itm18", "64", "128", "128", "192", "itm19", "128", "128", "192", "192", "itm20", "192", "128", "256", "192", "itm21", "256", "128", "320", "192", "itm22", "320", "128", "384", "192", "itm23", "384", "128", "448", "192", "itm24", "448", "128", "512", "192", "itm25", "0", "192", "64", "256", "itm26", "64", "192", "128", "256", "itm27", "128", "192", "192", "256", "itm28", "192", "192", "256", "256", "itm29", "256", "192", "320", "256", "itm30", "320", "192", "384", "256", "itm31", "384", "192", "448", "256", "itm32", "448", "192", "512", "256", "itm33", "0", "256", "64", "320", "itm34", "64", "256", "128", "320", "itm35", "128", "256", "192", "320", "itm36", "192", "256", "256", "320", "itm37", "256", "256", "320", "320", "itm38", "320", "256", "384", "320", "itm39", "384", "256", "448", "320", "itm40", "448", "256", "512", "320"]
+
+[CARDS]
+stexturename = "card_all.tga"
+wtexturewidth = 2048
+wtextureheight = 2048
+picture = ["hearts_A", "0", "48", "255", "447", "diamonds_A", "256", "48", "511", "447", "clubs_A", "512", "48", "767", "447", "spades_A", "768", "48", "1023", "447", "blank", "1024", "48", "1279", "447", "pack", "1280", "14", "1620", "447", "gold", "1807", "0", "2047", "224", "silver", "1807", "225", "2047", "447", "spades_6", "0", "448", "255", "847", "spades_7", "256", "448", "511", "847", "spades_8", "512", "448", "767", "847", "spades_9", "768", "448", "1023", "847", "spades_10", "1024", "448", "1279", "847", "spades_J", "1280", "448", "1535", "847", "spades_Q", "1536", "448", "1791", "847", "spades_K", "1792", "448", "2047", "847", "clubs_6", "0", "848", "255", "1247", "clubs_7", "256", "848", "511", "1247", "clubs_8", "512", "848", "767", "1247", "clubs_9", "768", "848", "1023", "1247", "clubs_10", "1024", "848", "1279", "1247", "clubs_J", "1280", "848", "1535", "1247", "clubs_Q", "1536", "848", "1791", "1247", "clubs_K", "1792", "848", "2047", "1247", "diamonds_6", "0", "1248", "255", "1647", "diamonds_7", "256", "1248", "511", "1647", "diamonds_8", "512", "1248", "767", "1647", "diamonds_9", "768", "1248", "1023", "1647", "diamonds_10", "1024", "1248", "1279", "1647", "diamonds_J", "1280", "1248", "1535", "1647", "diamonds_Q", "1536", "1248", "1791", "1647", "diamonds_K", "1792", "1248", "2047", "1647", "hearts_6", "0", "1648", "255", "2047", "hearts_7", "256", "1648", "511", "2047", "hearts_8", "512", "1648", "767", "2047", "hearts_9", "768", "1648", "1023", "2047", "hearts_10", "1024", "1648", "1279", "2047", "hearts_J", "1280", "1648", "1535", "2047", "hearts_Q", "1536", "1648", "1791", "2047", "hearts_K", "1792", "1648", "2047", "2047"]
+
+[DICE]
+stexturename = "card_dice.tga"
+wtexturewidth = 1024
+wtextureheight = 256
+picture = ["cup", "680", "43", "899", "221", "dice_1_0", "11", "0", "103", "84", "dice_1_1", "11", "85", "103", "169", "dice_1_2", "11", "169", "103", "253", "dice_2_0", "121", "0", "213", "84", "dice_2_1", "121", "85", "213", "169", "dice_2_2", "121", "169", "213", "253", "dice_3_0", "235", "0", "327", "84", "dice_3_1", "235", "85", "327", "169", "dice_3_2", "235", "169", "327", "253", "dice_4_0", "343", "0", "435", "84", "dice_4_1", "343", "85", "435", "169", "dice_4_2", "343", "169", "435", "253", "dice_5_0", "453", "0", "545", "84", "dice_5_1", "453", "85", "545", "169", "dice_5_2", "453", "169", "545", "253", "dice_6_0", "561", "0", "653", "84", "dice_6_1", "561", "85", "653", "169", "dice_6_2", "561", "169", "653", "253", "dice_fly", "909", "162", "1013", "252"]
+
+[GOLD]
+stexturename = "Gold.tga"
+wtexturewidth = 128
+wtextureheight = 128
+picture = ["Gold", "0", "0", "128", "128"]
+
+[ICONS_SPEC]
+stexturename = "icons_spec.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["FencingL", "skill", "icon", "0", "0", "64", "64", "FencingS", "skill", "icon", "64", "0", "128", "64", "FencingH", "skill", "icon", "128", "0", "192", "64", "pistol", "skill", "icon", "192", "0", "256", "64", "fortune", "skill", "icon", "256", "0", "320", "64", "leadership", "skill", "icon", "0", "64", "64", "128", "sailing", "skill", "icon", "256", "64", "320", "128", "accuracy", "skill", "icon", "128", "64", "192", "128", "cannons", "skill", "icon", "192", "64", "256", "128", "grappling", "skill", "icon", "384", "64", "448", "128", "repair", "skill", "icon", "320", "64", "384", "128", "defence", "skill", "icon", "448", "64", "512", "128", "commerce", "skill", "icon", "64", "64", "128", "128", "sneak", "skill", "icon", "0", "128", "64", "192", "weapon", "button", "0", "320", "64", "384", "support", "button", "64", "320", "128", "384", "maps", "button", "128", "320", "192", "384", "variety", "button", "192", "320", "256", "384", "questitems", "button", "256", "320", "320", "384", "all", "button", "320", "320", "384", "384", "selectborder", "button", "383", "319", "449", "385", "pers", "button", "0", "256", "64", "320", "ship", "button", "64", "256", "128", "320", "hold", "button", "128", "256", "192", "320", "pas", "button", "192", "256", "256", "320", "questbook", "button", "256", "256", "320", "320", "trade", "button", "320", "256", "384", "320", "items", "button", "384", "256", "448", "320", "map", "button", "448", "256", "512", "320", "nations", "button", "451", "320", "512", "384", "exit", "button", "18", "207", "50", "239", "ICON_ShipAbordKill", "68", "384", "132", "448", "ICON_ShipKill", "132", "384", "196", "448", "ICON_ShipAbord", "196", "384", "259", "448", "ICON_Fort", "258", "384", "322", "448", "ICON_TownGrabbing", "322", "384", "385", "448", "ICON_TownTake", "385", "384", "448", "448", "SelfTalk", "0", "64", "64", "128", "CompHero", "0", "320", "64", "384"]
+
+[ITEMS_1]
+stexturename = "items1.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_2]
+stexturename = "items2.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_3]
+stexturename = "items3.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_4]
+stexturename = "items4.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_5]
+stexturename = "items5.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_6]
+stexturename = "items6.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_7]
+stexturename = "items7.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_8]
+stexturename = "items8.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_9]
+stexturename = "items9.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_10]
+stexturename = "items10.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_11]
+stexturename = "items11.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_12]
+stexturename = "items12.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_13]
+stexturename = "items13.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_14]
+stexturename = "items14.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_15]
+stexturename = "items15.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_16]
+stexturename = "items16.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_17]
+stexturename = "items17.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_18]
+stexturename = "items18.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_19]
+stexturename = "items19.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_20]
+stexturename = "items20.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_21]
+stexturename = "items21.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_22]
+stexturename = "items22.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_23]
+stexturename = "items23.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_24]
+stexturename = "items24.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_25]
+stexturename = "items25.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_26]
+stexturename = "items26.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_27]
+stexturename = "items27.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_28]
+stexturename = "items28.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_29]
+stexturename = "items29.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_30]
+stexturename = "items30.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_31]
+stexturename = "items31.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_32]
+stexturename = "items32.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_33]
+stexturename = "items33.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_34]
+stexturename = "items34.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_35]
+stexturename = "items35.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_36]
+stexturename = "items36.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_40]
+stexturename = "items40.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ITEMS_AZTEC]
+stexturename = "itemsAztec.tga"
+wtexturewidth = 512
+wtextureheight = 512
+picture = ["itm1", "0", "0", "128", "128", "itm2", "128", "0", "256", "128", "itm3", "256", "0", "384", "128", "itm4", "384", "0", "512", "128", "itm5", "0", "128", "128", "256", "itm6", "128", "128", "256", "256", "itm7", "256", "128", "384", "256", "itm8", "384", "128", "512", "256", "itm9", "0", "256", "128", "384", "itm10", "128", "256", "256", "384", "itm11", "256", "256", "384", "384", "itm12", "384", "256", "512", "384", "itm13", "0", "384", "128", "512", "itm14", "128", "384", "256", "512", "itm15", "256", "384", "384", "512", "itm16", "384", "384", "512", "512"]
+
+[ARROWS]
+stexturename = "slib_ico2.tga"
+wtexturewidth = 512
+wtextureheight = 256
+picture = ["left_all", "0", "0", "63", "63", "left", "64", "0", "127", "63", "right", "128", "0", "191", "63", "right_all", "192", "0", "255", "63"]
+
+[TRADE_TYPE]
+stexturename = "slib_ico1.tga"
+wtexturewidth = 128
+wtextureheight = 32
+picture = ["ico_0", "127", "127", "127", "127", "ico_1", "127", "127", "127", "127", "ico_2", "57", "0", "77", "32", "ico_3", "0", "0", "20", "32", "ico_4", "19", "0", "39", "32", "ico_5", "57", "0", "77", "32", "ico_6", "127", "127", "127", "127", "ico_7", "38", "0", "58", "32", "ico_8", "76", "0", "96", "32"]
+
+[NET_SERVERPASSWORD]
+stexturename = "..\\BATTLE_INTERFACE\\land_icon.tga"
+wtexturewidth = 256
+wtextureheight = 64
+picture = ["locked", "13", "10", "51", "54", "unlocked", "64", "0", "128", "64"]
+
+[ITEMS_USE]
+stexturename = "OverLayXW.tga"
+wtexturewidth = 1024
+wtextureheight = 128
+picture = ["items_use1", "0", "0", "128", "128", "items_use2", "128", "0", "256", "128", "items_use3", "256", "0", "384", "128", "items_use4", "384", "0", "512", "128", "items_use5", "512", "0", "640", "128", "items_use6", "640", "0", "768", "128", "items_use7", "768", "0", "896", "128", "items_use8", "896", "0", "1024", "128"]
+
+[ICONS_CHAR]
+stexturename = "icons.tga"
+wtexturewidth = 512
+wtextureheight = 256
+picture = ["Rank", "352", "192", "384", "224", "NextExp", "384", "192", "416", "224", "Money", "448", "192", "480", "224", "Life", "480", "224", "512", "256", "Health", "288", "192", "320", "224", "Energy", "32", "192", "64", "224", "Reputation", "224", "192", "256", "224", "weight", "160", "224", "192", "256", "Title", "64", "224", "96", "256", "Loyality", "64", "224", "96", "256", "Class", "64", "192", "96", "224", "Hull", "288", "224", "320", "256", "Speed", "128", "224", "160", "256", "Maneuver", "96", "224", "128", "256", "Capacity", "192", "224", "224", "256", "Crew", "320", "224", "352", "256", "Cannons", "224", "224", "256", "256", "Caliber", "256", "224", "288", "256", "Sails", "480", "192", "512", "224", "AgainstWind", "384", "192", "416", "224"]
+
+[PERK_ENABLE]
+stexturename = "PERKS\\PERK_ENABLE.tga"
+wtexturewidth = 1024
+wtextureheight = 1024
+picture = ["BasicDefense", "0", "0", "128", "128", "AdvancedDefense", "128", "0", "256", "128", "CriticalHit", "256", "0", "384", "128", "Ciras", "384", "0", "512", "128", "SwordplayProfessional", "512", "0", "640", "128", "Grus", "640", "0", "768", "128", "Rush", "768", "0", "896", "128", "Tireless", "896", "0", "1024", "128", "HardHitter", "0", "128", "128", "256", "BladeDancer", "128", "128", "256", "256", "Sliding", "256", "128", "384", "256", "Gunman", "384", "128", "512", "256", "GunProfessional", "512", "128", "640", "256", "IronWill", "640", "128", "768", "256", "SharedExperience", "768", "128", "896", "256", "Medic", "896", "128", "1024", "256", "ByWorker", "0", "256", "128", "384", "ByWorker2", "128", "256", "256", "384", "Trustworthy", "256", "256", "384", "384", "ShipEscape", "384", "256", "512", "384", "FastReload", "512", "256", "640", "384", "ImmediateReload", "640", "256", "768", "384", "HullDamageUp", "768", "256", "896", "384", "SailsDamageUp", "896", "256", "1024", "384", "CrewDamageUp", "0", "384", "128", "512", "CriticalShoot", "128", "384", "256", "512", "LongRangeShoot", "256", "384", "384", "512", "CannonProfessional", "384", "384", "512", "512", "LongRangeGrappling", "512", "384", "640", "512", "MusketsShoot", "640", "384", "768", "512", "GrapplingProfessional", "768", "384", "896", "512", "BasicBattleState", "896", "384", "1024", "512", "AdvancedBattleState", "0", "512", "128", "640", "ShipDefenseProfessional", "128", "512", "256", "640", "LightRepair", "256", "512", "384", "640", "InstantRepair", "384", "512", "512", "640", "ShipSpeedUp", "512", "512", "640", "640", "ShipTurnRateUp", "640", "512", "768", "640", "StormProfessional", "768", "512", "896", "640", "Turn180", "896", "512", "1024", "640", "SailingProfessional", "128", "640", "256", "768", "SeaDogProfessional", "0", "640", "128", "768", "FlagPir", "256", "640", "384", "768", "FlagEng", "384", "640", "512", "768", "FlagFra", "512", "640", "640", "768", "FlagSpa", "640", "640", "768", "768", "FlagHol", "768", "640", "896", "768", "Brander", "896", "640", "1024", "768", "Troopers", "0", "768", "128", "896", "BasicCommerce", "128", "768", "256", "896", "AdvancedCommerce", "256", "768", "384", "896", "Carpenter", "384", "768", "512", "896", "Builder", "512", "768", "640", "896", "Doctor1", "640", "768", "768", "896", "Doctor2", "768", "768", "896", "896", "SailsMan", "896", "768", "1024", "896", "WindCatcher", "0", "896", "128", "1024", "HPPlus", "128", "896", "256", "1024", "EnergyPlus", "256", "896", "384", "1024", "Alchemy", "384", "896", "512", "1024", "ProfessionalCommerce", "512", "896", "640", "1024", "SelfRepair", "640", "896", "768", "1024", "8itm7", "768", "896", "896", "1024", "8itm8", "896", "896", "1024", "1024"]
+
+[PERK_DISABLE]
+stexturename = "PERKS\\PERK_DISABLE.tga"
+wtexturewidth = 1024
+wtextureheight = 1024
+picture = ["BasicDefense", "0", "0", "128", "128", "AdvancedDefense", "128", "0", "256", "128", "CriticalHit", "256", "0", "384", "128", "Ciras", "384", "0", "512", "128", "SwordplayProfessional", "512", "0", "640", "128", "Grus", "640", "0", "768", "128", "Rush", "768", "0", "896", "128", "Tireless", "896", "0", "1024", "128", "HardHitter", "0", "128", "128", "256", "BladeDancer", "128", "128", "256", "256", "Sliding", "256", "128", "384", "256", "Gunman", "384", "128", "512", "256", "GunProfessional", "512", "128", "640", "256", "IronWill", "640", "128", "768", "256", "SharedExperience", "768", "128", "896", "256", "Medic", "896", "128", "1024", "256", "ByWorker", "0", "256", "128", "384", "ByWorker2", "128", "256", "256", "384", "Trustworthy", "256", "256", "384", "384", "ShipEscape", "384", "256", "512", "384", "FastReload", "512", "256", "640", "384", "ImmediateReload", "640", "256", "768", "384", "HullDamageUp", "768", "256", "896", "384", "SailsDamageUp", "896", "256", "1024", "384", "CrewDamageUp", "0", "384", "128", "512", "CriticalShoot", "128", "384", "256", "512", "LongRangeShoot", "256", "384", "384", "512", "CannonProfessional", "384", "384", "512", "512", "LongRangeGrappling", "512", "384", "640", "512", "MusketsShoot", "640", "384", "768", "512", "GrapplingProfessional", "768", "384", "896", "512", "BasicBattleState", "896", "384", "1024", "512", "AdvancedBattleState", "0", "512", "128", "640", "ShipDefenseProfessional", "128", "512", "256", "640", "LightRepair", "256", "512", "384", "640", "InstantRepair", "384", "512", "512", "640", "ShipSpeedUp", "512", "512", "640", "640", "ShipTurnRateUp", "640", "512", "768", "640", "StormProfessional", "768", "512", "896", "640", "Turn180", "896", "512", "1024", "640", "SailingProfessional", "128", "640", "256", "768", "SeaDogProfessional", "0", "640", "128", "768", "FlagPir", "256", "640", "384", "768", "FlagEng", "384", "640", "512", "768", "FlagFra", "512", "640", "640", "768", "FlagSpa", "640", "640", "768", "768", "FlagHol", "768", "640", "896", "768", "Brander", "896", "640", "1024", "768", "Troopers", "0", "768", "128", "896", "BasicCommerce", "128", "768", "256", "896", "AdvancedCommerce", "256", "768", "384", "896", "Carpenter", "384", "768", "512", "896", "Builder", "512", "768", "640", "896", "Doctor1", "640", "768", "768", "896", "Doctor2", "768", "768", "896", "896", "SailsMan", "896", "768", "1024", "896", "WindCatcher", "0", "896", "128", "1024", "HPPlus", "128", "896", "256", "1024", "EnergyPlus", "256", "896", "384", "1024", "Alchemy", "384", "896", "512", "1024", "ProfessionalCommerce", "512", "896", "640", "1024", "SelfRepair", "640", "896", "768", "1024", "8itm7", "768", "896", "896", "1024", "8itm8", "896", "896", "1024", "1024"]

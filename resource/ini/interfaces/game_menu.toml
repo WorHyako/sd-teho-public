@@ -1,0 +1,187 @@
+[MAIN]
+item = ["60", "RECTANGLE", "FADER", "60", "FRAME", "MAIN_FRAME", "70", "TEXTBUTTON2", "MB_OPTIONS", "70", "TEXTBUTTON2", "MB_SAVE", "70", "TEXTBUTTON2", "MB_LOAD", "70", "TEXTBUTTON2", "MB_RESUME", "70", "TEXTBUTTON2", "MB_UPDATES", "70", "TEXTBUTTON2", "MB_EXITGAME", "70", "RECTANGLE", "RECTANGLE_BOTTOM", "71", "FORMATEDTEXT", "VERSION_TEXT", "71", "FORMATEDTEXT", "DLC_TEXT", "71", "FORMATEDTEXT", "COPYRIGHTS_TEXT", "71", "PICTURE", "LOGO", "WINDOW", "MAIN_WINDOW", "80", "RECTANGLE", "CONFIRM_EXIT_FADER", "81", "FRAME", "CONFIRM_EXIT_FRAME", "82", "FORMATEDTEXT", "CONFIRM_EXIT_TEXT", "82", "TEXTBUTTON2", "CONFIRM_EXIT_YES", "82", "TEXTBUTTON2", "CONFIRM_EXIT_NO", "WINDOW", "CONFIRM_EXIT_WINDOW", "500", "RECTANGLE", "CONFIRM_WINDOW_FADER", "500", "IMAGECOLLECTION", "CONFIRM_WINDOW_BACK", "500", "IMAGECOLLECTION", "CONFIRM_WINDOW_BORDER", "501", "TEXTBUTTON2", "CONFIRM_WINDOW_MB_YES", "501", "TEXTBUTTON2", "CONFIRM_WINDOW_MB_NO", "501", "STRINGCOLLECTION", "CONFIRM_WINDOW_STRINGS", "WINDOW", "CONFIRM_WINDOW"]
+start = "MB_SAILING"
+
+[MAIN_WINDOW]
+show = 1
+nodelist = ["FADER", "MB_UPDATES", "MB_SAVE", "MB_LOAD", "MB_OPTIONS", "MB_RESUME", "MB_EXITGAME", "LOGO", "MAIN_FRAME", "VERSION_TEXT", "BORDERS", "RECTANGLE_BOTTOM", "COPYRIGHTS_TEXT", "DLC_TEXT"]
+
+[CONFIRM_WINDOW]
+show = 0
+nodelist = ["CONFIRM_WINDOW_BACK", "CONFIRM_WINDOW_MB_YES", "CONFIRM_WINDOW_MB_NO", "CONFIRM_WINDOW_STRINGS", "CONFIRM_WINDOW_FADER", "CONFIRM_WINDOW_BORDER"]
+
+[LOGO]
+position = [223, 92, 575, 180]
+texturename = "interfaces\\SL_Logo.tga"
+
+[FADER]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [150, 50, 50, 0]
+topcolor = [150, 50, 50, 0]
+rightcolor = [150, 50, 50, 0]
+bottomcolor = [150, 50, 50, 0]
+bordercolor = [0, 0, 0, 0]
+
+[CENTERRECTANGLE]
+position = [85, 86, 715, 528]
+leftcolor = [200, 0, 0, 0, 200]
+topcolor = [200, 0, 0, 0, 200]
+rightcolor = [200, 0, 0, 0, 200]
+bottomcolor = [200, 0, 0, 0, 200]
+
+[CENTERBOUND]
+position = [217, 107, 582, 508]
+color = [255, 128, 128, 128]
+
+[MB_OPTIONS]
+command = ["deactivate", "event:exitCancel", "downstep", "select:MB_SAILING", "click", "select:MB_OPTIONS", "activate", "event:MB_OPTIONS", "downstep", "select:MB_RESUME"]
+position = [268, 180, 533, 212]
+string = "Options"
+glowoffset = [0, 0]
+
+[MB_SAVE]
+command = ["deactivate", "event:exitCancel", "downstep", "select:MB_SAILING", "click", "event:SaveClick", "activate", "event:SaveClick", "upstep", "select:MB_RESUME", "downstep", "select:MB_LOAD"]
+position = [268, 251, 533, 283]
+string = "Save"
+glowoffset = [0, 0]
+
+[MB_LOAD]
+command = ["deactivate", "event:exitCancel", "downstep", "select:MB_SAILING", "click", "event:LoadClick", "activate", "event:LoadClick", "upstep", "select:MB_SAVE", "downstep", "select:MB_EXITGAME"]
+position = [268, 286, 533, 318]
+string = "Load"
+glowoffset = [0, 0]
+
+[MB_UPDATES]
+command = ["deactivate", "event:exitCancel", "downstep", "select:MB_SAILING", "click", "event:MB_UPDATES", "activate", "event:MB_UPDATES"]
+position = [268, 362, 533, 394]
+string = "Updates"
+glowoffset = [0, 0]
+
+[MB_RESUME]
+command = ["deactivate", "event:exitCancel", "downstep", "select:MB_SAILING", "click", "event:ResumeClick", "activate", "event:ResumeClick", "upstep", "select:MB_OPTIONS", "downstep", "select:MB_SAVE"]
+position = [268, 215, 533, 247]
+string = ["Resume", "Game"]
+glowoffset = [0, 0]
+
+[MB_EXITGAME]
+command = ["deactivate", "event:exitCancel", "downstep", "select:MB_SAILING", "click", "event:QuitClick", "activate", "event:QuitClick", "upstep", "select:MB_LOAD", "downstep", "select:MB_OPTIONS"]
+position = [268, 322, 533, 354]
+string = "Quit"
+glowoffset = [0, 0]
+
+[CONFIRM_WINDOW_BORDER]
+
+[CONFIRM_WINDOW_BACK]
+groupname = "PAPIRUS"
+picture = ["editsection:nation", "papirus_character_remove_officer", "col:{255", "128", "128", "128}", "pos:{190", "190", "610", "360}"]
+
+[CONFIRM_WINDOW_MB_YES]
+command = ["deactivate", "select:CONFIRM_WINDOW_MB_YES", "click", "select:CONFIRM_WINDOW_MB_YES", "rightstep", "select:CONFIRM_WINDOW_MB_NO", "activate"]
+position = [238, 300, 402, 332]
+glowoffset = 0.0
+string = "Yes"
+
+[CONFIRM_WINDOW_MB_NO]
+command = ["deactivate", "select:CONFIRM_WINDOW_MB_NO", "click", "select:CONFIRM_WINDOW_MB_NO", "leftstep", "select:CONFIRM_WINDOW_MB_YES", "activate"]
+position = [408, 300, 572, 332]
+glowoffset = 0.0
+string = "No"
+
+[CONFIRM_WINDOW_STRINGS]
+string = ["game_will_be_lost", "font:interface_normal", "pos:{400", "228}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.10", "state:{CS}", "start_new_game_confirm", "font:interface_normal", "pos:{400", "248}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.10", "state:{CS}"]
+
+[CONFIRM_WINDOW_FADER]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [150, 50, 50, 0]
+topcolor = [150, 50, 50, 0]
+rightcolor = [150, 50, 50, 0]
+bottomcolor = [150, 50, 50, 0]
+bordercolor = [0, 0, 0, 0]
+
+[CONFIRM_EXIT_FADER]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+leftcolor = [150, 50, 50, 0]
+topcolor = [150, 50, 50, 0]
+rightcolor = [150, 50, 50, 0]
+bottomcolor = [150, 50, 50, 0]
+bordercolor = [0, 0, 0, 0]
+
+[CONFIRM_EXIT_FRAME]
+position = [238, 198, 558, 335]
+
+[CONFIRM_EXIT_TEXT]
+position = [250, 240, 545, 280]
+string = "Confirm_exit_from_menu"
+
+[CONFIRM_EXIT_YES]
+command = ["deactivate", "event:ConfirmExitCancel", "click", "event:ConfirmExitClick", "activate", "event:ConfirmExitClick", "rightstep", "select:CONFIRM_EXIT_NO"]
+position = [248, 293, 392, 325]
+string = "Yes"
+glowoffset = [0, 0]
+
+[CONFIRM_EXIT_NO]
+command = ["deactivate", "event:ConfirmExitCancel", "click", "event:ConfirmExitCancel", "activate", "event:ConfirmExitCancel", "leftstep", "select:CONFIRM_EXIT_YES"]
+position = [403, 293, 547, 325]
+string = "No"
+glowoffset = [0, 0]
+
+[CONFIRM_EXIT_WINDOW]
+show = 0
+nodelist = ["CONFIRM_EXIT_FADER", "CONFIRM_EXIT_FRAME", "CONFIRM_EXIT_TEXT", "CONFIRM_EXIT_YES", "CONFIRM_EXIT_NO"]
+
+[MAIN_FRAME]
+position = [222, 85, 580, 473]
+backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "118", "118", "128)"]
+rowquantity = 2
+colquantity = 1
+hlineheight = 2
+headerlineheight = 4
+cellspacesize = [2, 1]
+fontcellscale = 0.8
+colswidth = 348
+rowsheight = [30, 444]
+vlinewidth = 1
+
+[COPYRIGHTS_TEXT]
+babsoluterectangle = 5
+position = [229, 448, 577, 464]
+fontscale = 0.8
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+glowoffset = [0, 0]
+
+[DLC_TEXT]
+babsoluterectangle = 5
+position = [141, 420, 662, 451]
+fontscale = 0.8
+linespace = 12
+alignment = "center"
+color = [255, 255, 255, 255]
+glowoffset = [0, 0]
+
+[VERSION_TEXT]
+babsoluterectangle = 5
+position = [239, 405, 567, 426]
+fontscale = 0.8
+linespace = 21
+alignment = "center"
+color = [255, 255, 255, 255]
+glowoffset = [0, 0]
+
+[RECTANGLE_BOTTOM]
+class = "rectangle"
+position = [241, 404, 562, 464]
+leftcolor = [150, 200, 200, 200]
+topcolor = [150, 200, 200, 200]
+rightcolor = [150, 200, 200, 2000]
+bottomcolor = [150, 200, 200, 200]
+bordercolor = [255, 0, 0, 0]
+
+[BORDERS]
+offset = [28, 58]
+groupname = "MAIN_ICONS"
+picture = ["editsection:borders_top", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{266", "174", "536", "177}", "editsection:borders_middle", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{266", "357", "536", "360}", "editsection:borders_bottom", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{266", "397", "536", "400}"]

@@ -1,0 +1,78 @@
+[MAIN]
+item = ["FRAME", "MAIN_FRAME", "FORMATEDTEXT", "MAIN_WINDOW_CAPTION", "RECTANGLE", "PAYMENT_RECT2", "RECTANGLE", "PAYMENT_RECT3", "PICTURE", "INFO_PICTURE", "IMAGECOLLECTION", "INFO_BORDERS", "IMAGECOLLECTION", "STATICIMAGES", "FORMATEDTEXT", "INFO_TEXT1", "FORMATEDTEXT", "INFO_TEXT2", "FORMATEDTEXT", "INFO_TEXT3", "TEXTBUTTON2", "B_OK", "TEXTBUTTON2", "B_CANCEL"]
+start = "B_OK"
+
+[B_OK]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "downstep", "select:B_CANCEL"]
+position = [253, 430, 396, 462]
+string = "Yes"
+glowoffset = [0, 0]
+
+[B_CANCEL]
+bbreakcommand = 0
+command = ["deactivate", "event:exitCancel", "activate", "click", "upstep"]
+position = [403, 430, 546, 462]
+string = "No"
+glowoffset = [0, 0]
+
+[MAIN_FRAME]
+captionheight = 24
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionoffset = [0, 3, 0, 0]
+captiondividerheight = 4
+position = [225, 119, 574, 469]
+
+[INFO_PICTURE]
+position = [250, 152, 550, 342]
+texturename = "loading\\salary.tga"
+
+[PAYMENT_RECT1]
+position = [253, 322, 546, 353]
+leftcolor = [205, 255, 255, 255]
+topcolor = [205, 0, 0, 0]
+rightcolor = [205, 255, 255, 255]
+bottomcolor = [205, 0, 0, 0]
+
+[PAYMENT_RECT2]
+position = [253, 352, 546, 389]
+leftcolor = [205, 255, 255, 255]
+topcolor = [205, 0, 0, 0]
+rightcolor = [205, 255, 255, 255]
+bottomcolor = [205, 0, 0, 0]
+
+[PAYMENT_RECT3]
+position = [253, 394, 546, 425]
+leftcolor = [205, 255, 255, 255]
+topcolor = [205, 0, 0, 0]
+rightcolor = [205, 255, 255, 255]
+bottomcolor = [205, 0, 0, 0]
+
+[INFO_TEXT1]
+position = [261, 353, 540, 388]
+linespace = 17
+fontscale = 0.9
+
+[INFO_TEXT2]
+position = [225, 358, 574, 389]
+linespace = 14
+
+[INFO_TEXT3]
+position = [238, 401, 563, 427]
+linespace = 14
+
+[MAIN_WINDOW_CAPTION]
+command = "click"
+babsoluterectangle = 5
+position = [251, 123, 548, 149]
+font = ["interface_button", "1.0"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 255]
+backoffset = [1, 2, 0, -2]
+string = "titleSalary"
+
+[STATICIMAGES]
+offset = [80, 60]
+groupname = "ICONS"
+picture = ["money", "icon", "col:{255", "128", "128", "128}", "pos:{255", "396", "282", "423}", "money", "icon", "col:{255", "128", "128", "128}", "pos:{544", "396", "517", "423}"]

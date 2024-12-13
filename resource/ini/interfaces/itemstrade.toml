@@ -1,0 +1,284 @@
+[MAIN]
+item = ["FRAME", "MAIN_FRAME", "300", "pc", "BUTTON", "EXIT_BTN", "500", "FORMATEDTEXT", "STORECAPTION1", "90", "FORMATEDTEXT", "INFO_TEXT", "200", "TABLE", "TABLE_LIST", "201", "SCROLLER", "SCROLL_LIST", "SCROLLIMAGE", "CHARACTERS_SCROLL", "BUTTON", "LEFTSCROLLBUTTON", "BUTTON", "RIGHTSCROLLBUTTON", "201", "PICTURE", "MAIN_CHARACTER_PICTURE", "201", "PICTURE", "OTHER_PICTURE", "201", "PICTURE", "BORDER_PICTURE_1", "201", "PICTURE", "BORDER_PICTURE_2", "FORMATEDTEXT", "OUR_GOLD", "FORMATEDTEXT", "CAPACITY", "FORMATEDTEXT", "STORE_CAPACITY", "300", "FRAME", "QTY_FRAME", "301", "FORMATEDTEXT", "QTY_CAPTION", "301", "FORMATEDTEXT", "QTY_TypeOperation", "301", "FORMATEDTEXT", "QTY_Result", "301", "FORMATEDTEXT", "QTY_INFO_SHIP_QTY", "301", "FORMATEDTEXT", "QTY_INFO_STORE_QTY", "301", "FORMATEDTEXT", "QTY_INFO_SHIP_PRICE", "301", "FORMATEDTEXT", "QTY_INFO_STORE_PRICE", "301", "FORMATEDTEXT", "QTY_GOODS_INFO", "301", "FORMATEDTEXT", "QTY_Win_fix", "400", "PCEDITBOX", "QTY_EDIT", "402", "BUTTON", "QTY_ADD_BUTTON", "402", "BUTTON", "QTY_REMOVE_BUTTON", "402", "BUTTON", "QTY_ADD_ALL_BUTTON", "402", "BUTTON", "QTY_REMOVE_ALL_BUTTON", "402", "TEXTBUTTON2", "QTY_OK_BUTTON", "402", "TEXTBUTTON2", "QTY_CANCEL_BUTTON", "301", "PICTURE", "QTY_GOODS_PICTURE", "WINDOW", "QTY_WINDOW"]
+start = "TABLE_LIST"
+
+[EXIT_BTN]
+position = [688, 27, 708, 47]
+group = "ICONS_SPEC"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel", "deactivate", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+bshowglowcursor = "0;"
+shadowoffset = [-1, -1]
+
+[INFO_TEXT]
+position = [1, 1, 200, 100]
+linespace = 25
+
+[TABLE_LIST]
+command = ["deactivate", "event:exitCancel", "click", "select:TABLE_LIST", "rclick", "event:ShowHelpHint", "select:TABLE_LIST", "dblclick", "event:ShowItemInfo", "select:TABLE_LIST", "activate", "event:ShowItemInfo", "upstep", "downstep", "rightstep", "com:click:QTY_REMOVE_BUTTON", "leftstep", "com:click:QTY_ADD_BUTTON", "speedright", "com:click:QTY_REMOVE_ALL_BUTTON", "speedleft", "com:click:QTY_ADD_ALL_BUTTON"]
+position = [105, 121, 699, 581]
+scroller = "SCROLL_LIST"
+vlinewidth = 2
+hlineheight = 2
+rowquantity = 14
+colquantity = 7
+fontcellvalignment = "center"
+selectimage = ["color=(100", "200", "120", "55)"]
+colswidth = [65, 60, 60, 220, 60, 65, 60]
+rowsheight = [40, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
+normallineheight = 32
+
+[SCROLL_LIST]
+command = ["click", "select:TABLE_LIST", "deactivate", "event:exitCancel", "downstep", "upstep"]
+position = [695, 121, 709, 581]
+basetexture = "interfaces\\icons.tga"
+rollertexture = "interfaces\\icons.tga"
+scrolltexpos = [0.0, 0.75, 0.045, 1.0]
+rolltexpos = [0.0625, 0.875, 0.1075, 0.96]
+begendtexsize = 0.0835
+begendbasesize = 18
+rollerheight = 18
+ownedcontrol = "TABLE_LIST"
+
+[MAIN_FRAME]
+position = [100, 20, 714, 600]
+backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "118", "118", "128)"]
+rowquantity = 2
+colquantity = 1
+hlineheight = 2
+headerlineheight = 4
+cellspacesize = [2, 1]
+fontcellscale = 0.8
+colswidth = 348
+rowsheight = [30, 444]
+vlinewidth = 1
+captionheight = 30
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captiondividerheight = 4
+
+[STORECAPTION1]
+babsoluterectangle = 5
+position = [239, 24, 572, 54]
+font = ["interface_button", "1.1"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 200]
+backoffset = [1, 2, 0, -2]
+
+[MAIN_CHARACTER_PICTURE]
+position = [107, 55, 171, 119]
+texturename = "interfaces\\portraits\\128\\face_1.tga"
+
+[OTHER_PICTURE]
+position = [643, 55, 707, 119]
+texturename = "interfaces\\store_64.tga"
+bshowglowcursor = 0
+
+[BORDER_PICTURE_1]
+texturename = "interfaces\\emptyborder.tga"
+position = [107, 55, 171, 119]
+
+[BORDER_PICTURE_2]
+texturename = "interfaces\\emptyborder.tga"
+position = [643, 55, 707, 119]
+
+[CHARACTERS_SCROLL]
+command = ["activate", "deactivate", "event:ExitCancel", "rightstep", "leftstep", "speedright", "speedleft", "click", "select:CHARACTERS_SCROLL"]
+position = [240, 55, 570, 119]
+imagesize = [64, 64]
+wdelta = 3
+glowoffset = [0, 0]
+
+[LEFTSCROLLBUTTON]
+command = ["activate", "select:CHARACTERS_SCROLL", "com:speedleft:CHARACTERS_SCROLL", "click", "select:CHARACTERS_SCROLL", "com:leftstep:CHARACTERS_SCROLL", "com:activate:LEFTSCROLLBUTTON"]
+position = [340, 66, 372, 108]
+group = "ICONS"
+picture = ["left", "arrow"]
+presspictureoffset = [1, 1]
+shadowoffset = [1, 1]
+pressshadowoffset = [0, 0]
+pressdelay = 10
+
+[RIGHTSCROLLBUTTON]
+command = ["activate", "select:CHARACTERS_SCROLL", "com:speedright:CHARACTERS_SCROLL", "click", "select:CHARACTERS_SCROLL", "com:rightstep:CHARACTERS_SCROLL", "com:activate:RIGHTSCROLLBUTTON"]
+position = [437, 66, 469, 108]
+group = "ICONS"
+picture = ["right", "arrow"]
+presspictureoffset = [1, 1]
+shadowoffset = [1, 1]
+pressshadowoffset = [0, 0]
+pressdelay = 10
+
+[OUR_GOLD]
+babsoluterectangle = 5
+position = [242, 581, 569, 597]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 156]
+
+[CAPACITY]
+babsoluterectangle = 5
+position = [169, 63, 240, 115]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[STORE_CAPACITY]
+babsoluterectangle = 5
+position = [570, 63, 644, 115]
+fontscale = 0.9
+linespace = 16
+alignment = "center"
+color = [255, 255, 255, 255]
+
+[QTY_FRAME]
+position = [200, 200, 614, 500]
+backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "118", "118", "128)"]
+rowquantity = 2
+colquantity = 1
+hlineheight = 2
+headerlineheight = 4
+cellspacesize = [2, 1]
+fontcellscale = 0.8
+colswidth = 348
+rowsheight = [30, 444]
+vlinewidth = 1
+captionheight = 30
+captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captiondividerheight = 4
+
+[QTY_CAPTION]
+babsoluterectangle = 5
+position = [239, 204, 572, 234]
+font = ["interface_button", "1.1"]
+linespace = 10
+alignment = "center"
+color = [255, 255, 255, 200]
+backoffset = [1, 2, 0, -2]
+
+[QTY_WINDOW]
+show = 0
+nodelist = ["QTY_FRAME", "QTY_EDIT", "QTY_OK_BUTTON", "QTY_CANCEL_BUTTON", "QTY_TypeOperation", "QTY_GOODS_INFO", "QTY_GOODS_PICTURE", "QTY_CAPTION", "QTY_ADD_BUTTON", "QTY_REMOVE_BUTTON", "QTY_ADD_ALL_BUTTON", "QTY_REMOVE_ALL_BUTTON", "QTY_INFO_STORE_QTY", "QTY_INFO_SHIP_QTY", "QTY_INFO_SHIP_PRICE", "QTY_INFO_STORE_PRICE", "QTY_Result", "QTY_Win_fix"]
+
+[QTY_EDIT]
+command = ["click", "select:QTY_EDIT", "deactivate", "event:exitCancel", "activate", "event:confirmChangeQTY_EDIT"]
+position = [373, 430, 436, 457]
+strfont = "interface_button"
+argbfontcolor = [255, 255, 255, 255]
+stringlength = 5
+stringwidth = 80
+stringalign = "left"
+stringoffset = [9, 4]
+middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+excludechars = ["*", "?.\\/qwertyuiop[]asdfghjkl'zxcvbnm", "+-="]
+
+[QTY_ADD_ALL_BUTTON]
+command = ["click", "event:ADD_ALL_BUTTON"]
+group = "ARROWS"
+picture = "left_all"
+position = [314, 430, 339, 455]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[QTY_ADD_BUTTON]
+command = ["click", "event:ADD_BUTTON"]
+group = "ARROWS"
+picture = "left"
+position = [342, 430, 367, 455]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[QTY_REMOVE_BUTTON]
+command = ["click", "event:REMOVE_BUTTON"]
+group = "ARROWS"
+picture = "right"
+position = [439, 430, 464, 455]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[QTY_REMOVE_ALL_BUTTON]
+command = ["click", "event:REMOVE_ALL_BUTTON", "activate"]
+group = "ARROWS"
+picture = "right_all"
+position = [467, 430, 492, 455]
+disablecolor = [255, 128, 128, 128]
+shadowoffset = [3, 2]
+
+[QTY_OK_BUTTON]
+command = ["activate", "click", "event:TransactionOK", "deactivate", "event:MouseRClickUP", "rightstep", "com:click:QTY_REMOVE_BUTTON", "leftstep", "com:click:QTY_ADD_BUTTON", "speedright", "com:click:QTY_REMOVE_ALL_BUTTON", "speedleft", "com:click:QTY_ADD_ALL_BUTTON"]
+position = [288, 465, 388, 490]
+string = "Ok"
+fontscale = 0.85
+glowoffset = [0, 0]
+
+[QTY_CANCEL_BUTTON]
+command = ["activate", "click", "event:exitCancel", "deactivate", "event:exitCancel", "rightstep", "com:click:QTY_REMOVE_BUTTON", "leftstep", "com:click:QTY_ADD_BUTTON", "speedright", "com:click:QTY_REMOVE_ALL_BUTTON", "speedleft", "com:click:QTY_ADD_ALL_BUTTON"]
+position = [419, 465, 519, 490]
+string = "Cancel"
+fontscale = 0.85
+glowoffset = [0, 0]
+
+[QTY_TypeOperation]
+position = [239, 388, 572, 412]
+fontscale = 1.2
+linespace = 20
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+color = [255, 255, 255, 156]
+
+[QTY_Result]
+position = [239, 411, 572, 432]
+fontscale = 0.9
+linespace = 20
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+color = [255, 255, 255, 156]
+
+[QTY_INFO_SHIP_QTY]
+position = [209, 433, 315, 458]
+fontscale = 1.2
+linespace = 10
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+
+[QTY_INFO_STORE_QTY]
+position = [492, 433, 598, 458]
+fontscale = 1.2
+linespace = 10
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+
+[QTY_INFO_SHIP_PRICE]
+position = [209, 391, 315, 431]
+fontscale = 0.9
+linespace = 20
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+color = [255, 255, 255, 156]
+
+[QTY_INFO_STORE_PRICE]
+position = [492, 391, 598, 431]
+fontscale = 0.9
+linespace = 20
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+color = [255, 255, 255, 156]
+
+[QTY_GOODS_INFO]
+position = [293, 248, 605, 398]
+fontscale = 1.0
+linespace = 17
+alignment = "center"
+backoffset = [1, 2, 0, -2]
+
+[QTY_Win_fix]
+command = ["click", "event:None", "activate", "event:None"]
+position = [200, 200, 614, 500]
+
+[QTY_GOODS_PICTURE]
+position = [212, 240, 292, 320]
+texturename = "interfaces\\store_64.tga"
+bshowglowcursor = 0

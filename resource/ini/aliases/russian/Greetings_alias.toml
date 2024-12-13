@@ -1,0 +1,1169 @@
+[noble_male]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\Dvoryane-01.wav", "VOICE\\Russian\\citizen\\Dvoryane-01.wav", "VOICE\\Russian\\citizen\\Dvoryane-02.wav", "VOICE\\Russian\\citizen\\Dvoryane-03.wav", "VOICE\\Russian\\citizen\\Dvoryane-04.wav", "VOICE\\Russian\\citizen\\Dvoryane-05.wav", "VOICE\\Russian\\citizen\\Dvoryane-06.wav", "VOICE\\Russian\\citizen\\Dvoryane-07.wav", "VOICE\\Russian\\citizen\\Dvoryane-08.wav", "VOICE\\Russian\\citizen\\Dvoryane-09.wav", "VOICE\\Russian\\citizen\\Dvoryane-10.wav"]
+
+[noble_female]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\Lady-01.wav", "VOICE\\Russian\\citizen\\Lady-01.wav", "VOICE\\Russian\\citizen\\Lady-02.wav", "VOICE\\Russian\\citizen\\Lady-03.wav", "VOICE\\Russian\\citizen\\Lady-04.wav", "VOICE\\Russian\\citizen\\Lady-05.wav", "VOICE\\Russian\\citizen\\Lady-06.wav", "VOICE\\Russian\\citizen\\Lady-07.wav", "VOICE\\Russian\\citizen\\Lady-08.wav", "VOICE\\Russian\\citizen\\Lady-09.wav", "VOICE\\Russian\\citizen\\Lady-10.wav", "VOICE\\Russian\\citizen\\Lady-11.wav", "VOICE\\Russian\\citizen\\Lady-12.wav", "VOICE\\Russian\\citizen\\Lady-13.wav", "VOICE\\Russian\\citizen\\Lady-14.wav"]
+
+[citizen_male]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-01.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-01.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-02.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-03.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-04.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-05.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-06.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-07.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-08.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-09.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-10.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-11.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-12.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-13.wav", "VOICE\\Russian\\citizen\\Gorozhane", "Burgeri-14.wav"]
+
+[citizen_female]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\Gorozhanki-01.wav", "VOICE\\Russian\\citizen\\Gorozhanki-01.wav", "VOICE\\Russian\\citizen\\Gorozhanki-02.wav", "VOICE\\Russian\\citizen\\Gorozhanki-03.wav", "VOICE\\Russian\\citizen\\Gorozhanki-04.wav", "VOICE\\Russian\\citizen\\Gorozhanki-05.wav", "VOICE\\Russian\\citizen\\Gorozhanki-06.wav", "VOICE\\Russian\\citizen\\Gorozhanki-07.wav", "VOICE\\Russian\\citizen\\Gorozhanki-08.wav", "VOICE\\Russian\\citizen\\Gorozhanki-09.wav", "VOICE\\Russian\\citizen\\Gorozhanki-10.wav", "VOICE\\Russian\\citizen\\Gorozhanki-11.wav"]
+
+[town_sailor]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-01.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-01.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-02.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-03.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-04.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-05.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-06.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-07.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-08.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-09.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-10.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-11.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-12.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-13.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-14.wav", "VOICE\\Russian\\citizen\\Moryaki", "v", "Gorode-15.wav"]
+
+[marginal]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\marginal-01.wav", "VOICE\\Russian\\citizen\\marginal-01.wav", "VOICE\\Russian\\citizen\\marginal-02.wav", "VOICE\\Russian\\citizen\\marginal-03.wav", "VOICE\\Russian\\citizen\\marginal-04.wav", "VOICE\\Russian\\citizen\\marginal-05.wav"]
+
+[gipsy]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\Cyganki-01.wav", "VOICE\\Russian\\citizen\\Cyganki-01.wav", "VOICE\\Russian\\citizen\\Cyganki-02.wav", "VOICE\\Russian\\citizen\\Cyganki-03.wav", "VOICE\\Russian\\citizen\\Cyganki-04.wav", "VOICE\\Russian\\citizen\\Cyganki-05.wav", "VOICE\\Russian\\citizen\\Cyganki-06.wav", "VOICE\\Russian\\citizen\\Cyganki-07.wav", "VOICE\\Russian\\citizen\\Cyganki-08.wav", "VOICE\\Russian\\citizen\\Cyganki-09.wav", "VOICE\\Russian\\citizen\\Cyganki-10.wav", "VOICE\\Russian\\citizen\\Cyganki-11.wav", "VOICE\\Russian\\citizen\\Cyganki-12.wav", "VOICE\\Russian\\citizen\\Cyganki-13.wav", "VOICE\\Russian\\citizen\\Cyganki-14.wav", "VOICE\\Russian\\citizen\\Cyganki-15.wav", "VOICE\\Russian\\citizen\\Cyganki-16.wav", "VOICE\\Russian\\citizen\\Cyganki-17.wav", "VOICE\\Russian\\citizen\\Cyganki-18.wav"]
+
+[captain]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\Kapitani", "Korabley-01.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-01.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-02.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-03.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-04.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-05.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-06.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-07.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-08.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-09.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-10.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-11.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-12.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-13.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-14.wav", "VOICE\\Russian\\citizen\\Kapitani", "Korabley-15.wav"]
+
+[monk]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\Brodyachie", "Monahi-01.wav", "VOICE\\Russian\\citizen\\Brodyachie", "Monahi-01.wav", "VOICE\\Russian\\citizen\\Brodyachie", "Monahi-02.wav", "VOICE\\Russian\\citizen\\Brodyachie", "Monahi-03.wav", "VOICE\\Russian\\citizen\\Brodyachie", "Monahi-04.wav", "VOICE\\Russian\\citizen\\Brodyachie", "Monahi-05.wav", "VOICE\\Russian\\citizen\\Brodyachie", "Monahi-06.wav", "VOICE\\Russian\\citizen\\Brodyachie", "Monahi-07.wav", "VOICE\\Russian\\citizen\\Brodyachie", "Monahi-08.wav", "VOICE\\Russian\\citizen\\Brodyachie", "Monahi-09.wav", "VOICE\\Russian\\citizen\\Brodyachie", "Monahi-10.wav", "VOICE\\Russian\\citizen\\Brodyachie", "Monahi-11.wav", "VOICE\\Russian\\citizen\\Brodyachie", "Monahi-12.wav"]
+
+[poorman_male]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\Nischie-01.wav", "VOICE\\Russian\\citizen\\Nischie-01.wav", "VOICE\\Russian\\citizen\\Nischie-02.wav", "VOICE\\Russian\\citizen\\Nischie-03.wav", "VOICE\\Russian\\citizen\\Nischie-04.wav", "VOICE\\Russian\\citizen\\Nischie-05.wav", "VOICE\\Russian\\citizen\\Nischie-06.wav", "VOICE\\Russian\\citizen\\Nischie-07.wav", "VOICE\\Russian\\citizen\\Nischie-08.wav", "VOICE\\Russian\\citizen\\Nischie-09.wav", "VOICE\\Russian\\citizen\\Nischie-10.wav", "VOICE\\Russian\\citizen\\Nischie-11.wav", "VOICE\\Russian\\citizen\\Nischie-12.wav"]
+
+[indian_male]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\Indeyci-01.wav", "VOICE\\Russian\\citizen\\Indeyci-01.wav", "VOICE\\Russian\\citizen\\Indeyci-02.wav", "VOICE\\Russian\\citizen\\Indeyci-03.wav", "VOICE\\Russian\\citizen\\Indeyci-04.wav", "VOICE\\Russian\\citizen\\Indeyci-05.wav", "VOICE\\Russian\\citizen\\Indeyci-06.wav", "VOICE\\Russian\\citizen\\Indeyci-07.wav", "VOICE\\Russian\\citizen\\Indeyci-08.wav"]
+
+[convict]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\convict-01.wav", "VOICE\\Russian\\citizen\\convict-01.wav", "VOICE\\Russian\\citizen\\convict-02.wav", "VOICE\\Russian\\citizen\\convict-03.wav", "VOICE\\Russian\\citizen\\convict-04.wav", "VOICE\\Russian\\citizen\\convict-05.wav", "VOICE\\Russian\\citizen\\convict-06.wav"]
+
+[town_pirate]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\citizen\\Pirati", "v", "Gorode-08.wav", "VOICE\\Russian\\citizen\\Pirati", "v", "Gorode-08.wav", "VOICE\\Russian\\citizen\\Pirati", "v", "Gorode-09.wav", "VOICE\\Russian\\citizen\\Pirati", "v", "Gorode-10.wav", "VOICE\\Russian\\citizen\\Pirati", "v", "Gorode-11.wav", "VOICE\\Russian\\citizen\\Pirati", "v", "Gorode-12.wav", "VOICE\\Russian\\citizen\\Pirati", "v", "Gorode-13.wav", "VOICE\\Russian\\citizen\\Pirati", "v", "Gorode-14.wav", "VOICE\\Russian\\citizen\\Pirati", "v", "Gorode-15.wav", "VOICE\\Russian\\citizen\\Pirati", "v", "Gorode-16.wav", "VOICE\\Russian\\citizen\\Pirati", "v", "Gorode-17.wav", "VOICE\\Russian\\citizen\\Pirati", "v", "Gorode-18.wav"]
+
+[soldier]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-01.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-01.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-02.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-03.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-04.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-05.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-06.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-07.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-08.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-09.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-10.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-11.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-12.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-13.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-14.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-15.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-16.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Ulicah", "i", "v", "Patrulyah-17.wav"]
+
+[protector]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\soldier\\Soldati", "na", "Postah-01.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Postah-01.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Postah-02.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Postah-03.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Postah-04.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Postah-05.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Postah-06.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Postah-07.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Postah-08.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Postah-09.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Postah-10.wav", "VOICE\\Russian\\soldier\\Soldati", "na", "Postah-11.wav"]
+
+[patrol]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\soldier\\Oficeri", "v", "Patrulyah", "i", "v", "Gorode-01.wav", "VOICE\\Russian\\soldier\\Oficeri", "v", "Patrulyah", "i", "v", "Gorode-01.wav", "VOICE\\Russian\\soldier\\Oficeri", "v", "Patrulyah", "i", "v", "Gorode-02.wav", "VOICE\\Russian\\soldier\\Oficeri", "v", "Patrulyah", "i", "v", "Gorode-03.wav", "VOICE\\Russian\\soldier\\Oficeri", "v", "Patrulyah", "i", "v", "Gorode-04.wav", "VOICE\\Russian\\soldier\\Oficeri", "v", "Patrulyah", "i", "v", "Gorode-05.wav", "VOICE\\Russian\\soldier\\Oficeri", "v", "Patrulyah", "i", "v", "Gorode-06.wav"]
+
+[soldier_arest]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\soldier\\soldier", "arest-01.wav", "VOICE\\Russian\\soldier\\soldier", "arest-01.wav", "VOICE\\Russian\\soldier\\soldier", "arest-02.wav"]
+
+[soldier_pirate]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\soldier\\Pirati", "v", "Gorode-01.wav", "VOICE\\Russian\\soldier\\Pirati", "v", "Gorode-01.wav", "VOICE\\Russian\\soldier\\Pirati", "v", "Gorode-02.wav", "VOICE\\Russian\\soldier\\Pirati", "v", "Gorode-03.wav", "VOICE\\Russian\\soldier\\Pirati", "v", "Gorode-04.wav", "VOICE\\Russian\\soldier\\Pirati", "v", "Gorode-05.wav", "VOICE\\Russian\\soldier\\Pirati", "v", "Gorode-06.wav", "VOICE\\Russian\\soldier\\Pirati", "v", "Gorode-07.wav"]
+
+[store_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\trader\\Vladelci", "Magazinov-01.wav", "VOICE\\Russian\\trader\\Vladelci", "Magazinov-01.wav", "VOICE\\Russian\\trader\\Vladelci", "Magazinov-02.wav", "VOICE\\Russian\\trader\\Vladelci", "Magazinov-03.wav", "VOICE\\Russian\\trader\\Vladelci", "Magazinov-04.wav"]
+
+[store_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\trader\\Vladelci", "Magazinov-05.wav", "VOICE\\Russian\\trader\\Vladelci", "Magazinov-05.wav", "VOICE\\Russian\\trader\\Vladelci", "Magazinov-06.wav", "VOICE\\Russian\\trader\\Vladelci", "Magazinov-07.wav", "VOICE\\Russian\\trader\\Vladelci", "Magazinov-08.wav"]
+
+[store_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\trader\\Vladelci", "Magazinov-09.wav", "VOICE\\Russian\\trader\\Vladelci", "Magazinov-09.wav", "VOICE\\Russian\\trader\\Vladelci", "Magazinov-10.wav", "VOICE\\Russian\\trader\\Vladelci", "Magazinov-11.wav"]
+
+[item_male]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\trader\\Lavochniki-01.wav", "VOICE\\Russian\\trader\\Lavochniki-01.wav", "VOICE\\Russian\\trader\\Lavochniki-02.wav", "VOICE\\Russian\\trader\\Lavochniki-03.wav", "VOICE\\Russian\\trader\\Lavochniki-04.wav", "VOICE\\Russian\\trader\\Lavochniki-05.wav", "VOICE\\Russian\\trader\\Lavochniki-06.wav", "VOICE\\Russian\\trader\\Lavochniki-07.wav", "VOICE\\Russian\\trader\\Lavochniki-08.wav", "VOICE\\Russian\\trader\\Lavochniki-09.wav", "VOICE\\Russian\\trader\\Lavochniki-10.wav", "VOICE\\Russian\\trader\\Lavochniki-11.wav", "VOICE\\Russian\\trader\\Lavochniki-12.wav", "VOICE\\Russian\\trader\\Lavochniki-13.wav"]
+
+[item_female]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\trader\\Lavochnici-01.wav", "VOICE\\Russian\\trader\\Lavochnici-01.wav", "VOICE\\Russian\\trader\\Lavochnici-02.wav", "VOICE\\Russian\\trader\\Lavochnici-03.wav", "VOICE\\Russian\\trader\\Lavochnici-04.wav", "VOICE\\Russian\\trader\\Lavochnici-05.wav", "VOICE\\Russian\\trader\\Lavochnici-06.wav", "VOICE\\Russian\\trader\\Lavochnici-07.wav", "VOICE\\Russian\\trader\\Lavochnici-08.wav"]
+
+[item_indian]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\trader\\Indeyci", "Torgovci-01.wav", "VOICE\\Russian\\trader\\Indeyci", "Torgovci-01.wav", "VOICE\\Russian\\trader\\Indeyci", "Torgovci-02.wav", "VOICE\\Russian\\trader\\Indeyci", "Torgovci-03.wav", "VOICE\\Russian\\trader\\Indeyci", "Torgovci-04.wav", "VOICE\\Russian\\trader\\Indeyci", "Torgovci-05.wav", "VOICE\\Russian\\trader\\Indeyci", "Torgovci-06.wav", "VOICE\\Russian\\trader\\Indeyci", "Torgovci-07.wav", "VOICE\\Russian\\trader\\Indeyci", "Torgovci-08.wav", "VOICE\\Russian\\trader\\Indeyci", "Torgovci-09.wav", "VOICE\\Russian\\trader\\Indeyci", "Torgovci-10.wav", "VOICE\\Russian\\trader\\Indeyci", "Torgovci-11.wav"]
+
+[barmen_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\Tavernschiki-01.wav", "VOICE\\Russian\\tavern\\Tavernschiki-01.wav", "VOICE\\Russian\\tavern\\Tavernschiki-02.wav", "VOICE\\Russian\\tavern\\Tavernschiki-03.wav"]
+
+[barmen_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\Tavernschiki-04.wav", "VOICE\\Russian\\tavern\\Tavernschiki-04.wav", "VOICE\\Russian\\tavern\\Tavernschiki-05.wav", "VOICE\\Russian\\tavern\\Tavernschiki-06.wav"]
+
+[barmen_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\Tavernschiki-07.wav", "VOICE\\Russian\\tavern\\Tavernschiki-07.wav", "VOICE\\Russian\\tavern\\Tavernschiki-08.wav", "VOICE\\Russian\\tavern\\Tavernschiki-09.wav"]
+
+[barmen_4]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\Tavernschiki-10.wav", "VOICE\\Russian\\tavern\\Tavernschiki-10.wav", "VOICE\\Russian\\tavern\\Tavernschiki-11.wav", "VOICE\\Russian\\tavern\\Tavernschiki-11.wav"]
+
+[waitress]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\Oficiantki-01.wav", "VOICE\\Russian\\tavern\\Oficiantki-01.wav", "VOICE\\Russian\\tavern\\Oficiantki-02.wav", "VOICE\\Russian\\tavern\\Oficiantki-03.wav", "VOICE\\Russian\\tavern\\Oficiantki-04.wav", "VOICE\\Russian\\tavern\\Oficiantki-05.wav"]
+
+[smuggler]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\Kontrabandisti-01.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-01.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-02.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-03.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-04.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-05.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-06.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-07.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-08.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-09.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-10.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-11.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-12.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-13.wav", "VOICE\\Russian\\tavern\\Kontrabandisti-14.wav"]
+
+[map_trader]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\Prodavec", "karty-01.wav", "VOICE\\Russian\\tavern\\Prodavec", "karty-01.wav", "VOICE\\Russian\\tavern\\Prodavec", "karty-02.wav", "VOICE\\Russian\\tavern\\Prodavec", "karty-03.wav", "VOICE\\Russian\\tavern\\Prodavec", "karty-04.wav", "VOICE\\Russian\\tavern\\Prodavec", "karty-05.wav", "VOICE\\Russian\\tavern\\Prodavec", "karty-06.wav"]
+
+[habitue]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\Pyanici-01.wav", "VOICE\\Russian\\tavern\\Pyanici-01.wav", "VOICE\\Russian\\tavern\\Pyanici-02.wav", "VOICE\\Russian\\tavern\\Pyanici-03.wav", "VOICE\\Russian\\tavern\\Pyanici-04.wav", "VOICE\\Russian\\tavern\\Pyanici-05.wav", "VOICE\\Russian\\tavern\\Pyanici-06.wav", "VOICE\\Russian\\tavern\\Pyanici-07.wav", "VOICE\\Russian\\tavern\\Pyanici-08.wav", "VOICE\\Russian\\tavern\\Pyanici-09.wav", "VOICE\\Russian\\tavern\\Pyanici-10.wav", "VOICE\\Russian\\tavern\\Pyanici-11.wav", "VOICE\\Russian\\tavern\\Pyanici-12.wav", "VOICE\\Russian\\tavern\\Pyanici-13.wav", "VOICE\\Russian\\tavern\\Pyanici-14.wav", "VOICE\\Russian\\tavern\\Pyanici-15.wav", "VOICE\\Russian\\tavern\\Pyanici-16.wav"]
+
+[player]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\Igroki", "v", "Tavernah-01.wav", "VOICE\\Russian\\tavern\\Igroki", "v", "Tavernah-01.wav", "VOICE\\Russian\\tavern\\Igroki", "v", "Tavernah-02.wav", "VOICE\\Russian\\tavern\\Igroki", "v", "Tavernah-03.wav", "VOICE\\Russian\\tavern\\Igroki", "v", "Tavernah-04.wav", "VOICE\\Russian\\tavern\\Igroki", "v", "Tavernah-05.wav", "VOICE\\Russian\\tavern\\Igroki", "v", "Tavernah-06.wav", "VOICE\\Russian\\tavern\\Igroki", "v", "Tavernah-07.wav", "VOICE\\Russian\\tavern\\Igroki", "v", "Tavernah-08.wav", "VOICE\\Russian\\tavern\\Igroki", "v", "Tavernah-09.wav", "VOICE\\Russian\\tavern\\Igroki", "v", "Tavernah-10.wav"]
+
+[officer_hire]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\Verbovschiki", "v", "Tavernah-01.wav", "VOICE\\Russian\\tavern\\Verbovschiki", "v", "Tavernah-01.wav", "VOICE\\Russian\\tavern\\Verbovschiki", "v", "Tavernah-02.wav", "VOICE\\Russian\\tavern\\Verbovschiki", "v", "Tavernah-03.wav", "VOICE\\Russian\\tavern\\Verbovschiki", "v", "Tavernah-04.wav", "VOICE\\Russian\\tavern\\Verbovschiki", "v", "Tavernah-05.wav", "VOICE\\Russian\\tavern\\Verbovschiki", "v", "Tavernah-06.wav", "VOICE\\Russian\\tavern\\Verbovschiki", "v", "Tavernah-07.wav", "VOICE\\Russian\\tavern\\Verbovschiki", "v", "Tavernah-08.wav"]
+
+[captain_trader]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\cap", "trader-01.wav", "VOICE\\Russian\\tavern\\cap", "trader-01.wav", "VOICE\\Russian\\tavern\\cap", "trader-02.wav", "VOICE\\Russian\\tavern\\cap", "trader-03.wav", "VOICE\\Russian\\tavern\\cap", "trader-04.wav"]
+
+[captain_complete_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\cap", "trader", "complete-01.wav", "VOICE\\Russian\\tavern\\cap", "trader", "complete-01.wav", "VOICE\\Russian\\tavern\\cap", "trader", "complete-02.wav", "VOICE\\Russian\\tavern\\cap", "trader", "complete-04.wav", "VOICE\\Russian\\tavern\\cap", "trader", "complete-05.wav"]
+
+[captain_complete_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\tavern\\cap", "trader", "complete-03.wav", "VOICE\\Russian\\tavern\\cap", "trader", "complete-03.wav", "VOICE\\Russian\\tavern\\cap", "trader", "complete-06.wav"]
+
+[mayor_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\residence\\Hubernatori-01.wav", "VOICE\\Russian\\residence\\Hubernatori-01.wav", "VOICE\\Russian\\residence\\Hubernatori-02.wav", "VOICE\\Russian\\residence\\Hubernatori-03.wav"]
+
+[mayor_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\residence\\Hubernatori-04.wav", "VOICE\\Russian\\residence\\Hubernatori-04.wav", "VOICE\\Russian\\residence\\Hubernatori-05.wav", "VOICE\\Russian\\residence\\Hubernatori-06.wav"]
+
+[mayor_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\residence\\Hubernatori-07.wav", "VOICE\\Russian\\residence\\Hubernatori-07.wav", "VOICE\\Russian\\residence\\Hubernatori-08.wav", "VOICE\\Russian\\residence\\Hubernatori-09.wav"]
+
+[mayor_4]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\residence\\Hubernatori-10.wav", "VOICE\\Russian\\residence\\Hubernatori-10.wav", "VOICE\\Russian\\residence\\Hubernatori-11.wav", "VOICE\\Russian\\residence\\Hubernatori-12.wav", "VOICE\\Russian\\residence\\Hubernatori-13.wav"]
+
+[soldier_guard]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\residence\\soldier", "house", "guard.wav"]
+
+[worker]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\residence\\Rabochiy.wav"
+
+[bedroom_lady]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\residence\\Lady", "in", "bedroom-01.wav", "VOICE\\Russian\\residence\\Lady", "in", "bedroom-01.wav", "VOICE\\Russian\\residence\\Lady", "in", "bedroom-02.wav"]
+
+[maman_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\brothel\\Soderzhatelnici", "Bordeley-01.wav", "VOICE\\Russian\\brothel\\Soderzhatelnici", "Bordeley-01.wav", "VOICE\\Russian\\brothel\\Soderzhatelnici", "Bordeley-02.wav", "VOICE\\Russian\\brothel\\Soderzhatelnici", "Bordeley-03.wav"]
+
+[maman_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\brothel\\Soderzhatelnici", "Bordeley-04.wav", "VOICE\\Russian\\brothel\\Soderzhatelnici", "Bordeley-04.wav", "VOICE\\Russian\\brothel\\Soderzhatelnici", "Bordeley-05.wav", "VOICE\\Russian\\brothel\\Soderzhatelnici", "Bordeley-06.wav"]
+
+[maman_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\brothel\\Soderzhatelnici", "Bordeley-07.wav", "VOICE\\Russian\\brothel\\Soderzhatelnici", "Bordeley-07.wav", "VOICE\\Russian\\brothel\\Soderzhatelnici", "Bordeley-08.wav", "VOICE\\Russian\\brothel\\Soderzhatelnici", "Bordeley-09.wav"]
+
+[whore]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\brothel\\Shluhi-01.wav", "VOICE\\Russian\\brothel\\Shluhi-01.wav", "VOICE\\Russian\\brothel\\Shluhi-02.wav", "VOICE\\Russian\\brothel\\Shluhi-03.wav", "VOICE\\Russian\\brothel\\Shluhi-04.wav", "VOICE\\Russian\\brothel\\Shluhi-05.wav", "VOICE\\Russian\\brothel\\Shluhi-06.wav", "VOICE\\Russian\\brothel\\Shluhi-07.wav", "VOICE\\Russian\\brothel\\Shluhi-08.wav", "VOICE\\Russian\\brothel\\Shluhi-09.wav", "VOICE\\Russian\\brothel\\Shluhi-10.wav", "VOICE\\Russian\\brothel\\Shluhi-11.wav", "VOICE\\Russian\\brothel\\Shluhi-12.wav", "VOICE\\Russian\\brothel\\Shluhi-13.wav", "VOICE\\Russian\\brothel\\Shluhi-14.wav", "VOICE\\Russian\\brothel\\Shluhi-15.wav", "VOICE\\Russian\\brothel\\Shluhi-16.wav"]
+
+[shipyarder_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\shipyard\\Verfisti-01.wav", "VOICE\\Russian\\shipyard\\Verfisti-01.wav", "VOICE\\Russian\\shipyard\\Verfisti-02.wav", "VOICE\\Russian\\shipyard\\Verfisti-03.wav"]
+
+[shipyarder_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\shipyard\\Verfisti-04.wav", "VOICE\\Russian\\shipyard\\Verfisti-04.wav", "VOICE\\Russian\\shipyard\\Verfisti-05.wav", "VOICE\\Russian\\shipyard\\Verfisti-06.wav"]
+
+[shipyarder_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\shipyard\\Verfisti-07.wav", "VOICE\\Russian\\shipyard\\Verfisti-07.wav", "VOICE\\Russian\\shipyard\\Verfisti-08.wav", "VOICE\\Russian\\shipyard\\Verfisti-09.wav"]
+
+[usurer_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\bank\\Rostovschiki-01.wav", "VOICE\\Russian\\bank\\Rostovschiki-01.wav", "VOICE\\Russian\\bank\\Rostovschiki-02.wav", "VOICE\\Russian\\bank\\Rostovschiki-03.wav", "VOICE\\Russian\\bank\\Rostovschiki-04.wav"]
+
+[usurer_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\bank\\Rostovschiki-05.wav", "VOICE\\Russian\\bank\\Rostovschiki-05.wav", "VOICE\\Russian\\bank\\Rostovschiki-06.wav", "VOICE\\Russian\\bank\\Rostovschiki-07.wav", "VOICE\\Russian\\bank\\Rostovschiki-08.wav"]
+
+[usurer_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\bank\\Rostovschiki-09.wav", "VOICE\\Russian\\bank\\Rostovschiki-09.wav", "VOICE\\Russian\\bank\\Rostovschiki-10.wav", "VOICE\\Russian\\bank\\Rostovschiki-11.wav", "VOICE\\Russian\\bank\\Rostovschiki-12.wav"]
+
+[usurer_4]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\bank\\Rostovschiki-13.wav", "VOICE\\Russian\\bank\\Rostovschiki-13.wav", "VOICE\\Russian\\bank\\Rostovschiki-14.wav", "VOICE\\Russian\\bank\\Rostovschiki-15.wav", "VOICE\\Russian\\bank\\Rostovschiki-16.wav", "VOICE\\Russian\\bank\\Rostovschiki-17.wav"]
+
+[padre_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\church\\Svyaschenniki", "v", "Cerkvyah-01.wav", "VOICE\\Russian\\church\\Svyaschenniki", "v", "Cerkvyah-01.wav", "VOICE\\Russian\\church\\Svyaschenniki", "v", "Cerkvyah-02.wav", "VOICE\\Russian\\church\\Svyaschenniki", "v", "Cerkvyah-03.wav", "VOICE\\Russian\\church\\Svyaschenniki", "v", "Cerkvyah-04.wav"]
+
+[padre_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\church\\Svyaschenniki", "v", "Cerkvyah-05.wav", "VOICE\\Russian\\church\\Svyaschenniki", "v", "Cerkvyah-05.wav", "VOICE\\Russian\\church\\Svyaschenniki", "v", "Cerkvyah-06.wav", "VOICE\\Russian\\church\\Svyaschenniki", "v", "Cerkvyah-07.wav", "VOICE\\Russian\\church\\Svyaschenniki", "v", "Cerkvyah-08.wav"]
+
+[prisonboss_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\prison\\Nachalnik", "Turmi-01.wav"]
+
+[prisonboss_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\prison\\Nachalnik", "Turmi-02.wav"]
+
+[prisonboss_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\prison\\Nachalnik", "Turmi-03.wav"]
+
+[prisonboss_4]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\prison\\Nachalnik", "Turmi-04.wav"]
+
+[portman_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\portoffice\\Nachalnik", "Porta-01.wav"]
+
+[portman_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\portoffice\\Nachalnik", "Porta-02.wav"]
+
+[portman_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\portoffice\\Nachalnik", "Porta-03.wav"]
+
+[portman_4]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\portoffice\\Nachalnik", "Porta-04.wav"]
+
+[portman_5]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\portoffice\\Nachalnik", "Porta-05.wav"]
+
+[official]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\portoffice\\Chinovniki-01.wav", "VOICE\\Russian\\portoffice\\Chinovniki-01.wav", "VOICE\\Russian\\portoffice\\Chinovniki-02.wav", "VOICE\\Russian\\portoffice\\Chinovniki-03.wav", "VOICE\\Russian\\portoffice\\Chinovniki-04.wav", "VOICE\\Russian\\portoffice\\Chinovniki-05.wav", "VOICE\\Russian\\portoffice\\Chinovniki-06.wav", "VOICE\\Russian\\portoffice\\Chinovniki-07.wav", "VOICE\\Russian\\portoffice\\Chinovniki-08.wav"]
+
+[comandante]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\fort\\Nachalnik", "Forta-01.wav", "VOICE\\Russian\\fort\\Nachalnik", "Forta-01.wav", "VOICE\\Russian\\fort\\Nachalnik", "Forta-02.wav", "VOICE\\Russian\\fort\\Nachalnik", "Forta-03.wav", "VOICE\\Russian\\fort\\Nachalnik", "Forta-04.wav", "VOICE\\Russian\\fort\\Nachalnik", "Forta-05.wav", "VOICE\\Russian\\fort\\Nachalnik", "Forta-06.wav"]
+
+[lighthouseman_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\mayak\\Kladbischenskie", "Storozha-01.wav", "VOICE\\Russian\\mayak\\Kladbischenskie", "Storozha-01.wav", "VOICE\\Russian\\mayak\\Kladbischenskie", "Storozha-02.wav"]
+
+[lighthouseman_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\mayak\\Kladbischenskie", "Storozha-03.wav", "VOICE\\Russian\\mayak\\Kladbischenskie", "Storozha-03.wav", "VOICE\\Russian\\mayak\\Kladbischenskie", "Storozha-04.wav"]
+
+[lighthouseman_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\mayak\\Kladbischenskie", "Storozha-05.wav", "VOICE\\Russian\\mayak\\Kladbischenskie", "Storozha-05.wav", "VOICE\\Russian\\mayak\\Kladbischenskie", "Storozha-06.wav"]
+
+[lighthouseman_4]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\mayak\\Kladbischenskie", "Storozha-07.wav", "VOICE\\Russian\\mayak\\Kladbischenskie", "Storozha-07.wav", "VOICE\\Russian\\mayak\\Kladbischenskie", "Storozha-08.wav"]
+
+[banditos]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\other\\Banditi", "v", "Junglyah-01.wav", "VOICE\\Russian\\other\\Banditi", "v", "Junglyah-01.wav", "VOICE\\Russian\\other\\Banditi", "v", "Junglyah-02.wav", "VOICE\\Russian\\other\\Banditi", "v", "Junglyah-03.wav", "VOICE\\Russian\\other\\Banditi", "v", "Junglyah-04.wav", "VOICE\\Russian\\other\\Banditi", "v", "Junglyah-05.wav", "VOICE\\Russian\\other\\Banditi", "v", "Junglyah-06.wav", "VOICE\\Russian\\other\\Banditi", "v", "Junglyah-07.wav", "VOICE\\Russian\\other\\Banditi", "v", "Junglyah-08.wav"]
+
+[indiano]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\other\\Indeyci-01.wav", "VOICE\\Russian\\other\\Indeyci-01.wav", "VOICE\\Russian\\other\\Indeyci-02.wav", "VOICE\\Russian\\other\\Indeyci-03.wav", "VOICE\\Russian\\other\\Indeyci-04.wav", "VOICE\\Russian\\other\\Indeyci-05.wav"]
+
+[rapers_girl_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\other\\RapersGirl-01.wav"
+
+[rapers_girl_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\other\\RapersGirl-02.wav"
+
+[robinzons_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\other\\robinzons-01.wav", "VOICE\\Russian\\other\\robinzons-01.wav", "VOICE\\Russian\\other\\robinzons-02.wav", "VOICE\\Russian\\other\\robinzons-03.wav", "VOICE\\Russian\\other\\robinzons-04.wav"]
+
+[robinzons_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\other\\robinzons-05.wav", "VOICE\\Russian\\other\\robinzons-05.wav", "VOICE\\Russian\\other\\robinzons-06.wav", "VOICE\\Russian\\other\\robinzons-07.wav", "VOICE\\Russian\\other\\robinzons-08.wav"]
+
+[sea_sailors]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\other\\Matrosi", "na", "Korablyah-01.wav", "VOICE\\Russian\\other\\Matrosi", "na", "Korablyah-01.wav", "VOICE\\Russian\\other\\Matrosi", "na", "Korablyah-02.wav", "VOICE\\Russian\\other\\Matrosi", "na", "Korablyah-03.wav", "VOICE\\Russian\\other\\Matrosi", "na", "Korablyah-04.wav", "VOICE\\Russian\\other\\Matrosi", "na", "Korablyah-05.wav", "VOICE\\Russian\\other\\Matrosi", "na", "Korablyah-06.wav", "VOICE\\Russian\\other\\Matrosi", "na", "Korablyah-07.wav", "VOICE\\Russian\\other\\Matrosi", "na", "Korablyah-08.wav", "VOICE\\Russian\\other\\Matrosi", "na", "Korablyah-09.wav", "VOICE\\Russian\\other\\Matrosi", "na", "Korablyah-10.wav"]
+
+[ransack]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\other\\Plennie-01.wav", "VOICE\\Russian\\other\\Plennie-01.wav", "VOICE\\Russian\\other\\Plennie-02.wav", "VOICE\\Russian\\other\\Plennie-03.wav", "VOICE\\Russian\\other\\Plennie-04.wav", "VOICE\\Russian\\other\\Plennie-05.wav", "VOICE\\Russian\\other\\Plennie-06.wav"]
+
+[hunter]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\other\\OZGi-01.wav", "VOICE\\Russian\\other\\OZGi-01.wav", "VOICE\\Russian\\other\\OZGi-02.wav", "VOICE\\Russian\\other\\OZGi-03.wav", "VOICE\\Russian\\other\\OZGi-04.wav", "VOICE\\Russian\\other\\OZGi-05.wav", "VOICE\\Russian\\other\\OZGi-06.wav"]
+
+[start_sailor]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\sharlie\\start", "sailor.wav"]
+
+[puancie_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\sharlie\\Philippe", "De", "Puancy-03.wav"]
+
+[mishelle_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\sharlie\\mishelle-01.wav"
+
+[mishelle_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\sharlie\\mishelle-02.wav"
+
+[mishelle_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\sharlie\\mishelle-03.wav"
+
+[fadey]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\sharlie\\Fadey", "Moskovit-01.wav", "VOICE\\Russian\\sharlie\\Fadey", "Moskovit-01.wav", "VOICE\\Russian\\sharlie\\Fadey", "Moskovit-02.wav"]
+
+[tichingitu]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\sharlie\\Tynichgitu.wav"
+
+[spa_engineer]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\sharlie\\spa", "engineer.wav"]
+
+[prosper]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\sharlie\\prosper.wav"
+
+[norman_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\sharlie\\Abraham", "Norman-04.wav", "VOICE\\Russian\\sharlie\\Abraham", "Norman-04.wav", "VOICE\\Russian\\sharlie\\Abraham", "Norman-05.wav", "VOICE\\Russian\\sharlie\\Abraham", "Norman-06.wav"]
+
+[norman_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\sharlie\\Abraham", "Norman-01.wav", "VOICE\\Russian\\sharlie\\Abraham", "Norman-01.wav", "VOICE\\Russian\\sharlie\\Abraham", "Norman-02.wav", "VOICE\\Russian\\sharlie\\Abraham", "Norman-03.wav"]
+
+[rodenburg_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Lucas", "Rodenburg-01.wav", "VOICE\\Russian\\hambit\\Lucas", "Rodenburg-01.wav", "VOICE\\Russian\\hambit\\Lucas", "Rodenburg-02.wav", "VOICE\\Russian\\hambit\\Lucas", "Rodenburg-03.wav"]
+
+[rodenburg_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Lucas", "Rodenburg-04.wav"]
+
+[abigile_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Abigail", "Shneur-01.wav"]
+
+[abigile_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Abigail", "Shneur-02.wav"]
+
+[abigile_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Abigail", "Shneur-03.wav"]
+
+[solomon_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Solomon", "Shneur-01.wav"]
+
+[solomon_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Solomon", "Shneur-02.wav"]
+
+[merdok_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\John", "Mardock-01.wav", "VOICE\\Russian\\hambit\\John", "Mardock-01.wav", "VOICE\\Russian\\hambit\\John", "Mardock-02.wav"]
+
+[merdok_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\John", "Mardock-03.wav"]
+
+[merdok_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\John", "Mardock-04.wav"]
+
+[merdok_4]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\John", "Mardock-05.wav"]
+
+[merdok_5]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\John", "Mardock-06.wav"]
+
+[merdok_6]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\John", "Mardock-07.wav"]
+
+[knippel_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Charlie", "Knippel-01.wav"]
+
+[knippel_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Charlie", "Knippel-02.wav"]
+
+[knippel_hire]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Charlie", "Knippel-05.wav", "VOICE\\Russian\\hambit\\Charlie", "Knippel-05.wav", "VOICE\\Russian\\hambit\\Charlie", "Knippel-06.wav"]
+
+[fleetwood_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Richard", "Flitwood-01.wav"]
+
+[fleetwood_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Richard", "Flitwood-02.wav"]
+
+[fleetwood_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Richard", "Flitwood-03.wav"]
+
+[jacobberg]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Jakob", "Van", "Berg-01.wav"]
+
+[longway]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\hambit\\Longway-01.wav"
+
+[tonzag_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Ercule", "Tongzag-01.wav"]
+
+[tonzag_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Ercule", "Tongzag-05.wav"]
+
+[tonzag_hire]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Ercule", "Tongzag-07.wav"]
+
+[stivesant]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Peter", "Stuyvesant.wav"]
+
+[jino]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\Jino", "Gvineily-01.wav", "VOICE\\Russian\\hambit\\Jino", "Gvineily-01.wav", "VOICE\\Russian\\hambit\\Jino", "Gvineily-02.wav", "VOICE\\Russian\\hambit\\Jino", "Gvineily-03.wav"]
+
+[hambit_other_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\hambit", "other", "NPC-01.wav"]
+
+[hambit_other_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\hambit", "other", "NPC-02.wav"]
+
+[hambit_other_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\hambit", "other", "NPC-03.wav"]
+
+[hambit_other_4]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\hambit", "other", "NPC-04.wav"]
+
+[hambit_other_5]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\hambit\\hambit", "other", "NPC-05.wav"]
+
+[svenson_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Jan", "Swenson-01.wav", "VOICE\\Russian\\saga\\Jan", "Swenson-01.wav", "VOICE\\Russian\\saga\\Jan", "Swenson-02.wav"]
+
+[svenson_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Jan", "Swenson-03.wav"]
+
+[svenson_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Jan", "Swenson-04.wav", "VOICE\\Russian\\saga\\Jan", "Swenson-04.wav", "VOICE\\Russian\\saga\\Jan", "Swenson-05.wav"]
+
+[joanna]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\saga\\Joanna.wav"
+
+[nathaniel_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Nataniel", "Hawk-01.wav", "VOICE\\Russian\\saga\\Nataniel", "Hawk-01.wav", "VOICE\\Russian\\saga\\Nataniel", "Hawk-02.wav"]
+
+[nathaniel_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Nataniel", "Hawk-04.wav"]
+
+[danny_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Denny", "Hawk-04.wav", "VOICE\\Russian\\saga\\Denny", "Hawk-04.wav", "VOICE\\Russian\\saga\\Denny", "Hawk-05.wav"]
+
+[danny_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Denny", "Hawk-06.wav", "VOICE\\Russian\\saga\\Denny", "Hawk-06.wav", "VOICE\\Russian\\saga\\Denny", "Hawk-07.wav"]
+
+[beltrop]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Lawrence", "Beltrope-01.wav", "VOICE\\Russian\\saga\\Lawrence", "Beltrope-01.wav", "VOICE\\Russian\\saga\\Lawrence", "Beltrope-02.wav", "VOICE\\Russian\\saga\\Lawrence", "Beltrope-03.wav"]
+
+[gladis_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Gladys", "McArtur-01.wav"]
+
+[gladis_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Gladys", "McArtur-02.wav"]
+
+[gladis_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Gladys", "McArtur-03.wav"]
+
+[helena_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Elen", "McArtur-01.wav"]
+
+[helena_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Elen", "McArtur-02.wav", "VOICE\\Russian\\saga\\Elen", "McArtur-02.wav", "VOICE\\Russian\\saga\\Elen", "McArtur-03.wav"]
+
+[helena_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Elen", "McArtur-04.wav"]
+
+[helena_hire]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Elen", "McArtur-05.wav"]
+
+[dios]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Jhose", "Dios-01.wav", "VOICE\\Russian\\saga\\Jhose", "Dios-01.wav", "VOICE\\Russian\\saga\\Jhose", "Dios-02.wav"]
+
+[loxly_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Albert", "Locksley-01.wav", "VOICE\\Russian\\saga\\Albert", "Locksley-01.wav", "VOICE\\Russian\\saga\\Albert", "Locksley-02.wav"]
+
+[loxly_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Albert", "Locksley-03.wav"]
+
+[loxly_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Albert", "Locksley-04.wav"]
+
+[loxly_4]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Albert", "Locksley-05.wav"]
+
+[ortega]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Ortego", "Alvares-01.wav", "VOICE\\Russian\\saga\\Ortego", "Alvares-01.wav", "VOICE\\Russian\\saga\\Ortego", "Alvares-02.wav", "VOICE\\Russian\\saga\\Ortego", "Alvares-03.wav"]
+
+[jackman]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Jacob", "Jackman-01.wav", "VOICE\\Russian\\saga\\Jacob", "Jackman-01.wav", "VOICE\\Russian\\saga\\Jacob", "Jackman-02.wav", "VOICE\\Russian\\saga\\Jacob", "Jackman-03.wav"]
+
+[barbazon_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Jacq", "Barbazon-01.wav", "VOICE\\Russian\\saga\\Jacq", "Barbazon-01.wav", "VOICE\\Russian\\saga\\Jacq", "Barbazon-02.wav"]
+
+[barbazon_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Jacq", "Barbazon-03.wav"]
+
+[marlow]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Zaharia", "Marlow-01.wav", "VOICE\\Russian\\saga\\Zaharia", "Marlow-01.wav", "VOICE\\Russian\\saga\\Zaharia", "Marlow-02.wav", "VOICE\\Russian\\saga\\Zaharia", "Marlow-03.wav"]
+
+[terrax_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Markus", "Tiraks-01.wav", "VOICE\\Russian\\saga\\Markus", "Tiraks-01.wav", "VOICE\\Russian\\saga\\Markus", "Tiraks-02.wav"]
+
+[terrax_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Markus", "Tiraks-03.wav"]
+
+[snakeeye]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Zmeiniy", "Glaz-01.wav", "VOICE\\Russian\\saga\\Zmeiniy", "Glaz-01.wav", "VOICE\\Russian\\saga\\Zmeiniy", "Glaz-02.wav"]
+
+[jessika_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Jessica", "Rose-02.wav"]
+
+[jessika_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Jessica", "Rose-03.wav"]
+
+[jessika_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Jessica", "Rose-01.wav"]
+
+[jessika_soul]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\saga\\Jessica", "Rose-05.wav"]
+
+[dodson_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Steven", "Dodson-01.wav", "VOICE\\Russian\\LSC\\Steven", "Dodson-01.wav", "VOICE\\Russian\\LSC\\Steven", "Dodson-02.wav", "VOICE\\Russian\\LSC\\Steven", "Dodson-03.wav"]
+
+[dodson_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Steven", "Dodson-04.wav", "VOICE\\Russian\\LSC\\Steven", "Dodson-04.wav", "VOICE\\Russian\\LSC\\Steven", "Dodson-05.wav"]
+
+[capper]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Chad", "Capper-01.wav"]
+
+[dexter_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Layton", "Dexter-01.wav", "VOICE\\Russian\\LSC\\Layton", "Dexter-01.wav", "VOICE\\Russian\\LSC\\Layton", "Dexter-02.wav"]
+
+[dexter_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Layton", "Dexter-03.wav", "VOICE\\Russian\\LSC\\Layton", "Dexter-03.wav", "VOICE\\Russian\\LSC\\Layton", "Dexter-04.wav"]
+
+[dexter_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Layton", "Dexter-05.wav", "VOICE\\Russian\\LSC\\Layton", "Dexter-05.wav", "VOICE\\Russian\\LSC\\Layton", "Dexter-06.wav"]
+
+[eddy_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Edward", "Blake-01.wav", "VOICE\\Russian\\LSC\\Edward", "Blake-01.wav", "VOICE\\Russian\\LSC\\Edward", "Blake-03.wav"]
+
+[eddy_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Edward", "Blake-02.wav"]
+
+[chimiset]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Chymiset-01.wav", "VOICE\\Russian\\LSC\\Chymiset-01.wav", "VOICE\\Russian\\LSC\\Chymiset-02.wav", "VOICE\\Russian\\LSC\\Chymiset-03.wav"]
+
+[facio_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Giuseppe", "Facio-01.wav", "VOICE\\Russian\\LSC\\Giuseppe", "Facio-01.wav", "VOICE\\Russian\\LSC\\Giuseppe", "Facio-02.wav", "VOICE\\Russian\\LSC\\Giuseppe", "Facio-03.wav"]
+
+[facio_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Giuseppe", "Facio-04.wav"]
+
+[facio_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Giuseppe", "Facio-05.wav"]
+
+[axel]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Axel", "Jost-01.wav", "VOICE\\Russian\\LSC\\Axel", "Jost-01.wav", "VOICE\\Russian\\LSC\\Axel", "Jost-02.wav", "VOICE\\Russian\\LSC\\Axel", "Jost-03.wav"]
+
+[carpentero]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Sancho", "Carpentero-01.wav", "VOICE\\Russian\\LSC\\Sancho", "Carpentero-01.wav", "VOICE\\Russian\\LSC\\Sancho", "Carpentero-02.wav", "VOICE\\Russian\\LSC\\Sancho", "Carpentero-03.wav", "VOICE\\Russian\\LSC\\Sancho", "Carpentero-04.wav", "VOICE\\Russian\\LSC\\Sancho", "Carpentero-05.wav"]
+
+[mary_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Mary", "Casper-01.wav"]
+
+[mary_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Mary", "Casper-02.wav"]
+
+[mary_3]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Mary", "Casper-03.wav"]
+
+[mary_4]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Mary", "Casper-04.wav"]
+
+[mary_5]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Mary", "Casper-07.wav"]
+
+[mary_hire]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Mary", "Casper-05.wav", "VOICE\\Russian\\LSC\\Mary", "Casper-05.wav", "VOICE\\Russian\\LSC\\Mary", "Casper-06.wav"]
+
+[mary_love]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Mary", "Casper-08.wav"]
+
+[mechanic]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Henrick", "Vedeker-01.wav", "VOICE\\Russian\\LSC\\Henrick", "Vedeker-01.wav", "VOICE\\Russian\\LSC\\Henrick", "Vedeker-02.wav", "VOICE\\Russian\\LSC\\Henrick", "Vedeker-03.wav", "VOICE\\Russian\\LSC\\Henrick", "Vedeker-04.wav"]
+
+[schmidt]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Jurgen", "Shmidt-01.wav", "VOICE\\Russian\\LSC\\Jurgen", "Shmidt-01.wav", "VOICE\\Russian\\LSC\\Jurgen", "Shmidt-02.wav"]
+
+[ole]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\LSC\\Ole", "Christiansen-01.wav", "VOICE\\Russian\\LSC\\Ole", "Christiansen-01.wav", "VOICE\\Russian\\LSC\\Ole", "Christiansen-02.wav", "VOICE\\Russian\\LSC\\Ole", "Christiansen-03.wav", "VOICE\\Russian\\LSC\\Ole", "Christiansen-04.wav"]
+
+[marchello]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\LSC\\Cyclop-01.wav"
+
+[Grinspy]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\QuestMan06.wav"
+
+[Narval]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\Other\\OZGi-01.wav", "VOICE\\Russian\\Other\\OZGi-01.wav", "VOICE\\Russian\\Other\\OZGi-04.wav"]
+
+[Rivados]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\Other\\OZGi-01.wav", "VOICE\\Russian\\Other\\OZGi-01.wav", "VOICE\\Russian\\Other\\OZGi-04.wav"]
+
+[SharkPirate]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\Other\\OZGi-01.wav", "VOICE\\Russian\\Other\\OZGi-01.wav", "VOICE\\Russian\\Other\\OZGi-04.wav"]
+
+[vincento_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\sharlie\\Otec", "Vincento-02.wav", "VOICE\\Russian\\sharlie\\Otec", "Vincento-02.wav", "VOICE\\Russian\\sharlie\\Otec", "Vincento-03.wav"]
+
+[vincento_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\sharlie\\Otec", "Vincento-01.wav"]
+
+[archy]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\sharlie\\Archie", "Colkhoun-01.wav"]
+
+[kanek]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = "VOICE\\Russian\\sharlie\\Kanek_1.wav"
+
+[urakan]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\sharlie\\Kumvana-02.wav", "VOICE\\Russian\\sharlie\\Kumvana-02.wav", "VOICE\\Russian\\sharlie\\Kumvana-03.wav"]
+
+[avendel_1]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\portugal\\Hugo", "Avendell-01.wav", "VOICE\\Russian\\portugal\\Hugo", "Avendell-01.wav", "VOICE\\Russian\\portugal\\Hugo", "Avendell-02.wav"]
+
+[avendel_2]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\portugal\\Hugo", "Avendell-03.wav", "VOICE\\Russian\\portugal\\Hugo", "Avendell-03.wav", "VOICE\\Russian\\portugal\\Hugo", "Avendell-04.wav"]
+
+[portugal]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\portugal\\Bart", "Portugalec.wav"]
+
+[vaskez]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\portugal\\Ernando", "Vaskes.wav"]
+
+[mirabella]
+mindistance = 0.45
+maxdistance = 50.0
+volume = 2.0
+name = ["VOICE\\Russian\\Girls_3.wav", "VOICE\\Russian\\Girls_3.wav", "VOICE\\Russian\\other\\RapersGirl-02.wav"]

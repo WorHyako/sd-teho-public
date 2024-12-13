@@ -1,0 +1,14 @@
+[MAIN]
+item = ["VIDEO", "VIDEOBASE", "PICTURE", "SCROLLPICT", "100", "pc", "BUTTON", "EXIT_BTN"]
+
+[EXIT_BTN]
+position = [777, 0, 799, 22]
+group = "MAIN_ICONS"
+picture = ["exit", "button"]
+command = ["click", "event:exitCancel"]
+shadowcolor = [0, 0, 0, 0]
+
+[SCROLLPICT]
+babsoluterectangle = 5
+position = [0, 0, 800, 600]
+texturename = "interfaces\\card_desk.tga"
