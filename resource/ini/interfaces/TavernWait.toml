@@ -1,32 +1,32 @@
 [MAIN]
-item = ["FRAME", "MAIN_FRAME", "SLIDER", "HOURS_SLIDE", "100", "PC", "BUTTON", "EXIT_BTN", "TEXTBUTTON2", "OK_BTN", "TEXTBUTTON2", "CANCEL_BTN", "FORMATEDTEXT", "INFO_TEXT"]
+item = [["FRAME", "MAIN_FRAME"], ["SLIDER", "HOURS_SLIDE"], ["100", "PC", "BUTTON", "EXIT_BTN"], ["TEXTBUTTON2", "OK_BTN"], ["TEXTBUTTON2", "CANCEL_BTN"], ["FORMATEDTEXT", "INFO_TEXT"]]
 
 [MAIN_FRAME]
 position = [200, 200, 600, 370]
 captionheight = 30
-captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionimage = ["piclist=SKILLS", " picname=SKILLBORDER", " color=(255", "128", "128", "128)"]
 
 [EXIT_BTN]
 position = [570, 203, 595, 228]
 command = ["click", "event:exitcancel"]
 group = "ICONS_SPEC"
-picture = ["exit", "button"]
+picture = "exit button"
 shadowcolor = [0, 0, 0, 0]
 
 [HOURS_SLIDE]
-command = ["click", "leftstep", "speedleft", "rightstep", "speedright", "deactivate", "event:exitcancel", "downstep"]
+command = ["click", "leftstep", "speedleft", "rightstep", "speedright", ["deactivate", "event:exitcancel"], ",downstep"]
 position = [250, 265, 550, 285]
 pointerwidth = 16
 pointerheight = 24
 glowoffset = [0, 0]
 
 [OK_BTN]
-command = ["click", "activate", "deactivate", "event:exitcancel", "rightstep", "upstep"]
+command = ["click", "activate", ["deactivate", "event:exitcancel"], ",rightstep", "upstep"]
 position = [230, 330, 360, 360]
 string = "Ok"
 
 [CANCEL_BTN]
-command = ["click", "event:exitcancel", "activate", "event:exitcancel", "deactivate", "event:exitcancel", "leftstep", "upstep"]
+command = [["click", "event:exitcancel"], ["activate", "event:exitcancel"], ["deactivate", "event:exitcancel"], ",leftstep", "upstep"]
 position = [430, 330, 570, 360]
 string = "Cancel"
 

@@ -5,31 +5,31 @@ show = 1
 nodelist = ["VIDEOBASE", "B_NEWGAME", "B_LOAD", "B_OPTIONS", "B_CREDITS", "B_QUIT", "EXIT_BTN", "BACKPICTURE"]
 
 [B_NEWGAME]
-command = ["click", "activate", "downstep", "select:B_LOAD"]
+command = ["click", "activate", ["downstep", "select:B_LOAD"]]
 position = [500, 350, 740, 380]
 font = "interface_button"
-string = ["New", "Game"]
+string = "New Game"
 
 [B_LOAD]
-command = ["click", "activate", "upstep", "select:B_NEWGAME", "downstep", "select:B_OPTIONS"]
+command = ["click", "activate", ["upstep", "select:B_NEWGAME"], ["downstep", "select:B_OPTIONS"]]
 position = [500, 390, 740, 420]
 font = "interface_button"
 string = "Load"
 
 [B_OPTIONS]
-command = ["click", "activate", "upstep", "select:B_LOAD", "downstep", "select:B_CREDITS"]
+command = ["click", "activate", ["upstep", "select:B_LOAD"], ["downstep", "select:B_CREDITS"]]
 position = [500, 430, 740, 460]
 font = "interface_button"
 string = "Options"
 
 [B_CREDITS]
-command = ["click", "activate", "upstep", "select:B_OPTIONS", "downstep", "select:B_QUIT"]
+command = ["click", "activate", ["upstep", "select:B_OPTIONS"], ["downstep", "select:B_QUIT"]]
 position = [500, 470, 740, 500]
 font = "interface_button"
 string = "Credits"
 
 [B_QUIT]
-command = ["click", "activate", "upstep", "select:B_CREDITS"]
+command = ["click", "activate", ["upstep", "select:B_CREDITS"]]
 position = [500, 510, 740, 540]
 font = "interface_button"
 string = "Quit"
@@ -38,7 +38,7 @@ string = "Quit"
 command = "click"
 position = [770, 5, 795, 30]
 group = "ICONS_SPEC"
-picture = ["exit", "button"]
+picture = "exit button"
 shadowcolor = [0, 0, 0, 0]
 
 [BACKPICTURE]
@@ -59,11 +59,11 @@ linespace = 20
 string = "Confirm_exit_from_menu"
 
 [CONFIRM_YES_BUTTON]
-command = ["activate", "event:ExitProgram", "click", "event:ExitProgram", "rightstep", "select:CONFIRM_NO_BUTTON"]
+command = [["activate", "event:ExitProgram"], ["click", "event:ExitProgram"], ["rightstep", "select:CONFIRM_NO_BUTTON"]]
 position = [210, 360, 395, 390]
 string = "Yes"
 
 [CONFIRM_NO_BUTTON]
-command = ["activate", "click", "leftstep", "select:CONFIRM_YES_BUTTON"]
+command = ["activate", "click", ["leftstep", "select:CONFIRM_YES_BUTTON"]]
 position = [405, 360, 590, 390]
 string = "No"

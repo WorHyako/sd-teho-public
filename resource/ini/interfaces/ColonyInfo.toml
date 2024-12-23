@@ -1,10 +1,10 @@
 [MAIN]
-item = ["FRAME", "MAIN_FRAME", "90", "FORMATEDTEXT", "INFO_TEXT", "90", "FORMATEDTEXT", "INFO_TEXT_QUESTION", "100", "TEXTBUTTON2", "B_OK", "100", "FORMATEDTEXT", "INFO_CAPTION", "PICTURE", "Nat1"]
+item = [["FRAME", "MAIN_FRAME"], ["90", "FORMATEDTEXT", "INFO_TEXT"], ["90", "FORMATEDTEXT", "INFO_TEXT_QUESTION"], ["100", "TEXTBUTTON2", "B_OK"], ["100", "FORMATEDTEXT", "INFO_CAPTION"], ["PICTURE", "Nat1"]]
 start = "B_OK"
 
 [MAIN_FRAME]
 captionheight = 24
-captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionimage = ["piclist=SKILLS", " picname=SKILLBORDER", " color=(255", "128", "128", "128)"]
 captionoffset = [0, 3, 0, 0]
 captiondividerheight = 4
 position = [225, 119, 574, 449]
@@ -14,7 +14,7 @@ position = [348, 172, 448, 272]
 
 [B_OK]
 bbreakcommand = 1
-command = ["deactivate", "event:exitCancel", "activate", "click", "rightstep", "select:B_CANCEL"]
+command = [["deactivate", "event:exitCancel"], ",activate", "click", ["rightstep", "select:B_CANCEL"]]
 position = [338, 394, 464, 426]
 string = "Ok"
 glowoffset = [0, 0]

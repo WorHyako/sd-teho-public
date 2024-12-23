@@ -10,25 +10,25 @@ texturewidth = 512
 textureheight = 256
 fronttexture = "INTERFACES\\HELP_CHOOSER_PICTURES\\Land_Interface_Front.tga"
 backtexture = "INTERFACES\\HELP_CHOOSER_PICTURES\\Land_Interface_Back.tga"
-rect = ["fast_commands", "10", "6", "57", "37", "alarm_indicator", "454", "6", "502", "16", "land_commands", "10", "210", "110", "250"]
+rect = [["fast_commands", "10", "6", "57", "37"], ["alarm_indicator", "454", "6", "502", "16"], ["land_commands", "10", "210", "110", "250"]]
 
 [SEA_INTERFACE]
 texturewidth = 512
 textureheight = 256
 fronttexture = "INTERFACES\\HELP_CHOOSER_PICTURES\\Sea_Interface_Front.tga"
 backtexture = "INTERFACES\\HELP_CHOOSER_PICTURES\\Sea_Interface_Back.tga"
-rect = ["fast_commands", "10", "6", "57", "37", "sea_minimap", "378", "0", "512", "88", "ship_commands", "10", "212", "306", "250", "sea_aim", "236", "115", "276", "141"]
+rect = [["fast_commands", "10", "6", "57", "37"], ["sea_minimap", "378", "0", "512", "88"], ["ship_commands", "10", "212", "306", "250"], ["sea_aim", "236", "115", "276", "141"]]
 
 [WORLD_MAP]
 texturewidth = 512
 textureheight = 256
 fronttexture = "INTERFACES\\HELP_CHOOSER_PICTURES\\World_Map_Front.tga"
 backtexture = "INTERFACES\\HELP_CHOOSER_PICTURES\\World_Map_Back.tga"
-rect = ["fast_commands", "6", "18", "45", "45", "WorldMap_Date_Clock", "378", "18", "496", "92", "WorldMap_Compas", "370", "176", "496", "254", "WorldMap_moor_type", "6", "225", "45", "252"]
+rect = [["fast_commands", "6", "18", "45", "45"], ["WorldMap_Date_Clock", "378", "18", "496", "92"], ["WorldMap_Compas", "370", "176", "496", "254"], ["WorldMap_moor_type", "6", "225", "45", "252"]]
 
 [DIALOG_WINDOW]
 texturewidth = 512
 textureheight = 256
 fronttexture = "INTERFACES\\HELP_CHOOSER_PICTURES\\Dialog_window_front.tga"
 backtexture = "INTERFACES\\HELP_CHOOSER_PICTURES\\Dialog_window_back.tga"
-rect = ["Dialog_window", "0", "0", "511", "100", "Dialog_window", "0", "164", "511", "255"]
+rect = [["Dialog_window", "0", "0", "511", "100"], ["Dialog_window", "0", "164", "511", "255"]]

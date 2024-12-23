@@ -1,5 +1,5 @@
 [MAIN]
-item = ["FRAME", "MAIN_FRAME", "300", "pc", "BUTTON", "EXIT_BTN", "500", "FORMATEDTEXT", "STORECAPTION1", "200", "FRAME", "SECOND_FRAME", "SCROLLIMAGE", "SHIPS_SCROLL", "BUTTON", "LEFTSCROLLBUTTON", "BUTTON", "RIGHTSCROLLBUTTON", "201", "PICTURE", "MAIN_CHARACTER_PICTURE", "201", "PICTURE", "OTHER_PICTURE", "201", "PICTURE", "BORDER_PICTURE_1", "201", "PICTURE", "BORDER_PICTURE_2", "400", "FORMATEDTEXT", "OUR_GOLD", "FORMATEDTEXT", "CAPACITY", "FORMATEDTEXT", "STORE_CAPACITY", "400", "FORMATEDTEXT", "FOOD_SHIP", "400", "FORMATEDTEXT", "MONEY_SHIP", "400", "FORMATEDTEXT", "INFO_SHIP", "400", "FORMATEDTEXT", "TAVERN_PRICE", "400", "PICTURE", "CREW_PICTURE", "504", "FORMATEDTEXT", "CREW_QTY", "403", "PICTURE", "CREW_MORALE_PIC", "200", "TABLE", "TABLE_CREW", "403", "FORMATEDTEXT", "CREW_MORALE_TEXT", "400", "STATUSLINE", "BAR_Sailors", "400", "STATUSLINE", "BAR_Cannoners", "400", "STATUSLINE", "BAR_Soldiers", "400", "PICTURE", "CREW_PICTURE2", "504", "FORMATEDTEXT", "CREW_QTY2", "403", "PICTURE", "CREW_MORALE_PIC2", "200", "TABLE", "TABLE_CREW2", "403", "FORMATEDTEXT", "CREW_MORALE_TEXT2", "400", "STATUSLINE", "BAR_Sailors2", "400", "STATUSLINE", "BAR_Cannoners2", "400", "STATUSLINE", "BAR_Soldiers2", "WINDOW", "MAIN_WINDOW", "600", "FORMATEDTEXT", "QTY_TypeOperation", "600", "FORMATEDTEXT", "QTY_Result", "600", "PCEDITBOX", "QTY_EDIT", "600", "BUTTON", "QTY_ADD_BUTTON", "600", "BUTTON", "QTY_REMOVE_BUTTON", "600", "BUTTON", "QTY_ADD_ALL_BUTTON", "600", "BUTTON", "QTY_REMOVE_ALL_BUTTON", "600", "TEXTBUTTON2", "QTY_OK_BUTTON", "600", "TEXTBUTTON2", "QTY_CANCEL_BUTTON"]
+item = [["FRAME", "MAIN_FRAME"], ["300", "pc", "BUTTON", "EXIT_BTN"], ["500", "FORMATEDTEXT", "STORECAPTION1"], ["200", "FRAME", "SECOND_FRAME"], ["SCROLLIMAGE", "SHIPS_SCROLL"], ["BUTTON", "LEFTSCROLLBUTTON"], ["BUTTON", "RIGHTSCROLLBUTTON"], ["201", "PICTURE", "MAIN_CHARACTER_PICTURE"], ["201", "PICTURE", "OTHER_PICTURE"], ["201", "PICTURE", "BORDER_PICTURE_1"], ["201", "PICTURE", "BORDER_PICTURE_2"], ["400", "FORMATEDTEXT", "OUR_GOLD"], ["FORMATEDTEXT", "CAPACITY"], ["FORMATEDTEXT", "STORE_CAPACITY"], ["400", "FORMATEDTEXT", "FOOD_SHIP"], ["400", "FORMATEDTEXT", "MONEY_SHIP"], ["400", "FORMATEDTEXT", "INFO_SHIP"], ["400", "FORMATEDTEXT", "TAVERN_PRICE"], ["400", "PICTURE", "CREW_PICTURE"], ["504", "FORMATEDTEXT", "CREW_QTY"], ["403", "PICTURE", "CREW_MORALE_PIC"], ["200", "TABLE", "TABLE_CREW"], ["403", "FORMATEDTEXT", "CREW_MORALE_TEXT"], ["400", "STATUSLINE", "BAR_Sailors"], ["400", "STATUSLINE", "BAR_Cannoners"], ["400", "STATUSLINE", "BAR_Soldiers"], ["400", "PICTURE", "CREW_PICTURE2"], ["504", "FORMATEDTEXT", "CREW_QTY2"], ["403", "PICTURE", "CREW_MORALE_PIC2"], ["200", "TABLE", "TABLE_CREW2"], ["403", "FORMATEDTEXT", "CREW_MORALE_TEXT2"], ["400", "STATUSLINE", "BAR_Sailors2"], ["400", "STATUSLINE", "BAR_Cannoners2"], ["400", "STATUSLINE", "BAR_Soldiers2"], ["WINDOW", "MAIN_WINDOW"], ["600", "FORMATEDTEXT", "QTY_TypeOperation"], ["600", "FORMATEDTEXT", "QTY_Result"], ["600", "PCEDITBOX", "QTY_EDIT"], ["600", "BUTTON", "QTY_ADD_BUTTON"], ["600", "BUTTON", "QTY_REMOVE_BUTTON"], ["600", "BUTTON", "QTY_ADD_ALL_BUTTON"], ["600", "BUTTON", "QTY_REMOVE_ALL_BUTTON"], ["600", "TEXTBUTTON2", "QTY_OK_BUTTON"], ["600", "TEXTBUTTON2", "QTY_CANCEL_BUTTON"]]
 
 [MAIN_WINDOW]
 show = 1
@@ -8,10 +8,10 @@ nodelist = ["QTY_TypeOperation", "QTY_Result", "QTY_EDIT", "QTY_ADD_BUTTON", "QT
 [EXIT_BTN]
 position = [688, 87, 708, 107]
 group = "ICONS_SPEC"
-picture = ["exit", "button"]
-command = ["click", "event:exitCancel", "deactivate", "event:exitCancel"]
+picture = "exit button"
+command = [["click", "event:exitCancel"], ["deactivate", "event:exitCancel"]]
 shadowcolor = [0, 0, 0, 0]
-bshowglowcursor = "0;"
+bshowglowcursor = 0
 shadowoffset = [-1, -1]
 
 [SECOND_FRAME]
@@ -19,7 +19,7 @@ position = [108, 181, 706, 499]
 
 [MAIN_FRAME]
 position = [100, 80, 714, 540]
-backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "118", "118", "128)"]
+backimage = ["piclist=PAPIRUS", " piccutuv=(0.0", "0.0)", " color=(255", "118", "118", "128)"]
 rowquantity = 2
 colquantity = 1
 hlineheight = 2
@@ -30,13 +30,14 @@ colswidth = 348
 rowsheight = [30, 444]
 vlinewidth = 1
 captionheight = 30
-captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionimage = ["piclist=SKILLS", " picname=SKILLBORDER", " color=(255", "128", "128", "128)"]
 captiondividerheight = 4
 
 [STORECAPTION1]
 babsoluterectangle = 5
 position = [239, 84, 572, 114]
-font = ["interface_button", "1.1"]
+font = "interface_button"
+fontscale = 1.1
 linespace = 10
 alignment = "center"
 color = [255, 255, 255, 200]
@@ -60,27 +61,27 @@ texturename = "interfaces\\emptyborder.tga"
 position = [643, 115, 707, 179]
 
 [SHIPS_SCROLL]
-command = ["activate", "deactivate", "event:ExitCancel", "rightstep", "leftstep", "speedright", "speedleft", "click", "select:SHIPS_SCROLL"]
+command = ["activate", ["deactivate", "event:ExitCancel"], ",rightstep", "leftstep", "speedright", "speedleft", ["click", "select:SHIPS_SCROLL"]]
 position = [240, 110, 570, 184]
 imagesize = [64, 64]
 wdelta = 3
 glowoffset = [0, 0]
 
 [LEFTSCROLLBUTTON]
-command = ["activate", "select:SHIPS_SCROLL", "com:speedleft:SHIPS_SCROLL", "click", "select:SHIPS_SCROLL", "com:leftstep:SHIPS_SCROLL", "com:activate:LEFTSCROLLBUTTON"]
+command = [["activate", "select:SHIPS_SCROLL", "com:speedleft:SHIPS_SCROLL"], ["click", "select:SHIPS_SCROLL", "com:leftstep:SHIPS_SCROLL", "com:activate:LEFTSCROLLBUTTON"]]
 position = [340, 126, 372, 168]
 group = "ICONS"
-picture = ["left", "arrow"]
+picture = "left arrow"
 presspictureoffset = [1, 1]
 shadowoffset = [1, 1]
 pressshadowoffset = [0, 0]
 pressdelay = 10
 
 [RIGHTSCROLLBUTTON]
-command = ["activate", "select:SHIPS_SCROLL", "com:speedright:SHIPS_SCROLL", "click", "select:SHIPS_SCROLL", "com:rightstep:SHIPS_SCROLL", "com:activate:RIGHTSCROLLBUTTON"]
+command = [["activate", "select:SHIPS_SCROLL", "com:speedright:SHIPS_SCROLL"], ["click", "select:SHIPS_SCROLL", "com:rightstep:SHIPS_SCROLL", "com:activate:RIGHTSCROLLBUTTON"]]
 position = [437, 126, 469, 168]
 group = "ICONS"
-picture = ["right", "arrow"]
+picture = "right arrow"
 presspictureoffset = [1, 1]
 shadowoffset = [1, 1]
 pressshadowoffset = [0, 0]
@@ -118,7 +119,8 @@ bshowglowcursor = 0
 [CREW_QTY]
 position = [113, 298, 214, 323]
 linespace = 22
-font = ["Bold_numbers", "0.95"]
+font = "Bold_numbers"
+fontscale = 0.95
 
 [CREW_MORALE_PIC]
 position = [140, 320, 185, 365]
@@ -141,7 +143,7 @@ position = [280, 278, 380, 281]
 position = [280, 310, 380, 313]
 
 [TABLE_CREW]
-command = ["click", "select:TABLE_CREW", "rclick", "select:TABLE_CREW", "event:ShowInfoWindow", "deactivate", "event:exitCancel", "upstep", "downstep"]
+command = [["click", "select:TABLE_CREW"], ["rclick", "select:TABLE_CREW", "event:ShowInfoWindow"], ["deactivate", "event:exitCancel"], ",upstep", "downstep"]
 position = [198, 219, 389, 320]
 vlinewidth = 0
 hlineheight = 2
@@ -161,7 +163,8 @@ bshowglowcursor = 0
 [CREW_QTY2]
 position = [411, 298, 512, 323]
 linespace = 22
-font = ["Bold_numbers", "0.95"]
+font = "Bold_numbers"
+fontscale = 0.95
 
 [CREW_MORALE_PIC2]
 position = [438, 320, 483, 365]
@@ -184,7 +187,7 @@ position = [578, 278, 678, 281]
 position = [578, 310, 678, 313]
 
 [TABLE_CREW2]
-command = ["click", "select:TABLE_CREW2", "rclick", "select:TABLE_CREW2", "event:ShowInfoWindow", "deactivate", "event:exitCancel", "upstep", "downstep"]
+command = [["click", "select:TABLE_CREW2"], ["rclick", "select:TABLE_CREW2", "event:ShowInfoWindow"], ["deactivate", "event:exitCancel"], ",upstep", "downstep"]
 position = [496, 219, 687, 320]
 vlinewidth = 0
 hlineheight = 2
@@ -222,7 +225,7 @@ linespace = 15
 alignment = "center"
 
 [QTY_EDIT]
-command = ["click", "select:QTY_EDIT", "deactivate", "event:exitCancel", "activate", "event:confirmChangeQTY_EDIT"]
+command = [["click", "select:QTY_EDIT"], ["deactivate", "event:exitCancel"], ["activate", "event:confirmChangeQTY_EDIT"]]
 position = [374, 401, 437, 428]
 strfont = "interface_button"
 argbfontcolor = [255, 255, 255, 255]
@@ -230,8 +233,8 @@ stringlength = 5
 stringwidth = 80
 stringalign = "left"
 stringoffset = [9, 4]
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
-excludechars = ["*", "?.\\/qwertyuiop[]asdfghjkl'zxcvbnm", "+="]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
+excludechars = [["* ?.\\/qwertyuiop["], "asdfghjkl'zxcvbnm", "+=]"]
 
 [QTY_ADD_ALL_BUTTON]
 command = ["click", "event:ADD_ALL_BUTTON"]
@@ -258,7 +261,7 @@ disablecolor = [255, 128, 128, 128]
 shadowoffset = [3, 2]
 
 [QTY_REMOVE_ALL_BUTTON]
-command = ["click", "event:REMOVE_ALL_BUTTON", "activate"]
+command = [["click", "event:REMOVE_ALL_BUTTON"], ",activate"]
 group = "ARROWS"
 picture = "right_all"
 position = [468, 401, 493, 426]
@@ -266,14 +269,14 @@ disablecolor = [255, 128, 128, 128]
 shadowoffset = [3, 2]
 
 [QTY_OK_BUTTON]
-command = ["activate", "event:TransactionOK", "click", "event:TransactionOK", "deactivate", "event:exitCancel", "rightstep", "com:click:QTY_REMOVE_BUTTON", "leftstep", "com:click:QTY_ADD_BUTTON", "speedright", "com:click:QTY_REMOVE_ALL_BUTTON", "speedleft", "com:click:QTY_ADD_ALL_BUTTON"]
+command = [["activate", "event:TransactionOK"], ["click", "event:TransactionOK"], ["deactivate", "event:exitCancel"], ["rightstep", "com:click:QTY_REMOVE_BUTTON"], ["leftstep", "com:click:QTY_ADD_BUTTON"], ["speedright", "com:click:QTY_REMOVE_ALL_BUTTON"], ["speedleft", "com:click:QTY_ADD_ALL_BUTTON"]]
 position = [289, 436, 389, 461]
 string = "Ok"
 fontscale = 0.85
 glowoffset = [0, 0]
 
 [QTY_CANCEL_BUTTON]
-command = ["activate", "event:TransactionCancel", "click", "event:TransactionCancel", "deactivate", "event:exitCancel", "rightstep", "com:click:QTY_REMOVE_BUTTON", "leftstep", "com:click:QTY_ADD_BUTTON", "speedright", "com:click:QTY_REMOVE_ALL_BUTTON", "speedleft", "com:click:QTY_ADD_ALL_BUTTON"]
+command = [["activate", "event:TransactionCancel"], ["click", "event:TransactionCancel"], ["deactivate", "event:exitCancel"], ["rightstep", "com:click:QTY_REMOVE_BUTTON"], ["leftstep", "com:click:QTY_ADD_BUTTON"], ["speedright", "com:click:QTY_REMOVE_ALL_BUTTON"], ["speedleft", "com:click:QTY_ADD_ALL_BUTTON"]]
 position = [420, 436, 520, 461]
 string = "Cancel"
 fontscale = 0.85

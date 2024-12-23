@@ -1,14 +1,14 @@
 [MAIN]
-item = ["400", "RECTANGLE", "INFO_FADER", "401", "IMAGECOLLECTION", "INFO_BACK", "401", "IMAGECOLLECTION", "INFO_BORDERS", "401", "FORMATEDTEXT", "INFO_CAPTION", "401", "PICTURE", "INFO_NATION_PICTURE", "401", "IMAGECOLLECTION", "INFO_NATIONS_BORDERS", "401", "FORMATEDTEXT", "COLONY_INFO_TEXT", "401", "FORMATEDTEXT", "COLONY_INFO", "401", "FORMATEDTEXT", "COLONY_TIME_INFO", "401", "FORMATEDTEXT", "COLONY_TRAVEL_INFO", "401", "FORMATEDTEXT", "IMPORT_CAPTION", "401", "PICTURE", "IMPORT1_PICTURE", "401", "PICTURE", "IMPORT2_PICTURE", "401", "PICTURE", "IMPORT3_PICTURE", "401", "FORMATEDTEXT", "IMPORT_INFO", "401", "FORMATEDTEXT", "EXPORT_INFO", "401", "FORMATEDTEXT", "EXPORT_CAPTION", "401", "PICTURE", "EXPORT1_PICTURE", "401", "PICTURE", "EXPORT2_PICTURE", "401", "PICTURE", "EXPORT3_PICTURE", "WINDOW", "INFO_WINDOW", "PICTURE", "MAIN_BACK", "TITLE", "TITLE", "IMAGECOLLECTION", "BACK", "SCROLLEDPICTURE", "MAP", "FORMATEDTEXT", "MAPS_LIST", "IMAGECOLLECTION", "BORDERS", "100", "pc", "BUTTON", "EXIT_BTN", "TEXTBUTTON2", "OK", "WINDOW", "MAIN_WINDOW"]
+item = [["400", "RECTANGLE", "INFO_FADER"], ["401", "IMAGECOLLECTION", "INFO_BACK"], ["401", "IMAGECOLLECTION", "INFO_BORDERS"], ["401", "FORMATEDTEXT", "INFO_CAPTION"], ["401", "PICTURE", "INFO_NATION_PICTURE"], ["401", "IMAGECOLLECTION", "INFO_NATIONS_BORDERS"], ["401", "FORMATEDTEXT", "COLONY_INFO_TEXT"], ["401", "FORMATEDTEXT", "COLONY_INFO"], ["401", "FORMATEDTEXT", "COLONY_TIME_INFO"], ["401", "FORMATEDTEXT", "COLONY_TRAVEL_INFO"], ["401", "FORMATEDTEXT", "IMPORT_CAPTION"], ["401", "PICTURE", "IMPORT1_PICTURE"], ["401", "PICTURE", "IMPORT2_PICTURE"], ["401", "PICTURE", "IMPORT3_PICTURE"], ["401", "FORMATEDTEXT", "IMPORT_INFO"], ["401", "FORMATEDTEXT", "EXPORT_INFO"], ["401", "FORMATEDTEXT", "EXPORT_CAPTION"], ["401", "PICTURE", "EXPORT1_PICTURE"], ["401", "PICTURE", "EXPORT2_PICTURE"], ["401", "PICTURE", "EXPORT3_PICTURE"], ["WINDOW", "INFO_WINDOW"], ["PICTURE", "MAIN_BACK"], ["TITLE", "TITLE"], ["IMAGECOLLECTION", "BACK"], ["SCROLLEDPICTURE", "MAP"], ["FORMATEDTEXT", "MAPS_LIST"], ["IMAGECOLLECTION", "BORDERS"], ["100", "pc", "BUTTON", "EXIT_BTN"], ["TEXTBUTTON2", "OK"], ["WINDOW", "MAIN_WINDOW"]]
 start = "OK"
 
 [MAIN_WINDOW]
 show = 1
-nodelist = ["MAIN_BACK", "TITLE", "BACK", "MAP", "MAPS_LIST", "BORDERS", "EXIT_BTN", "OK"]
+nodelist = [["MAIN_BACK", "TITLE", "BACK", "MAP", "MAPS_LIST"], ["BORDERS", "EXIT_BTN", "OK"]]
 
 [INFO_WINDOW]
 show = 0
-nodelist = ["INFO_BORDERS", "INFO_FADER", "INFO_BACK", "INFO_CAPTION", "INFO_NATION_PICTURE", "INFO_NATIONS_BORDERS", "COLONY_INFO_TEXT", "IMPORT1_PICTURE", "IMPORT2_PICTURE", "IMPORT3_PICTURE", "COLONY_INFO", "COLONY_TIME_INFO", "COLONY_TRAVEL_INFO", "IMPORT_CAPTION", "EXPORT_CAPTION", "EXPORT1_PICTURE", "EXPORT2_PICTURE", "EXPORT3_PICTURE", "IMPORT_INFO", "EXPORT_INFO"]
+nodelist = [["INFO_BORDERS", "INFO_FADER", "INFO_BACK", "INFO_CAPTION", "INFO_NATION_PICTURE"], ["INFO_NATIONS_BORDERS", "COLONY_INFO_TEXT", "IMPORT1_PICTURE", "IMPORT2_PICTURE", "IMPORT3_PICTURE"], ["COLONY_INFO", "COLONY_TIME_INFO", "COLONY_TRAVEL_INFO", "IMPORT_CAPTION", "EXPORT_CAPTION"], ["EXPORT1_PICTURE", "EXPORT2_PICTURE", "EXPORT3_PICTURE", "IMPORT_INFO", "EXPORT_INFO"]]
 
 [INFO_FADER]
 babsoluterectangle = 5
@@ -20,13 +20,14 @@ bottomcolor = [150, 0, 0, 0]
 bordercolor = [0, 0, 0, 0]
 
 [MAPS_LIST]
-command = ["click", "select:MAPS_LIST", "activate", "downstep", "upstep", "deactivate", "event:exitCancel"]
+command = [["click", "select:MAPS_LIST"], ",activate", "downstep", "upstep", ["deactivate", "event:exitCancel"]]
 babsoluterectangle = 5
 position = [640, 78, 778, 230]
 fontscale = 0.9
 linespace = 18
 alignment = "left"
-color = [255, 255, 255, 255, 255, 128, 32, 32]
+color = [255, 255, 255, 255]
+backcolor = [255, 128, 32, 32]
 backoffset = [1, 0, 0, -2]
 glowoffset = [0, 0]
 busewheel = 1
@@ -51,7 +52,7 @@ glowoffset = [0, 0]
 
 [OK]
 bbreakcommand = 1
-command = ["activate", "click", "event:exitCancel", "deactivate", "event:exitCancel"]
+command = ["activate", ["click", "event:exitCancel"], ["deactivate", "event:exitCancel"]]
 position = [641, 556, 788, 588]
 string = "OK"
 glowoffset = [0, 0]
@@ -64,12 +65,12 @@ texturename = "interfaces\\card_desk.tga"
 [EXIT_BTN]
 position = [770, 8, 790, 28]
 group = "MAIN_ICONS"
-picture = ["exit", "button"]
+picture = "exit button"
 command = ["click", "event:exitCancel"]
 shadowcolor = [0, 0, 0, 0]
 
 [MAP]
-command = ["click", "rclick", "event:SelectRColony"]
+command = ["click", ["rclick", "event:SelectRColony"]]
 position = [6, 50, 630, 594]
 texturename = "interfaces\\map.tga"
 texturerect = [0.0, 0.0, 0.5, 0.5]
@@ -79,11 +80,11 @@ startscale = 1
 
 [BACK]
 groupname = "PAPIRUS"
-picture = ["editsection:colonylist", "papirus_map_colony_list", "col:{255", "128", "128", "128}", "pos:{638", "50", "795", "595}", "editsection:end", "editsection:info", "papirus_map_small_info", "col:{255", "128", "128", "128}", "pos:{9", "502", "628", "592}"]
+picture = ["editsection:colonylist", ["papirus_map_colony_list", "col:{255", "128", "128", "128}", "pos:{638", "50", "795", "595}"], ",editsection:end", "editsection:info", ["papirus_map_small_info", "col:{255", "128", "128", "128}", "pos:{9", "502", "628", "592}"]]
 
 [BORDERS]
 groupname = "MAIN_ICONS"
-picture = ["editsection:map", "BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{6", "50", "15", "59}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{15", "50", "621", "55}", "BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{621", "50", "630", "59}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{15", "590", "621", "595}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{6", "59", "11", "586}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{625", "59", "630", "586}", "BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{6", "586", "15", "595}", "BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{620", "586", "629", "595}", "editsection:end", "editsection:colonylist", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{634", "51", "790", "76}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{639", "75", "790", "78}", "BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{634", "50", "643", "59}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{643", "50", "786", "55}", "BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{786", "50", "795", "59}", "BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{634", "586", "643", "595}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{643", "590", "786", "595}", "BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{786", "586", "795", "595}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{634", "59", "639", "586}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{790", "59", "795", "586}", "editsection:end"]
+picture = ["editsection:map", ["BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{6", "50", "15", "59}"], ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{15", "50", "621", "55}"], ["BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{621", "50", "630", "59}"], ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{15", "590", "621", "595}"], ["BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{6", "59", "11", "586}"], ["BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{625", "59", "630", "586}"], ["BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{6", "586", "15", "595}"], ["BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{620", "586", "629", "595}"], ",editsection:end", "editsection:colonylist", ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{634", "51", "790", "76}"], ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{639", "75", "790", "78}"], ["BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{634", "50", "643", "59}"], ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{643", "50", "786", "55}"], ["BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{786", "50", "795", "59}"], ["BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{634", "586", "643", "595}"], ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{643", "590", "786", "595}"], ["BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{786", "586", "795", "595}"], ["BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{634", "59", "639", "586}"], ["BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{790", "59", "795", "586}"], ",editsection:end"]
 
 [INFO_CAPTION]
 babsoluterectangle = 5
@@ -98,12 +99,12 @@ glowoffset = [0, 0]
 [INFO_BORDERS]
 offset = [-667, 269]
 groupname = "MAIN_ICONS"
-picture = ["editsection:UP", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{204", "120", "593", "145}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{209", "118", "589", "123}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{205", "144", "593", "149}", "editsection:left", "BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{201", "118", "210", "127}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{201", "127", "206", "452}", "BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{201", "443", "210", "452}", "editsection:right", "BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{585", "118", "594", "127}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{589", "127", "594", "452}", "BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{585", "443", "594", "452}", "editsection:down", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{210", "447", "585", "452}"]
+picture = ["editsection:UP", ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{204", "120", "593", "145}"], ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{209", "118", "589", "123}"], ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{205", "144", "593", "149}"], ",editsection:left", ["BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{201", "118", "210", "127}"], ["BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{201", "127", "206", "452}"], ["BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{201", "443", "210", "452}"], ",editsection:right", ["BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{585", "118", "594", "127}"], ["BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{589", "127", "594", "452}"], ["BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{585", "443", "594", "452}"], ",editsection:down", ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{210", "447", "585", "452}"]]
 
 [INFO_BACK]
 offset = [-432, 69]
 groupname = "PAPIRUS"
-picture = ["editsection:colonylist", "papirus_papermap_info", "col:{255", "128", "128", "128}", "pos:{206", "119", "593", "451}"]
+picture = ["editsection:colonylist", ["papirus_papermap_info", "col:{255", "128", "128", "128}", "pos:{206", "119", "593", "451}"]]
 
 [INFO_NATION_PICTURE]
 position = [210, 152, 274, 215]

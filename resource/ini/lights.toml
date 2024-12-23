@@ -6,13 +6,13 @@ att0 = 0.1
 att1 = 3.0
 att2 = 0.3
 range = 4.0
-flicker = ["0.1\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.5\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["5.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["1.0\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.1
+flickerslow = 0.5
+freq = 5.0
+freqslow = 1.0
 corona = "coronatrch.tga"
-coronarange = ["5.0\t;Дистанция", "действия", "короны"]
-coronasize = ["0.2\t;Размер", "короны"]
+coronarange = 5.0
+coronasize = 0.2
 
 [candelabrum]
 r = 0.0
@@ -22,13 +22,13 @@ att0 = 0.1
 att1 = 3.0
 att2 = 0.3
 range = 10.0
-flicker = ["0.03\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.2\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["5.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["1.0\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.03
+flickerslow = 0.2
+freq = 5.0
+freqslow = 1.0
 corona = "coronachnd.tga"
-coronarange = ["15.0\t;Дистанция", "действия", "короны"]
-coronasize = ["0.4\t;Размер", "короны"]
+coronarange = 15.0
+coronasize = 0.4
 
 [chandelier]
 r = 1.2
@@ -38,13 +38,13 @@ att0 = 0.1
 att1 = 1.0
 att2 = 0.1
 range = 40.0
-flicker = ["0.03\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.1\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["5.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["1.0\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.03
+flickerslow = 0.1
+freq = 5.0
+freqslow = 1.0
 corona = "coronachnd.tga"
-coronarange = ["50.0\t;Дистанция", "действия", "короны"]
-coronasize = ["2.2\t;Размер", "короны"]
+coronarange = 50.0
+coronasize = 2.2
 
 [heater]
 r = 1.5
@@ -54,10 +54,10 @@ att0 = 0.1
 att1 = 0.7
 att2 = 0.02
 range = 40.0
-flicker = ["0.03\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.4\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["15.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["0.4\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.03
+flickerslow = 0.4
+freq = 15.0
+freqslow = 0.4
 
 [torchlight]
 r = 1.2
@@ -67,13 +67,13 @@ att0 = 1.2
 att1 = 1.0
 att2 = 0.02
 range = 40.0
-flicker = ["0.1\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.5\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["15.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["1.0\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.1
+flickerslow = 0.5
+freq = 15.0
+freqslow = 1.0
 corona = "coronatrch.tga"
-coronarange = ["40.0\t;Дистанция", "действия", "короны"]
-coronasize = ["0.2\t;Размер", "короны"]
+coronarange = 40.0
+coronasize = 0.2
 
 [handtorchlight]
 r = 2.2
@@ -83,13 +83,13 @@ att0 = 1.2
 att1 = 1.0
 att2 = 0.02
 range = 40.0
-flicker = ["0.1\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.5\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["15.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["1.0\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.1
+flickerslow = 0.5
+freq = 15.0
+freqslow = 1.0
 corona = "coronatrch.tga"
-coronarange = ["40.0\t;Дистанция", "действия", "короны"]
-coronasize = ["0.2\t;Размер", "короны"]
+coronarange = 40.0
+coronasize = 0.2
 
 [lamp]
 r = 3.0
@@ -99,13 +99,13 @@ att0 = 0.2
 att1 = 3.0
 att2 = 0.05
 range = 40.0
-flicker = ["0.19\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.5\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["9.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["1.5\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.19
+flickerslow = 0.5
+freq = 9.0
+freqslow = 1.5
 corona = "corona.tga"
-coronarange = ["40.0\t;Дистанция", "действия", "короны"]
-coronasize = ["1.0\t;Размер", "короны"]
+coronarange = 40.0
+coronasize = 1.0
 
 [outside_day]
 r = 0.3
@@ -115,10 +115,10 @@ att0 = 1.0
 att1 = 0.0
 att2 = 0.0
 range = 10000.0
-flicker = ["0.0\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.0\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["0.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["0.0\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.0
+flickerslow = 0.0
+freq = 0.0
+freqslow = 0.0
 
 [outside_night]
 r = 0.1
@@ -128,10 +128,10 @@ att0 = 1.0
 att1 = 0.0
 att2 = 0.0
 range = 10000.0
-flicker = ["0.0\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.0\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["0.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["0.0\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.0
+flickerslow = 0.0
+freq = 0.0
+freqslow = 0.0
 
 [incas]
 r = 3.0
@@ -141,10 +141,10 @@ att0 = 1.5
 att1 = 0.5
 att2 = 0.01
 range = 30.0
-flicker = ["0.01\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.04\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["10.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["0.1\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.01
+flickerslow = 0.04
+freq = 10.0
+freqslow = 0.1
 
 [incasskyday]
 r = 3.0
@@ -154,10 +154,10 @@ att0 = 1.5
 att1 = 0.5
 att2 = 0.01
 range = 30.0
-flicker = ["0.0\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.0\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["0.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["0.0\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.0
+flickerslow = 0.0
+freq = 0.0
+freqslow = 0.0
 
 [incasskynight]
 r = 3.0
@@ -167,10 +167,10 @@ att0 = 1.5
 att1 = 0.5
 att2 = 0.01
 range = 30.0
-flicker = ["0.0\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.0\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["0.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["0.0\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.0
+flickerslow = 0.0
+freq = 0.0
+freqslow = 0.0
 
 [blueteleport]
 r = 0.0
@@ -180,13 +180,13 @@ att0 = 0.1
 att1 = 4.0
 att2 = 0.2
 range = 5.0
-flicker = ["0.14\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.8\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["10.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["1.9\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.14
+flickerslow = 0.8
+freq = 10.0
+freqslow = 1.9
 corona = "bluecorona.tga"
-coronarange = ["50.0\t;Дистанция", "действия", "короны"]
-coronasize = ["3.0\t;Размер", "короны"]
+coronarange = 50.0
+coronasize = 3.0
 
 [redteleport]
 r = 5.0
@@ -196,13 +196,13 @@ att0 = 0.1
 att1 = 4.0
 att2 = 0.2
 range = 5.0
-flicker = ["0.14\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.8\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["10.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["1.9\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.14
+flickerslow = 0.8
+freq = 10.0
+freqslow = 1.9
 corona = "redcorona.tga"
-coronarange = ["50.0\t;Дистанция", "действия", "короны"]
-coronasize = ["3.0\t;Размер", "короны"]
+coronarange = 50.0
+coronasize = 3.0
 
 [greenteleport]
 r = 1.0
@@ -212,13 +212,13 @@ att0 = 0.1
 att1 = 4.0
 att2 = 0.2
 range = 5.0
-flicker = ["0.14\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.8\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["10.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["1.9\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.14
+flickerslow = 0.8
+freq = 10.0
+freqslow = 1.9
 corona = "greencorona.tga"
-coronarange = ["50.0\t;Дистанция", "действия", "короны"]
-coronasize = ["3.0\t;Размер", "короны"]
+coronarange = 50.0
+coronasize = 3.0
 
 [magsteleport]
 r = 5.0
@@ -228,10 +228,10 @@ att0 = 0.1
 att1 = 4.0
 att2 = 0.2
 range = 5.0
-flicker = ["0.14\t\t;Малая", "амплитуда", "без", "интерполяции", "(max", "1.0)"]
-flickerslow = ["0.8\t;Большая", "амплитуда", "с", "линейной", "интерполяцией", "(max", "1.0)"]
-freq = ["10.0\t\t;Частота", "в", "гц", "для", "flicker"]
-freqslow = ["1.9\t\t;Частота", "в", "гц", "для", "flickerSlow"]
+flicker = 0.14
+flickerslow = 0.8
+freq = 10.0
+freqslow = 1.9
 corona = "magcorona.tga"
-coronarange = ["50.0\t;Дистанция", "действия", "короны"]
-coronasize = ["3.0\t;Размер", "короны"]
+coronarange = 50.0
+coronasize = 3.0

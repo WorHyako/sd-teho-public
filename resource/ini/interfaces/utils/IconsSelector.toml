@@ -1,5 +1,5 @@
 [TABLE_ICONSELECTOR]
-command = ["click", "event:IS_Click", "select:TABLE_ICONSELECTOR", "upstep", "downstep"]
+command = [["click", "event:IS_Click", "select:TABLE_ICONSELECTOR"], ",upstep", "downstep"]
 position = [133, 189, 263, 276]
 rowquantity = 4
 colquantity = 1

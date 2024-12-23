@@ -1,10 +1,10 @@
 [MAIN]
-item = ["PICTURE", "MAIN_BACK", "TITLE", "TITLE", "100", "pc", "BUTTON", "EXIT_BTN", "FRAME", "BACK_FRAME", "SCROLLER", "QUESTSCROLL", "QUESTTITLE", "QUEST_TITLE", "QUESTTEXT", "QUEST_TEXT", "120", "PICTURE", "TABBTN_QUEST", "125", "FORMATEDTEXT", "TABSTR_QUEST", "120", "PICTURE", "TABBTN_QUESTARJ", "125", "FORMATEDTEXT", "TABSTR_QUESTARJ", "120", "PICTURE", "TABBTN_INFO", "125", "FORMATEDTEXT", "TABSTR_INFO", "120", "PICTURE", "TABBTN_CASHBOOK", "125", "FORMATEDTEXT", "TABSTR_CASHBOOK", "120", "PICTURE", "TABBTN_SHIP_PLACE", "125", "FORMATEDTEXT", "TABSTR_SHIP_PLACE", "120", "PICTURE", "TABBTN_STATISTIC", "125", "FORMATEDTEXT", "TABSTR_STATISTIC", "120", "PICTURE", "TABBTN_STOREBOOK", "125", "FORMATEDTEXT", "TABSTR_STOREBOOK", "99", "FORMATEDTEXT", "CURRENT_DATE_CAPTION", "200", "TABLE", "TABLE_SHIPCLASS", "200", "TABLE", "TABLE_HUMAN", "200", "TABLE", "TABLE_NATION", "200", "TABLE", "TABLE_OTHER", "200", "TABLE", "TABLE_MONEY", "200", "TABLE", "TABLE_CREDIT", "201", "SCROLLER", "SCROLL_CREDIT", "200", "TABLE", "TABLE_DEBIT", "201", "SCROLLER", "SCROLL_DEBIT", "200", "TABLE", "TABLE_SHIP_PLACE", "201", "SCROLLER", "SCROLL_SHIP_PLACE", "200", "TABLE", "TABLE_CITY", "201", "SCROLLER", "SCROLL_CITY", "200", "TABLE", "TABLE_GOODS", "201", "SCROLLER", "SCROLL_GOODS", "200", "BUTTON", "I_CHARACTER_2", "200", "BUTTON", "I_SHIP_2", "200", "BUTTON", "I_NATIONS_2", "200", "BUTTON", "I_TRADEBOOK_2", "200", "BUTTON", "I_ITEMS_2", "100", "pc", "BUTTON", "I_CHARACTER", "100", "pc", "BUTTON", "I_SHIP", "100", "pc", "BUTTON", "I_NATIONS", "100", "pc", "BUTTON", "I_TRADEBOOK", "100", "pc", "BUTTON", "I_ITEMS", "STRINGCOLLECTION", "STR_BUTTONS"]
+item = [["PICTURE", "MAIN_BACK"], ["TITLE", "TITLE"], ["100", "pc", "BUTTON", "EXIT_BTN"], ["FRAME", "BACK_FRAME"], ["SCROLLER", "QUESTSCROLL"], ["QUESTTITLE", "QUEST_TITLE"], ["QUESTTEXT", "QUEST_TEXT"], ["120", "PICTURE", "TABBTN_QUEST"], ["125", "FORMATEDTEXT", "TABSTR_QUEST"], ["120", "PICTURE", "TABBTN_QUESTARJ"], ["125", "FORMATEDTEXT", "TABSTR_QUESTARJ"], ["120", "PICTURE", "TABBTN_INFO"], ["125", "FORMATEDTEXT", "TABSTR_INFO"], ["120", "PICTURE", "TABBTN_CASHBOOK"], ["125", "FORMATEDTEXT", "TABSTR_CASHBOOK"], ["120", "PICTURE", "TABBTN_SHIP_PLACE"], ["125", "FORMATEDTEXT", "TABSTR_SHIP_PLACE"], ["120", "PICTURE", "TABBTN_STATISTIC"], ["125", "FORMATEDTEXT", "TABSTR_STATISTIC"], ["120", "PICTURE", "TABBTN_STOREBOOK"], ["125", "FORMATEDTEXT", "TABSTR_STOREBOOK"], ["99", "FORMATEDTEXT", "CURRENT_DATE_CAPTION"], ["200", "TABLE", "TABLE_SHIPCLASS"], ["200", "TABLE", "TABLE_HUMAN"], ["200", "TABLE", "TABLE_NATION"], ["200", "TABLE", "TABLE_OTHER"], ["200", "TABLE", "TABLE_MONEY"], ["200", "TABLE", "TABLE_CREDIT"], ["201", "SCROLLER", "SCROLL_CREDIT"], ["200", "TABLE", "TABLE_DEBIT"], ["201", "SCROLLER", "SCROLL_DEBIT"], ["200", "TABLE", "TABLE_SHIP_PLACE"], ["201", "SCROLLER", "SCROLL_SHIP_PLACE"], ["200", "TABLE", "TABLE_CITY"], ["201", "SCROLLER", "SCROLL_CITY"], ["200", "TABLE", "TABLE_GOODS"], ["201", "SCROLLER", "SCROLL_GOODS"], ["200", "BUTTON", "I_CHARACTER_2"], ["200", "BUTTON", "I_SHIP_2"], ["200", "BUTTON", "I_NATIONS_2"], ["200", "BUTTON", "I_TRADEBOOK_2"], ["200", "BUTTON", "I_ITEMS_2"], ["100", "pc", "BUTTON", "I_CHARACTER"], ["100", "pc", "BUTTON", "I_SHIP"], ["100", "pc", "BUTTON", "I_NATIONS"], ["100", "pc", "BUTTON", "I_TRADEBOOK"], ["100", "pc", "BUTTON", "I_ITEMS"], ["STRINGCOLLECTION", "STR_BUTTONS"]]
 start = "QUEST_TITLE"
 
 [BACK_FRAME]
 position = [14, 100, 791, 586]
-backimage = ["piclist=PAPIRUS_BIG", "picname=papirus", "big", "color=(255", "128", "128", "128)"]
+backimage = ["piclist=PAPIRUS_BIG", " picname=papirus big", " color=(255", "128", "128", "128)"]
 
 [TABBTN_QUEST]
 command = ["click", "event:eTabControlPress"]
@@ -103,7 +103,7 @@ position = [0, 40, 800, 72]
 [EXIT_BTN]
 position = [774, 45, 796, 67]
 group = "ICONS_SPEC"
-picture = ["exit", "button"]
+picture = "exit button"
 command = ["click", "event:exitCancel"]
 shadowcolor = [0, 0, 0, 0]
 
@@ -113,7 +113,7 @@ position = [0, 0, 800, 600]
 texturename = "interfaces\\card_desk.tga"
 
 [QUESTSCROLL]
-command = ["activate", "deactivate", "event:QuestDeActivate", "downstep", "upstep", "click"]
+command = ["activate", ["deactivate", "event:QuestDeActivate"], ",downstep", "upstep", "click"]
 position = [775, 103, 786, 584]
 basetexture = "interfaces\\icons.tga"
 srollertexture = "interfaces\\icons.tga"
@@ -125,23 +125,26 @@ rollerheight = 16
 busewheel = 1
 
 [QUEST_TITLE]
-command = ["deactivate", "event:exitCancel", "activate", "downstep", "upstep", "speeddown", "speedup", "click"]
+command = [["deactivate", "event:exitCancel"], ",activate", "downstep", "upstep", "speeddown", "speedup", "click"]
 position = [41, 119, 755, 569]
 linespace = 22
 noncompletecolor = [255, 255, 255, 255]
 completecolor = [255, 196, 196, 196]
 selectcolor = [105, 0, 0, 0]
 selectoffset = 12
-font = ["dialog_quest", "0.9", "4"]
+font = "dialog_quest"
+fontscale = 0.9
+fontoffset = 4
 iconwidth = 22
 iconheight = 22
 icongroup = "ICONS"
-completeicon = ["complete", "noncomplete"]
+completeicon = "complete"
+noncompleteicon = "noncomplete"
 busewheel = 1
 bshowglowcursor = 0
 
 [QUEST_TEXT]
-command = ["activate", "click", "deactivate", "event:BackToTitle", "downstep", "upstep", "speeddown", "speedup"]
+command = ["activate", "click", ["deactivate", "event:BackToTitle"], ",downstep", "upstep", "speeddown", "speedup"]
 position = [41, 119, 755, 569]
 linespace = 20
 noncompletecolor = [255, 255, 255, 255]
@@ -154,49 +157,50 @@ bshowglowcursor = 0
 [CURRENT_DATE_CAPTION]
 command = "click"
 position = [362, 75, 794, 102]
-font = ["interface_button", "1.0"]
+font = "interface_button"
+fontscale = 1.0
 linespace = 18
 alignment = "right"
 color = [255, 255, 255, 255]
-string = ["Current", "Date", "and", "time"]
+string = "Current Date and time"
 
 [I_CHARACTER]
 bbreakcommand = 1
-command = ["click", "deactivate", "event:exitCancel"]
+command = ["click", ["deactivate", "event:exitCancel"]]
 group = "ICONS_SPEC"
-picture = ["pers", "button"]
+picture = "pers button"
 position = [0, 0, 50, 50]
 shadowcolor = [0, 0, 0, 0]
 
 [I_SHIP]
 bbreakcommand = 1
-command = ["click", "deactivate", "event:exitCancel"]
+command = ["click", ["deactivate", "event:exitCancel"]]
 group = "ICONS_SPEC"
-picture = ["ship", "button"]
+picture = "ship button"
 position = [160, 0, 210, 50]
 shadowcolor = [0, 0, 0, 0]
 
 [I_NATIONS]
 bbreakcommand = 1
-command = ["click", "deactivate", "event:exitCancel"]
+command = ["click", ["deactivate", "event:exitCancel"]]
 group = "ICONS_SPEC"
-picture = ["nations", "button"]
+picture = "nations button"
 position = [320, 0, 370, 50]
 shadowcolor = [0, 0, 0, 0]
 
 [I_TRADEBOOK]
 bbreakcommand = 1
-command = ["click", "deactivate", "event:exitCancel"]
+command = ["click", ["deactivate", "event:exitCancel"]]
 group = "ICONS_SPEC"
-picture = ["trade", "button"]
+picture = "trade button"
 position = [480, 0, 530, 50]
 shadowcolor = [0, 0, 0, 0]
 
 [I_ITEMS]
 bbreakcommand = 1
-command = ["click", "deactivate", "event:exitCancel"]
+command = ["click", ["deactivate", "event:exitCancel"]]
 group = "ICONS_SPEC"
-picture = ["items", "button"]
+picture = "items button"
 position = [640, 0, 690, 50]
 shadowcolor = [0, 0, 0, 0]
 
@@ -226,10 +230,10 @@ command = "click"
 position = [690, 0, 800, 39]
 
 [STR_BUTTONS]
-string = ["buttonCharacter", "font:INTERFACE_TITLE", "pos:{70", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.70", "state:{LS}", "buttonShip", "font:INTERFACE_TITLE", "pos:{230", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.70", "state:{LS}", "buttonNation", "font:INTERFACE_TITLE", "pos:{390", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.70", "state:{LS}", "buttonTradeBook", "font:INTERFACE_TITLE", "pos:{550", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.70", "state:{LS}", "Sel", "Items", "font:INTERFACE_TITLE", "pos:{710", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.70", "state:{LS}"]
+string = [["buttonCharacter", "font:INTERFACE_TITLE", "pos:{70", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.70", "state:{LS}"], ["buttonShip", "font:INTERFACE_TITLE", "pos:{230", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.70", "state:{LS}"], ["buttonNation", "font:INTERFACE_TITLE", "pos:{390", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.70", "state:{LS}"], ["buttonTradeBook", "font:INTERFACE_TITLE", "pos:{550", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.70", "state:{LS}"], ["Sel Items", "font:INTERFACE_TITLE", "pos:{710", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.70", "state:{LS}"]]
 
 [TABLE_SHIPCLASS]
-command = ["click", "select:TABLE_SHIPCLASS", "deactivate", "event:exitCancel", "upstep", "downstep"]
+command = [["click", "select:TABLE_SHIPCLASS"], ["deactivate", "event:exitCancel"], ",upstep", "downstep"]
 position = [35, 121, 299, 357]
 vlinewidth = 2
 hlineheight = 2
@@ -242,7 +246,7 @@ rowsheight = [40, 32, 32, 32, 32, 32, 32]
 normallineheight = 32
 
 [TABLE_HUMAN]
-command = ["click", "select:TABLE_HUMAN", "deactivate", "event:exitCancel", "upstep", "downstep"]
+command = [["click", "select:TABLE_HUMAN"], ["deactivate", "event:exitCancel"], ",upstep", "downstep"]
 position = [320, 121, 564, 325]
 vlinewidth = 2
 hlineheight = 2
@@ -255,7 +259,7 @@ rowsheight = [40, 32, 32, 32, 32, 32]
 normallineheight = 32
 
 [TABLE_NATION]
-command = ["click", "select:TABLE_NATION", "deactivate", "event:exitCancel", "upstep", "downstep"]
+command = [["click", "select:TABLE_NATION"], ["deactivate", "event:exitCancel"], ",upstep", "downstep"]
 position = [35, 368, 559, 572]
 vlinewidth = 2
 hlineheight = 2
@@ -268,7 +272,7 @@ rowsheight = [40, 32, 32, 32, 32, 32]
 normallineheight = 32
 
 [TABLE_OTHER]
-command = ["click", "select:TABLE_OTHER", "deactivate", "event:exitCancel", "upstep", "downstep"]
+command = [["click", "select:TABLE_OTHER"], ["deactivate", "event:exitCancel"], ",upstep", "downstep"]
 position = [586, 121, 770, 388]
 vlinewidth = 2
 hlineheight = 2
@@ -281,7 +285,7 @@ rowsheight = [40, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
 normallineheight = 32
 
 [TABLE_MONEY]
-command = ["click", "select:TABLE_MONEY", "deactivate", "event:exitCancel", "upstep", "downstep"]
+command = [["click", "select:TABLE_MONEY"], ["deactivate", "event:exitCancel"], ",upstep", "downstep"]
 position = [586, 504, 770, 572]
 vlinewidth = 2
 hlineheight = 2
@@ -294,7 +298,7 @@ rowsheight = [32, 32]
 normallineheight = 32
 
 [TABLE_CREDIT]
-command = ["deactivate", "event:exitCancel", "click", "select:TABLE_CREDIT", "upstep", "downstep"]
+command = [["deactivate", "event:exitCancel"], ["click", "select:TABLE_CREDIT"], ",upstep", "downstep"]
 position = [20, 113, 384, 573]
 scroller = "SCROLL_CREDIT"
 vlinewidth = 2
@@ -308,7 +312,7 @@ rowsheight = [40, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
 normallineheight = 32
 
 [SCROLL_CREDIT]
-command = ["click", "select:TABLE_CREDIT", "deactivate", "event:exitCancel", "downstep", "upstep"]
+command = [["click", " select:TABLE_CREDIT"], ["deactivate", "event:exitCancel"], ",downstep", "upstep"]
 position = [384, 113, 397, 573]
 basetexture = "interfaces\\icons.tga"
 rollertexture = "interfaces\\icons.tga"
@@ -320,7 +324,7 @@ rollerheight = 18
 ownedcontrol = "TABLE_CREDIT"
 
 [TABLE_DEBIT]
-command = ["deactivate", "event:exitCancel", "click", "select:TABLE_DEBIT", "upstep", "downstep"]
+command = [["deactivate", "event:exitCancel"], ["click", "select:TABLE_DEBIT"], ",upstep", "downstep"]
 position = [403, 113, 767, 573]
 scroller = "SCROLL_DEBIT"
 vlinewidth = 2
@@ -334,7 +338,7 @@ rowsheight = [40, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
 normallineheight = 32
 
 [SCROLL_DEBIT]
-command = ["click", "select:TABLE_DEBIT", "deactivate", "event:exitCancel", "downstep", "upstep"]
+command = [["click", " select:TABLE_DEBIT"], ["deactivate", "event:exitCancel"], ",downstep", "upstep"]
 position = [767, 113, 781, 573]
 basetexture = "interfaces\\icons.tga"
 rollertexture = "interfaces\\icons.tga"
@@ -346,7 +350,7 @@ rollerheight = 18
 ownedcontrol = "TABLE_DEBIT"
 
 [TABLE_SHIP_PLACE]
-command = ["deactivate", "event:exitCancel", "click", "select:TABLE_SHIP_PLACE", "upstep", "downstep"]
+command = [["deactivate", "event:exitCancel"], ["click", "select:TABLE_SHIP_PLACE"], ",upstep", "downstep"]
 position = [31, 115, 395, 575]
 scroller = "SCROLL_SHIP_PLACE"
 vlinewidth = 2
@@ -360,7 +364,7 @@ rowsheight = [40, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
 normallineheight = 32
 
 [SCROLL_SHIP_PLACE]
-command = ["click", "select:TABLE_SHIP_PLACE", "deactivate", "event:exitCancel", "downstep", "upstep"]
+command = [["click", " select:TABLE_SHIP_PLACE"], ["deactivate", "event:exitCancel"], ",downstep", "upstep"]
 position = [757, 116, 771, 576]
 basetexture = "interfaces\\icons.tga"
 rollertexture = "interfaces\\icons.tga"
@@ -372,7 +376,7 @@ rollerheight = 18
 ownedcontrol = "TABLE_SHIP_PLACE"
 
 [TABLE_CITY]
-command = ["deactivate", "event:exitCancel", "click", "select:TABLE_CITY", "upstep", "downstep"]
+command = [["deactivate", "event:exitCancel"], ["click", "select:TABLE_CITY"], ",upstep", "downstep"]
 position = [21, 115, 382, 575]
 scroller = "SCROLL_CITY"
 vlinewidth = 2
@@ -386,7 +390,7 @@ rowsheight = [40, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
 normallineheight = 32
 
 [SCROLL_CITY]
-command = ["click", "select:TABLE_CITY", "deactivate", "event:exitCancel", "downstep", "upstep"]
+command = [["click", " select:TABLE_CITY"], ["deactivate", "event:exitCancel"], ",downstep", "upstep"]
 position = [383, 115, 397, 575]
 basetexture = "interfaces\\icons.tga"
 rollertexture = "interfaces\\icons.tga"
@@ -398,7 +402,7 @@ rollerheight = 18
 ownedcontrol = "TABLE_CITY"
 
 [TABLE_GOODS]
-command = ["deactivate", "event:exitCancel", "click", "select:TABLE_GOODS", "rclick", "select:TABLE_GOODS", "event:ShowInfoWindow", "upstep", "downstep"]
+command = [["deactivate", "event:exitCancel"], ["click", "select:TABLE_GOODS"], ["rclick", "select:TABLE_GOODS", "event:ShowInfoWindow"], ",upstep", "downstep"]
 position = [408, 115, 770, 575]
 scroller = "SCROLL_GOODS"
 vlinewidth = 2
@@ -412,7 +416,7 @@ rowsheight = [40, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
 normallineheight = 32
 
 [SCROLL_GOODS]
-command = ["click", "select:TABLE_GOODS", "deactivate", "event:exitCancel", "downstep", "upstep"]
+command = [["click", " select:TABLE_GOODS"], ["deactivate", "event:exitCancel"], ",downstep", "upstep"]
 position = [770, 115, 784, 575]
 basetexture = "interfaces\\icons.tga"
 rollertexture = "interfaces\\icons.tga"

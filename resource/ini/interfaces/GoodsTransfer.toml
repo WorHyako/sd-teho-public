@@ -1,5 +1,5 @@
 [MAIN]
-item = ["VIDEO", "VIDEOBASE", "PICTURE", "MAIN_BACK", "TITLE", "TITLE", "SCROLLEDPICTURE", "GOODS_ICONS", "IMAGECOLLECTION", "BORDERS", "100", "pc", "BUTTON", "EXIT_BTN", "150", "BUTTON", "BTN_CHOOSESHIP_LEFT", "150", "BUTTON", "BTN_CHOOSESHIP_RIGHT", "200", "STRINGCOLLECTION", "GOODS_NAMES", "200", "CHECKBUTTON", "CHECK_BUYCONTRABAND", "WINDOW", "MAIN_WINDOW", "300", "FRAME", "TG_FRAME", "300", "FORMATEDTEXT", "TG_GOODS_INFO", "300", "FORMATEDTEXT", "TG_GOODS_CAPTION", "300", "PCEDITBOX", "TG_EDIT", "402", "BUTTON", "TG_ADD_BUTTON", "402", "BUTTON", "TG_REMOVE_BUTTON", "402", "BUTTON", "TG_ADD_ALL_BUTTON", "402", "BUTTON", "TG_REMOVE_ALL_BUTTON", "402", "TEXTBUTTON2", "TG_OK_BUTTON", "402", "TEXTBUTTON2", "TG_CANCEL_BUTTON", "301", "PICTURE", "TG_GOODS_PICTURE", "200", "RECTANGLE", "TG_FADER", "WINDOW", "GOODS_TRANSFER_WINDOW"]
+item = [["VIDEO", "VIDEOBASE"], ["PICTURE", "MAIN_BACK"], ["TITLE", "TITLE"], ["SCROLLEDPICTURE", "GOODS_ICONS"], ["IMAGECOLLECTION", "BORDERS"], ["100", "pc", "BUTTON", "EXIT_BTN"], ["150", "BUTTON", "BTN_CHOOSESHIP_LEFT"], ["150", "BUTTON", "BTN_CHOOSESHIP_RIGHT"], ["200", "STRINGCOLLECTION", "GOODS_NAMES"], ["200", "CHECKBUTTON", "CHECK_BUYCONTRABAND"], ["WINDOW", "MAIN_WINDOW"], ["300", "FRAME", "TG_FRAME"], ["300", "FORMATEDTEXT", "TG_GOODS_INFO"], ["300", "FORMATEDTEXT", "TG_GOODS_CAPTION"], ["300", "PCEDITBOX", "TG_EDIT"], ["402", "BUTTON", "TG_ADD_BUTTON"], ["402", "BUTTON", "TG_REMOVE_BUTTON"], ["402", "BUTTON", "TG_ADD_ALL_BUTTON"], ["402", "BUTTON", "TG_REMOVE_ALL_BUTTON"], ["402", "TEXTBUTTON2", "TG_OK_BUTTON"], ["402", "TEXTBUTTON2", "TG_CANCEL_BUTTON"], ["301", "PICTURE", "TG_GOODS_PICTURE"], ["200", "RECTANGLE", "TG_FADER"], ["WINDOW", "GOODS_TRANSFER_WINDOW"]]
 
 [MAIN_WINDOW]
 show = 1
@@ -7,7 +7,7 @@ nodelist = ["MAIN_BACK", "TITLE", "GOODS_ICONS", "BORDERS", "EXIT_BTN", "GOODS_N
 
 [GOODS_TRANSFER_WINDOW]
 show = 0
-nodelist = ["TG_FRAME", "TG_FADER", "TG_GOODS_INFO", "TG_EDIT", "TG_ADD_BUTTON", "TG_REMOVE_BUTTON", "TG_ADD_ALL_BUTTON", "TG_REMOVE_ALL_BUTTON", "TG_OK_BUTTON", "TG_CANCEL_BUTTON", "TG_GOODS_PICTURE", "TG_GOODS_CAPTION"]
+nodelist = [["TG_FRAME", "TG_FADER", "TG_GOODS_INFO", "TG_EDIT", "TG_ADD_BUTTON", "TG_REMOVE_BUTTON", "TG_ADD_ALL_BUTTON"], ["TG_REMOVE_ALL_BUTTON", "TG_OK_BUTTON", "TG_CANCEL_BUTTON", "TG_GOODS_PICTURE", "TG_GOODS_CAPTION"]]
 
 [TG_FADER]
 babsoluterectangle = 5
@@ -19,7 +19,7 @@ bottomcolor = [200, 0, 0, 0]
 bordercolor = [0, 0, 0, 0]
 
 [GOODS_ICONS]
-command = ["click", "event:ShowItemsWindow", "deactivate", "event:exitCancel"]
+command = [["click", "event:ShowItemsWindow"], ["deactivate", "event:exitCancel"]]
 position = [0, 0, 800, 600]
 basesize = [800, 600]
 scale1 = [1, 1]
@@ -34,7 +34,7 @@ texturename = "interfaces\\papirus_big.tga"
 [EXIT_BTN]
 position = [770, 5, 795, 30]
 group = "ICONS_SPEC"
-picture = ["exit", "button"]
+picture = "exit button"
 command = ["click", "event:exitCancel"]
 shadowcolor = [0, 0, 0, 0]
 
@@ -52,19 +52,19 @@ font = "interface_button"
 
 [TG_FRAME]
 position = [200, 150, 614, 450]
-backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "118", "118", "128)"]
+backimage = ["piclist=PAPIRUS", " piccutuv=(0.0", "0.0)", " color=(255", "118", "118", "128)"]
 rowsheight = [30, 444]
 captionheight = 25
-captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionimage = ["piclist=SKILLS", " picname=SKILLBORDER", " color=(255", "128", "128", "128)"]
 
 [TG_EDIT]
-command = ["click", "select:TG_EDIT", "deactivate", "event:UnShowTGWindow", "activate", "event:confirmChangeQTY_EDIT"]
+command = [["click", "select:TG_EDIT"], ["deactivate", "event:UnShowTGWindow"], ["activate", "event:confirmChangeQTY_EDIT"]]
 position = [373, 380, 436, 407]
 strfont = "interface_button"
 argbfontcolor = [255, 255, 255, 255]
 stringoffset = [9, 4]
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
-excludechars = ["*?.-_|\\/qwertyuiop[]asdfghjkl'zxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM", "ёйцукенгшщзхъфывапролджэячсмитьбю", "ЁЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ+=!@#$%^&()`\"{}:<>;"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
+excludechars = [["*?.-_|\\/qwertyuiop["], "asdfghjkl'zxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM ёйцукенгшщзхъфывапролджэячсмитьбю", "ЁЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ+=!@#$%^&()`\"{}:<>]"]
 
 [TG_REMOVE_BUTTON]
 command = "click"
@@ -99,20 +99,21 @@ disablecolor = [255, 128, 128, 128]
 shadowoffset = [3, 2]
 
 [TG_OK_BUTTON]
-command = ["activate", "click", "deactivate", "event:UnShowTGWindow", "rightstep", "select:TG_CANCEL_BUTTON"]
+command = ["activate", "click", ["deactivate", "event:UnShowTGWindow"], ["rightstep", "select:TG_CANCEL_BUTTON"]]
 position = [288, 415, 388, 440]
 stroffset = 4
 string = "Ok"
 
 [TG_CANCEL_BUTTON]
-command = ["activate", "click", "deactivate", "event:UnShowTGWindow", "leftstep", "select:TG_OK_BUTTON"]
+command = ["activate", "click", ["deactivate", "event:UnShowTGWindow"], ["leftstep", "select:TG_OK_BUTTON"]]
 position = [419, 415, 519, 440]
 stroffset = 4
 string = "Cancel"
 
 [TG_GOODS_CAPTION]
 position = [300, 153, 500, 190]
-font = ["interface_button", "1.1"]
+font = "interface_button"
+fontscale = 1.1
 alignment = "center"
 
 [TG_GOODS_INFO]

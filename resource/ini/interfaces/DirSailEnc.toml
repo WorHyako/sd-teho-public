@@ -1,10 +1,10 @@
 [MAIN]
-item = ["FRAME", "MAIN_FRAME", "PICTURE", "INFO_PICTURE", "90", "FORMATEDTEXT", "INFO_TEXT", "90", "FORMATEDTEXT", "INFO_TEXT_QUESTION", "100", "TEXTBUTTON2", "B_OK", "100", "FORMATEDTEXT", "MAP_CAPTION", "IMAGECOLLECTION", "INFO_BORDERS"]
+item = [["FRAME", "MAIN_FRAME"], ["PICTURE", "INFO_PICTURE"], ["90", "FORMATEDTEXT", "INFO_TEXT"], ["90", "FORMATEDTEXT", "INFO_TEXT_QUESTION"], ["100", "TEXTBUTTON2", "B_OK"], ["100", "FORMATEDTEXT", "MAP_CAPTION"], ["IMAGECOLLECTION", "INFO_BORDERS"]]
 start = "B_OK"
 
 [MAIN_FRAME]
 captionheight = 24
-captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionimage = ["piclist=SKILLS", " picname=SKILLBORDER", " color=(255", "128", "128", "128)"]
 captionoffset = [0, 3, 0, 0]
 captiondividerheight = 4
 position = [225, 119, 574, 469]
@@ -15,7 +15,7 @@ texturename = "loading\\sea.tga"
 
 [B_OK]
 bbreakcommand = 1
-command = ["deactivate", "event:exitCancel", "activate", "click"]
+command = [["deactivate", "event:exitCancel"], ",activate", "click"]
 position = [273, 430, 526, 462]
 string = "map_ok"
 glowoffset = [0, 0]

@@ -1,5 +1,5 @@
 [MAIN]
-item = ["FRAME", "MAIN_FRAME", "300", "pc", "BUTTON", "EXIT_BTN", "500", "FORMATEDTEXT", "STORECAPTION1", "90", "FORMATEDTEXT", "INFO_TEXT", "200", "TABLE", "TABLE_LIST", "201", "SCROLLER", "SCROLL_LIST", "120", "PICTURE", "TABBTN_1", "125", "FORMATEDTEXT", "TABSTR_1", "120", "PICTURE", "TABBTN_2", "125", "FORMATEDTEXT", "TABSTR_2", "120", "PICTURE", "TABBTN_3", "125", "FORMATEDTEXT", "TABSTR_3", "120", "PICTURE", "TABBTN_4", "125", "FORMATEDTEXT", "TABSTR_4", "209", "BUTTON", "LEFTSCROLLBUTTON", "209", "BUTTON", "RIGHTSCROLLBUTTON", "210", "BUTTON", "TABLE_ADD_ALL_BUTTON", "210", "BUTTON", "TABLE_REMOVE_ALL_BUTTON", "201", "SCROLLIMAGE", "CHARACTERS_SCROLL", "201", "PICTURE", "MAIN_CHARACTER_PICTURE", "201", "PICTURE", "BORDER_PICTURE", "201", "PICTURE", "OTHER_PICTURE", "202", "TEXTBUTTON2", "SKULL_BUTTON", "202", "TEXTBUTTON2", "DELBODY_BUTTON", "202", "TEXTBUTTON2", "GETALL_BUTTON", "WINDOW", "MAIN_WINDOW", "300", "FRAME", "QTY_FRAME", "301", "FORMATEDTEXT", "QTY_CAPTION", "301", "FORMATEDTEXT", "QTY_TypeOperation", "301", "FORMATEDTEXT", "QTY_INFO_SHIP_QTY", "301", "FORMATEDTEXT", "QTY_INFO_STORE_QTY", "301", "FORMATEDTEXT", "QTY_GOODS_INFO", "301", "FORMATEDTEXT", "QTY_Win_fix", "400", "PCEDITBOX", "QTY_EDIT", "402", "BUTTON", "QTY_ADD_BUTTON", "402", "BUTTON", "QTY_REMOVE_BUTTON", "402", "BUTTON", "QTY_ADD_ALL_BUTTON", "402", "BUTTON", "QTY_REMOVE_ALL_BUTTON", "402", "TEXTBUTTON2", "QTY_OK_BUTTON", "402", "TEXTBUTTON2", "QTY_CANCEL_BUTTON", "301", "PICTURE", "QTY_GOODS_PICTURE", "WINDOW", "QTY_WINDOW"]
+item = [["FRAME", "MAIN_FRAME"], ["300", "pc", "BUTTON", "EXIT_BTN"], ["500", "FORMATEDTEXT", "STORECAPTION1"], ["90", "FORMATEDTEXT", "INFO_TEXT"], ["200", "TABLE", "TABLE_LIST"], ["201", "SCROLLER", "SCROLL_LIST"], ["120", "PICTURE", "TABBTN_1"], ["125", "FORMATEDTEXT", "TABSTR_1"], ["120", "PICTURE", "TABBTN_2"], ["125", "FORMATEDTEXT", "TABSTR_2"], ["120", "PICTURE", "TABBTN_3"], ["125", "FORMATEDTEXT", "TABSTR_3"], ["120", "PICTURE", "TABBTN_4"], ["125", "FORMATEDTEXT", "TABSTR_4"], ["209", "BUTTON", "LEFTSCROLLBUTTON"], ["209", "BUTTON", "RIGHTSCROLLBUTTON"], ["210", "BUTTON", "TABLE_ADD_ALL_BUTTON"], ["210", "BUTTON", "TABLE_REMOVE_ALL_BUTTON"], ["201", "SCROLLIMAGE", "CHARACTERS_SCROLL"], ["201", "PICTURE", "MAIN_CHARACTER_PICTURE"], ["201", "PICTURE", "BORDER_PICTURE"], ["201", "PICTURE", "OTHER_PICTURE"], ["202", "TEXTBUTTON2", "SKULL_BUTTON"], ["202", "TEXTBUTTON2", "DELBODY_BUTTON"], ["202", "TEXTBUTTON2", "GETALL_BUTTON"], ["WINDOW", "MAIN_WINDOW"], ["300", "FRAME", "QTY_FRAME"], ["301", "FORMATEDTEXT", "QTY_CAPTION"], ["301", "FORMATEDTEXT", "QTY_TypeOperation"], ["301", "FORMATEDTEXT", "QTY_INFO_SHIP_QTY"], ["301", "FORMATEDTEXT", "QTY_INFO_STORE_QTY"], ["301", "FORMATEDTEXT", "QTY_GOODS_INFO"], ["301", "FORMATEDTEXT", "QTY_Win_fix"], ["400", "PCEDITBOX", "QTY_EDIT"], ["402", "BUTTON", "QTY_ADD_BUTTON"], ["402", "BUTTON", "QTY_REMOVE_BUTTON"], ["402", "BUTTON", "QTY_ADD_ALL_BUTTON"], ["402", "BUTTON", "QTY_REMOVE_ALL_BUTTON"], ["402", "TEXTBUTTON2", "QTY_OK_BUTTON"], ["402", "TEXTBUTTON2", "QTY_CANCEL_BUTTON"], ["301", "PICTURE", "QTY_GOODS_PICTURE"], ["WINDOW", "QTY_WINDOW"]]
 start = "TABLE_LIST"
 
 [MAIN_WINDOW]
@@ -9,27 +9,27 @@ nodelist = ["TABBTN_1", "TABSTR_1", "TABBTN_2", "TABSTR_2", "TABBTN_3", "TABSTR_
 [EXIT_BTN]
 position = [626, 17, 646, 37]
 group = "ICONS_SPEC"
-picture = ["exit", "button"]
-command = ["click", "event:exitCancel", "deactivate", "event:exitCancel"]
+picture = "exit button"
+command = [["click", "event:exitCancel"], ["deactivate", "event:exitCancel"]]
 shadowcolor = [0, 0, 0, 0]
-bshowglowcursor = "0;"
+bshowglowcursor = 0
 shadowoffset = [-1, -1]
 
 [GETALL_BUTTON]
 position = [340, 552, 475, 577]
-command = ["activate", "click", "deactivate", "event:exitCancel", "downstep"]
+command = ["activate", "click", ["deactivate", "event:exitCancel"], ",downstep"]
 string = "GetAllButton"
 fontscale = 0.85
 
 [SKULL_BUTTON]
 position = [340, 552, 475, 577]
-command = ["click", "activate", "deactivate", "event:exitCancel", "upstep"]
+command = ["click", "activate", ["deactivate", "event:exitCancel"], ",upstep"]
 string = "SkullUse"
 fontscale = 0.85
 
 [DELBODY_BUTTON]
 position = [415, 552, 545, 577]
-command = ["activate", "click", "deactivate", "event:exitCancel", "downstep"]
+command = ["activate", "click", ["deactivate", "event:exitCancel"], ",downstep"]
 string = "CrearDead"
 fontscale = 0.85
 
@@ -38,34 +38,34 @@ position = [1, 1, 200, 100]
 linespace = 25
 
 [LEFTSCROLLBUTTON]
-command = ["activate", "select:CHARACTERS_SCROLL", "com:speedleft:CHARACTERS_SCROLL", "click", "select:CHARACTERS_SCROLL", "com:leftstep:CHARACTERS_SCROLL", "com:activate:LEFTSCROLLBUTTON"]
+command = [["activate", "select:CHARACTERS_SCROLL", "com:speedleft:CHARACTERS_SCROLL"], ["click", "select:CHARACTERS_SCROLL", "com:leftstep:CHARACTERS_SCROLL", "com:activate:LEFTSCROLLBUTTON"]]
 position = [347, 58, 379, 100]
 group = "ICONS"
-picture = ["left", "arrow"]
+picture = "left arrow"
 presspictureoffset = [1, 1]
 shadowoffset = [1, 1]
 pressshadowoffset = [0, 0]
 pressdelay = 10
 
 [RIGHTSCROLLBUTTON]
-command = ["activate", "select:CHARACTERS_SCROLL", "com:speedright:CHARACTERS_SCROLL", "click", "select:CHARACTERS_SCROLL", "com:rightstep:CHARACTERS_SCROLL", "com:activate:RIGHTSCROLLBUTTON"]
+command = [["activate", "select:CHARACTERS_SCROLL", "com:speedright:CHARACTERS_SCROLL"], ["click", "select:CHARACTERS_SCROLL", "com:rightstep:CHARACTERS_SCROLL", "com:activate:RIGHTSCROLLBUTTON"]]
 position = [430, 58, 462, 100]
 group = "ICONS"
-picture = ["right", "arrow"]
+picture = "right arrow"
 presspictureoffset = [1, 1]
 shadowoffset = [1, 1]
 pressshadowoffset = [0, 0]
 pressdelay = 10
 
 [CHARACTERS_SCROLL]
-command = ["activate", "click", "select:CHARACTERS_SCROLL", "rightstep", "leftstep", "speedright", "speedleft", "deactivate", "event:ExitCancel"]
+command = ["activate", ["click", "select:CHARACTERS_SCROLL"], ",rightstep", "leftstep", "speedright", "speedleft", ["deactivate", "event:ExitCancel"]]
 position = [260, 45, 550, 109]
 imagesize = [55, 55]
 wdelta = 3
 glowoffset = [0, 0]
 
 [TABLE_LIST]
-command = ["deactivate", "event:exitCancel", "click", "select:TABLE_LIST", "rclick", "event:ShowHelpHint", "select:TABLE_LIST", "dblclick", "event:ShowItemInfo", "select:TABLE_LIST", "activate", "event:ShowItemInfo", "upstep", "downstep", "rightstep", "com:click:QTY_REMOVE_BUTTON", "leftstep", "com:click:QTY_ADD_BUTTON", "speedright", "com:click:QTY_REMOVE_ALL_BUTTON", "speedleft", "com:click:QTY_ADD_ALL_BUTTON"]
+command = [["deactivate", "event:exitCancel"], ["click", "select:TABLE_LIST"], ["rclick", "event:ShowHelpHint", "select:TABLE_LIST"], ["dblclick", "event:ShowItemInfo", "select:TABLE_LIST"], ["activate", "event:ShowItemInfo"], ",upstep", "downstep", ["rightstep", "com:click:QTY_REMOVE_BUTTON"], ["leftstep", "com:click:QTY_ADD_BUTTON"], ["speedright", "com:click:QTY_REMOVE_ALL_BUTTON"], ["speedleft", "com:click:QTY_ADD_ALL_BUTTON"]]
 position = [167, 121, 699, 520]
 scroller = "SCROLL_LIST"
 vlinewidth = 2
@@ -80,7 +80,7 @@ rowsheight = ["35", "60s", "60", "60", "60", "60", "60"]
 normallineheight = 60
 
 [SCROLL_LIST]
-command = ["click", "select:TABLE_LIST", "deactivate", "event:exitCancel", "downstep", "upstep"]
+command = [["click", " select:TABLE_LIST"], ["deactivate", "event:exitCancel"], ",downstep", "upstep"]
 position = [633, 121, 647, 520]
 basetexture = "interfaces\\icons.tga"
 rollertexture = "interfaces\\icons.tga"
@@ -92,7 +92,7 @@ rollerheight = 18
 ownedcontrol = "TABLE_LIST"
 
 [TABBTN_1]
-command = ["deactivate", "event:exitCancel", "click", "event:eTabControlPress"]
+command = [["deactivate", "event:exitCancel"], ["click", "event:eTabControlPress"]]
 position = [168, 545, 288, 520]
 groupname = "TABS"
 picname = "TabSelected"
@@ -107,7 +107,7 @@ valignment = 1
 string = "items_All"
 
 [TABBTN_2]
-command = ["deactivate", "event:exitCancel", "click", "event:eTabControlPress"]
+command = [["deactivate", "event:exitCancel"], ["click", "event:eTabControlPress"]]
 position = [288, 545, 408, 520]
 groupname = "TABS"
 picname = "TabSelected"
@@ -122,7 +122,7 @@ valignment = 1
 string = "items_Hero"
 
 [TABBTN_3]
-command = ["deactivate", "event:exitCancel", "click", "event:eTabControlPress"]
+command = [["deactivate", "event:exitCancel"], ["click", "event:eTabControlPress"]]
 position = [408, 545, 528, 520]
 groupname = "TABS"
 picname = "TabDeSelected"
@@ -137,7 +137,7 @@ valignment = 1
 string = "All"
 
 [TABBTN_4]
-command = ["deactivate", "event:exitCancel", "click", "event:eTabControlPress"]
+command = [["deactivate", "event:exitCancel"], ["click", "event:eTabControlPress"]]
 position = [528, 545, 648, 520]
 groupname = "TABS"
 picname = "TabSelected"
@@ -153,7 +153,7 @@ string = "items_Potions"
 
 [MAIN_FRAME]
 position = [162, 10, 652, 590]
-backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "118", "118", "128)"]
+backimage = ["piclist=PAPIRUS", " piccutuv=(0.0", "0.0)", " color=(255", "118", "118", "128)"]
 rowquantity = 2
 colquantity = 1
 hlineheight = 2
@@ -164,13 +164,14 @@ colswidth = 348
 rowsheight = [30, 444]
 vlinewidth = 1
 captionheight = 30
-captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionimage = ["piclist=SKILLS", " picname=SKILLBORDER", " color=(255", "128", "128", "128)"]
 captiondividerheight = 4
 
 [STORECAPTION1]
 babsoluterectangle = 5
 position = [239, 17, 572, 40]
-font = ["interface_button", "1.1"]
+font = "interface_button"
+fontscale = 1.1
 linespace = 10
 alignment = "center"
 color = [255, 255, 255, 200]
@@ -191,7 +192,7 @@ bshowglowcursor = 0
 
 [QTY_FRAME]
 position = [200, 200, 614, 500]
-backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "118", "118", "128)"]
+backimage = ["piclist=PAPIRUS", " piccutuv=(0.0", "0.0)", " color=(255", "118", "118", "128)"]
 rowquantity = 2
 colquantity = 1
 hlineheight = 2
@@ -202,13 +203,14 @@ colswidth = 348
 rowsheight = [30, 444]
 vlinewidth = 1
 captionheight = 30
-captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionimage = ["piclist=SKILLS", " picname=SKILLBORDER", " color=(255", "128", "128", "128)"]
 captiondividerheight = 4
 
 [QTY_CAPTION]
 babsoluterectangle = 5
 position = [239, 204, 572, 234]
-font = ["interface_button", "1.1"]
+font = "interface_button"
+fontscale = 1.1
 linespace = 10
 alignment = "center"
 color = [255, 255, 255, 200]
@@ -216,10 +218,10 @@ backoffset = [1, 2, 0, -2]
 
 [QTY_WINDOW]
 show = 0
-nodelist = ["QTY_FRAME", "QTY_EDIT", "QTY_OK_BUTTON", "QTY_CANCEL_BUTTON", "QTY_TypeOperation", "QTY_GOODS_INFO", "QTY_GOODS_PICTURE", "QTY_CAPTION", "QTY_ADD_BUTTON", "QTY_REMOVE_BUTTON", "QTY_ADD_ALL_BUTTON", "QTY_REMOVE_ALL_BUTTON", "QTY_INFO_STORE_QTY", "QTY_INFO_SHIP_QTY", "QTY_INFO_SHIP_PRICE", "QTY_INFO_STORE_PRICE", "QTY_Win_fix"]
+nodelist = [["QTY_FRAME", "QTY_EDIT", "QTY_OK_BUTTON", "QTY_CANCEL_BUTTON", "QTY_TypeOperation", "QTY_GOODS_INFO", "QTY_GOODS_PICTURE"], ["QTY_CAPTION", "QTY_ADD_BUTTON", "QTY_REMOVE_BUTTON", "QTY_ADD_ALL_BUTTON", "QTY_REMOVE_ALL_BUTTON"], ["QTY_INFO_STORE_QTY", "QTY_INFO_SHIP_QTY", "QTY_INFO_SHIP_PRICE", "QTY_INFO_STORE_PRICE", "QTY_Win_fix"]]
 
 [QTY_EDIT]
-command = ["click", "select:QTY_EDIT", "deactivate", "event:exitCancel", "activate", "event:confirmChangeQTY_EDIT"]
+command = [["click", "select:QTY_EDIT"], ["deactivate", "event:exitCancel"], ["activate", "event:confirmChangeQTY_EDIT"]]
 position = [373, 430, 436, 457]
 strfont = "interface_button"
 argbfontcolor = [255, 255, 255, 255]
@@ -227,8 +229,8 @@ stringlength = 5
 stringwidth = 80
 stringalign = "left"
 stringoffset = [9, 4]
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
-excludechars = ["*", "?.\\/qwertyuiop[]asdfghjkl'zxcvbnm", "+-="]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
+excludechars = [["* ?.\\/qwertyuiop["], "asdfghjkl'zxcvbnm", "+-=]"]
 
 [TABLE_ADD_ALL_BUTTON]
 command = "click"
@@ -277,14 +279,14 @@ disablecolor = [255, 128, 128, 128]
 shadowoffset = [3, 2]
 
 [QTY_OK_BUTTON]
-command = ["activate", "click", "event:TransactionOK", "deactivate", "event:MouseRClickUP", "rightstep", "com:click:QTY_REMOVE_BUTTON", "leftstep", "com:click:QTY_ADD_BUTTON", "speedright", "com:click:QTY_REMOVE_ALL_BUTTON", "speedleft", "com:click:QTY_ADD_ALL_BUTTON"]
+command = ["activate", ["click", "event:TransactionOK"], ["deactivate", "event:MouseRClickUP"], ["rightstep", "com:click:QTY_REMOVE_BUTTON"], ["leftstep", "com:click:QTY_ADD_BUTTON"], ["speedright", "com:click:QTY_REMOVE_ALL_BUTTON"], ["speedleft", "com:click:QTY_ADD_ALL_BUTTON"]]
 position = [288, 465, 388, 490]
 string = "Ok"
 fontscale = 0.85
 glowoffset = [0, 0]
 
 [QTY_CANCEL_BUTTON]
-command = ["activate", "click", "event:exitCancel", "deactivate", "event:exitCancel", "rightstep", "com:click:QTY_REMOVE_BUTTON", "leftstep", "com:click:QTY_ADD_BUTTON", "speedright", "com:click:QTY_REMOVE_ALL_BUTTON", "speedleft", "com:click:QTY_ADD_ALL_BUTTON"]
+command = ["activate", ["click", "event:exitCancel"], ["deactivate", "event:exitCancel"], ["rightstep", "com:click:QTY_REMOVE_BUTTON"], ["leftstep", "com:click:QTY_ADD_BUTTON"], ["speedright", "com:click:QTY_REMOVE_ALL_BUTTON"], ["speedleft", "com:click:QTY_ADD_ALL_BUTTON"]]
 position = [419, 465, 519, 490]
 string = "Cancel"
 fontscale = 0.85
@@ -320,7 +322,7 @@ alignment = "center"
 backoffset = [1, 2, 0, -2]
 
 [QTY_Win_fix]
-command = ["click", "event:None", "activate", "event:None"]
+command = [["click", "event:None"], ["activate", "event:None"]]
 position = [200, 200, 614, 500]
 
 [QTY_GOODS_PICTURE]

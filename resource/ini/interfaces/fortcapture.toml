@@ -1,10 +1,10 @@
 [MAIN]
-item = ["VIDEO", "VIDEOBASE", "PICTURE", "SCROLLPICT", "100", "pc", "BUTTON", "EXIT_BTN"]
+item = [["VIDEO", "VIDEOBASE"], ["PICTURE", "SCROLLPICT"], ["100", "pc", "BUTTON", "EXIT_BTN"]]
 
 [EXIT_BTN]
 position = [777, 0, 799, 22]
 group = "MAIN_ICONS"
-picture = ["exit", "button"]
+picture = "exit button"
 command = ["click", "event:exitCancel"]
 shadowcolor = [0, 0, 0, 0]
 

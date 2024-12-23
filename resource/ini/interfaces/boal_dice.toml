@@ -1,10 +1,10 @@
 [MAIN]
-item = ["VIDEO", "VIDEOBASE", "PICTURE", "SCROLLPICT", "100", "pc", "BUTTON", "EXIT_BTN", "200", "BUTTON", "B_PACK", "RECTANGLE", "INF_RECT", "100", "PICTURE", "ICON_1", "100", "PICTURE", "ICON_2", "100", "PICTURE", "ICON_GOLD", "FORMATEDTEXT", "INFO_TEXT", "200", "BUTTON", "B_ICON_1", "200", "BUTTON", "B_ICON_2", "200", "BUTTON", "B_HeroDice1", "200", "BUTTON", "B_HeroDice2", "200", "BUTTON", "B_HeroDice3", "200", "BUTTON", "B_HeroDice4", "200", "BUTTON", "B_HeroDice5"]
+item = [["VIDEO", "VIDEOBASE"], ["PICTURE", "SCROLLPICT"], ["100", "pc", "BUTTON", "EXIT_BTN"], ["200", "BUTTON", "B_PACK"], ["RECTANGLE", "INF_RECT"], ["100", "PICTURE", "ICON_1"], ["100", "PICTURE", "ICON_2"], ["100", "PICTURE", "ICON_GOLD"], ["FORMATEDTEXT", "INFO_TEXT"], ["200", "BUTTON", "B_ICON_1"], ["200", "BUTTON", "B_ICON_2"], ["200", "BUTTON", "B_HeroDice1"], ["200", "BUTTON", "B_HeroDice2"], ["200", "BUTTON", "B_HeroDice3"], ["200", "BUTTON", "B_HeroDice4"], ["200", "BUTTON", "B_HeroDice5"]]
 
 [EXIT_BTN]
 position = [777, 0, 799, 22]
 group = "ICONS_SPEC"
-picture = ["exit", "button"]
+picture = "exit button"
 command = ["click", "event:exitCancel"]
 shadowcolor = [0, 0, 0, 0]
 
@@ -40,7 +40,8 @@ texturename = "interfaces\\BoxImage.tga"
 [INFO_TEXT]
 position = [480, 398, 710, 449]
 linespace = 13
-font = ["interface_ultrasmall", "1"]
+font = "interface_ultrasmall"
+fontscale = 1
 
 [B_ICON_1]
 bbreakcommand = 1

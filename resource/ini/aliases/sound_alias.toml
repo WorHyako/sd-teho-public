@@ -38,73 +38,73 @@ name = ["PEOPLE\\trv-man1-01.wav", "PEOPLE\\trv-man1-02.wav", "PEOPLE\\trv-man1-
 mindistance = 0.4
 maxdistance = 6.0
 volume = 0.3
-name = ["PEOPLE\\der-man1-01.wav", "PEOPLE\\der-man1-02.wav", "PEOPLE\\der-man1-03.wav", "PEOPLE\\der-man1-04.wav"]
+name = ["PEOPLE\\der-man1-01.wav ", "PEOPLE\\der-man1-02.wav ", "PEOPLE\\der-man1-03.wav ", "PEOPLE\\der-man1-04.wav"]
 
 [run_wood]
 mindistance = 0.4
 maxdistance = 6.0
 volume = 0.99
-name = ["PEOPLE\\der-man1-01.wav", "PEOPLE\\der-man1-02.wav", "PEOPLE\\der-man1-03.wav", "PEOPLE\\der-man1-04.wav"]
+name = ["PEOPLE\\der-man1-01.wav ", "PEOPLE\\der-man1-02.wav ", "PEOPLE\\der-man1-03.wav ", "PEOPLE\\der-man1-04.wav"]
 
 [step_church]
 mindistance = 0.4
 maxdistance = 6.0
 volume = 0.4
-name = ["PEOPLE\\step_church.wav", "PEOPLE\\step_church1.wav", "PEOPLE\\step_church2.wav", "PEOPLE\\step_church3.wav"]
+name = ["PEOPLE\\step_church.wav ", "PEOPLE\\step_church1.wav ", "PEOPLE\\step_church2.wav ", "PEOPLE\\step_church3.wav"]
 
 [run_church]
 mindistance = 0.4
 maxdistance = 6.0
 volume = 0.9
-name = ["PEOPLE\\step_church.wav", "PEOPLE\\step_church1.wav", "PEOPLE\\step_church2.wav", "PEOPLE\\step_church3.wav"]
+name = ["PEOPLE\\step_church.wav ", "PEOPLE\\step_church1.wav ", "PEOPLE\\step_church2.wav ", "PEOPLE\\step_church3.wav"]
 
 [step_echo]
 mindistance = 0.4
 maxdistance = 6.0
 volume = 0.4
-name = ["PEOPLE\\step_echo.wav", "0.5", "PEOPLE\\step_echo1.wav", "0.5", "PEOPLE\\step_echo2.wav", "0.5", "PEOPLE\\step_echo3.wav", "0.5"]
+name = [["PEOPLE\\step_echo.wav", " 0.5"], ["PEOPLE\\step_echo1.wav", " 0.5"], ["PEOPLE\\step_echo2.wav", " 0.5"], ["PEOPLE\\step_echo3.wav", " 0.5"]]
 
 [run_echo]
 mindistance = 0.4
 maxdistance = 6.0
 volume = 0.7
-name = ["PEOPLE\\step_echo.wav", "0.5", "PEOPLE\\step_echo1.wav", "0.5", "PEOPLE\\step_echo2.wav", "0.5", "PEOPLE\\step_echo3.wav", "0.5"]
+name = [["PEOPLE\\step_echo.wav", " 0.5"], ["PEOPLE\\step_echo1.wav", " 0.5"], ["PEOPLE\\step_echo2.wav", " 0.5"], ["PEOPLE\\step_echo3.wav", " 0.5"]]
 
 [step_water]
 mindistance = 0.4
 maxdistance = 6.0
 volume = 0.3
-name = ["PEOPLE\\step_water.wav", "0.3", "PEOPLE\\step_water1.wav", "0.3", "PEOPLE\\step_water2.wav", "0.4", "PEOPLE\\step_water3.wav", "0.4"]
+name = [["PEOPLE\\step_water.wav", " 0.3"], ["PEOPLE\\step_water1.wav", " 0.3"], ["PEOPLE\\step_water2.wav", " 0.4"], ["PEOPLE\\step_water3.wav", " 0.4"]]
 
 [run_water]
 mindistance = 0.4
 maxdistance = 6.0
 volume = 0.87
-name = ["PEOPLE\\step_water.wav", "0.3", "PEOPLE\\step_water1.wav", "0.3", "PEOPLE\\step_water2.wav", "0.4", "PEOPLE\\step_water3.wav", "0.4"]
+name = [["PEOPLE\\step_water.wav", " 0.3"], ["PEOPLE\\step_water1.wav", " 0.3"], ["PEOPLE\\step_water2.wav", " 0.4"], ["PEOPLE\\step_water3.wav", " 0.4"]]
 
 [step_carpet]
 mindistance = 0.4
 maxdistance = 6.0
 volume = 0.3
-name = ["PEOPLE\\kov-man1-01.wav", "0.3", "PEOPLE\\kov-man1-02.wav", "0.3", "PEOPLE\\kov-man1-03.wav", "0.3", "PEOPLE\\kov-man1-04.wav", "0.3"]
+name = [["PEOPLE\\kov-man1-01.wav", " 0.3"], ["PEOPLE\\kov-man1-02.wav", " 0.3"], ["PEOPLE\\kov-man1-03.wav", " 0.3"], ["PEOPLE\\kov-man1-04.wav", " 0.3"]]
 
 [run_carpet]
 mindistance = 0.4
 maxdistance = 6.0
 volume = 0.8
-name = ["PEOPLE\\kov-man1-01.wav", "0.3", "PEOPLE\\kov-man1-02.wav", "0.3", "PEOPLE\\kov-man1-03.wav", "0.3", "PEOPLE\\kov-man1-04.wav", "0.3"]
+name = [["PEOPLE\\kov-man1-01.wav", " 0.3"], ["PEOPLE\\kov-man1-02.wav", " 0.3"], ["PEOPLE\\kov-man1-03.wav", " 0.3"], ["PEOPLE\\kov-man1-04.wav", " 0.3"]]
 
 [step_stairway]
 mindistance = 0.4
 maxdistance = 6.0
 volume = 0.87
-name = ["PEOPLE\\step_stairway.wav", "PEOPLE\\step_stairway3.wav", "PEOPLE\\der-man1-01.wav", "PEOPLE\\der-man1-02.wav", "PEOPLE\\step_stairway1.wav", "PEOPLE\\der-man1-03.wav", "PEOPLE\\step_stairway2.wav", "PEOPLE\\der-man1-04.wav"]
+name = ["PEOPLE\\step_stairway.wav", "PEOPLE\\step_stairway3.wav", "PEOPLE\\der-man1-01.wav ", "PEOPLE\\der-man1-02.wav ", "PEOPLE\\step_stairway1.wav", "PEOPLE\\der-man1-03.wav ", "PEOPLE\\step_stairway2.wav", "PEOPLE\\der-man1-04.wav"]
 
 [run_stairway]
 mindistance = 0.4
 maxdistance = 6.0
 volume = 0.87
-name = ["PEOPLE\\step_stairway.wav", "PEOPLE\\step_stairway3.wav", "PEOPLE\\der-man1-01.wav", "PEOPLE\\der-man1-02.wav", "PEOPLE\\step_stairway1.wav", "PEOPLE\\der-man1-03.wav", "PEOPLE\\step_stairway2.wav", "PEOPLE\\der-man1-04.wav"]
+name = ["PEOPLE\\step_stairway.wav", "PEOPLE\\step_stairway3.wav", "PEOPLE\\der-man1-01.wav ", "PEOPLE\\der-man1-02.wav ", "PEOPLE\\step_stairway1.wav", "PEOPLE\\der-man1-03.wav ", "PEOPLE\\step_stairway2.wav", "PEOPLE\\der-man1-04.wav"]
 
 [step_sand]
 mindistance = 0.4
@@ -377,13 +377,13 @@ name = "SHIP\\turn_loop_01.wav"
 name = "AMBIENT\\LAND\\tsikadi_001.wav"
 
 [cricket_02]
-name = ["AMBIENT\\LAND\\kuzn_001.wav", "0.6", "AMBIENT\\LAND\\kuzn_002.wav", "0.6"]
+name = [["AMBIENT\\LAND\\kuzn_001.wav", " 0.6"], ["AMBIENT\\LAND\\kuzn_002.wav", " 0.6"]]
 
 [cricket_night]
 name = "AMBIENT\\LAND\\tsikadi_nigth_01.wav"
 
 [cricket_night_02]
-name = ["AMBIENT\\LAND\\kuzn_night_001.wav", "0.4", "AMBIENT\\LAND\\kuzn_night_002.wav", "0.4", "AMBIENT\\LAND\\kuzn_night_003.wav", "0.1", "AMBIENT\\LAND\\kuzn_night_003.wav", "0.1"]
+name = [["AMBIENT\\LAND\\kuzn_night_001.wav", " 0.4"], ["AMBIENT\\LAND\\kuzn_night_002.wav", " 0.4"], ["AMBIENT\\LAND\\kuzn_night_003.wav", " 0.1"], ["AMBIENT\\LAND\\kuzn_night_003.wav", " 0.1"]]
 
 [animals_night]
 name = ["AMBIENT\\LAND\\animals_night_001.wav", "AMBIENT\\LAND\\animals_night_002.wav", "AMBIENT\\LAND\\animals_night_003.wav", "AMBIENT\\LAND\\animals_night_004.wav", "AMBIENT\\LAND\\animals_night_005.wav", "AMBIENT\\LAND\\animals_night_006.wav", "AMBIENT\\LAND\\animals_night_007.wav", "AMBIENT\\LAND\\animals_night_008.wav"]
@@ -521,7 +521,7 @@ name = ["AMBIENT\\TAVERN\\monetki_taverna_001.wav", "AMBIENT\\TAVERN\\monetki_ta
 name = ["AMBIENT\\TAVERN\\naliv_001.wav", "AMBIENT\\TAVERN\\naliv_002.wav", "AMBIENT\\TAVERN\\naliv_003.wav"]
 
 [shipyard_sound]
-name = ["AMBIENT\\SHIPYARD\\molotok_verf_001.wav", "0.2", "AMBIENT\\SHIPYARD\\molotok_verf_002.wav", "0.2", "AMBIENT\\SHIPYARD\\molotok_verf_003.wav", "0.2", "AMBIENT\\SHIPYARD\\topor_001", "AMBIENT\\SHIPYARD\\topor_002", "AMBIENT\\SHIPYARD\\topor_003", "AMBIENT\\SHIPYARD\\pila_001.wav", "AMBIENT\\SHIPYARD\\pila_002.wav", "AMBIENT\\SHIPYARD\\pila_003.wav"]
+name = [["AMBIENT\\SHIPYARD\\molotok_verf_001.wav", " 0.2"], ["AMBIENT\\SHIPYARD\\molotok_verf_002.wav", " 0.2"], ["AMBIENT\\SHIPYARD\\molotok_verf_003.wav", " 0.2"], ",AMBIENT\\SHIPYARD\\topor_001", "AMBIENT\\SHIPYARD\\topor_002", "AMBIENT\\SHIPYARD\\topor_003", "AMBIENT\\SHIPYARD\\pila_001.wav", "AMBIENT\\SHIPYARD\\pila_002.wav", "AMBIENT\\SHIPYARD\\pila_003.wav"]
 
 [people_talk_town]
 name = ["AMBIENT\\TOWNS\\razg_001.wav", "AMBIENT\\TOWNS\\razg_002.wav", "AMBIENT\\TOWNS\\razg_003.wav", "AMBIENT\\TOWNS\\razg_004.wav", "AMBIENT\\TOWNS\\razg_005.wav"]
@@ -542,139 +542,139 @@ name = ["AMBIENT\\TOWNS\\molotok_001.wav", "AMBIENT\\TOWNS\\molotok_002.wav", "A
 mindistance = 5.4
 maxdistance = 200.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\PistolShot.wav"]
+name = "PEOPLE FIGHT\\PistolShot.wav"
 
 [rifle_shot]
 mindistance = 5.4
 maxdistance = 200.0
 volume = 1.6
-name = ["PEOPLE", "FIGHT\\MushketShot.wav"]
+name = "PEOPLE FIGHT\\MushketShot.wav"
 
 [bullethit]
 mindistance = 5.4
 maxdistance = 100.0
 volume = 0.77
-name = ["PEOPLE", "FIGHT\\sabl_po_ploti_001.wav"]
+name = "PEOPLE FIGHT\\sabl_po_ploti_001.wav"
 
 [sword_sh]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Blade_Take_Out_01.wav"]
+name = "PEOPLE FIGHT\\Blade_Take_Out_01.wav"
 
 [sword_out]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Blade_Take_In_01.wav", "PEOPLE", "FIGHT\\Blade_Take_In_02.wav", "PEOPLE", "FIGHT\\Blade_Take_In_03.wav"]
+name = ["PEOPLE FIGHT\\Blade_Take_In_01.wav", "PEOPLE FIGHT\\Blade_Take_In_02.wav", "PEOPLE FIGHT\\Blade_Take_In_03.wav"]
 
 [attack_thrust1]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Player_man_01_01.wav", "PEOPLE", "FIGHT\\Player_man_01_02.wav", "PEOPLE", "FIGHT\\Player_man_01_03.wav"]
+name = ["PEOPLE FIGHT\\Player_man_01_01.wav", "PEOPLE FIGHT\\Player_man_01_02.wav", "PEOPLE FIGHT\\Player_man_01_03.wav"]
 
 [attack_thrust2]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Player_man_02_01.wav", "PEOPLE", "FIGHT\\Player_man_02_02.wav", "PEOPLE", "FIGHT\\Player_man_02_03.wav"]
+name = ["PEOPLE FIGHT\\Player_man_02_01.wav", "PEOPLE FIGHT\\Player_man_02_02.wav", "PEOPLE FIGHT\\Player_man_02_03.wav"]
 
 [attack_slash1]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Player_man_03_01.wav", "PEOPLE", "FIGHT\\Player_man_03_02.wav", "PEOPLE", "FIGHT\\Player_man_03_03.wav"]
+name = ["PEOPLE FIGHT\\Player_man_03_01.wav", "PEOPLE FIGHT\\Player_man_03_02.wav", "PEOPLE FIGHT\\Player_man_03_03.wav"]
 
 [attack_slash2]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Player_man_07_01.wav", "PEOPLE", "FIGHT\\Player_man_07_02.wav"]
+name = ["PEOPLE FIGHT\\Player_man_07_01.wav", "PEOPLE FIGHT\\Player_man_07_02.wav"]
 
 [attack_round]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Player_man_04_01.wav", "PEOPLE", "FIGHT\\Player_man_04_02.wav", "PEOPLE", "FIGHT\\Player_man_04_03.wav"]
+name = ["PEOPLE FIGHT\\Player_man_04_01.wav", "PEOPLE FIGHT\\Player_man_04_02.wav", "PEOPLE FIGHT\\Player_man_04_03.wav"]
 
 [attack_break]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Player_man_05_01.wav"]
+name = "PEOPLE FIGHT\\Player_man_05_01.wav"
 
 [attack_parry]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Player_man_08_01.wav", "PEOPLE", "FIGHT\\Player_man_08_02.wav", "PEOPLE", "FIGHT\\Player_man_08_03.wav"]
+name = ["PEOPLE FIGHT\\Player_man_08_01.wav", "PEOPLE FIGHT\\Player_man_08_02.wav", "PEOPLE FIGHT\\Player_man_08_03.wav"]
 
 [parryhit]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\sabl_po_ploti_001.wav"]
+name = "PEOPLE FIGHT\\sabl_po_ploti_001.wav"
 
 [attack_feint]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Player_man_05_02.wav"]
+name = "PEOPLE FIGHT\\Player_man_05_02.wav"
 
 [attack_feintc]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Player_man_01_02.wav"]
+name = "PEOPLE FIGHT\\Player_man_01_02.wav"
 
 [manHit]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Damage_NPC_06.wav", "PEOPLE", "FIGHT\\Damage_NPC_07.wav", "PEOPLE", "FIGHT\\Damage_NPC_08.wav", "PEOPLE", "FIGHT\\Damage_NPC_09.wav", "PEOPLE", "FIGHT\\Damage_NPC_10.wav", "PEOPLE", "FIGHT\\Damage_NPC_11.wav"]
+name = ["PEOPLE FIGHT\\Damage_NPC_06.wav", "PEOPLE FIGHT\\Damage_NPC_07.wav", "PEOPLE FIGHT\\Damage_NPC_08.wav", "PEOPLE FIGHT\\Damage_NPC_09.wav", "PEOPLE FIGHT\\Damage_NPC_10.wav", "PEOPLE FIGHT\\Damage_NPC_11.wav"]
 
 [manZapad]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 2.4
-name = ["PEOPLE", "FIGHT\\Zapad.wav"]
+name = "PEOPLE FIGHT\\Zapad.wav"
 
 [BlockHit]
 mindistance = 4.0
 maxdistance = 57.0
 volume = 0.8
-name = ["PEOPLE", "FIGHT\\blades_hits_04.wav", "PEOPLE", "FIGHT\\blades_hits_06.wav", "PEOPLE", "FIGHT\\blades_hits_07.wav", "PEOPLE", "FIGHT\\blades_hits_08.wav", "PEOPLE", "FIGHT\\blades_hits_12.wav", "PEOPLE", "FIGHT\\blades_hits_13.wav"]
+name = ["PEOPLE FIGHT\\blades_hits_04.wav", "PEOPLE FIGHT\\blades_hits_06.wav", "PEOPLE FIGHT\\blades_hits_07.wav", "PEOPLE FIGHT\\blades_hits_08.wav", "PEOPLE FIGHT\\blades_hits_12.wav", "PEOPLE FIGHT\\blades_hits_13.wav"]
 
 [BlockBreak]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Damage_NPC_01.wav", "PEOPLE", "FIGHT\\Damage_NPC_02.wav", "PEOPLE", "FIGHT\\Damage_NPC_03.wav", "PEOPLE", "FIGHT\\Damage_NPC_04.wav", "PEOPLE", "FIGHT\\Damage_NPC_05.wav"]
+name = ["PEOPLE FIGHT\\Damage_NPC_01.wav", "PEOPLE FIGHT\\Damage_NPC_02.wav", "PEOPLE FIGHT\\Damage_NPC_03.wav", "PEOPLE FIGHT\\Damage_NPC_04.wav", "PEOPLE FIGHT\\Damage_NPC_05.wav"]
 
 [fight_death1]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Body_fall_01.wav"]
+name = "PEOPLE FIGHT\\Body_fall_01.wav"
 
 [fight_death2]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Body_fall_02.wav"]
+name = "PEOPLE FIGHT\\Body_fall_02.wav"
 
 [fight_death3]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Body_fall_03.wav"]
+name = "PEOPLE FIGHT\\Body_fall_03.wav"
 
 [fight_death4]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\Body_fall_04.wav"]
+name = "PEOPLE FIGHT\\Body_fall_04.wav"
 
 [recoil]
 mindistance = 4.0
@@ -686,384 +686,384 @@ name = "PEOPLE\\recoil.wav"
 mindistance = 4.0
 maxdistance = 57.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\blades_hits_01.wav", "PEOPLE", "FIGHT\\blades_hits_02.wav", "PEOPLE", "FIGHT\\blades_hits_03.wav", "PEOPLE", "FIGHT\\blades_hits_04.wav", "PEOPLE", "FIGHT\\blades_hits_05.wav", "PEOPLE", "FIGHT\\blades_hits_06.wav", "PEOPLE", "FIGHT\\blades_hits_07.wav", "PEOPLE", "FIGHT\\blades_hits_08.wav", "PEOPLE", "FIGHT\\blades_hits_09.wav", "PEOPLE", "FIGHT\\blades_hits_10.wav", "PEOPLE", "FIGHT\\blades_hits_11.wav", "PEOPLE", "FIGHT\\blades_hits_12.wav"]
+name = ["PEOPLE FIGHT\\blades_hits_01.wav", "PEOPLE FIGHT\\blades_hits_02.wav", "PEOPLE FIGHT\\blades_hits_03.wav", "PEOPLE FIGHT\\blades_hits_04.wav", "PEOPLE FIGHT\\blades_hits_05.wav", "PEOPLE FIGHT\\blades_hits_06.wav", "PEOPLE FIGHT\\blades_hits_07.wav", "PEOPLE FIGHT\\blades_hits_08.wav", "PEOPLE FIGHT\\blades_hits_09.wav", "PEOPLE FIGHT\\blades_hits_10.wav", "PEOPLE FIGHT\\blades_hits_11.wav", "PEOPLE FIGHT\\blades_hits_12.wav"]
 
 [N_attack_thrust1]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+name = ["PEOPLE FIGHT\\swish_sword_01.wav", "PEOPLE FIGHT\\swish_sword_02.wav", "PEOPLE FIGHT\\swish_sword_03.wav", "PEOPLE FIGHT\\swish_sword_04.wav", "PEOPLE FIGHT\\swish_sword_05.wav", "PEOPLE FIGHT\\swish_sword_06.wav", "PEOPLE FIGHT\\swish_sword_07.wav", "PEOPLE FIGHT\\swish_sword_08.wav"]
 
 [N_attack_thrust2]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+name = ["PEOPLE FIGHT\\swish_sword_01.wav", "PEOPLE FIGHT\\swish_sword_02.wav", "PEOPLE FIGHT\\swish_sword_03.wav", "PEOPLE FIGHT\\swish_sword_04.wav", "PEOPLE FIGHT\\swish_sword_05.wav", "PEOPLE FIGHT\\swish_sword_06.wav", "PEOPLE FIGHT\\swish_sword_07.wav", "PEOPLE FIGHT\\swish_sword_08.wav"]
 
 [N_attack_slash1]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+name = ["PEOPLE FIGHT\\swish_sword_01.wav", "PEOPLE FIGHT\\swish_sword_02.wav", "PEOPLE FIGHT\\swish_sword_03.wav", "PEOPLE FIGHT\\swish_sword_04.wav", "PEOPLE FIGHT\\swish_sword_05.wav", "PEOPLE FIGHT\\swish_sword_06.wav", "PEOPLE FIGHT\\swish_sword_07.wav", "PEOPLE FIGHT\\swish_sword_08.wav"]
 
 [N_attack_slash2]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+name = ["PEOPLE FIGHT\\swish_sword_01.wav", "PEOPLE FIGHT\\swish_sword_02.wav", "PEOPLE FIGHT\\swish_sword_03.wav", "PEOPLE FIGHT\\swish_sword_04.wav", "PEOPLE FIGHT\\swish_sword_05.wav", "PEOPLE FIGHT\\swish_sword_06.wav", "PEOPLE FIGHT\\swish_sword_07.wav", "PEOPLE FIGHT\\swish_sword_08.wav"]
 
 [N_attack_round]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+name = ["PEOPLE FIGHT\\swish_sword_01.wav", "PEOPLE FIGHT\\swish_sword_02.wav", "PEOPLE FIGHT\\swish_sword_03.wav", "PEOPLE FIGHT\\swish_sword_04.wav", "PEOPLE FIGHT\\swish_sword_05.wav", "PEOPLE FIGHT\\swish_sword_06.wav", "PEOPLE FIGHT\\swish_sword_07.wav", "PEOPLE FIGHT\\swish_sword_08.wav"]
 
 [N_attack_break]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+name = ["PEOPLE FIGHT\\swish_sword_01.wav", "PEOPLE FIGHT\\swish_sword_02.wav", "PEOPLE FIGHT\\swish_sword_03.wav", "PEOPLE FIGHT\\swish_sword_04.wav", "PEOPLE FIGHT\\swish_sword_05.wav", "PEOPLE FIGHT\\swish_sword_06.wav", "PEOPLE FIGHT\\swish_sword_07.wav", "PEOPLE FIGHT\\swish_sword_08.wav"]
 
 [N_attack_parry]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+name = ["PEOPLE FIGHT\\swish_sword_01.wav", "PEOPLE FIGHT\\swish_sword_02.wav", "PEOPLE FIGHT\\swish_sword_03.wav", "PEOPLE FIGHT\\swish_sword_04.wav", "PEOPLE FIGHT\\swish_sword_05.wav", "PEOPLE FIGHT\\swish_sword_06.wav", "PEOPLE FIGHT\\swish_sword_07.wav", "PEOPLE FIGHT\\swish_sword_08.wav"]
 
 [N_attack_feint]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+name = ["PEOPLE FIGHT\\swish_sword_01.wav", "PEOPLE FIGHT\\swish_sword_02.wav", "PEOPLE FIGHT\\swish_sword_03.wav", "PEOPLE FIGHT\\swish_sword_04.wav", "PEOPLE FIGHT\\swish_sword_05.wav", "PEOPLE FIGHT\\swish_sword_06.wav", "PEOPLE FIGHT\\swish_sword_07.wav", "PEOPLE FIGHT\\swish_sword_08.wav"]
 
 [N_attack_feintc]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_03.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav", "PEOPLE", "FIGHT\\swish_sword_05.wav", "PEOPLE", "FIGHT\\swish_sword_06.wav", "PEOPLE", "FIGHT\\swish_sword_07.wav", "PEOPLE", "FIGHT\\swish_sword_08.wav"]
+name = ["PEOPLE FIGHT\\swish_sword_01.wav", "PEOPLE FIGHT\\swish_sword_02.wav", "PEOPLE FIGHT\\swish_sword_03.wav", "PEOPLE FIGHT\\swish_sword_04.wav", "PEOPLE FIGHT\\swish_sword_05.wav", "PEOPLE FIGHT\\swish_sword_06.wav", "PEOPLE FIGHT\\swish_sword_07.wav", "PEOPLE FIGHT\\swish_sword_08.wav"]
 
 [N_BlockBreak]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\Damage_NPC_01.wav", "PEOPLE", "FIGHT\\Damage_NPC_02.wav", "PEOPLE", "FIGHT\\Damage_NPC_03.wav", "PEOPLE", "FIGHT\\Damage_NPC_04.wav", "PEOPLE", "FIGHT\\Damage_NPC_05.wav"]
+name = ["PEOPLE FIGHT\\Damage_NPC_01.wav", "PEOPLE FIGHT\\Damage_NPC_02.wav", "PEOPLE FIGHT\\Damage_NPC_03.wav", "PEOPLE FIGHT\\Damage_NPC_04.wav", "PEOPLE FIGHT\\Damage_NPC_05.wav"]
 
 [N_manHit]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\damage_NPC_01.wav", "PEOPLE", "FIGHT\\damage_NPC_02.wav", "PEOPLE", "FIGHT\\damage_NPC_03.wav", "PEOPLE", "FIGHT\\damage_NPC_04.wav", "PEOPLE", "FIGHT\\damage_NPC_05.wav", "PEOPLE", "FIGHT\\damage_NPC_06.wav", "PEOPLE", "FIGHT\\damage_NPC_07.wav", "PEOPLE", "FIGHT\\damage_NPC_08.wav", "PEOPLE", "FIGHT\\damage_NPC_09.wav", "PEOPLE", "FIGHT\\damage_NPC_10.wav", "PEOPLE", "FIGHT\\damage_NPC_11.wav"]
+name = ["PEOPLE FIGHT\\damage_NPC_01.wav", "PEOPLE FIGHT\\damage_NPC_02.wav", "PEOPLE FIGHT\\damage_NPC_03.wav", "PEOPLE FIGHT\\damage_NPC_04.wav", "PEOPLE FIGHT\\damage_NPC_05.wav", "PEOPLE FIGHT\\damage_NPC_06.wav", "PEOPLE FIGHT\\damage_NPC_07.wav", "PEOPLE FIGHT\\damage_NPC_08.wav", "PEOPLE FIGHT\\damage_NPC_09.wav", "PEOPLE FIGHT\\damage_NPC_10.wav", "PEOPLE FIGHT\\damage_NPC_11.wav"]
 
 [S_manHit]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\skeleton_hit_01.wav", "PEOPLE", "FIGHT\\skeleton_hit_02.wav", "PEOPLE", "FIGHT\\skeleton_hit_01.wav", "PEOPLE", "FIGHT\\damage_NPC_10.wav", "PEOPLE", "FIGHT\\damage_NPC_11.wav", "PEOPLE", "FIGHT\\damage_NPC_10.wav", "PEOPLE", "FIGHT\\damage_NPC_11.wav"]
+name = ["PEOPLE FIGHT\\skeleton_hit_01.wav", "PEOPLE FIGHT\\skeleton_hit_02.wav", "PEOPLE FIGHT\\skeleton_hit_01.wav", "PEOPLE FIGHT\\damage_NPC_10.wav", "PEOPLE FIGHT\\damage_NPC_11.wav", "PEOPLE FIGHT\\damage_NPC_10.wav", "PEOPLE FIGHT\\damage_NPC_11.wav"]
 
 [N_parryhit]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav"]
+name = ["PEOPLE FIGHT\\swish_sword_01.wav", "PEOPLE FIGHT\\swish_sword_02.wav", "PEOPLE FIGHT\\swish_sword_04.wav"]
 
 [N_fight_death1]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\death_npc_01.wav", "PEOPLE", "FIGHT\\death_npc_05.wav"]
+name = ["PEOPLE FIGHT\\death_npc_01.wav", "PEOPLE FIGHT\\death_npc_05.wav"]
 
 [N_fight_death2]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\death_npc_02.wav", "PEOPLE", "FIGHT\\death_npc_06.wav"]
+name = ["PEOPLE FIGHT\\death_npc_02.wav", "PEOPLE FIGHT\\death_npc_06.wav"]
 
 [N_fight_death3]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\death_npc_03.wav", "PEOPLE", "FIGHT\\death_npc_07.wav"]
+name = ["PEOPLE FIGHT\\death_npc_03.wav", "PEOPLE FIGHT\\death_npc_07.wav"]
 
 [N_fight_death4]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\death_npc_04.wav", "PEOPLE", "FIGHT\\death_npc_08.wav"]
+name = ["PEOPLE FIGHT\\death_npc_04.wav", "PEOPLE FIGHT\\death_npc_08.wav"]
 
 [N_skeleton_death1]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\skeleton_death_01.wav"]
+name = "PEOPLE FIGHT\\skeleton_death_01.wav"
 
 [N_skeleton_death2]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\skeleton_death_02.wav"]
+name = "PEOPLE FIGHT\\skeleton_death_02.wav"
 
 [N_afraid]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\afraid_01.wav"]
+name = "PEOPLE FIGHT\\afraid_01.wav"
 
 [N_afraid_death1]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\afraid_death_01.wav"]
+name = "PEOPLE FIGHT\\afraid_death_01.wav"
 
 [N_afraid_death2]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\afraid_death_02.wav"]
+name = "PEOPLE FIGHT\\afraid_death_02.wav"
 
 [W_attack_thrust1]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\beatris_hits_01.wav", "PEOPLE", "FIGHT\\beatris_hits_02.wav"]
+name = ["PEOPLE FIGHT\\beatris_hits_01.wav", "PEOPLE FIGHT\\beatris_hits_02.wav"]
 
 [W_attack_thrust11]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\jessika_hits_04.wav"]
+name = "PEOPLE FIGHT\\jessika_hits_04.wav"
 
 [W_attack_thrust2]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\beatris_hits_03.wav"]
+name = "PEOPLE FIGHT\\beatris_hits_03.wav"
 
 [W_attack_thrust21]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\jessika_hits_04.wav"]
+name = "PEOPLE FIGHT\\jessika_hits_04.wav"
 
 [W_attack_slash1]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\beatris_hits_04.wav", "PEOPLE", "FIGHT\\beatris_hits_05.wav"]
+name = ["PEOPLE FIGHT\\beatris_hits_04.wav", "PEOPLE FIGHT\\beatris_hits_05.wav"]
 
 [W_attack_slash11]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\jessika_hits_06.wav"]
+name = "PEOPLE FIGHT\\jessika_hits_06.wav"
 
 [W_attack_slash2]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\beatris_hits_06.wav", "PEOPLE", "FIGHT\\beatris_hits_07.wav"]
+name = ["PEOPLE FIGHT\\beatris_hits_06.wav", "PEOPLE FIGHT\\beatris_hits_07.wav"]
 
 [W_attack_slash21]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\jessika_hits_01.wav"]
+name = "PEOPLE FIGHT\\jessika_hits_01.wav"
 
 [W_attack_round]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\beatris_hits_08.wav", "PEOPLE", "FIGHT\\beatris_hits_09.wav"]
+name = ["PEOPLE FIGHT\\beatris_hits_08.wav", "PEOPLE FIGHT\\beatris_hits_09.wav"]
 
 [W_attack_round_1]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\jessika_hits_03.wav"]
+name = "PEOPLE FIGHT\\jessika_hits_03.wav"
 
 [W_attack_break]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 1.05
-name = ["PEOPLE", "FIGHT\\beatris_hits_10.wav"]
+name = "PEOPLE FIGHT\\beatris_hits_10.wav"
 
 [W_attack_break_1]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 1.05
-name = ["PEOPLE", "FIGHT\\jessika_damage_01.wav"]
+name = "PEOPLE FIGHT\\jessika_damage_01.wav"
 
 [W_attack_parry]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\beatris_hits_03.wav"]
+name = "PEOPLE FIGHT\\beatris_hits_03.wav"
 
 [W_attack_parry_1]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\jessika_hits_05.wav"]
+name = "PEOPLE FIGHT\\jessika_hits_05.wav"
 
 [W_attack_feint]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\beatris_hits_10.wav"]
+name = "PEOPLE FIGHT\\beatris_hits_10.wav"
 
 [W_attack_feint_1]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\jessika_damage_01.wav"]
+name = "PEOPLE FIGHT\\jessika_damage_01.wav"
 
 [W_attack_feintc]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.85
-name = ["PEOPLE", "FIGHT\\beatris_hits_03.wav"]
+name = "PEOPLE FIGHT\\beatris_hits_03.wav"
 
 [W_attack_feintc_1]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.85
-name = ["PEOPLE", "FIGHT\\jessika_hits_02.wav"]
+name = "PEOPLE FIGHT\\jessika_hits_02.wav"
 
 [W_blockbreak]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\Damage_NPC_07.wav"]
+name = "PEOPLE FIGHT\\Damage_NPC_07.wav"
 
 [W_manhit]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\Beatris_damage_01.wav", "PEOPLE", "FIGHT\\Beatris_damage_02.wav", "PEOPLE", "FIGHT\\Beatris_damage_03.wav"]
+name = ["PEOPLE FIGHT\\Beatris_damage_01.wav", "PEOPLE FIGHT\\Beatris_damage_02.wav", "PEOPLE FIGHT\\Beatris_damage_03.wav"]
 
 [W_manhit_1]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\Jessika_damage_02.wav"]
+name = "PEOPLE FIGHT\\Jessika_damage_02.wav"
 
 [W_parryhit]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\swish_sword_01.wav", "PEOPLE", "FIGHT\\swish_sword_02.wav", "PEOPLE", "FIGHT\\swish_sword_04.wav"]
+name = ["PEOPLE FIGHT\\swish_sword_01.wav", "PEOPLE FIGHT\\swish_sword_02.wav", "PEOPLE FIGHT\\swish_sword_04.wav"]
 
 [W_fight_death1]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\body_fall_01.wav"]
+name = "PEOPLE FIGHT\\body_fall_01.wav"
 
 [W_fight_death2]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\body_fall_02.wav"]
+name = "PEOPLE FIGHT\\body_fall_02.wav"
 
 [W_fight_death3]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\body_fall_03.wav"]
+name = "PEOPLE FIGHT\\body_fall_03.wav"
 
 [W_fight_death4]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\body_fall_04.wav"]
+name = "PEOPLE FIGHT\\body_fall_04.wav"
 
 [w_recoil]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\Beatris_bounce_01.wav"]
+name = "PEOPLE FIGHT\\Beatris_bounce_01.wav"
 
 [w_recoil_1]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\jessika_hits_01.wav"]
+name = "PEOPLE FIGHT\\jessika_hits_01.wav"
 
 [citizen_death1]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\citiz_death_01.wav"]
+name = "PEOPLE FIGHT\\citiz_death_01.wav"
 
 [citizen_death2]
 mindistance = 4.0
 maxdistance = 17.0
 volume = 0.7
-name = ["PEOPLE", "FIGHT\\citiz_death_02.wav"]
+name = "PEOPLE FIGHT\\citiz_death_02.wav"
 
 [hitnofight]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\Damage_NPC_04.wav"]
+name = "PEOPLE FIGHT\\Damage_NPC_04.wav"
 
 [w_death1]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\peace_woman_death_01.wav"]
+name = "PEOPLE FIGHT\\peace_woman_death_01.wav"
 
 [w_death2]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\Peace_woman_death_02.WAV"]
+name = "PEOPLE FIGHT\\Peace_woman_death_02.WAV"
 
 [w_death3]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\peace_woman_death_03.wav"]
+name = "PEOPLE FIGHT\\peace_woman_death_03.wav"
 
 [w_death4]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\peace_woman_death_04.wav"]
+name = "PEOPLE FIGHT\\peace_woman_death_04.wav"
 
 [w_death5]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\peace_woman_death_05.wav"]
+name = "PEOPLE FIGHT\\peace_woman_death_05.wav"
 
 [w_death6]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\peace_woman_death_06.wav"]
+name = "PEOPLE FIGHT\\peace_woman_death_06.wav"
 
 [w_death7]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\peace_woman_death_07.wav"]
+name = "PEOPLE FIGHT\\peace_woman_death_07.wav"
 
 [w_death8]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\peace_woman_death_08.wav"]
+name = "PEOPLE FIGHT\\peace_woman_death_08.wav"
 
 [w_death9]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\peace_woman_death_09.wav"]
+name = "PEOPLE FIGHT\\peace_woman_death_09.wav"
 
 [w_hit]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\beatris_damage_01.wav"]
+name = "PEOPLE FIGHT\\beatris_damage_01.wav"
 
 [w_deathAfraid1]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\afraid_death_woman_01.wav"]
+name = "PEOPLE FIGHT\\afraid_death_woman_01.wav"
 
 [w_deathAfraid2]
 mindistance = 4.0
 maxdistance = 17.0
-name = ["PEOPLE", "FIGHT\\afraid_death_woman_01.wav"]
+name = "PEOPLE FIGHT\\afraid_death_woman_01.wav"
 
 [misc_cough]
 volume = 0.7
@@ -1097,7 +1097,7 @@ name = "PEOPLE\\shake_sleeve_01.wav"
 
 [abordage]
 volume = 1.5
-name = ["people", "fight\\boarding_people_01.wav", "people", "fight\\boarding_people_02.wav"]
+name = ["people fight\\boarding_people_01.wav", "people fight\\boarding_people_02.wav"]
 
 [barmen_clean]
 mindistance = 2.0
@@ -1119,183 +1119,183 @@ name = "PEOPLE\\fly_catcher_01.wav"
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["Sea", "Battles\\udar_metal_003.wav", "Sea", "Battles\\udar_metal_003.wav", "Sea", "Battles\\udar_metal_002.wav"]
+name = ["Sea Battles\\udar_metal_003.wav", "Sea Battles\\udar_metal_003.wav", "Sea Battles\\udar_metal_002.wav"]
 
 [cannon_fire]
 prior = 120
 mindistance = 15.0
 maxdistance = 300.0
 volume = 1.0
-name = ["SEA", "BATTLES\\cannon_fire_01.wav", "SEA", "BATTLES\\cannon_fire_02.wav", "SEA", "BATTLES\\cannon_fire_03.wav"]
+name = ["SEA BATTLES\\cannon_fire_01.wav", "SEA BATTLES\\cannon_fire_02.wav", "SEA BATTLES\\cannon_fire_03.wav"]
 
 [fort_cannon_fire]
 prior = 120
 mindistance = 300.0
 maxdistance = 600.0
 volume = 1.0
-name = ["SEA", "BATTLES\\fort_cannon_01.wav", "SEA", "BATTLES\\fort_cannon_02.wav", "SEA", "BATTLES\\fort_cannon_03.wav"]
+name = ["SEA BATTLES\\fort_cannon_01.wav", "SEA BATTLES\\fort_cannon_02.wav", "SEA BATTLES\\fort_cannon_03.wav"]
 
 [cannon_fire_cannon_3]
 prior = 120
 mindistance = 15.0
 maxdistance = 300.0
 volume = 1.0
-name = ["SEA", "BATTLES\\cannon_fire_05.wav"]
+name = "SEA BATTLES\\cannon_fire_05.wav"
 
 [cannon_fire_cannon_6]
 prior = 120
 mindistance = 15.0
 maxdistance = 300.0
 volume = 1.0
-name = ["SEA", "BATTLES\\cannon_fire_01.wav"]
+name = "SEA BATTLES\\cannon_fire_01.wav"
 
 [cannon_fire_cannon_12]
 prior = 120
 mindistance = 15.0
 maxdistance = 300.0
 volume = 1.0
-name = ["SEA", "BATTLES\\cannon_fire_02.wav"]
+name = "SEA BATTLES\\cannon_fire_02.wav"
 
 [cannon_fire_cannon_16]
 prior = 120
 mindistance = 15.0
 maxdistance = 300.0
 volume = 1.0
-name = ["SEA", "BATTLES\\cannon_fire_03.wav"]
+name = "SEA BATTLES\\cannon_fire_03.wav"
 
 [cannon_fire_cannon_20]
 prior = 120
 mindistance = 300.0
 maxdistance = 600.0
 volume = 1.0
-name = ["SEA", "BATTLES\\cannon_fire_07.wav"]
+name = "SEA BATTLES\\cannon_fire_07.wav"
 
 [cannon_fire_cannon_24]
 prior = 120
 mindistance = 300.0
 maxdistance = 600.0
 volume = 1.0
-name = ["SEA", "BATTLES\\cannon_fire_11.wav"]
+name = "SEA BATTLES\\cannon_fire_11.wav"
 
 [cannon_fire_cannon_32]
 prior = 120
 mindistance = 300.0
 maxdistance = 600.0
 volume = 1.0
-name = ["SEA", "BATTLES\\fort_cannon_02.wav"]
+name = "SEA BATTLES\\fort_cannon_02.wav"
 
 [cannon_fire_cannon_36]
 prior = 120
 mindistance = 300.0
 maxdistance = 600.0
 volume = 1.0
-name = ["SEA", "BATTLES\\fort_cannon_03.wav"]
+name = "SEA BATTLES\\fort_cannon_03.wav"
 
 [cannon_fire_cannon_42]
 prior = 120
 mindistance = 300.0
 maxdistance = 600.0
 volume = 1.0
-name = ["SEA", "BATTLES\\cannon_fire_10.wav"]
+name = "SEA BATTLES\\cannon_fire_10.wav"
 
 [cannon_fire_cannon_48]
 prior = 120
 mindistance = 300.0
 maxdistance = 600.0
 volume = 1.0
-name = ["SEA", "BATTLES\\cannon_fire_09.wav"]
+name = "SEA BATTLES\\cannon_fire_09.wav"
 
 [cannon_fire_culverine_8]
 prior = 120
 mindistance = 15.0
 maxdistance = 300.0
 volume = 1.0
-name = ["SEA", "BATTLES\\cannon_fire_06.wav"]
+name = "SEA BATTLES\\cannon_fire_06.wav"
 
 [cannon_fire_culverine_18]
 prior = 120
 mindistance = 15.0
 maxdistance = 300.0
 volume = 1.0
-name = ["SEA", "BATTLES\\cannon_fire_08.wav"]
+name = "SEA BATTLES\\cannon_fire_08.wav"
 
 [cannon_fire_culverine_36]
 prior = 120
 mindistance = 300.0
 maxdistance = 600.0
 volume = 1.0
-name = ["SEA", "BATTLES\\fort_cannon_01.wav"]
+name = "SEA BATTLES\\fort_cannon_01.wav"
 
 [ball_splash]
 prior = 200
 mindistance = 2.0
 maxdistance = 30.0
 volume = 0.55
-name = ["SEA", "BATTLES_01\\splash_01.wav", "SEA", "BATTLES_01\\splash_02.wav", "SEA", "BATTLES_01\\splash_03.wav"]
+name = ["SEA BATTLES_01\\splash_01.wav", "SEA BATTLES_01\\splash_02.wav", "SEA BATTLES_01\\splash_03.wav"]
 
 [ball2bort]
 prior = 200
 volume = 0.55
 mindistance = 20.0
 maxdistance = 100.0
-name = ["SEA", "BATTLES_01\\balls_board_01.wav", "SEA", "BATTLES_01\\balls_board_02.wav", "SEA", "BATTLES_01\\balls_board_03.wav", "SEA", "BATTLES_01\\balls_board_04.wav", "SEA", "BATTLES_01\\balls_board_05.wav", "SEA", "BATTLES_01\\balls_board_06.wav"]
+name = ["SEA BATTLES_01\\balls_board_01.wav", "SEA BATTLES_01\\balls_board_02.wav", "SEA BATTLES_01\\balls_board_03.wav", "SEA BATTLES_01\\balls_board_04.wav", "SEA BATTLES_01\\balls_board_05.wav", "SEA BATTLES_01\\balls_board_06.wav"]
 
 [bomb2bort]
 prior = 200
 volume = 0.55
 mindistance = 20.0
 maxdistance = 100.0
-name = ["SEA", "BATTLES_01\\bomb_explosion_01.wav", "SEA", "BATTLES_01\\bomb_explosion_02.wav", "SEA", "BATTLES_01\\bomb_explosion_03.wav", "SEA", "BATTLES_01\\bomb_explosion_04.wav", "SEA", "BATTLES_01\\bomb_explosion_05.wav", "SEA", "BATTLES_01\\bomb_explosion_06.wav"]
+name = ["SEA BATTLES_01\\bomb_explosion_01.wav", "SEA BATTLES_01\\bomb_explosion_02.wav", "SEA BATTLES_01\\bomb_explosion_03.wav", "SEA BATTLES_01\\bomb_explosion_04.wav", "SEA BATTLES_01\\bomb_explosion_05.wav", "SEA BATTLES_01\\bomb_explosion_06.wav"]
 
 [grapes2bort]
 prior = 200
 volume = 0.55
 mindistance = 20.0
 maxdistance = 100.0
-name = ["Sea", "Battles_01\\shrapnel_damage_01.wav", "Sea", "Battles_01\\shrapnel_damage_02.wav", "Sea", "Battles_01\\shrapnel_damage_03.wav", "Sea", "Battles_01\\shrapnel_damage_04.wav", "Sea", "Battles_01\\shrapnel_damage_05.wav", "Sea", "Battles_01\\shrapnel_damage_06.wav"]
+name = ["Sea Battles_01\\shrapnel_damage_01.wav", "Sea Battles_01\\shrapnel_damage_02.wav", "Sea Battles_01\\shrapnel_damage_03.wav", "Sea Battles_01\\shrapnel_damage_04.wav", "Sea Battles_01\\shrapnel_damage_05.wav", "Sea Battles_01\\shrapnel_damage_06.wav"]
 
 [ball2sail]
 prior = 200
 mindistance = 20.0
 maxdistance = 100.0
-name = ["Sea", "Battles_01\\sail_hit_small_01.wav", "SEA", "BATTLES_01\\sail_hit_small_02.wav", "SEA", "BATTLES_01\\sail_hit_small_03.wav"]
+name = ["Sea Battles_01\\sail_hit_small_01.wav", "SEA BATTLES_01\\sail_hit_small_02.wav", "SEA BATTLES_01\\sail_hit_small_03.wav"]
 
 [knippel2sail]
 prior = 200
 mindistance = 20.0
 maxdistance = 100.0
-name = ["SEA", "BATTLES_01\\sail_hit_small_01.wav", "SEA", "BATTLES_01\\sail_hit_small_02.wav", "SEA", "BATTLES_01\\sail_hit_small_03.wav"]
+name = ["SEA BATTLES_01\\sail_hit_small_01.wav", "SEA BATTLES_01\\sail_hit_small_02.wav", "SEA BATTLES_01\\sail_hit_small_03.wav"]
 
 [grapes2sail]
 prior = 200
 mindistance = 20.0
 maxdistance = 100.0
-name = ["SEA", "BATTLES_01\\sail_hit_small_01.wav", "SEA", "BATTLES_01\\sail_hit_small_02.wav", "SEA", "BATTLES_01\\sail_hit_small_03.wav"]
+name = ["SEA BATTLES_01\\sail_hit_small_01.wav", "SEA BATTLES_01\\sail_hit_small_02.wav", "SEA BATTLES_01\\sail_hit_small_03.wav"]
 
 [episode_boom]
 prior = 255
 mindistance = 20.0
 maxdistance = 100.0
-name = ["SEA", "BATTLES\\sdavl_kriki_001.wav", "SEA", "BATTLES\\sdavl_kriki_002.wav", "SEA", "BATTLES\\sdavl_kriki_003.wav", "SEA", "BATTLES\\sdavl_kriki_004.wav", "SEA", "BATTLES\\sdavl_kriki_005.wav"]
+name = ["SEA BATTLES\\sdavl_kriki_001.wav", "SEA BATTLES\\sdavl_kriki_002.wav", "SEA BATTLES\\sdavl_kriki_003.wav", "SEA BATTLES\\sdavl_kriki_004.wav", "SEA BATTLES\\sdavl_kriki_005.wav"]
 
 [fly_ball]
 prior = 230
 mindistance = 2.0
 maxdistance = 30.0
 volume = 0.9
-name = ["SEA", "BATTLES_01\\swish_balls_01.wav", "SEA", "BATTLES_01\\swish_balls_02.wav", "SEA", "BATTLES_01\\swish_balls_03.wav", "SEA", "BATTLES_01\\swish_balls_04.wav", "SEA", "BATTLES_01\\swish_balls_05.wav", "SEA", "BATTLES_01\\swish_balls_06.wav"]
+name = ["SEA BATTLES_01\\swish_balls_01.wav", "SEA BATTLES_01\\swish_balls_02.wav", "SEA BATTLES_01\\swish_balls_03.wav", "SEA BATTLES_01\\swish_balls_04.wav", "SEA BATTLES_01\\swish_balls_05.wav", "SEA BATTLES_01\\swish_balls_06.wav"]
 
 [fly_ball_misc]
 prior = 230
 mindistance = 2.0
 maxdistance = 30.0
 volume = 0.9
-name = ["SEA", "BATTLES_01\\swish_balls_01.wav", "SEA", "BATTLES_01\\swish_balls_02.wav", "SEA", "BATTLES_01\\swish_balls_03.wav", "SEA", "BATTLES_01\\swish_balls_04.wav", "SEA", "BATTLES_01\\swish_balls_05.wav", "SEA", "BATTLES_01\\swish_balls_06.wav"]
+name = ["SEA BATTLES_01\\swish_balls_01.wav", "SEA BATTLES_01\\swish_balls_02.wav", "SEA BATTLES_01\\swish_balls_03.wav", "SEA BATTLES_01\\swish_balls_04.wav", "SEA BATTLES_01\\swish_balls_05.wav", "SEA BATTLES_01\\swish_balls_06.wav"]
 
 [mast_fall]
 mindistance = 50.0
 maxdistance = 250.0
-name = ["SEA", "BATTLES\\mast_fall_01.wav"]
+name = "SEA BATTLES\\mast_fall_01.wav"
 
 [coll_ship2rock]
 mindistance = 30.0
@@ -1311,14 +1311,14 @@ name = "SHIP\\ship_hit_ship_01.wav"
 mindistance = 30.0
 maxdistance = 350.0
 prior = 255
-name = ["SEA", "BATTLES_01\\cannon_explosion_01.wav", "SEA", "BATTLES_01\\cannon_explosion_02.wav"]
+name = ["SEA BATTLES_01\\cannon_explosion_01.wav", "SEA BATTLES_01\\cannon_explosion_02.wav"]
 
 [cannon_explosion]
 mindistance = 30.0
 maxdistance = 350.0
 prior = 255
 volume = 0.6
-name = ["SEA", "BATTLES_01\\cannon_explosion_01.wav", "SEA", "BATTLES_01\\cannon_explosion_02.wav"]
+name = ["SEA BATTLES_01\\cannon_explosion_01.wav", "SEA BATTLES_01\\cannon_explosion_02.wav"]
 
 [ship_aground]
 mindistance = 11.0
@@ -1330,20 +1330,20 @@ name = ["SHIP\\korabl_v_skalu_001.wav", "SHIP\\korabl_v_skalu_002.wav", "SHIP\\k
 mindistance = 50.0
 maxdistance = 100.0
 volume = 0.3
-name = ["SEA", "BATTLES_01\\ship_burn_01.wav"]
+name = "SEA BATTLES_01\\ship_burn_01.wav"
 
 [ship_explosion]
 prior = 128
 mindistance = 20.0
 maxdistance = 250.0
 volume = 0.5
-name = ["SEA", "BATTLES\\vzriv_pogreb_001.wav", "SEA", "BATTLES\\vzriv_pogreb_002.wav", "SEA", "BATTLES\\vzriv_pogreb_003.wav"]
+name = ["SEA BATTLES\\vzriv_pogreb_001.wav", "SEA BATTLES\\vzriv_pogreb_002.wav", "SEA BATTLES\\vzriv_pogreb_003.wav"]
 
 [ship_sink]
 mindistance = 20.0
 maxdistance = 350.0
 volume = 0.65
-name = ["SEA", "BATTLES\\korabl_tonet_001.wav", "SEA", "BATTLES\\korabl_tonet_002.wav", "SEA", "BATTLES\\korabl_tonet_003.wav"]
+name = ["SEA BATTLES\\korabl_tonet_001.wav", "SEA BATTLES\\korabl_tonet_002.wav", "SEA BATTLES\\korabl_tonet_003.wav"]
 
 [bortreloaded_cannonl]
 mindistance = 20.0
@@ -1396,14 +1396,14 @@ name = "WEATHER\\koster_001.wav"
 mindistance = 1.5
 maxdistance = 15.5
 volume = 0.7
-name = ["SEA", "BATTLES\\korabl_gorit_001.wav", "SEA", "BATTLES\\korabl_gorit_002.wav", "SEA", "BATTLES\\korabl_gorit_003.wav"]
+name = ["SEA BATTLES\\korabl_gorit_001.wav", "SEA BATTLES\\korabl_gorit_002.wav", "SEA BATTLES\\korabl_gorit_003.wav"]
 
 [Explode]
 prior = 128
 mindistance = 10.0
 maxdistance = 100.0
 volume = 1.0
-name = ["SEA", "BATTLES\\vzriv_pogreb_002.wav"]
+name = "SEA BATTLES\\vzriv_pogreb_002.wav"
 
 [Boom]
 prior = 128
@@ -1417,14 +1417,14 @@ prior = 128
 mindistance = 10.0
 maxdistance = 100.0
 volume = 10.0
-name = ["SEA", "BATTLES\\cannon_fire_07.wav"]
+name = "SEA BATTLES\\cannon_fire_07.wav"
 
 [cannon_fire_2]
 prior = 128
 mindistance = 10.0
 maxdistance = 100.0
 volume = 10.0
-name = ["SEA", "BATTLES\\Fort_cannon_01.wav"]
+name = "SEA BATTLES\\Fort_cannon_01.wav"
 
 [Big_ring]
 prior = 128
@@ -1449,10 +1449,10 @@ name = ["AMBIENT\\TAVERN\\monetki_taverna_001.wav", "AMBIENT\\TAVERN\\monetki_ta
 name = ["AMBIENT\\SHOP\\noise1.wav", "AMBIENT\\SHOP\\noise2.wav", "AMBIENT\\SHOP\\noise3.wav", "AMBIENT\\SHOP\\noise4.wav"]
 
 [zalp]
-name = ["Sea", "Battles\\mushketn_zalp_001.wav", "Sea", "Battles\\mushketn_zalp_002.wav", "Sea", "Battles\\mushketn_zalp_003.wav"]
+name = ["Sea Battles\\mushketn_zalp_001.wav", "Sea Battles\\mushketn_zalp_002.wav", "Sea Battles\\mushketn_zalp_003.wav"]
 
 [svist_shrapneli]
-name = ["Sea", "Battles\\svist_shrapneli_001.wav", "Sea", "Battles\\svist_shrapneli_002.wav", "Sea", "Battles\\svist_shrapneli_003.wav"]
+name = ["Sea Battles\\svist_shrapneli_001.wav", "Sea Battles\\svist_shrapneli_002.wav", "Sea Battles\\svist_shrapneli_003.wav"]
 
 [sigh]
 mindistance = 0.5
@@ -1547,22 +1547,22 @@ name = "Music\\Underwater.mp3"
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\crab_fast1.wav", "PEOPLE", "FIGHT\\crab_fast2.wav", "PEOPLE", "FIGHT\\crab_fast3.wav", "PEOPLE", "FIGHT\\crab_fast1.wav"]
+name = ["PEOPLE FIGHT\\crab_fast1.wav", "PEOPLE FIGHT\\crab_fast2.wav", "PEOPLE FIGHT\\crab_fast3.wav", "PEOPLE FIGHT\\crab_fast1.wav"]
 
 [attack_crab_mid]
 mindistance = 4.0
 maxdistance = 37.0
 volume = 0.99
-name = ["PEOPLE", "FIGHT\\crab_mid1.wav"]
+name = "PEOPLE FIGHT\\crab_mid1.wav"
 
 [pellet]
 mindistance = 5.4
 maxdistance = 200.0
 volume = 2.0
-name = ["Sea", "Battles_01\\Bomb_Explosion_03.wav"]
+name = "Sea Battles_01\\Bomb_Explosion_03.wav"
 
 [grenade]
 mindistance = 5.4
 maxdistance = 200.0
 volume = 2.0
-name = ["Sea", "Battles\\popadan_bomb_002.wav"]
+name = "Sea Battles\\popadan_bomb_002.wav"

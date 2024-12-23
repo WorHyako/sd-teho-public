@@ -1,31 +1,31 @@
 [seagulls]
-radius = 150
-"add count" = 15
-"angle speed" = 45.0
+radius_ = 150
+add_count = 15
+angle_speed = 45.0
 distance = 300
-height = 20
-"circle time" = 1000
-"far choice" = 3
-"relax time" = 10000
-"scream time" = 60000
-"scream file" = "seagull"
+height_ = 20
+circle_time = 1000
+far_choice = 3
+relax_time = 10000
+scream_time = 60000
+scream_file = "seagull"
 
 [sharks]
-count = 10
-radius = 200
-"angle speed" = 10.0
+count_ = 10
+radius_ = 200
+angle_speed = 10.0
 distance = 800
-"circle time" = 1000
-"far choice" = 2
+circle_time = 1000
+far_choice = 2
 
 ["fish schools"]
-count = 30
-radius = 100
-"angle speed" = 10.0
+count_ = 30
+radius_ = 100
+angle_speed = 10.0
 distance = 800
-"circle time" = 1000
-"far choice" = 2
+circle_time = 1000
+far_choice = 2
 
 [butterflies]
-count = 30
-radius = 250
+count_ = 30
+radius_ = 250

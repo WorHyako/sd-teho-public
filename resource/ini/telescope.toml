@@ -1,34 +1,34 @@
 [Type0]
-texture = "telescope.tga"
-zoom = 5.5
+texture_ = "telescope.tga"
+zoom__ = 5.5
 showitems = 7
 activatetime = 500
 updatetime = 150
 
 [Type1]
-texture = "eye_BadTub.tga"
-zoom = 4.0
+texture_ = "eye_BadTub.tga"
+zoom__ = 4.0
 showitems = 3
 activatetime = 1000
 updatetime = 200
 
 [Type2]
-texture = "eye_CommonTub.tga"
-zoom = 4.6
+texture_ = "eye_CommonTub.tga"
+zoom__ = 4.6
 showitems = 5
 activatetime = 900
 updatetime = 200
 
 [Type3]
-texture = "eye_GoodTub.tga"
-zoom = 4.75
+texture_ = "eye_GoodTub.tga"
+zoom__ = 4.75
 showitems = 6
 activatetime = 800
 updatetime = 200
 
 [Type4]
-texture = "eye_BestTub.tga"
-zoom = 5.0
+texture_ = "eye_BestTub.tga"
+zoom__ = 5.0
 showitems = 7
 activatetime = 600
 updatetime = 150

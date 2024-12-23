@@ -1,41 +1,41 @@
 [MAIN]
-item = ["PICTURE", "MAIN_BACK", "TITLE", "TITLE", "FRAME", "FRAME_FILTERS", "FRAME", "FRAME_SERVERINFO", "FRAME", "FRAME_SERVERINFO_MAP", "90", "IMAGECOLLECTION", "INFO_BORDER", "400", "STRINGCOLLECTION", "STRINGS_INFO", "400", "STRINGCOLLECTION", "STRINGS_SERVERTYPES", "400", "STRINGCOLLECTION", "STRINGS_PROFILE", "399", "PICTURE", "TAB_LOCAL", "399", "PICTURE", "TAB_INET", "200", "TEXTBUTTON2", "BTN_CREATEGAME", "200", "TEXTBUTTON2", "BTN_JOINGAME", "200", "TEXTBUTTON2", "BTN_CANCEL", "200", "TEXTBUTTON2", "BTN_REFRESH", "200", "TEXTBUTTON2", "BTN_PLAYERSETTINGS", "86", "TABLE", "TABLE_LANSERVER", "87", "SCROLLER", "SCROLL_LANSERVER", "86", "TABLE", "TABLE_INETSERVER", "87", "SCROLLER", "SCROLL_INETSERVER", "86", "TABLE", "TABLE_FAVSERVER", "87", "SCROLLER", "SCROLL_FAVSERVER", "200", "PICTURE", "SERVER_MAP_PICTURE", "200", "STRINGCOLLECTION", "STRINGS_CAPSERVERINFO", "200", "STRINGCOLLECTION", "STRINGS_SERVERINFO", "200", "FORMATEDTEXT", "SERVERINFO_NAME", "300", "CHECKBUTTON", "CHECKBUTTONS_FAV_ACTIVE", "300", "CHECKBUTTON", "CHECKBUTTONS_WO_PASSWORD", "300", "CHECKBUTTON", "CHECKBUTTONS_FREE_SERVERS", "300", "FORMATEDTEXT", "CAPTION_GAMETYPE", "300", "CHECKBUTTON", "CHECKBUTTONS_GAMETYPES", "401", "STRINGCOLLECTION", "STRINGS_FILTERS_VALUE", "400", "SCROLLBAR", "SBAR_CREDIT", "400", "SCROLLBAR", "SBAR_PING", "400", "SCROLLBAR", "SBAR_MAXSHIPCLASS", "400", "FORMATEDTEXT", "CAPTION_MAPLIST", "400", "TABLE", "TABLE_MAPLIST", "400", "SCROLLER", "SCROLL_MAPLIST", "500", "RECTANGLE", "RECTANGLE_ADDFAVORITE", "501", "FRAME", "FRAME_ADDFAVORITE", "502", "IMAGECOLLECTION", "INFO_ADDFAVBORDER", "503", "STRINGCOLLECTION", "STRINGS_ADDFAV", "503", "PCEDITBOX", "EDITBOX_SERVERIP", "503", "TEXTBUTTON2", "BTN_ADDFAV_OK", "503", "TEXTBUTTON2", "BTN_ADDFAV_DELETE", "503", "TEXTBUTTON2", "BTN_ADDFAV_CANCEL", "500", "RECTANGLE", "RECTANGLE_NEEDPASSWORD", "501", "FRAME", "FRAME_NEEDPASSWORD", "502", "IMAGECOLLECTION", "BORDER_NEEDPASSWORD", "502", "FORMATEDTEXT", "TEXT_NEEDPASSWORD", "503", "STRINGCOLLECTION", "STRINGS_NEEDPASSWORD", "503", "PCEDITBOX", "EDITBOX_NEEDPASSWORD", "503", "TEXTBUTTON2", "BTN_NEEDPASSWORD_OK", "503", "TEXTBUTTON2", "BTN_NEEDPASSWORD_CANCEL", "500", "RECTANGLE", "RECTANGLE_REJECTED", "501", "FRAME", "FRAME_REJECTED", "502", "IMAGECOLLECTION", "BORDER_REJECTED", "502", "FORMATEDTEXT", "TEXT_REJECTED", "503", "STRINGCOLLECTION", "STRINGS_REJECTED", "503", "TEXTBUTTON2", "BTN_REJECTED_OK", "500", "RECTANGLE", "RECTANGLE_CONNECT", "501", "FRAME", "FRAME_CONNECT", "502", "IMAGECOLLECTION", "SEPARATOR_CONNECT", "502", "IMAGECOLLECTION", "BORDER_CONNECT", "503", "STRINGCOLLECTION", "STRINGS_CONNECT", "503", "PCEDITBOX", "EDITBOX_CONNECT_IP", "503", "PCEDITBOX", "EDITBOX_CONNECT_SERVER_PASSWORD", "503", "PCEDITBOX", "EDITBOX_CONNECT_NICK", "503", "PCEDITBOX", "EDITBOX_CONNECT_PASSWORD", "503", "TEXTBUTTON2", "BTN_CONNECT_OK", "503", "TEXTBUTTON2", "BTN_CONNECT_CANCEL", "500", "RECTANGLE", "RECTANGLE_TRYCONNECT", "501", "FRAME", "FRAME_TRYCONNECT", "502", "IMAGECOLLECTION", "BORDER_TRYCONNECT", "502", "FORMATEDTEXT", "TEXT_TRYCONNECT", "502", "FORMATEDTEXT", "TEXT_TRYCONNECT_TIMER", "503", "STRINGCOLLECTION", "STRINGS_TRYCONNECT", "503", "TEXTBUTTON2", "BTN_TRYCONNECT_CANCEL", "500", "RECTANGLE", "RECTANGLE_ACCOUNTS", "501", "FRAME", "FRAME_ACCOUNTS", "502", "IMAGECOLLECTION", "BORDER_ACCOUNTS", "503", "STRINGCOLLECTION", "STRINGS_ACCOUNTS", "503", "PCEDITBOX", "EDITBOX_ACCOUNTS_NAME", "503", "PCEDITBOX", "EDITBOX_ACCOUNTS_EMAIL", "503", "PCEDITBOX", "EDITBOX_ACCOUNTS_NUMBER", "503", "PCEDITBOX", "EDITBOX_ACCOUNTS_PASSWORD", "503", "CHECKBUTTON", "CHECKBUTTONS_ACCOUNTS", "503", "TEXTBUTTON2", "BTN_ACCOUNTS_CONNECT", "503", "TEXTBUTTON2", "BTN_ACCOUNTS_CANCEL", "600", "RECTANGLE", "RECTANGLE_INETSERVERLOADING", "601", "FRAME", "FRAME_INETSERVERLOADING", "602", "IMAGECOLLECTION", "BORDER_INETSERVERLOADING", "602", "STRINGCOLLECTION", "STRINGS_INETSERVERLOADING_STATUS", "602", "STRINGCOLLECTION", "STRINGS_INETSERVERLOADING_QUANTITY", "602", "TEXTBUTTON2", "BTN_INETSERVERLOADING_CANCEL", "600", "RECTANGLE", "RECTANGLE_YESNO", "601", "FRAME", "FRAME_YESNO", "602", "IMAGECOLLECTION", "BORDER_YESNO", "602", "STRINGCOLLECTION", "STRINGS_YESNO_STATUS", "602", "TEXTBUTTON2", "BTN_YESNO_YES", "602", "TEXTBUTTON2", "BTN_YESNO_NO", "WINDOW", "WND_NETFINDGAME", "WINDOW", "WND_LANSERVER", "WINDOW", "WND_INETSERVER", "WINDOW", "WND_FAVSERVER", "WINDOW", "WND_ADDFAVORITES", "WINDOW", "WND_NEEDPASSWORD", "WINDOW", "WND_REJECTED", "WINDOW", "WND_CONNECT", "WINDOW", "WND_TRYCONNECT", "WINDOW", "WND_ACCOUNTS", "WINDOW", "WND_INETSERVERSLOADING", "WINDOW", "WND_YESNO"]
+item = [["PICTURE", "MAIN_BACK"], ["TITLE", "TITLE"], ["FRAME", "FRAME_FILTERS"], ["FRAME", "FRAME_SERVERINFO"], ["FRAME", "FRAME_SERVERINFO_MAP"], ["90", "IMAGECOLLECTION", "INFO_BORDER"], ["400", "STRINGCOLLECTION", "STRINGS_INFO"], ["400", "STRINGCOLLECTION", "STRINGS_SERVERTYPES"], ["400", "STRINGCOLLECTION", "STRINGS_PROFILE"], ["399", "PICTURE", "TAB_LOCAL"], ["399", "PICTURE", "TAB_INET"], ["200", "TEXTBUTTON2", "BTN_CREATEGAME"], ["200", "TEXTBUTTON2", "BTN_JOINGAME"], ["200", "TEXTBUTTON2", "BTN_CANCEL"], ["200", "TEXTBUTTON2", "BTN_REFRESH"], ["200", "TEXTBUTTON2", "BTN_PLAYERSETTINGS"], ["86", "TABLE", "TABLE_LANSERVER"], ["87", "SCROLLER", "SCROLL_LANSERVER"], ["86", "TABLE", "TABLE_INETSERVER"], ["87", "SCROLLER", "SCROLL_INETSERVER"], ["86", "TABLE", "TABLE_FAVSERVER"], ["87", "SCROLLER", "SCROLL_FAVSERVER"], ["200", "PICTURE", "SERVER_MAP_PICTURE"], ["200", "STRINGCOLLECTION", "STRINGS_CAPSERVERINFO"], ["200", "STRINGCOLLECTION", "STRINGS_SERVERINFO"], ["200", "FORMATEDTEXT", "SERVERINFO_NAME"], ["300", "CHECKBUTTON", "CHECKBUTTONS_FAV_ACTIVE"], ["300", "CHECKBUTTON", "CHECKBUTTONS_WO_PASSWORD"], ["300", "CHECKBUTTON", "CHECKBUTTONS_FREE_SERVERS"], ["300", "FORMATEDTEXT", "CAPTION_GAMETYPE"], ["300", "CHECKBUTTON", "CHECKBUTTONS_GAMETYPES"], ["401", "STRINGCOLLECTION", "STRINGS_FILTERS_VALUE"], ["400", "SCROLLBAR", "SBAR_CREDIT"], ["400", "SCROLLBAR", "SBAR_PING"], ["400", "SCROLLBAR", "SBAR_MAXSHIPCLASS"], ["400", "FORMATEDTEXT", "CAPTION_MAPLIST"], ["400", "TABLE", "TABLE_MAPLIST"], ["400", "SCROLLER", "SCROLL_MAPLIST"], ["500", "RECTANGLE", "RECTANGLE_ADDFAVORITE"], ["501", "FRAME", "FRAME_ADDFAVORITE"], ["502", "IMAGECOLLECTION", "INFO_ADDFAVBORDER"], ["503", "STRINGCOLLECTION", "STRINGS_ADDFAV"], ["503", "PCEDITBOX", "EDITBOX_SERVERIP"], ["503", "TEXTBUTTON2", "BTN_ADDFAV_OK"], ["503", "TEXTBUTTON2", "BTN_ADDFAV_DELETE"], ["503", "TEXTBUTTON2", "BTN_ADDFAV_CANCEL"], ["500", "RECTANGLE", "RECTANGLE_NEEDPASSWORD"], ["501", "FRAME", "FRAME_NEEDPASSWORD"], ["502", "IMAGECOLLECTION", "BORDER_NEEDPASSWORD"], ["502", "FORMATEDTEXT", "TEXT_NEEDPASSWORD"], ["503", "STRINGCOLLECTION", "STRINGS_NEEDPASSWORD"], ["503", "PCEDITBOX", "EDITBOX_NEEDPASSWORD"], ["503", "TEXTBUTTON2", "BTN_NEEDPASSWORD_OK"], ["503", "TEXTBUTTON2", "BTN_NEEDPASSWORD_CANCEL"], ["500", "RECTANGLE", "RECTANGLE_REJECTED"], ["501", "FRAME", "FRAME_REJECTED"], ["502", "IMAGECOLLECTION", "BORDER_REJECTED"], ["502", "FORMATEDTEXT", "TEXT_REJECTED"], ["503", "STRINGCOLLECTION", "STRINGS_REJECTED"], ["503", "TEXTBUTTON2", "BTN_REJECTED_OK"], ["500", "RECTANGLE", "RECTANGLE_CONNECT"], ["501", "FRAME", "FRAME_CONNECT"], ["502", "IMAGECOLLECTION", "SEPARATOR_CONNECT"], ["502", "IMAGECOLLECTION", "BORDER_CONNECT"], ["503", "STRINGCOLLECTION", "STRINGS_CONNECT"], ["503", "PCEDITBOX", "EDITBOX_CONNECT_IP"], ["503", "PCEDITBOX", "EDITBOX_CONNECT_SERVER_PASSWORD"], ["503", "PCEDITBOX", "EDITBOX_CONNECT_NICK"], ["503", "PCEDITBOX", "EDITBOX_CONNECT_PASSWORD"], ["503", "TEXTBUTTON2", "BTN_CONNECT_OK"], ["503", "TEXTBUTTON2", "BTN_CONNECT_CANCEL"], ["500", "RECTANGLE", "RECTANGLE_TRYCONNECT"], ["501", "FRAME", "FRAME_TRYCONNECT"], ["502", "IMAGECOLLECTION", "BORDER_TRYCONNECT"], ["502", "FORMATEDTEXT", "TEXT_TRYCONNECT"], ["502", "FORMATEDTEXT", "TEXT_TRYCONNECT_TIMER"], ["503", "STRINGCOLLECTION", "STRINGS_TRYCONNECT"], ["503", "TEXTBUTTON2", "BTN_TRYCONNECT_CANCEL"], ["500", "RECTANGLE", "RECTANGLE_ACCOUNTS"], ["501", "FRAME", "FRAME_ACCOUNTS"], ["502", "IMAGECOLLECTION", "BORDER_ACCOUNTS"], ["503", "STRINGCOLLECTION", "STRINGS_ACCOUNTS"], ["503", "PCEDITBOX", "EDITBOX_ACCOUNTS_NAME"], ["503", "PCEDITBOX", "EDITBOX_ACCOUNTS_EMAIL"], ["503", "PCEDITBOX", "EDITBOX_ACCOUNTS_NUMBER"], ["503", "PCEDITBOX", "EDITBOX_ACCOUNTS_PASSWORD"], ["503", "CHECKBUTTON", "CHECKBUTTONS_ACCOUNTS"], ["503", "TEXTBUTTON2", "BTN_ACCOUNTS_CONNECT"], ["503", "TEXTBUTTON2", "BTN_ACCOUNTS_CANCEL"], ["600", "RECTANGLE", "RECTANGLE_INETSERVERLOADING"], ["601", "FRAME", "FRAME_INETSERVERLOADING"], ["602", "IMAGECOLLECTION", "BORDER_INETSERVERLOADING"], ["602", "STRINGCOLLECTION", "STRINGS_INETSERVERLOADING_STATUS"], ["602", "STRINGCOLLECTION", "STRINGS_INETSERVERLOADING_QUANTITY"], ["602", "TEXTBUTTON2", "BTN_INETSERVERLOADING_CANCEL"], ["600", "RECTANGLE", "RECTANGLE_YESNO"], ["601", "FRAME", "FRAME_YESNO"], ["602", "IMAGECOLLECTION", "BORDER_YESNO"], ["602", "STRINGCOLLECTION", "STRINGS_YESNO_STATUS"], ["602", "TEXTBUTTON2", "BTN_YESNO_YES"], ["602", "TEXTBUTTON2", "BTN_YESNO_NO"], ["WINDOW", "WND_NETFINDGAME"], ["WINDOW", "WND_LANSERVER"], ["WINDOW", "WND_INETSERVER"], ["WINDOW", "WND_FAVSERVER"], ["WINDOW", "WND_ADDFAVORITES"], ["WINDOW", "WND_NEEDPASSWORD"], ["WINDOW", "WND_REJECTED"], ["WINDOW", "WND_CONNECT"], ["WINDOW", "WND_TRYCONNECT"], ["WINDOW", "WND_ACCOUNTS"], ["WINDOW", "WND_INETSERVERSLOADING"], ["WINDOW", "WND_YESNO"]]
 
 [WND_YESNO]
-nodelist = ["RECTANGLE_YESNO", "FRAME_YESNO", "BORDER_YESNO", "STRINGS_YESNO_STATUS", "BTN_YESNO_YES", "BTN_YESNO_NO"]
+nodelist = ["RECTANGLE_YESNO", " FRAME_YESNO", " BORDER_YESNO", " STRINGS_YESNO_STATUS", " BTN_YESNO_YES", " BTN_YESNO_NO"]
 
 [WND_INETSERVERSLOADING]
-nodelist = ["RECTANGLE_INETSERVERLOADING", "FRAME_INETSERVERLOADING", "BORDER_INETSERVERLOADING", "STRINGS_INETSERVERLOADING_STATUS", "STRINGS_INETSERVERLOADING_QUANTITY", "BTN_INETSERVERLOADING_CANCEL"]
+nodelist = [["RECTANGLE_INETSERVERLOADING", " FRAME_INETSERVERLOADING", " BORDER_INETSERVERLOADING"], ["STRINGS_INETSERVERLOADING_STATUS", " STRINGS_INETSERVERLOADING_QUANTITY"], ",BTN_INETSERVERLOADING_CANCEL"]
 
 [WND_ACCOUNTS]
-nodelist = ["RECTANGLE_ACCOUNTS", "FRAME_ACCOUNTS", "BORDER_ACCOUNTS", "STRINGS_ACCOUNTS", "EDITBOX_ACCOUNTS_NAME", "EDITBOX_ACCOUNTS_EMAIL", "EDITBOX_ACCOUNTS_NUMBER", "EDITBOX_ACCOUNTS_PASSWORD", "CHECKBUTTONS_ACCOUNTS", "BTN_ACCOUNTS_CONNECT", "BTN_ACCOUNTS_CANCEL"]
+nodelist = [["RECTANGLE_ACCOUNTS", " FRAME_ACCOUNTS", " BORDER_ACCOUNTS", " STRINGS_ACCOUNTS"], ["EDITBOX_ACCOUNTS_NAME", " EDITBOX_ACCOUNTS_EMAIL", " EDITBOX_ACCOUNTS_NUMBER", " EDITBOX_ACCOUNTS_PASSWORD"], ["CHECKBUTTONS_ACCOUNTS", " BTN_ACCOUNTS_CONNECT", " BTN_ACCOUNTS_CANCEL"]]
 
 [WND_NETFINDGAME]
-nodelist = ["MAIN_BACK", "TITLE", "FRAME_FILTERS", "FRAME_SERVERINFO", "FRAME_SERVERINFO_MAP", "INFO_BORDER", "STRINGS_INFO", "STRINGS_SERVERTYPES", "STRINGS_PROFILE", "TAB_LOCAL", "TAB_INET", "TAB_FAVORITES", "BTN_CREATEGAME", "BTN_JOINGAME", "BTN_CANCEL", "BTN_REFRESH", "BTN_PLAYERSETTINGS", "BTN_ADDFAVORITES", "SERVER_MAP_PICTURE", "STRINGS_SERVERINFO", "SERVERINFO_NAME", "SERVERINFO_GAMETYPE", "SERVERINFO_CREDIT", "SERVERINFO_PLAYERS", "SERVERINFO_MAXSHIP", "CHECKBUTTONS_WO_PASSWORD", "CHECKBUTTONS_FREE_SERVERS", "CHECKBUTTONS_GAMETYPES", "CAPTION_GAMETYPE", "STRINGS_FILTERS_VALUE", "SBAR_CREDIT", "SBAR_PING", "SBAR_MAXSHIPCLASS", "CAPTION_MAPLIST", "TABLE_MAPLIST", "SCROLL_MAPLIST"]
+nodelist = [["MAIN_BACK", " TITLE"], ["FRAME_FILTERS", " FRAME_SERVERINFO", " FRAME_SERVERINFO_MAP"], ["INFO_BORDER", " STRINGS_INFO", " STRINGS_SERVERTYPES", " STRINGS_PROFILE"], ["TAB_LOCAL", " TAB_INET", " TAB_FAVORITES"], ["BTN_CREATEGAME", " BTN_JOINGAME", " BTN_CANCEL", " BTN_REFRESH", " BTN_PLAYERSETTINGS", " BTN_ADDFAVORITES"], ["SERVER_MAP_PICTURE", " STRINGS_SERVERINFO", " SERVERINFO_NAME"], ["SERVERINFO_GAMETYPE", " SERVERINFO_CREDIT", " SERVERINFO_PLAYERS", " SERVERINFO_MAXSHIP"], ["CHECKBUTTONS_WO_PASSWORD", " CHECKBUTTONS_FREE_SERVERS", " CHECKBUTTONS_GAMETYPES"], ["CAPTION_GAMETYPE", " STRINGS_FILTERS_VALUE"], ["SBAR_CREDIT", " SBAR_PING", " SBAR_MAXSHIPCLASS"], ["CAPTION_MAPLIST", " TABLE_MAPLIST", " SCROLL_MAPLIST"]]
 
 [WND_LANSERVER]
-nodelist = ["TABLE_LANSERVER", "SCROLL_LANSERVER"]
+nodelist = ["TABLE_LANSERVER", " SCROLL_LANSERVER"]
 
 [WND_INETSERVER]
-nodelist = ["TABLE_INETSERVER", "SCROLL_INETSERVER"]
+nodelist = ["TABLE_INETSERVER", " SCROLL_INETSERVER"]
 
 [WND_FAVSERVER]
-nodelist = ["TABLE_FAVSERVER", "SCROLL_FAVSERVER", "CHECKBUTTONS_FAV_ACTIVE"]
+nodelist = ["TABLE_FAVSERVER", " SCROLL_FAVSERVER", " CHECKBUTTONS_FAV_ACTIVE"]
 
 [WND_ADDFAVORITES]
-nodelist = ["RECTANGLE_ADDFAVORITE", "FRAME_ADDFAVORITE", "INFO_ADDFAVBORDER", "STRINGS_ADDFAV", "EDITBOX_SERVERIP", "BTN_ADDFAV_OK", "BTN_ADDFAV_DELETE", "BTN_ADDFAV_CANCEL"]
+nodelist = ["RECTANGLE_ADDFAVORITE", ["FRAME_ADDFAVORITE", " INFO_ADDFAVBORDER", " STRINGS_ADDFAV"], ["EDITBOX_SERVERIP", " BTN_ADDFAV_OK", " BTN_ADDFAV_DELETE", " BTN_ADDFAV_CANCEL"]]
 
 [WND_REJECTED]
-nodelist = ["RECTANGLE_REJECTED", "FRAME_REJECTED", "BORDER_REJECTED", "STRINGS_REJECTED", "TEXT_REJECTED", "BTN_REJECTED_OK"]
+nodelist = [["RECTANGLE_REJECTED", " FRAME_REJECTED", " BORDER_REJECTED", " STRINGS_REJECTED"], ["TEXT_REJECTED", " BTN_REJECTED_OK"]]
 
 [WND_NEEDPASSWORD]
-nodelist = ["RECTANGLE_NEEDPASSWORD", "FRAME_NEEDPASSWORD", "BORDER_NEEDPASSWORD", "STRINGS_NEEDPASSWORD", "TEXT_NEEDPASSWORD", "EDITBOX_NEEDPASSWORD", "BTN_NEEDPASSWORD_OK", "BTN_NEEDPASSWORD_CANCEL"]
+nodelist = [["RECTANGLE_NEEDPASSWORD", " FRAME_NEEDPASSWORD", " BORDER_NEEDPASSWORD", " STRINGS_NEEDPASSWORD"], ["TEXT_NEEDPASSWORD", " EDITBOX_NEEDPASSWORD"], ["BTN_NEEDPASSWORD_OK", " BTN_NEEDPASSWORD_CANCEL"]]
 
 [WND_CONNECT]
-nodelist = ["RECTANGLE_CONNECT", "FRAME_CONNECT", "SEPARATOR_CONNECT", "BORDER_CONNECT", "BTN_CONNECT_OK", "BTN_CONNECT_CANCEL", "STRINGS_CONNECT", "EDITBOX_CONNECT_IP", "EDITBOX_CONNECT_SERVER_PASSWORD", "EDITBOX_CONNECT_NICK", "EDITBOX_CONNECT_PASSWORD"]
+nodelist = [["RECTANGLE_CONNECT", " FRAME_CONNECT", " SEPARATOR_CONNECT", " BORDER_CONNECT"], ["BTN_CONNECT_OK", " BTN_CONNECT_CANCEL"], ",STRINGS_CONNECT", ["EDITBOX_CONNECT_IP", " EDITBOX_CONNECT_SERVER_PASSWORD", " EDITBOX_CONNECT_NICK", " EDITBOX_CONNECT_PASSWORD"]]
 
 [WND_TRYCONNECT]
-nodelist = ["RECTANGLE_TRYCONNECT", "FRAME_TRYCONNECT", "BORDER_TRYCONNECT", "BTN_TRYCONNECT_CANCEL", "STRINGS_TRYCONNECT", "TEXT_TRYCONNECT", "TEXT_TRYCONNECT_TIMER"]
+nodelist = [["RECTANGLE_TRYCONNECT", " FRAME_TRYCONNECT", " BORDER_TRYCONNECT"], ",BTN_TRYCONNECT_CANCEL", "STRINGS_TRYCONNECT", ["TEXT_TRYCONNECT", " TEXT_TRYCONNECT_TIMER"]]
 
 [RECTANGLE_TRYCONNECT]
 babsoluterectangle = 5
@@ -72,7 +72,7 @@ color = [255, 255, 255, 156]
 
 [BTN_TRYCONNECT_CANCEL]
 bbreakcommand = 1
-command = ["click", "event:OnTryConnectCancel", "activate", "event:OnTryConnectCancel", "deactivate", "event:OnTryConnectCancel"]
+command = [["click", "event:OnTryConnectCancel"], ["activate", "event:OnTryConnectCancel"], ["deactivate", "event:OnTryConnectCancel"]]
 position = [336, 306, 473, 338]
 string = "btnFG_ConnectCancel"
 glowoffset = [0, 0]
@@ -83,7 +83,7 @@ position = [210, 184, 590, 400]
 
 [BTN_CONNECT_OK]
 bbreakcommand = 1
-command = ["click", "event:OnConnectOk", "activate", "event:OnConnectOk", "deactivate", "event:OnConnectCancel"]
+command = [["click", "event:OnConnectOk"], ["activate", "event:OnConnectOk"], ["deactivate", "event:OnConnectCancel"]]
 position = [254, 358, 391, 390]
 string = "btnFG_ConnectOk"
 glowoffset = [0, 0]
@@ -91,14 +91,14 @@ presspictureoffset = [2, 2]
 
 [BTN_CONNECT_CANCEL]
 bbreakcommand = 1
-command = ["click", "event:OnConnectCancel", "activate", "event:OnConnectCancel", "deactivate", "event:OnConnectCancel"]
+command = [["click", "event:OnConnectCancel"], ["activate", "event:OnConnectCancel"], ["deactivate", "event:OnConnectCancel"]]
 position = [416, 358, 553, 390]
 string = "btnFG_ConnectCancel"
 glowoffset = [0, 0]
 presspictureoffset = [2, 2]
 
 [EDITBOX_CONNECT_IP]
-command = ["click", "select:EDITBOX_CONNECT_IP", "deactivate", "event:OnConnectCancel", "activate"]
+command = [["click", "select:EDITBOX_CONNECT_IP"], ["deactivate", "event:OnConnectCancel"], ",activate"]
 position = [335, 225, 560, 252]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -106,10 +106,10 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 48
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [EDITBOX_CONNECT_SERVER_PASSWORD]
-command = ["click", "select:EDITBOX_CONNECT_SERVER_PASSWORD", "deactivate", "event:OnConnectCancel", "activate"]
+command = [["click", "select:EDITBOX_CONNECT_SERVER_PASSWORD"], ["deactivate", "event:OnConnectCancel"], ",activate"]
 position = [335, 255, 560, 282]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -118,10 +118,10 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 12
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [EDITBOX_CONNECT_NICK]
-command = ["click", "select:EDITBOX_CONNECT_NICK", "deactivate", "event:OnConnectCancel", "activate"]
+command = [["click", "select:EDITBOX_CONNECT_NICK"], ["deactivate", "event:OnConnectCancel"], ",activate"]
 position = [335, 291, 560, 318]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -129,10 +129,10 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 24
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [EDITBOX_CONNECT_PASSWORD]
-command = ["click", "select:EDITBOX_CONNECT_PASSWORD", "deactivate", "event:OnConnectCancel", "activate"]
+command = [["click", "select:EDITBOX_CONNECT_PASSWORD"], ["deactivate", "event:OnConnectCancel"], ",activate"]
 position = [335, 322, 560, 349]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -141,7 +141,7 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 12
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [FRAME_NEEDPASSWORD]
 position = [180, 204, 600, 368]
@@ -162,7 +162,7 @@ alignment = "center"
 color = [255, 255, 255, 156]
 
 [EDITBOX_NEEDPASSWORD]
-command = ["click", "select:EDITBOX_NEEDPASSWORD", "deactivate", "event:OnNeedPasswordCancel"]
+command = [["click", "select:EDITBOX_NEEDPASSWORD"], ["deactivate", "event:OnNeedPasswordCancel"]]
 position = [315, 285, 580, 312]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -171,11 +171,11 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 12
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [BTN_NEEDPASSWORD_OK]
 bbreakcommand = 1
-command = ["click", "event:OnNeedPasswordOk", "activate", "event:OnNeedPasswordOk", "deactivate", "event:OnNeedPasswordCancel"]
+command = [["click", "event:OnNeedPasswordOk"], ["activate", "event:OnNeedPasswordOk"], ["deactivate", "event:OnNeedPasswordCancel"]]
 position = [260, 325, 377, 357]
 string = "btnFG_NeedPasswordOk"
 glowoffset = [0, 0]
@@ -183,7 +183,7 @@ presspictureoffset = [2, 2]
 
 [BTN_NEEDPASSWORD_CANCEL]
 bbreakcommand = 1
-command = ["click", "event:OnNeedPasswordCancel", "activate", "event:OnNeedPasswordCancel", "deactivate", "event:OnNeedPasswordCancel"]
+command = [["click", "event:OnNeedPasswordCancel"], ["activate", "event:OnNeedPasswordCancel"], ["deactivate", "event:OnNeedPasswordCancel"]]
 position = [410, 325, 527, 357]
 string = "btnFG_NeedPasswordCancel"
 glowoffset = [0, 0]
@@ -209,7 +209,7 @@ color = [255, 255, 255, 156]
 
 [BTN_REJECTED_OK]
 bbreakcommand = 1
-command = ["click", "event:OnRejectedOk", "activate", "event:OnRejectedOk", "deactivate", "event:OnRejectedOk"]
+command = [["click", "event:OnRejectedOk"], ["activate", "event:OnRejectedOk"], ["deactivate", "event:OnRejectedOk"]]
 position = [340, 298, 447, 330]
 string = "btnFG_RejectedOk"
 glowoffset = [0, 0]
@@ -235,7 +235,7 @@ topcolor = [125, 2, 11, 75]
 position = [160, 204, 640, 328]
 
 [EDITBOX_SERVERIP]
-command = ["click", "select:EDITBOX_SERVERIP", "deactivate", "event:OnCancel", "activate"]
+command = [["click", "select:EDITBOX_SERVERIP"], ["deactivate", "event:OnCancel"], ",activate"]
 position = [275, 249, 620, 276]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -243,7 +243,7 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 48
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [BTN_ADDFAV_OK]
 bbreakcommand = 1
@@ -278,7 +278,7 @@ color = [255, 255, 255, 156]
 string = "capNetCS_MapList"
 
 [TABLE_MAPLIST]
-command = ["click", "select:TABLE_MAPLIST", "select:TABLE_MAPLIST", "upstep", "downstep"]
+command = [["click", "select:TABLE_MAPLIST", "select:TABLE_MAPLIST"], ",upstep", "downstep"]
 position = [325, 412, 499, 563]
 rowquantity = 7
 colquantity = 1
@@ -289,7 +289,7 @@ rowsheight = [21, 21, 21, 21, 21, 21, 21]
 scroller = "SCROLL_MAPLIST"
 
 [SCROLL_MAPLIST]
-command = ["click", "select:TABLE_MAPLIST", "downstep", "upstep"]
+command = [["click", " select:TABLE_MAPLIST"], ",downstep", "upstep"]
 position = [499, 411, 513, 563]
 basetexture = "interfaces\\icons.tga"
 rollertexture = "interfaces\\icons.tga"
@@ -301,19 +301,19 @@ rollerheight = 18
 ownedcontrol = "TABLE_MAPLIST"
 
 [SBAR_CREDIT]
-command = ["leftstep", "event:DecCredit", "select:SBAR_CREDIT", "rightstep", "event:AddCredit", "select:SBAR_CREDIT", "click"]
+command = [["leftstep", "event:DecCredit", "select:SBAR_CREDIT"], ["rightstep", "event:AddCredit", "select:SBAR_CREDIT"], ",click"]
 position = [189, 480, 297, 499]
 barwidth = 90
 bshowglowcursor = 0
 
 [SBAR_PING]
-command = ["leftstep", "event:DecPing", "select:SBAR_PING", "rightstep", "event:AddPing", "select:SBAR_PING", "click"]
+command = [["leftstep", "event:DecPing", "select:SBAR_PING"], ["rightstep", "event:AddPing", "select:SBAR_PING"], ",click"]
 position = [189, 540, 297, 559]
 barwidth = 90
 bshowglowcursor = 0
 
 [SBAR_MAXSHIPCLASS]
-command = ["leftstep", "event:DecMaxShipClass", "select:SBAR_MAXSHIPCLASS", "rightstep", "event:AddMaxShipClass", "select:SBAR_MAXSHIPCLASS", "click"]
+command = [["leftstep", "event:DecMaxShipClass", "select:SBAR_MAXSHIPCLASS"], ["rightstep", "event:AddMaxShipClass", "select:SBAR_MAXSHIPCLASS"], ",click"]
 position = [189, 420, 297, 439]
 barwidth = 90
 bshowglowcursor = 0
@@ -327,7 +327,7 @@ color = [255, 255, 255, 156]
 string = "capNetCS_GameType"
 
 [TABLE_GAMETYPE]
-command = ["click", "event:GameType_OnClick", "select:TABLE_GAMETYPE", "upstep", "downstep"]
+command = [["click", "event:GameType_OnClick", "select:TABLE_GAMETYPE"], ",upstep", "downstep"]
 position = [36, 479, 170, 567]
 rowquantity = 4
 colquantity = 1
@@ -440,7 +440,7 @@ glowoffset = [0, 0]
 presspictureoffset = [2, 2]
 
 [TABLE_LANSERVER]
-command = ["click", "select:TABLE_LANSERVER", "dblclick", "event:FG_OnTableDoubleClick", "upstep", "downstep"]
+command = [["click", "select:TABLE_LANSERVER"], ["dblclick", "event:FG_OnTableDoubleClick"], ",upstep", "downstep"]
 position = [20, 87, 521, 311]
 rowquantity = 11
 colquantity = 7
@@ -452,7 +452,7 @@ colswidth = [19, 146, 15, 125, 99, 52, 49]
 rowsheight = [40, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18]
 
 [SCROLL_LANSERVER]
-command = ["click", "select:TABLE_LANSERVER", "downstep", "upstep"]
+command = [["click", " select:TABLE_LANSERVER"], ",downstep", "upstep"]
 position = [187, 89, 201, 308]
 basetexture = "interfaces\\icons.tga"
 rollertexture = "interfaces\\icons.tga"
@@ -464,7 +464,7 @@ rollerheight = 18
 ownedcontrol = "TABLE_LANSERVER"
 
 [TABLE_INETSERVER]
-command = ["click", "select:TABLE_INETSERVER", "dblclick", "event:FG_OnTableDoubleClick", "upstep", "downstep"]
+command = [["click", "select:TABLE_INETSERVER"], ["dblclick", "event:FG_OnTableDoubleClick"], ",upstep", "downstep"]
 position = [20, 87, 521, 311]
 rowquantity = 11
 colquantity = 7
@@ -476,7 +476,7 @@ colswidth = [19, 146, 15, 125, 99, 52, 49]
 rowsheight = [40, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18]
 
 [SCROLL_INETSERVER]
-command = ["click", "select:TABLE_INETSERVER", "downstep", "upstep"]
+command = [["click", " select:TABLE_INETSERVER"], ",downstep", "upstep"]
 position = [187, 89, 201, 308]
 basetexture = "interfaces\\icons.tga"
 rollertexture = "interfaces\\icons.tga"
@@ -488,7 +488,7 @@ rollerheight = 18
 ownedcontrol = "TABLE_INETSERVER"
 
 [TABLE_FAVSERVER]
-command = ["click", "select:TABLE_FAVSERVER", "dblclick", "event:FG_OnTableDoubleClick", "upstep", "downstep"]
+command = [["click", "select:TABLE_FAVSERVER"], ["dblclick", "event:FG_OnTableDoubleClick"], ",upstep", "downstep"]
 position = [20, 87, 521, 311]
 rowquantity = 11
 colquantity = 7
@@ -500,7 +500,7 @@ colswidth = [19, 146, 15, 125, 99, 52, 49]
 rowsheight = [40, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18]
 
 [SCROLL_FAVSERVER]
-command = ["click", "select:TABLE_FAVSERVER", "downstep", "upstep"]
+command = [["click", " select:TABLE_FAVSERVER"], ",downstep", "upstep"]
 position = [187, 89, 201, 308]
 basetexture = "interfaces\\icons.tga"
 rollertexture = "interfaces\\icons.tga"
@@ -540,13 +540,13 @@ groupname = "TABS"
 picname = "TabSelected"
 
 [STRINGS_SERVERTYPES]
-string = ["capFG_Local", "font:interface_button", "pos:{70", "65}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capFG_Inet", "font:interface_button", "pos:{165", "65}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]
+string = [["capFG_Local", "font:interface_button", "pos:{70", "65}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["capFG_Inet", "font:interface_button", "pos:{165", "65}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]]
 
 [STRINGS_FILTERS_VALUE]
-string = ["#100", "font:interface_normal", "pos:{246", "422}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#200", "font:interface_normal", "pos:{246", "483}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#300", "font:interface_normal", "pos:{246", "543}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]
+string = [["#100", "font:interface_normal", "pos:{246", "422}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["#200", "font:interface_normal", "pos:{246", "483}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["#300", "font:interface_normal", "pos:{246", "543}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]]
 
 [STRINGS_INFO]
-string = ["capNetFG_Filters", "font:interface_button", "pos:{261", "360}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#", "font:interface_button", "pos:{638", "95}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capFG_MaxShipClass", "font:interface_normal", "pos:{245", "400}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capFG_Credit", "font:interface_normal", "pos:{243", "461}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capFG_GameLatency", "font:interface_normal", "pos:{243", "521}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "#0", "/", "0", "font:interface_button", "pos:{517", "66}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]
+string = [["capNetFG_Filters", "font:interface_button", "pos:{261", "360}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["#", "font:interface_button", "pos:{638", "95}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["capFG_MaxShipClass", "font:interface_normal", "pos:{245", "400}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["capFG_Credit", "font:interface_normal", "pos:{243", "461}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["capFG_GameLatency", "font:interface_normal", "pos:{243", "521}", "fc:{255", "255", "255", "156}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["#0 / 0", "font:interface_button", "pos:{517", "66}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]]
 
 [INFO_ADDFAVBORDER]
 offset = [139, -150]
@@ -554,13 +554,13 @@ groupname = "MAIN_ICONS"
 picture = ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{161", "208", "636", "234}"]
 
 [STRINGS_ADDFAV]
-string = ["capFG_AddFav", "font:interface_button", "pos:{402", "211}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capFG_AddFavIP", "font:interface_normal", "pos:{271", "254}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]
+string = [["capFG_AddFav", "font:interface_button", "pos:{402", "211}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["capFG_AddFavIP", "font:interface_normal", "pos:{271", "254}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]]
 
 [STRINGS_CAPSERVERINFO]
-string = ["capFGMapCurrentMap", "font:interface_normal", "pos:{551", "328}", "fc:{255", "255", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capFGMapGameType", "font:interface_normal", "pos:{551", "348}", "fc:{255", "255", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capFGMapCredit", "font:interface_normal", "pos:{551", "368}", "fc:{255", "255", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capFGMapPlayers", "font:interface_normal", "pos:{551", "388}", "fc:{255", "255", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capFGMapMaxShip", "font:interface_normal", "pos:{551", "408}", "fc:{255", "255", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+string = [["capFGMapCurrentMap", "font:interface_normal", "pos:{551", "328}", "fc:{255", "255", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"], ["capFGMapGameType", "font:interface_normal", "pos:{551", "348}", "fc:{255", "255", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"], ["capFGMapCredit", "font:interface_normal", "pos:{551", "368}", "fc:{255", "255", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"], ["capFGMapPlayers", "font:interface_normal", "pos:{551", "388}", "fc:{255", "255", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"], ["capFGMapMaxShip", "font:interface_normal", "pos:{551", "408}", "fc:{255", "255", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]]
 
 [STRINGS_SERVERINFO]
-string = ["#", "font:interface_normal", "pos:{761", "328}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "#", "font:interface_normal", "pos:{761", "348}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "#", "font:interface_normal", "pos:{761", "368}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "#", "font:interface_normal", "pos:{761", "388}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "#", "font:interface_normal", "pos:{761", "408}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]
+string = [["#", "font:interface_normal", "pos:{761", "328}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["#", "font:interface_normal", "pos:{761", "348}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["#", "font:interface_normal", "pos:{761", "368}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["#", "font:interface_normal", "pos:{761", "388}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["#", "font:interface_normal", "pos:{761", "408}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]]
 
 [BORDER_NEEDPASSWORD]
 offset = [160, -150]
@@ -568,7 +568,7 @@ groupname = "MAIN_ICONS"
 picture = ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{182", "208", "597", "234}"]
 
 [STRINGS_NEEDPASSWORD]
-string = ["capFG_NeedPassword", "font:interface_button", "pos:{402", "211}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capFG_Password", "font:interface_normal", "pos:{305", "291}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]
+string = [["capFG_NeedPassword", "font:interface_button", "pos:{402", "211}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["capFG_Password", "font:interface_normal", "pos:{305", "291}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]]
 
 [BORDER_CONNECT]
 offset = [190, -171]
@@ -581,7 +581,7 @@ groupname = "MAIN_ICONS"
 picture = ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{220", "285", "580", "288}"]
 
 [STRINGS_CONNECT]
-string = ["capFG_CapConnect", "font:interface_button", "pos:{402", "189}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capFG_Connect_IP", "font:interface_normal", "pos:{322", "231}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "capFG_Connect_Server_Password", "font:interface_normal", "pos:{322", "261}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "capFG_Connect_Nick", "font:interface_normal", "pos:{321", "297}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "capFG_Connect_Password", "font:interface_normal", "pos:{321", "327}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]
+string = [["capFG_CapConnect", "font:interface_button", "pos:{402", "189}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["capFG_Connect_IP", "font:interface_normal", "pos:{322", "231}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["capFG_Connect_Server_Password", "font:interface_normal", "pos:{322", "261}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["capFG_Connect_Nick", "font:interface_normal", "pos:{321", "297}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["capFG_Connect_Password", "font:interface_normal", "pos:{321", "327}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]]
 
 [BORDER_TRYCONNECT]
 offset = [189, -150]
@@ -605,7 +605,7 @@ groupname = "MAIN_ICONS"
 picture = ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{202", "188", "597", "214}"]
 
 [EDITBOX_ACCOUNTS_NAME]
-command = ["click", "select:EDITBOX_ACCOUNTS_NAME", "deactivate", "event:OnConnectCancel", "activate"]
+command = [["click", "select:EDITBOX_ACCOUNTS_NAME"], ["deactivate", "event:OnConnectCancel"], ",activate"]
 position = [365, 225, 570, 252]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -613,10 +613,10 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 24
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [EDITBOX_ACCOUNTS_EMAIL]
-command = ["click", "select:EDITBOX_ACCOUNTS_EMAIL", "deactivate", "event:OnConnectCancel", "activate"]
+command = [["click", "select:EDITBOX_ACCOUNTS_EMAIL"], ["deactivate", "event:OnConnectCancel"], ",activate"]
 position = [365, 255, 570, 282]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -624,10 +624,10 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 32
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [EDITBOX_ACCOUNTS_NUMBER]
-command = ["click", "select:EDITBOX_ACCOUNTS_NUMBER", "deactivate", "event:OnConnectCancel", "activate"]
+command = [["click", "select:EDITBOX_ACCOUNTS_NUMBER"], ["deactivate", "event:OnConnectCancel"], ",activate"]
 position = [365, 285, 570, 312]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -635,10 +635,10 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 32
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [EDITBOX_ACCOUNTS_PASSWORD]
-command = ["click", "select:EDITBOX_ACCOUNTS_PASSWORD", "deactivate", "event:OnConnectCancel", "activate"]
+command = [["click", "select:EDITBOX_ACCOUNTS_PASSWORD"], ["deactivate", "event:OnConnectCancel"], ",activate"]
 disguisestring = 1
 position = [365, 315, 570, 342]
 strfont = "interface_normal"
@@ -647,7 +647,7 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 12
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [CHECKBUTTONS_ACCOUNTS]
 command = "click"
@@ -662,7 +662,7 @@ section3 = ["0", "0", "chkbtnFG_Accounts"]
 section4 = ["0", "0", "chkbtnFG_Accounts"]
 
 [STRINGS_ACCOUNTS]
-string = ["capFG_CapAccount", "font:interface_button", "pos:{402", "190}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "capFG_CapAccountName", "font:interface_normal", "pos:{361", "230}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "capFG_CapAccountEmail", "font:interface_normal", "pos:{361", "260}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "capFG_CapAccountNumber", "font:interface_normal", "pos:{361", "290}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "capFG_CapAccountPassword", "font:interface_normal", "pos:{361", "320}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]
+string = [["capFG_CapAccount", "font:interface_button", "pos:{402", "190}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["capFG_CapAccountName", "font:interface_normal", "pos:{361", "230}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["capFG_CapAccountEmail", "font:interface_normal", "pos:{361", "260}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["capFG_CapAccountNumber", "font:interface_normal", "pos:{361", "290}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["capFG_CapAccountPassword", "font:interface_normal", "pos:{361", "320}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]]
 
 [BTN_ACCOUNTS_CONNECT]
 bbreakcommand = 1
@@ -686,10 +686,10 @@ string = ["capFG_TryConnect", "font:interface_button", "pos:{402", "210}", "fc:{
 [INFO_BORDER]
 offset = [11, 345]
 groupname = "MAIN_ICONS"
-picture = ["editsection:Filters", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{22", "358", "525", "384}", "editsection:ServerInfo", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{543", "91", "777", "117}"]
+picture = ["editsection:Filters", ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{22", "358", "525", "384}"], ",editsection:ServerInfo", ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{543", "91", "777", "117}"]]
 
 [STRINGS_PROFILE]
-string = ["capNetFG_CurrentProfile", "font:interface_button", "pos:{542", "67}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.95", "state:{LS}", "#", "font:interface_button", "pos:{777", "67}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.95", "state:{RS}"]
+string = [["capNetFG_CurrentProfile", "font:interface_button", "pos:{542", "67}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.95", "state:{LS}"], ["#", "font:interface_button", "pos:{777", "67}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.95", "state:{RS}"]]
 
 [RECTANGLE_INETSERVERLOADING]
 babsoluterectangle = 5
@@ -716,10 +716,10 @@ groupname = "MAIN_ICONS"
 picture = ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{233", "208", "567", "234}"]
 
 [STRINGS_INETSERVERLOADING_QUANTITY]
-string = ["capNetFG_MS_LoadedServers", "font:interface_normal", "pos:{428", "279}", "fc:{255", "155", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "#0", "/", "0", "font:interface_normal", "pos:{434", "279}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+string = [["capNetFG_MS_LoadedServers", "font:interface_normal", "pos:{428", "279}", "fc:{255", "155", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["#0 / 0", "font:interface_normal", "pos:{434", "279}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]]
 
 [STRINGS_INETSERVERLOADING_STATUS]
-string = ["capNetFG_MS_GettingServers", "font:interface_button", "pos:{301", "209}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capNetFG_MS_LoadedServersStatus", "font:interface_normal", "pos:{342", "249}", "fc:{255", "155", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "capNetFG_MS_Connect", "font:interface_normal", "pos:{349", "249}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+string = [["capNetFG_MS_GettingServers", "font:interface_button", "pos:{301", "209}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"], ["capNetFG_MS_LoadedServersStatus", "font:interface_normal", "pos:{342", "249}", "fc:{255", "155", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["capNetFG_MS_Connect", "font:interface_normal", "pos:{349", "249}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]]
 
 [RECTANGLE_YESNO]
 babsoluterectangle = 5
@@ -754,4 +754,4 @@ groupname = "MAIN_ICONS"
 picture = ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{233", "208", "567", "234}"]
 
 [STRINGS_YESNO_STATUS]
-string = ["#", "font:interface_button", "pos:{301", "209}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "#", "font:interface_normal", "pos:{342", "249}", "fc:{255", "155", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]
+string = [["#", "font:interface_button", "pos:{301", "209}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"], ["#", "font:interface_normal", "pos:{342", "249}", "fc:{255", "155", "255", "155}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"]]

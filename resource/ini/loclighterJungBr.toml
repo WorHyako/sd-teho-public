@@ -6,7 +6,7 @@ smallslider = 0
 usecolor = 1
 
 [prs1]
-comment = ["Morning", "1"]
+comment = "Morning 1"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -96,7 +96,7 @@ group_lamp_range = 25.5
 group_lamp_ison = 1
 
 [prs2]
-comment = ["Morning", "2"]
+comment = "Morning 2"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -200,7 +200,7 @@ group_candelabrum_range = 5.10002
 group_candelabrum_ison = 1
 
 [prs3]
-comment = ["Morning", "3"]
+comment = "Morning 3"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -304,7 +304,7 @@ group_candelabrum_range = 6.98889
 group_candelabrum_ison = 1
 
 [prs4]
-comment = ["Morning", "4"]
+comment = "Morning 4"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -408,7 +408,7 @@ group_candelabrum_range = 6.98889
 group_candelabrum_ison = 1
 
 [prs5]
-comment = ["Morning", "5"]
+comment = "Morning 5"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -512,7 +512,7 @@ group_candelabrum_range = 5.10002
 group_candelabrum_ison = 1
 
 [prs6]
-comment = ["Morning", "6"]
+comment = "Morning 6"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -588,7 +588,7 @@ group_candelabrum_range = 6.71667
 group_candelabrum_ison = 1
 
 [prs7]
-comment = ["Morning", "7"]
+comment = "Morning 7"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -664,7 +664,7 @@ group_candelabrum_range = 6.71667
 group_candelabrum_ison = 1
 
 [prs8]
-comment = ["Morning", "8"]
+comment = "Morning 8"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -740,7 +740,7 @@ group_candelabrum_range = 7.55001
 group_candelabrum_ison = 1
 
 [prs9]
-comment = ["Morning", "9"]
+comment = "Morning 9"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -816,7 +816,7 @@ group_candelabrum_range = 7.55001
 group_candelabrum_ison = 1
 
 [prs10]
-comment = ["Morning", "10"]
+comment = "Morning 10"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -892,7 +892,7 @@ group_candelabrum_range = 6.73335
 group_candelabrum_ison = 1
 
 [prs11]
-comment = ["Day", "1"]
+comment = "Day 1"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -968,7 +968,7 @@ group_candelabrum_range = 7.55001
 group_candelabrum_ison = 1
 
 [prs12]
-comment = ["Day", "2"]
+comment = "Day 2"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -1044,7 +1044,7 @@ group_candelabrum_range = 6.71667
 group_candelabrum_ison = 1
 
 [prs13]
-comment = ["Day", "3"]
+comment = "Day 3"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -1120,7 +1120,7 @@ group_candelabrum_range = 8.36668
 group_candelabrum_ison = 1
 
 [prs14]
-comment = ["Day", "4"]
+comment = "Day 4"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -1196,7 +1196,7 @@ group_candelabrum_range = 6.73335
 group_candelabrum_ison = 1
 
 [prs15]
-comment = ["Day", "5"]
+comment = "Day 5"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -1272,7 +1272,7 @@ group_candelabrum_range = 6.73335
 group_candelabrum_ison = 1
 
 [prs16]
-comment = ["Day", "6"]
+comment = "Day 6"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -1348,7 +1348,7 @@ group_candelabrum_range = 6.73335
 group_candelabrum_ison = 1
 
 [prs17]
-comment = ["Day", "7"]
+comment = "Day 7"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -1424,7 +1424,7 @@ group_candelabrum_range = 6.73335
 group_candelabrum_ison = 1
 
 [prs18]
-comment = ["Day", "8"]
+comment = "Day 8"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -1500,7 +1500,7 @@ group_candelabrum_range = 5.91668
 group_candelabrum_ison = 1
 
 [prs19]
-comment = ["Day", "9"]
+comment = "Day 9"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -1576,7 +1576,7 @@ group_candelabrum_range = 5.91668
 group_candelabrum_ison = 1
 
 [prs20]
-comment = ["Day", "10"]
+comment = "Day 10"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -1666,7 +1666,7 @@ group_candelabrum_range = 6.73335
 group_candelabrum_ison = 1
 
 [prs21]
-comment = ["Evening", "1"]
+comment = "Evening 1"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -1770,7 +1770,7 @@ group_candelabrum_range = 6.73335
 group_candelabrum_ison = 1
 
 [prs22]
-comment = ["Evening", "2"]
+comment = "Evening 2"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -1874,7 +1874,7 @@ group_candelabrum_range = 6.73335
 group_candelabrum_ison = 1
 
 [prs23]
-comment = ["Evening", "3"]
+comment = "Evening 3"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -1978,7 +1978,7 @@ group_candelabrum_range = 5.91668
 group_candelabrum_ison = 1
 
 [prs24]
-comment = ["Evening", "4"]
+comment = "Evening 4"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2082,7 +2082,7 @@ group_candelabrum_range = 6.73335
 group_candelabrum_ison = 1
 
 [prs25]
-comment = ["Evening", "5"]
+comment = "Evening 5"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2172,7 +2172,7 @@ group_candelabrum_range = 6.73335
 group_candelabrum_ison = 1
 
 [prs26]
-comment = ["Evening", "6"]
+comment = "Evening 6"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2220,7 +2220,7 @@ group_candle_range = 4
 group_candle_ison = 1
 
 [prs27]
-comment = ["Evening", "7"]
+comment = "Evening 7"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2296,7 +2296,7 @@ group_lamp_range = 14
 group_lamp_ison = 1
 
 [prs28]
-comment = ["Evening", "8"]
+comment = "Evening 8"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2372,7 +2372,7 @@ group_lamp_range = 14
 group_lamp_ison = 1
 
 [prs29]
-comment = ["Evening", "9"]
+comment = "Evening 9"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2448,7 +2448,7 @@ group_lamp_range = 5.9
 group_lamp_ison = 1
 
 [prs30]
-comment = ["Evening", "10"]
+comment = "Evening 10"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2496,7 +2496,7 @@ group_candle_range = 5.9
 group_candle_ison = 1
 
 [prs31]
-comment = ["Night", "1"]
+comment = "Night 1"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2572,7 +2572,7 @@ group_candle_range = 4
 group_candle_ison = 1
 
 [prs32]
-comment = ["Night", "2"]
+comment = "Night 2"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2648,7 +2648,7 @@ group_candle_range = 4
 group_candle_ison = 1
 
 [prs33]
-comment = ["Night", "3"]
+comment = "Night 3"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2724,7 +2724,7 @@ group_candle_range = 4
 group_candle_ison = 1
 
 [prs34]
-comment = ["Night", "4"]
+comment = "Night 4"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2800,7 +2800,7 @@ group_candle_range = 4
 group_candle_ison = 1
 
 [prs35]
-comment = ["Night", "5"]
+comment = "Night 5"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2834,7 +2834,7 @@ sky_light_gamma = 0.566667
 sky_light_ison = 1
 
 [prs36]
-comment = ["Night", "6"]
+comment = "Night 6"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2868,7 +2868,7 @@ sky_light_gamma = 0.85
 sky_light_ison = 1
 
 [prs37]
-comment = ["Night", "7"]
+comment = "Night 7"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2902,7 +2902,7 @@ sky_light_gamma = 0.566667
 sky_light_ison = 1
 
 [prs38]
-comment = ["Night", "8"]
+comment = "Night 8"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -2964,7 +2964,7 @@ group_lamp_range = 3.45
 group_lamp_ison = 1
 
 [prs39]
-comment = ["Night", "9"]
+comment = "Night 9"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -3054,7 +3054,7 @@ group_heater_range = 40
 group_heater_ison = 1
 
 [prs40]
-comment = ["Night", "10"]
+comment = "Night 10"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -3144,7 +3144,7 @@ group_heater_range = 23.05
 group_heater_ison = 1
 
 [prs41]
-comment = ["Inside", "1"]
+comment = "Inside 1"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -3220,7 +3220,7 @@ group_lamp_range = 8.35
 group_lamp_ison = 1
 
 [prs42]
-comment = ["Inside", "2"]
+comment = "Inside 2"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -3282,7 +3282,7 @@ group_heater_range = 40
 group_heater_ison = 1
 
 [prs43]
-comment = ["Inside", "3"]
+comment = "Inside 3"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -3344,19 +3344,19 @@ group_heater_range = 40
 group_heater_ison = 1
 
 [prs44]
-comment = ["Empty", "4"]
+comment = "Empty 4"
 
 [prs45]
-comment = ["Empty", "5"]
+comment = "Empty 5"
 
 [prs46]
-comment = ["Empty", "6"]
+comment = "Empty 6"
 
 [prs47]
-comment = ["Empty", "7"]
+comment = "Empty 7"
 
 [prs48]
-comment = ["Inside", "8"]
+comment = "Inside 8"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -3404,7 +3404,7 @@ group_candle_range = 8.08333
 group_candle_ison = 1
 
 [prs49]
-comment = ["Inside", "9"]
+comment = "Inside 9"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -3452,10 +3452,10 @@ group_candle_range = 3.18333
 group_candle_ison = 1
 
 [prs50]
-comment = ["Empty", "10"]
+comment = "Empty 10"
 
 [prs51]
-comment = ["Inside", "11"]
+comment = "Inside 11"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -3531,7 +3531,7 @@ group_heater_range = 40
 group_heater_ison = 1
 
 [prs52]
-comment = ["Inside", "12"]
+comment = "Inside 12"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1
@@ -3579,28 +3579,28 @@ group_candle_range = 27.95
 group_candle_ison = 1
 
 [prs53]
-comment = ["Empty", "13"]
+comment = "Empty 13"
 
 [prs54]
-comment = ["Empty", "14"]
+comment = "Empty 14"
 
 [prs55]
-comment = ["Empty", "15"]
+comment = "Empty 15"
 
 [prs56]
-comment = ["Empty", "16"]
+comment = "Empty 16"
 
 [prs57]
-comment = ["Empty", "17"]
+comment = "Empty 17"
 
 [prs58]
-comment = ["Empty", "18"]
+comment = "Empty 18"
 
 [prs59]
-comment = ["Empty", "19"]
+comment = "Empty 19"
 
 [prs60]
-comment = ["Inside", "20"]
+comment = "Inside 20"
 smoothusenormals = 1
 smoothradius = 0.2
 blurtrace = 1

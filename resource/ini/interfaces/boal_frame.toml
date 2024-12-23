@@ -1,5 +1,5 @@
 [MAIN]
-item = ["VIDEO", "VIDEOBASE", "PICTURE", "BACKSCROLLPICT", "PICTURE", "SCROLLPICT", "IMAGECOLLECTION", "BORDERS", "FORMATEDTEXT", "INFO_TEXT"]
+item = [["VIDEO", "VIDEOBASE"], ["PICTURE", "BACKSCROLLPICT"], ["PICTURE", "SCROLLPICT"], ["IMAGECOLLECTION", "BORDERS"], ["FORMATEDTEXT", "INFO_TEXT"]]
 
 [BACKSCROLLPICT]
 babsoluterectangle = 5
@@ -13,4 +13,5 @@ texturename = "interfaces\\FrameForm.tga"
 [INFO_TEXT]
 position = [60, 50, 740, 550]
 linespace = 35
-font = ["NORMAL", "2.2"]
+font = "NORMAL"
+fontscale = 2.2

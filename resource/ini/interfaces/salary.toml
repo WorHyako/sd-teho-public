@@ -1,24 +1,24 @@
 [MAIN]
-item = ["FRAME", "MAIN_FRAME", "FORMATEDTEXT", "MAIN_WINDOW_CAPTION", "RECTANGLE", "PAYMENT_RECT2", "RECTANGLE", "PAYMENT_RECT3", "PICTURE", "INFO_PICTURE", "IMAGECOLLECTION", "INFO_BORDERS", "IMAGECOLLECTION", "STATICIMAGES", "FORMATEDTEXT", "INFO_TEXT1", "FORMATEDTEXT", "INFO_TEXT2", "FORMATEDTEXT", "INFO_TEXT3", "TEXTBUTTON2", "B_OK", "TEXTBUTTON2", "B_CANCEL"]
+item = [["FRAME", "MAIN_FRAME"], ["FORMATEDTEXT", "MAIN_WINDOW_CAPTION"], ["RECTANGLE", "PAYMENT_RECT2"], ["RECTANGLE", "PAYMENT_RECT3"], ["PICTURE", "INFO_PICTURE"], ["IMAGECOLLECTION", "INFO_BORDERS"], ["IMAGECOLLECTION", "STATICIMAGES"], ["FORMATEDTEXT", "INFO_TEXT1"], ["FORMATEDTEXT", "INFO_TEXT2"], ["FORMATEDTEXT", "INFO_TEXT3"], ["TEXTBUTTON2", "B_OK"], ["TEXTBUTTON2", "B_CANCEL"]]
 start = "B_OK"
 
 [B_OK]
 bbreakcommand = 0
-command = ["deactivate", "event:exitCancel", "activate", "click", "downstep", "select:B_CANCEL"]
+command = [["deactivate", "event:exitCancel"], ",activate", "click", ["downstep", "select:B_CANCEL"]]
 position = [253, 430, 396, 462]
 string = "Yes"
 glowoffset = [0, 0]
 
 [B_CANCEL]
 bbreakcommand = 0
-command = ["deactivate", "event:exitCancel", "activate", "click", "upstep"]
+command = [["deactivate", "event:exitCancel"], ",activate", "click", "upstep"]
 position = [403, 430, 546, 462]
 string = "No"
 glowoffset = [0, 0]
 
 [MAIN_FRAME]
 captionheight = 24
-captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionimage = ["piclist=SKILLS", " picname=SKILLBORDER", " color=(255", "128", "128", "128)"]
 captionoffset = [0, 3, 0, 0]
 captiondividerheight = 4
 position = [225, 119, 574, 469]
@@ -65,7 +65,8 @@ linespace = 14
 command = "click"
 babsoluterectangle = 5
 position = [251, 123, 548, 149]
-font = ["interface_button", "1.0"]
+font = "interface_button"
+fontscale = 1.0
 linespace = 10
 alignment = "center"
 color = [255, 255, 255, 255]
@@ -75,4 +76,4 @@ string = "titleSalary"
 [STATICIMAGES]
 offset = [80, 60]
 groupname = "ICONS"
-picture = ["money", "icon", "col:{255", "128", "128", "128}", "pos:{255", "396", "282", "423}", "money", "icon", "col:{255", "128", "128", "128}", "pos:{544", "396", "517", "423}"]
+picture = [["money icon", "col:{255", "128", "128", "128}", "pos:{255", "396", "282", "423}"], ["money icon", "col:{255", "128", "128", "128}", "pos:{544", "396", "517", "423}"]]

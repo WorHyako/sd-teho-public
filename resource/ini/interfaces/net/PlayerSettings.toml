@@ -1,5 +1,5 @@
 [MAIN]
-item = ["PICTURE", "MAIN_BACK", "TITLE", "TITLE", "FRAME", "FRAME_NICK", "FRAME", "FRAME_SHIP", "FRAME", "FRAME_PROFILES", "FRAME", "FRAME_PROFILES_BUTTONS", "83", "PCEDITBOX", "EDITBOX_PLAYERNAME", "83", "PCEDITBOX", "EDITBOX_PLAYERSHIPNAME", "83", "PCEDITBOX", "EDITBOX_PLAYERPASSWORD", "90", "IMAGECOLLECTION", "INFO_BORDER", "200", "SCROLLIMAGE", "FACESLIST", "200", "BUTTON", "FACESLIST_LEFT", "200", "BUTTON", "FACESLIST_RIGHT", "200", "SCROLLIMAGE", "COLORSLIST", "200", "BUTTON", "COLORSLIST_LEFT", "200", "BUTTON", "COLORSLIST_RIGHT", "200", "SCROLLIMAGE", "FLAGSLIST", "200", "BUTTON", "FLAGSLIST_LEFT", "200", "BUTTON", "FLAGSLIST_RIGHT", "200", "SCROLLIMAGE", "SAILSLIST", "200", "BUTTON", "SAILSLIST_LEFT", "200", "BUTTON", "SAILSLIST_RIGHT", "200", "FORMATEDTEXT", "CAPTION_FLAGSLIST", "404", "TEXTBUTTON2", "BUTTON_SAVE", "404", "TEXTBUTTON2", "BUTTON_DELETE", "404", "TEXTBUTTON2", "BUTTON_SELECT", "404", "TEXTBUTTON2", "BUTTON_CANCEL", "400", "STRINGCOLLECTION", "STRINGS_CAPTION", "500", "TABLE", "TABLE_PROFILES", "200", "SCROLLER", "SCROLL_PROFILES"]
+item = [["PICTURE", "MAIN_BACK"], ["TITLE", "TITLE"], ["FRAME", "FRAME_NICK"], ["FRAME", "FRAME_SHIP"], ["FRAME", "FRAME_PROFILES"], ["FRAME", "FRAME_PROFILES_BUTTONS"], ["83", "PCEDITBOX", "EDITBOX_PLAYERNAME"], ["83", "PCEDITBOX", "EDITBOX_PLAYERSHIPNAME"], ["83", "PCEDITBOX", "EDITBOX_PLAYERPASSWORD"], ["90", "IMAGECOLLECTION", "INFO_BORDER"], ["200", "SCROLLIMAGE", "FACESLIST"], ["200", "BUTTON", "FACESLIST_LEFT"], ["200", "BUTTON", "FACESLIST_RIGHT"], ["200", "SCROLLIMAGE", "COLORSLIST"], ["200", "BUTTON", "COLORSLIST_LEFT"], ["200", "BUTTON", "COLORSLIST_RIGHT"], ["200", "SCROLLIMAGE", "FLAGSLIST"], ["200", "BUTTON", "FLAGSLIST_LEFT"], ["200", "BUTTON", "FLAGSLIST_RIGHT"], ["200", "SCROLLIMAGE", "SAILSLIST"], ["200", "BUTTON", "SAILSLIST_LEFT"], ["200", "BUTTON", "SAILSLIST_RIGHT"], ["200", "FORMATEDTEXT", "CAPTION_FLAGSLIST"], ["404", "TEXTBUTTON2", "BUTTON_SAVE"], ["404", "TEXTBUTTON2", "BUTTON_DELETE"], ["404", "TEXTBUTTON2", "BUTTON_SELECT"], ["404", "TEXTBUTTON2", "BUTTON_CANCEL"], ["400", "STRINGCOLLECTION", "STRINGS_CAPTION"], ["500", "TABLE", "TABLE_PROFILES"], ["200", "SCROLLER", "SCROLL_PROFILES"]]
 
 [MAIN_BACK]
 position = [0, 0, 800, 600]
@@ -9,7 +9,7 @@ texturename = "interfaces\\mainback.tga"
 stringwidth = 260
 
 [EDITBOX_PLAYERNAME]
-command = ["click", "select:EDITBOX_PLAYERNAME", "deactivate", "event:OnCancel", "activate"]
+command = [["click", "select:EDITBOX_PLAYERNAME"], ["deactivate", "event:OnCancel"], ",activate"]
 position = [82, 95, 272, 122]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -17,10 +17,10 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 24
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [EDITBOX_PLAYERSHIPNAME]
-command = ["click", "select:EDITBOX_PLAYERSHIPNAME", "deactivate", "event:OnCancel", "activate"]
+command = [["click", "select:EDITBOX_PLAYERSHIPNAME"], ["deactivate", "event:OnCancel"], ",activate"]
 position = [114, 225, 519, 251]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -28,10 +28,10 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 24
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [EDITBOX_PLAYERPASSWORD]
-command = ["click", "select:EDITBOX_PLAYERPASSWORD", "deactivate", "event:OnCancel", "activate"]
+command = [["click", "select:EDITBOX_PLAYERPASSWORD"], ["deactivate", "event:OnCancel"], ",activate"]
 position = [82, 128, 272, 155]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -40,7 +40,7 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 12
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [BUTTON_SAVE]
 bbreakcommand = 1
@@ -87,7 +87,7 @@ position = [540, 50, 791, 488]
 position = [540, 500, 791, 558]
 
 [FACESLIST]
-command = ["activate", "deactivate", "event:OnCancel", "rightstep", "leftstep", "speedright", "speedleft", "click", "select:FACESLIST"]
+command = ["activate", ["deactivate", "event:OnCancel"], ",rightstep", "leftstep", "speedright", "speedleft", ["click", "select:FACESLIST"]]
 position = [298, 92, 502, 156]
 imagesize = [64, 64]
 dwselectcolorargb1 = [255, 98, 98, 98]
@@ -96,7 +96,7 @@ wdelta = 3
 glowoffset = [0, 0]
 
 [FACESLIST_LEFT]
-command = ["activate", "select:FACESLIST", "com:speedleft:FACESLIST", "click", "select:FACESLIST", "com:leftstep:FACESLIST", "com:activate:FACESLIST_LEFT", "click", "event:CannonLeft"]
+command = [["activate", "select:FACESLIST", "com:speedleft:FACESLIST"], ["click", "select:FACESLIST", "com:leftstep:FACESLIST", "com:activate:FACESLIST_LEFT"], ["click", "event:CannonLeft"]]
 position = [282, 92, 297, 156]
 group = "MAIN_ICONS"
 picture = "left_button3"
@@ -104,7 +104,7 @@ shadowoffset = [0, 0]
 glowoffset = [0, 0]
 
 [FACESLIST_RIGHT]
-command = ["activate", "select:FACESLIST", "com:speedright:FACESLIST", "click", "select:FACESLIST", "com:rightstep:FACESLIST", "com:activate:FACESLIST_RIGHT"]
+command = [["activate", "select:FACESLIST", "com:speedright:FACESLIST"], ["click", "select:FACESLIST", "com:rightstep:FACESLIST", "com:activate:FACESLIST_RIGHT"]]
 position = [502, 92, 517, 156]
 group = "MAIN_ICONS"
 picture = "right_button3"
@@ -112,7 +112,7 @@ shadowoffset = [0, 0]
 glowoffset = [0, 0]
 
 [SAILSLIST]
-command = ["activate", "deactivate", "event:OnCancel", "rightstep", "leftstep", "speedright", "speedleft", "click", "select:SAILSLIST"]
+command = ["activate", ["deactivate", "event:OnCancel"], ",rightstep", "leftstep", "speedright", "speedleft", ["click", "select:SAILSLIST"]]
 position = [35, 430, 505, 558]
 imagesize = [96, 96]
 dwselectcolorargb1 = [255, 98, 98, 98]
@@ -121,7 +121,7 @@ wdelta = 2
 glowoffset = [0, 0]
 
 [SAILSLIST_LEFT]
-command = ["activate", "select:SAILSLIST", "com:speedleft:SAILSLIST", "click", "select:SAILSLIST", "com:leftstep:SAILSLIST", "com:activate:SAILSLIST_LEFT"]
+command = [["activate", "select:SAILSLIST", "com:speedleft:SAILSLIST"], ["click", "select:SAILSLIST", "com:leftstep:SAILSLIST", "com:activate:SAILSLIST_LEFT"]]
 position = [15, 448, 32, 541]
 group = "MAIN_ICONS"
 picture = "left_button3"
@@ -129,7 +129,7 @@ shadowoffset = [0, 0]
 glowoffset = [0, 0]
 
 [SAILSLIST_RIGHT]
-command = ["activate", "select:SAILSLIST", "com:speedright:SAILSLIST", "click", "select:SAILSLIST", "com:rightstep:SAILSLIST", "com:activate:SAILSLIST_RIGHT"]
+command = [["activate", "select:SAILSLIST", "com:speedright:SAILSLIST"], ["click", "select:SAILSLIST", "com:rightstep:SAILSLIST", "com:activate:SAILSLIST_RIGHT"]]
 position = [509, 448, 526, 541]
 group = "MAIN_ICONS"
 picture = "right_button3"
@@ -137,7 +137,7 @@ shadowoffset = [0, 0]
 glowoffset = [0, 0]
 
 [FLAGSLIST]
-command = ["activate", "deactivate", "event:OnCancel", "rightstep", "leftstep", "speedright", "speedleft", "click", "select:FLAGSLIST"]
+command = ["activate", ["deactivate", "event:OnCancel"], ",rightstep", "leftstep", "speedright", "speedleft", ["click", "select:FLAGSLIST"]]
 position = [46, 376, 494, 408]
 imagesize = [64, 32]
 dwselectcolorargb1 = [255, 98, 98, 98]
@@ -146,7 +146,7 @@ wdelta = 0
 glowoffset = [0, 0]
 
 [FLAGSLIST_LEFT]
-command = ["activate", "select:FLAGSLIST", "com:speedleft:FLAGSLIST", "click", "select:FLAGSLIST", "com:leftstep:FLAGSLIST", "com:activate:FLAGSLIST_LEFT"]
+command = [["activate", "select:FLAGSLIST", "com:speedleft:FLAGSLIST"], ["click", "select:FLAGSLIST", "com:leftstep:FLAGSLIST", "com:activate:FLAGSLIST_LEFT"]]
 position = [29, 375, 44, 410]
 group = "MAIN_ICONS"
 picture = "left_button3"
@@ -154,7 +154,7 @@ shadowoffset = [0, 0]
 glowoffset = [0, 0]
 
 [FLAGSLIST_RIGHT]
-command = ["activate", "select:FLAGSLIST", "com:speedright:FLAGSLIST", "click", "select:FLAGSLIST", "com:rightstep:FLAGSLIST", "com:activate:FLAGSLIST_RIGHT"]
+command = [["activate", "select:FLAGSLIST", "com:speedright:FLAGSLIST"], ["click", "select:FLAGSLIST", "com:rightstep:FLAGSLIST", "com:activate:FLAGSLIST_RIGHT"]]
 position = [496, 374, 511, 410]
 group = "MAIN_ICONS"
 picture = "right_button3"
@@ -162,7 +162,7 @@ shadowoffset = [0, 0]
 glowoffset = [0, 0]
 
 [COLORSLIST]
-command = ["activate", "deactivate", "event:OnCancel", "rightstep", "leftstep", "speedright", "speedleft", "click", "select:COLORSLIST"]
+command = ["activate", ["deactivate", "event:OnCancel"], ",rightstep", "leftstep", "speedright", "speedleft", ["click", "select:COLORSLIST"]]
 position = [46, 280, 495, 344]
 imagesize = [64, 64]
 dwselectcolorargb1 = [255, 98, 98, 98]
@@ -171,7 +171,7 @@ wdelta = 0
 glowoffset = [0, 0]
 
 [COLORSLIST_LEFT]
-command = ["activate", "select:COLORSLIST", "com:speedleft:COLORSLIST", "click", "select:COLORSLIST", "com:leftstep:COLORSLIST", "com:activate:COLORSLIST_LEFT"]
+command = [["activate", "select:COLORSLIST", "com:speedleft:COLORSLIST"], ["click", "select:COLORSLIST", "com:leftstep:COLORSLIST", "com:activate:COLORSLIST_LEFT"]]
 position = [29, 281, 44, 343]
 group = "MAIN_ICONS"
 picture = "left_button3"
@@ -179,7 +179,7 @@ shadowoffset = [0, 0]
 glowoffset = [0, 0]
 
 [COLORSLIST_RIGHT]
-command = ["activate", "select:COLORSLIST", "com:speedright:COLORSLIST", "click", "select:COLORSLIST", "com:rightstep:COLORSLIST", "com:activate:COLORSLIST_RIGHT"]
+command = [["activate", "select:COLORSLIST", "com:speedright:COLORSLIST"], ["click", "select:COLORSLIST", "com:rightstep:COLORSLIST", "com:activate:COLORSLIST_RIGHT"]]
 position = [496, 281, 511, 343]
 group = "MAIN_ICONS"
 picture = "right_button3"
@@ -189,13 +189,13 @@ glowoffset = [0, 0]
 [INFO_BORDER]
 offset = [1350, 493]
 groupname = "MAIN_ICONS"
-picture = ["editsection:1", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{12", "52", "528", "79}", "editsection:2", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{542", "52", "788", "79}", "editsection:3", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{11", "186", "528", "213}"]
+picture = ["editsection:1", ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{12", "52", "528", "79}"], ",editsection:2", ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{542", "52", "788", "79}"], ",editsection:3", ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{11", "186", "528", "213}"]]
 
 [CAPTION_FLAGSLIST]
 position = [0, 0, 800, 600]
 
 [TABLE_PROFILES]
-command = ["click", "event:Players_OnClick", "select:TABLE_PROFILES", "upstep", "downstep"]
+command = [["click", "event:Players_OnClick", "select:TABLE_PROFILES"], ",upstep", "downstep"]
 position = [565, 82, 754, 482]
 rowquantity = 22
 colquantity = 1
@@ -208,7 +208,7 @@ selectimage = ["color=(100", "200", "120", "55)"]
 rowsheight = [18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18]
 
 [SCROLL_PROFILES]
-command = ["click", "select:TABLE_PROFILES", "downstep", "upstep"]
+command = [["click", " select:TABLE_PROFILES"], ",downstep", "upstep"]
 position = [754, 82, 768, 481]
 basetexture = "interfaces\\icons.tga"
 rollertexture = "interfaces\\icons.tga"
@@ -220,4 +220,4 @@ rollerheight = 18
 ownedcontrol = "TABLE_PROFILES"
 
 [STRINGS_CAPTION]
-string = ["capNetPS_PlayerName", "font:interface_normal", "pos:{77", "101}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "capNetPS_PlayerPassword", "font:interface_normal", "pos:{77", "133}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "capNetPS_PlayerPasswordSection", "font:interface_button", "pos:{72", "56}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capNetPS_ShipName", "font:interface_normal", "pos:{109", "230}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}", "capNetPS_FacesList", "font:interface_button", "pos:{380", "56}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capNetPS_ShipSettings", "font:interface_button", "pos:{219", "189}", "fc:{255", "255", "255", "255}", "bc:{0", "12ew8", "128", "128}", "scale:1.00", "state:{LS}", "capNetPS_FlagsList", "font:interface_button", "pos:{250", "350}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capNetPS_SailsColor", "font:interface_button", "pos:{236", "256}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capNetPS_SailsList", "font:interface_button", "pos:{215", "418}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}", "capNetPS_Profiles", "font:interface_button", "pos:{629", "55}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]
+string = [["capNetPS_PlayerName", "font:interface_normal", "pos:{77", "101}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["capNetPS_PlayerPassword", "font:interface_normal", "pos:{77", "133}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["capNetPS_PlayerPasswordSection", "font:interface_button", "pos:{72", "56}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"], ["capNetPS_ShipName", "font:interface_normal", "pos:{109", "230}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{RS}"], ["capNetPS_FacesList", "font:interface_button", "pos:{380", "56}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"], ["capNetPS_ShipSettings", "font:interface_button", "pos:{219", "189}", "fc:{255", "255", "255", "255}", "bc:{0", "12ew8", "128", "128}", "scale:1.00", "state:{LS}"], ["capNetPS_FlagsList", "font:interface_button", "pos:{250", "350}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"], ["capNetPS_SailsColor", "font:interface_button", "pos:{236", "256}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"], ["capNetPS_SailsList", "font:interface_button", "pos:{215", "418}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"], ["capNetPS_Profiles", "font:interface_button", "pos:{629", "55}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{LS}"]]

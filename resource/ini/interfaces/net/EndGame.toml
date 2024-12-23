@@ -1,5 +1,5 @@
 [MAIN]
-item = ["501", "FRAME", "FRAME_ENDGAME", "502", "IMAGECOLLECTION", "BORDER_ENDGAME", "503", "FORMATEDTEXT", "TEXT_ENDGAME", "503", "STRINGCOLLECTION", "STRINGS_ENDGAME", "503", "TEXTBUTTON2", "BTN_ENDGAME_OK"]
+item = [["501", "FRAME", "FRAME_ENDGAME"], ["502", "IMAGECOLLECTION", "BORDER_ENDGAME"], ["503", "FORMATEDTEXT", "TEXT_ENDGAME"], ["503", "STRINGCOLLECTION", "STRINGS_ENDGAME"], ["503", "TEXTBUTTON2", "BTN_ENDGAME_OK"]]
 start = "BTN_ENDGAME_OK"
 
 [FRAME_ENDGAME]
@@ -7,7 +7,7 @@ position = [220, 184, 580, 360]
 
 [BTN_ENDGAME_OK]
 bbreakcommand = 1
-command = ["click", "event:OnEndGameOk", "activate", "event:OnEndGameOk", "deactivate", "event:OnEndGameOk"]
+command = [["click", "event:OnEndGameOk"], ["activate", "event:OnEndGameOk"], ["deactivate", "event:OnEndGameOk"]]
 position = [320, 313, 477, 345]
 string = "btnEG_Ok"
 glowoffset = [0, 0]

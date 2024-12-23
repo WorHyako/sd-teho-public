@@ -1,13 +1,13 @@
 [MAIN]
-item = ["VIDEO", "VIDEOBASE", "PICTURE", "MAIN_BACK", "PICTURE", "BOUNDARIES", "TITLE", "TITLE", "SCROLLEDPICTURE", "MAP", "IMAGECOLLECTION", "BORDERS", "100", "pc", "BUTTON", "EXIT_BTN", "WINDOW", "MAIN_WINDOW", "400", "RECTANGLE", "INFO_FADER", "401", "IMAGECOLLECTION", "INFO_BACK", "401", "IMAGECOLLECTION", "INFO_BORDERS", "401", "FORMATEDTEXT", "INFO_CAPTION", "401", "PICTURE", "INFO_NATION_PICTURE", "401", "FORMATEDTEXT", "COLONY_INFO_TEXT", "401", "FORMATEDTEXT", "COLONY_INFO_TEXT2", "401", "FORMATEDTEXT", "COLONY_INFO_SIEGE", "401", "FORMATEDTEXT", "COLONY_INFO_LABEL", "401", "FORMATEDTEXT", "COLONY_TIME_INFO", "401", "FORMATEDTEXT", "COLONY_TRAVEL_INFO", "401", "FORMATEDTEXT", "IMPORT_CAPTION", "401", "FORMATEDTEXT", "EXPORT_CAPTION", "401", "FORMATEDTEXT", "CONTRABAND_CAPTION", "401", "FORMATEDTEXT", "AGGRESSIVE_CAPTION", "401", "IMAGECOLLECTION", "GOODS_PICTURES", "401", "FORMATEDTEXT", "TRADEASSISTANT_CAPTION", "401", "FORMATEDTEXT", "TRADEASSISTANT_TO", "401", "FORMATEDTEXT", "TRADEASSISTANT_FROM", "401", "FORMATEDTEXT", "TRADEASSISTANT_PRICES1", "401", "FORMATEDTEXT", "TRADEASSISTANT_PRICES2", "401", "FORMATEDTEXT", "TRADEASSISTANT_SPECIAL", "WINDOW", "INFO_WINDOW"]
+item = [["VIDEO", "VIDEOBASE"], ["PICTURE", "MAIN_BACK"], ["PICTURE", "BOUNDARIES"], ["TITLE", "TITLE"], ["SCROLLEDPICTURE", "MAP"], ["IMAGECOLLECTION", "BORDERS"], ["100", "pc", "BUTTON", "EXIT_BTN"], ["WINDOW", "MAIN_WINDOW"], ["400", "RECTANGLE", "INFO_FADER"], ["401", "IMAGECOLLECTION", "INFO_BACK"], ["401", "IMAGECOLLECTION", "INFO_BORDERS"], ["401", "FORMATEDTEXT", "INFO_CAPTION"], ["401", "PICTURE", "INFO_NATION_PICTURE"], ["401", "FORMATEDTEXT", "COLONY_INFO_TEXT"], ["401", "FORMATEDTEXT", "COLONY_INFO_TEXT2"], ["401", "FORMATEDTEXT", "COLONY_INFO_SIEGE"], ["401", "FORMATEDTEXT", "COLONY_INFO_LABEL"], ["401", "FORMATEDTEXT", "COLONY_TIME_INFO"], ["401", "FORMATEDTEXT", "COLONY_TRAVEL_INFO"], ["401", "FORMATEDTEXT", "IMPORT_CAPTION"], ["401", "FORMATEDTEXT", "EXPORT_CAPTION"], ["401", "FORMATEDTEXT", "CONTRABAND_CAPTION"], ["401", "FORMATEDTEXT", "AGGRESSIVE_CAPTION"], ["401", "IMAGECOLLECTION", "GOODS_PICTURES"], ["401", "FORMATEDTEXT", "TRADEASSISTANT_CAPTION"], ["401", "FORMATEDTEXT", "TRADEASSISTANT_TO"], ["401", "FORMATEDTEXT", "TRADEASSISTANT_FROM"], ["401", "FORMATEDTEXT", "TRADEASSISTANT_PRICES1"], ["401", "FORMATEDTEXT", "TRADEASSISTANT_PRICES2"], ["401", "FORMATEDTEXT", "TRADEASSISTANT_SPECIAL"], ["WINDOW", "INFO_WINDOW"]]
 
 [MAIN_WINDOW]
 show = 1
-nodelist = ["MAIN_BACK", "BOUNDARIES", "TITLE", "BACK", "MAP", "MAPS_LIST", "BORDERS", "EXIT_BTN"]
+nodelist = [["MAIN_BACK", "BOUNDARIES", "TITLE", "BACK", "MAP", "MAPS_LIST"], ["BORDERS", "EXIT_BTN"]]
 
 [INFO_WINDOW]
 show = 0
-nodelist = ["INFO_BORDERS", "INFO_FADER", "INFO_BACK", "INFO_CAPTION", "INFO_NATION_PICTURE", "COLONY_INFO_TEXT", "COLONY_INFO_TEXT2", "COLONY_INFO_LABEL", "COLONY_INFO_SIEGE", "COLONY_INFO", "COLONY_TIME_INFO", "COLONY_TRAVEL_INFO", "IMPORT_CAPTION", "EXPORT_CAPTION", "CONTRABAND_CAPTION", "AGGRESSIVE_CAPTION", "GOODS_PICTURES", "TRADEASSISTANT_PRICES1", "TRADEASSISTANT_PRICES2", "TRADEASSISTANT_CAPTION", "TRADEASSISTANT_TO", "TRADEASSISTANT_FROM", "TRADEASSISTANT_SPECIAL"]
+nodelist = [["INFO_BORDERS", "INFO_FADER", "INFO_BACK", "INFO_CAPTION", "INFO_NATION_PICTURE"], ["COLONY_INFO_TEXT", "COLONY_INFO_TEXT2"], ["COLONY_INFO_LABEL", "COLONY_INFO_SIEGE"], ["COLONY_INFO", "COLONY_TIME_INFO", "COLONY_TRAVEL_INFO", "IMPORT_CAPTION", "EXPORT_CAPTION", "CONTRABAND_CAPTION", "AGGRESSIVE_CAPTION"], ["GOODS_PICTURES", "TRADEASSISTANT_PRICES1", "TRADEASSISTANT_PRICES2", "TRADEASSISTANT_CAPTION", "TRADEASSISTANT_TO", "TRADEASSISTANT_FROM", "TRADEASSISTANT_SPECIAL"]]
 
 [INFO_FADER]
 babsoluterectangle = 5
@@ -28,12 +28,12 @@ position = [0, 35, 800, 595]
 [EXIT_BTN]
 position = [770, 5, 795, 30]
 group = "ICONS_SPEC"
-picture = ["exit", "button"]
+picture = "exit button"
 command = ["click", "event:exitCancel"]
 shadowcolor = [0, 0, 0, 0]
 
 [MAP]
-command = ["click", "rclick", "event:SelectRColony"]
+command = ["click", ["rclick", "event:SelectRColony"]]
 position = [19, 55, 789, 585]
 basesize = [2048, 2048]
 scale1 = [1, 1]
@@ -41,7 +41,7 @@ startscale = 1
 
 [BORDERS]
 groupname = "MAIN_ICONS"
-picture = ["editsection:map", "BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{0", "33", "9", "42}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{9", "33", "791", "38}", "BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{791", "33", "800", "42}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{0", "595", "790", "600}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{0", "42", "5", "591}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{795", "42", "800", "591}", "BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{0", "591", "9", "600}", "BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{791", "591", "800", "600}", "editsection:end"]
+picture = ["editsection:map", ["BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{0", "33", "9", "42}"], ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{9", "33", "791", "38}"], ["BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{791", "33", "800", "42}"], ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{0", "595", "790", "600}"], ["BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{0", "42", "5", "591}"], ["BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{795", "42", "800", "591}"], ["BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{0", "591", "9", "600}"], ["BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{791", "591", "800", "600}"], ",editsection:end"]
 
 [INFO_CAPTION]
 position = [304, 124, 498, 153]
@@ -51,12 +51,12 @@ font = "interface_button"
 
 [INFO_BORDERS]
 groupname = "MAIN_ICONS"
-picture = ["editsection:UP", "SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{204", "120", "593", "145}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{209", "118", "589", "123}", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{205", "144", "593", "149}", "editsection:left", "BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{201", "118", "210", "127}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{201", "127", "206", "542}", "BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{201", "533", "210", "542}", "editsection:right", "BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{585", "118", "594", "127}", "BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{589", "127", "594", "542}", "BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{585", "533", "594", "542}", "editsection:down", "BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{210", "537", "585", "542}"]
+picture = ["editsection:UP", ["SKILLBORDER", "col:{255", "128", "128", "128}", "pos:{204", "120", "593", "145}"], ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{209", "118", "589", "123}"], ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{205", "144", "593", "149}"], ",editsection:left", ["BORDER_UPLEFT", "col:{255", "128", "128", "128}", "pos:{201", "118", "210", "127}"], ["BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{201", "127", "206", "542}"], ["BORDER_DOWNLEFT", "col:{255", "128", "128", "128}", "pos:{201", "533", "210", "542}"], ",editsection:right", ["BORDER_UPRIGHT", "col:{255", "128", "128", "128}", "pos:{585", "118", "594", "127}"], ["BORDER_LEFT", "col:{255", "128", "128", "128}", "pos:{589", "127", "594", "542}"], ["BORDER_DOWNRIGHT", "col:{255", "128", "128", "128}", "pos:{585", "533", "594", "542}"], ",editsection:down", ["BORDER_CENTER", "col:{255", "128", "128", "128}", "pos:{210", "537", "585", "542}"]]
 
 [INFO_BACK]
 offset = [-432, 69]
 groupname = "PAPIRUS"
-picture = ["editsection:colonylist", "papirus_papermap_info", "col:{255", "128", "128", "128}", "pos:{206", "119", "593", "541}"]
+picture = ["editsection:colonylist", ["papirus_papermap_info", "col:{255", "128", "128", "128}", "pos:{206", "119", "593", "541}"]]
 
 [INFO_NATION_PICTURE]
 position = [220, 155, 285, 220]
@@ -142,14 +142,16 @@ alignment = "center"
 babsoluterectangle = 5
 position = [235, 385, 290, 401]
 linespace = 16
-font = ["interface_button", "0.75"]
+font = "interface_button"
+fontscale = 0.75
 alignment = "center"
 
 [TRADEASSISTANT_FROM]
 babsoluterectangle = 5
 position = [315, 385, 370, 401]
 linespace = 16
-font = ["interface_button", "0.75"]
+font = "interface_button"
+fontscale = 0.75
 alignment = "center"
 
 [TRADEASSISTANT_PRICES1]

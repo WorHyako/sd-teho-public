@@ -1,5 +1,5 @@
 [MAIN]
-item = ["80", "PICTURE", "MAIN_BACK", "90", "TITLE", "TITLE", "100", "PC", "BUTTON", "EB", "100", "TEXTBUTTON2", "BTN_OK", "100", "TEXTBUTTON2", "BTN_CANCEL", "100", "FRAME", "HARDWARE_SETTINGS", "100", "FRAME", "SOFTWARE_SETTINGS", "110", "IMAGECOLLECTION", "TITLES_IMAGES", "120", "STRINGCOLLECTION", "TITLES_STR", "120", "SLIDER", "GAMMA_SLIDE", "120", "SLIDER", "BRIGHT_SLIDE", "120", "SLIDER", "CONTRAST_SLIDE", "120", "SLIDER", "GLOW_SLIDE", "120", "SLIDER", "SEA_DETAILS_SLIDE", "120", "RADIOBUTTON", "HERB_CHECKBOX", "120", "SLIDER", "HUD_SLIDE", "120", "FORMATEDTEXT", "HUD_DESCRIP_TEXT", "120", "SLIDER", "MUSIC_SLIDE", "120", "SLIDER", "SOUND_SLIDE", "120", "SLIDER", "DIALOG_SLIDE", "120", "CHECKBUTTON", "BATTLE_MODE_CHECKBOX", "120", "CHECKBUTTON", "AUTOSAVE_CHECKBOX", "120", "CHECKBUTTON", "SHIPMARK_CHECKBOX", "120", "CHECKBUTTON", "SIMPLESEA_CHECKBOX", "120", "CHECKBUTTON", "ALWAYS_RUN_CHECKBOX", "120", "CHECKBUTTON", "INVERT_MOUSE_CHECKBOX", "120", "SLIDER", "VMOUSE_SENSITIVITY_SLIDE", "120", "SLIDER", "HMOUSE_SENSITIVITY_SLIDE", "120", "TEXTBUTTON2", "BTN_CONTROLS_DEFAULT", "120", "RECTANGLE", "TABCONTROL_RECTANGLE", "125", "SCROLLER", "SCROLL_CONTROLS", "125", "TABLE", "CONTROLS_LIST", "120", "PICTURE", "TABBTN_SAILING_1ST", "125", "FORMATEDTEXT", "TABSTR_SAILING_1ST", "120", "PICTURE", "TABBTN_PRIMARY_LAND", "125", "FORMATEDTEXT", "TABSTR_PRIMARY_LAND", "120", "PICTURE", "TABBTN_SAILING_3RD", "125", "FORMATEDTEXT", "TABSTR_SAILING_3RD", "120", "PICTURE", "TABBTN_FIGHT_MODE", "125", "FORMATEDTEXT", "TABSTR_FIGHT_MODE", "150", "FRAME", "CHANGEKEY_FRAME", "155", "FORMATEDTEXT", "CHANGEKEY_TEXT", "155", "KEYCHOOSER", "KEY_CHOOSER", "WINDOW", "MAIN_WINDOW", "WINDOW", "CHANGEKEY_WINDOW"]
+item = [["80", "PICTURE", "MAIN_BACK"], ["90", "TITLE", "TITLE"], ["100", "PC", "BUTTON", "EB"], ["100", "TEXTBUTTON2", "BTN_OK"], ["100", "TEXTBUTTON2", "BTN_CANCEL"], ["100", "FRAME", "HARDWARE_SETTINGS"], ["100", "FRAME", "SOFTWARE_SETTINGS"], ["110", "IMAGECOLLECTION", "TITLES_IMAGES"], ["120", "STRINGCOLLECTION", "TITLES_STR"], ["120", "SLIDER", "GAMMA_SLIDE"], ["120", "SLIDER", "BRIGHT_SLIDE"], ["120", "SLIDER", "CONTRAST_SLIDE"], ["120", "SLIDER", "GLOW_SLIDE"], ["120", "SLIDER", "SEA_DETAILS_SLIDE"], ["120", "RADIOBUTTON", "HERB_CHECKBOX"], ["120", "SLIDER", "HUD_SLIDE"], ["120", "FORMATEDTEXT", "HUD_DESCRIP_TEXT"], ["120", "SLIDER", "MUSIC_SLIDE"], ["120", "SLIDER", "SOUND_SLIDE"], ["120", "SLIDER", "DIALOG_SLIDE"], ["120", "CHECKBUTTON", "BATTLE_MODE_CHECKBOX"], ["120", "CHECKBUTTON", "AUTOSAVE_CHECKBOX"], ["120", "CHECKBUTTON", "SHIPMARK_CHECKBOX"], ["120", "CHECKBUTTON", "SIMPLESEA_CHECKBOX"], ["120", "CHECKBUTTON", "ALWAYS_RUN_CHECKBOX"], ["120", "CHECKBUTTON", "INVERT_MOUSE_CHECKBOX"], ["120", "SLIDER", "VMOUSE_SENSITIVITY_SLIDE"], ["120", "SLIDER", "HMOUSE_SENSITIVITY_SLIDE"], ["120", "TEXTBUTTON2", "BTN_CONTROLS_DEFAULT"], ["120", "RECTANGLE", "TABCONTROL_RECTANGLE"], ["125", "SCROLLER", "SCROLL_CONTROLS"], ["125", "TABLE", "CONTROLS_LIST"], ["120", "PICTURE", "TABBTN_SAILING_1ST"], ["125", "FORMATEDTEXT", "TABSTR_SAILING_1ST"], ["120", "PICTURE", "TABBTN_PRIMARY_LAND"], ["125", "FORMATEDTEXT", "TABSTR_PRIMARY_LAND"], ["120", "PICTURE", "TABBTN_SAILING_3RD"], ["125", "FORMATEDTEXT", "TABSTR_SAILING_3RD"], ["120", "PICTURE", "TABBTN_FIGHT_MODE"], ["125", "FORMATEDTEXT", "TABSTR_FIGHT_MODE"], ["150", "FRAME", "CHANGEKEY_FRAME"], ["155", "FORMATEDTEXT", "CHANGEKEY_TEXT"], ["155", "KEYCHOOSER", "KEY_CHOOSER"], ["WINDOW", "MAIN_WINDOW"], ["WINDOW", "CHANGEKEY_WINDOW"]]
 start = "BTN_CANCEL"
 
 [MAIN_BACK]
@@ -13,13 +13,13 @@ stringwidth = 210
 [EB]
 position = [764, 6, 786, 28]
 group = "ICONS_SPEC"
-picture = ["exit", "button"]
+picture = "exit button"
 command = ["click", "event:exitCancel"]
 shadowcolor = [0, 0, 0, 0]
 
 [MAIN_WINDOW]
 show = 1
-nodelist = ["BTN_OK", "BTN_CANCEL", "GAMMA_SLIDE", "BRIGHT_SLIDE", "CONTRAST_SLIDE", "SEA_DETAILS_SLIDE", "HERB_CHECKBOX", "HUD_SLIDE", "HUD_DESCRIP_TEXT", "MUSIC_SLIDE", "SOUND_SLIDE", "DIALOG_SLIDE", "CONTROLS_CHECKBOX", "VMOUSE_SENSITIVITY_SLIDE", "HMOUSE_SENSITIVITY_SLIDE", "BTN_CONTROLS_DEFAULT", "SCROLL_CONTROLS", "CONTROLS_LIST", "TABBTN_SAILING_1ST", "TABBTN_PRIMARY_LAND", "TABBTN_SAILING_3RD", "TABBTN_FIGHT_MODE"]
+nodelist = [["BTN_OK", "BTN_CANCEL", "GAMMA_SLIDE", "BRIGHT_SLIDE", "CONTRAST_SLIDE", "SEA_DETAILS_SLIDE", "HERB_CHECKBOX", "HUD_SLIDE", "HUD_DESCRIP_TEXT"], ["MUSIC_SLIDE", "SOUND_SLIDE", "DIALOG_SLIDE"], ["CONTROLS_CHECKBOX", "VMOUSE_SENSITIVITY_SLIDE", "HMOUSE_SENSITIVITY_SLIDE", "BTN_CONTROLS_DEFAULT"], ["SCROLL_CONTROLS", "CONTROLS_LIST", "TABBTN_SAILING_1ST", "TABBTN_PRIMARY_LAND", "TABBTN_SAILING_3RD", "TABBTN_FIGHT_MODE"]]
 
 [CHANGEKEY_WINDOW]
 show = 0
@@ -36,7 +36,7 @@ valignment = 1
 
 [BTN_OK]
 bbreakcommand = 1
-command = ["deactivate", "event:exitCancel", "click", "event:eventBtnAction", "activate", "event:eventBtnAction", "rightstep", "select:BTN_CANCEL", "upstep", "select:BTN_CONTROLS_DEFAULT", "downstep", "select:GAMMA_SLIDE"]
+command = [["deactivate", "event:exitCancel"], ["click", "event:eventBtnAction"], ["activate", "event:eventBtnAction"], ["rightstep", "select:BTN_CANCEL"], ["upstep", "select:BTN_CONTROLS_DEFAULT"], ["downstep", "select:GAMMA_SLIDE"]]
 position = [448, 558, 588, 590]
 string = "Ok"
 glowoffset = [0, 0]
@@ -44,7 +44,7 @@ presspictureoffset = [2, 2]
 
 [BTN_CANCEL]
 bbreakcommand = 1
-command = ["deactivate", "event:exitCancel", "click", "event:exitCancel", "activate", "event:exitCancel", "leftstep", "select:BTN_OK", "upstep", "select:BTN_CONTROLS_DEFAULT", "downstep", "select:GAMMA_SLIDE"]
+command = [["deactivate", "event:exitCancel"], ["click", "event:exitCancel"], ["activate", "event:exitCancel"], ["leftstep", "select:BTN_OK"], ["upstep", "select:BTN_CONTROLS_DEFAULT"], ["downstep", "select:GAMMA_SLIDE"]]
 position = [622, 558, 762, 590]
 string = "Cancel"
 glowoffset = [0, 0]
@@ -57,50 +57,50 @@ position = [7, 40, 406, 592]
 position = [419, 40, 789, 546]
 
 [GAMMA_SLIDE]
-command = ["leftstep", "speedleft", "rightstep", "speedright", "deactivate", "event:eControlDeactivate", "upstep", "select:BTN_CANCEL", "downstep", "select:BRIGHT_SLIDE", "click", "rclick", "event:ShowInfo", "select:GAMMA_SLIDE"]
+command = ["leftstep", "speedleft", "rightstep", "speedright", ["deactivate", "event:eControlDeactivate"], ["upstep", "select:BTN_CANCEL"], ["downstep", "select:BRIGHT_SLIDE"], ",click", ["rclick", "event:ShowInfo", "select:GAMMA_SLIDE"]]
 position = [108, 75, 390, 90]
 pointerwidth = 16
 pointerheight = 20
 glowoffset = [0, 0]
 
 [BRIGHT_SLIDE]
-command = ["leftstep", "speedleft", "rightstep", "speedright", "deactivate", "event:eControlDeactivate", "upstep", "select:GAMMA_SLIDE", "downstep", "select:CONTRAST_SLIDE", "click", "rclick", "event:ShowInfo", "select:BRIGHT_SLIDE"]
+command = ["leftstep", "speedleft", "rightstep", "speedright", ["deactivate", "event:eControlDeactivate"], ["upstep", "select:GAMMA_SLIDE"], ["downstep", "select:CONTRAST_SLIDE"], ",click", ["rclick", "event:ShowInfo", "select:BRIGHT_SLIDE"]]
 position = [108, 100, 390, 115]
 pointerwidth = 16
 pointerheight = 20
 glowoffset = [0, 0]
 
 [CONTRAST_SLIDE]
-command = ["leftstep", "speedleft", "rightstep", "speedright", "deactivate", "event:eControlDeactivate", "upstep", "select:BRIGHT_SLIDE", "downstep", "select:GLOW_SLIDE", "click", "rclick", "event:ShowInfo", "select:CONTRAST_SLIDE"]
+command = ["leftstep", "speedleft", "rightstep", "speedright", ["deactivate", "event:eControlDeactivate"], ["upstep", "select:BRIGHT_SLIDE"], ["downstep", "select:GLOW_SLIDE"], ",click", ["rclick", "event:ShowInfo", "select:CONTRAST_SLIDE"]]
 position = [108, 125, 390, 140]
 pointerwidth = 16
 pointerheight = 20
 glowoffset = [0, 0]
 
 [GLOW_SLIDE]
-command = ["leftstep", "speedleft", "rightstep", "speedright", "deactivate", "event:eControlDeactivate", "upstep", "select:CONTRAST_SLIDE", "downstep", "select:SEA_DETAILS_SLIDE", "click", "rclick", "event:ShowInfo", "select:GLOW_SLIDE"]
+command = ["leftstep", "speedleft", "rightstep", "speedright", ["deactivate", "event:eControlDeactivate"], ["upstep", "select:CONTRAST_SLIDE"], ["downstep", "select:SEA_DETAILS_SLIDE"], ",click", ["rclick", "event:ShowInfo", "select:GLOW_SLIDE"]]
 position = [108, 150, 390, 165]
 pointerwidth = 16
 pointerheight = 20
 glowoffset = [0, 0]
 
 [SEA_DETAILS_SLIDE]
-command = ["leftstep", "speedleft", "rightstep", "speedright", "deactivate", "event:eControlDeactivate", "upstep", "select:GLOW_SLIDE", "downstep", "select:HUD_SLIDE", "click", "rclick", "event:ShowInfo", "select:SEA_DETAILS_SLIDE"]
+command = ["leftstep", "speedleft", "rightstep", "speedright", ["deactivate", "event:eControlDeactivate"], ["upstep", "select:GLOW_SLIDE"], ["downstep", "select:HUD_SLIDE"], ",click", ["rclick", "event:ShowInfo", "select:SEA_DETAILS_SLIDE"]]
 position = [58, 207, 357, 222]
 pointerwidth = 16
 pointerheight = 20
 glowoffset = [0, 0]
 
 [HERB_CHECKBOX]
-command = ["click", "upstep", "event:eHerbAction", "downstep", "event:eHerbAction", "rightstep", "event:eHerbAction", "leftstep", "event:eHerbAction", "rclick", "event:ShowInfo", "select:HERB_CHECKBOX"]
+command = ["click", ["upstep", "event:eHerbAction"], ["downstep", "event:eHerbAction"], ["rightstep", "event:eHerbAction"], ["leftstep", "event:eHerbAction"], ["rclick", "event:ShowInfo", "select:HERB_CHECKBOX"]]
 position = [24, 252, 389, 269]
 alignment = "left"
 lineheight = 8
 iconsize = [16, 16]
-section1 = ["0", "0", "Herb", "None"]
-section2 = ["0", "0", "Herb", "Small"]
-section3 = ["1", "0", "Herb", "Medium"]
-section4 = ["0", "0", "Herb", "Large"]
+section1 = ["0", "0", "Herb None"]
+section2 = ["0", "0", "Herb Small"]
+section3 = ["1", "0", "Herb Medium"]
+section4 = ["0", "0", "Herb Large"]
 fontscale = 0.9
 bshowglowcursor = 0
 individualpos = 1
@@ -110,7 +110,7 @@ pos3 = [188, 3]
 pos4 = [291, 3]
 
 [HUD_SLIDE]
-command = ["leftstep", "speedleft", "rightstep", "speedright", "deactivate", "event:eControlDeactivate", "upstep", "select:SEA_DETAILS_SLIDE", "downstep", "select:MUSIC_SLIDE", "click", "rclick", "event:ShowInfo", "select:HUD_SLIDE"]
+command = ["leftstep", "speedleft", "rightstep", "speedright", ["deactivate", "event:eControlDeactivate"], ["upstep", "select:SEA_DETAILS_SLIDE"], ["downstep", "select:MUSIC_SLIDE"], ",click", ["rclick", "event:ShowInfo", "select:HUD_SLIDE"]]
 position = [58, 328, 357, 343]
 pointerwidth = 16
 pointerheight = 20
@@ -121,109 +121,110 @@ command = "click"
 position = [58, 307, 357, 325]
 fontscale = 0.9
 linespace = 18
-alignment = ["center", "1"]
+alignment = "center"
+valignment = 1
 color = [255, 255, 255, 255]
 
 [MUSIC_SLIDE]
-command = ["leftstep", "speedleft", "rightstep", "speedright", "deactivate", "event:eControlDeactivate", "upstep", "select:HUD_SLIDE", "downstep", "select:SOUND_SLIDE", "click", "rclick", "event:ShowInfo", "select:MUSIC_SLIDE"]
+command = ["leftstep", "speedleft", "rightstep", "speedright", ["deactivate", "event:eControlDeactivate"], ["upstep", "select:HUD_SLIDE"], ["downstep", "select:SOUND_SLIDE"], ",click", ["rclick", "event:ShowInfo", "select:MUSIC_SLIDE"]]
 position = [108, 392, 390, 407]
 pointerwidth = 16
 pointerheight = 20
 glowoffset = [0, 0]
 
 [SOUND_SLIDE]
-command = ["leftstep", "speedleft", "rightstep", "speedright", "deactivate", "event:eControlDeactivate", "upstep", "select:MUSIC_SLIDE", "downstep", "select:DIALOG_SLIDE", "click", "rclick", "event:ShowInfo", "select:SOUND_SLIDE"]
+command = ["leftstep", "speedleft", "rightstep", "speedright", ["deactivate", "event:eControlDeactivate"], ["upstep", "select:MUSIC_SLIDE"], ["downstep", "select:DIALOG_SLIDE"], ",click", ["rclick", "event:ShowInfo", "select:SOUND_SLIDE"]]
 position = [108, 421, 390, 436]
 pointerwidth = 16
 pointerheight = 20
 glowoffset = [0, 0]
 
 [DIALOG_SLIDE]
-command = ["leftstep", "speedleft", "rightstep", "speedright", "deactivate", "event:eControlDeactivate", "upstep", "select:SOUND_SLIDE", "downstep", "select:VMOUSE_SENSITIVITY_SLIDE", "click", "rclick", "event:ShowInfo", "select:DIALOG_SLIDE"]
+command = ["leftstep", "speedleft", "rightstep", "speedright", ["deactivate", "event:eControlDeactivate"], ["upstep", "select:SOUND_SLIDE"], ["downstep", "select:VMOUSE_SENSITIVITY_SLIDE"], ",click", ["rclick", "event:ShowInfo", "select:DIALOG_SLIDE"]]
 position = [108, 450, 390, 465]
 pointerwidth = 16
 pointerheight = 20
 glowoffset = [0, 0]
 
 [BATTLE_MODE_CHECKBOX]
-command = ["click", "rclick", "event:ShowInfo", "select:BATTLE_MODE_CHECKBOX"]
+command = ["click", ["rclick", "event:ShowInfo", "select:BATTLE_MODE_CHECKBOX"]]
 position = [24, 558, 387, 583]
 alignment = "left"
 iconsize = [16, 16]
 individualpos = 1
-section1 = ["0", "0", "Show", "battle", "mode"]
+section1 = ["0", "0", "Show battle mode"]
 fontscale = 0.9
 bshowglowcursor = 0
 
 [AUTOSAVE_CHECKBOX]
-command = ["click", "rclick", "event:ShowInfo", "select:AUTOSAVE_CHECKBOX"]
+command = ["click", ["rclick", "event:ShowInfo", "select:AUTOSAVE_CHECKBOX"]]
 position = [24, 537, 387, 562]
 alignment = "left"
 iconsize = [16, 16]
 individualpos = 1
-section1 = ["0", "0", "AutoSave", "Mode"]
+section1 = ["0", "0", "AutoSave Mode"]
 fontscale = 0.9
 bshowglowcursor = 0
 
 [SHIPMARK_CHECKBOX]
-command = ["click", "rclick", "event:ShowInfo", "select:SHIPMARK_CHECKBOX"]
+command = ["click", ["rclick", "event:ShowInfo", "select:SHIPMARK_CHECKBOX"]]
 position = [24, 517, 387, 542]
 alignment = "left"
 iconsize = [16, 16]
 individualpos = 1
-section1 = ["0", "0", "ShipMark", "Mode"]
+section1 = ["0", "0", "ShipMark Mode"]
 fontscale = 0.9
 bshowglowcursor = 0
 
 [SIMPLESEA_CHECKBOX]
-command = ["click", "rclick", "event:ShowInfo", "select:SIMPLESEA_CHECKBOX"]
+command = ["click", ["rclick", "event:ShowInfo", "select:SIMPLESEA_CHECKBOX"]]
 position = [24, 498, 387, 523]
 alignment = "left"
 iconsize = [16, 16]
 individualpos = 1
-section1 = ["0", "0", "SimpleSea", "Mode"]
+section1 = ["0", "0", "SimpleSea Mode"]
 fontscale = 0.9
 bshowglowcursor = 0
 
 [QUESTMARK_CHECKBOX]
-command = ["click", "rclick", "event:ShowInfo", "select:QUESTMARK_CHECKBOX"]
+command = ["click", ["rclick", "event:ShowInfo", "select:QUESTMARK_CHECKBOX"]]
 position = [24, 577, 387, 602]
 alignment = "left"
 iconsize = [16, 16]
 individualpos = 1
-section1 = ["0", "0", "QuestMark", "Mode"]
+section1 = ["0", "0", "QuestMark Mode"]
 fontscale = 0.9
 bshowglowcursor = 0
 
 [ALWAYS_RUN_CHECKBOX]
-command = ["click", "upstep", "event:eControlCheckBox", "downstep", "event:eControlCheckBox", "rightstep", "event:eControlCheckBox", "leftstep", "event:eControlCheckBox", "rclick", "event:ShowInfo", "select:ALWAYS_RUN_CHECKBOX"]
+command = ["click", ["upstep", "event:eControlCheckBox"], ["downstep", "event:eControlCheckBox"], ["rightstep", "event:eControlCheckBox"], ["leftstep", "event:eControlCheckBox"], ["rclick", "event:ShowInfo", "select:ALWAYS_RUN_CHECKBOX"]]
 position = [443, 75, 766, 105]
 alignment = "left"
 iconsize = [16, 16]
 individualpos = 1
-section1 = ["0", "0", "Always", "Run"]
+section1 = ["0", "0", "Always Run"]
 fontscale = 0.9
 bshowglowcursor = 0
 
 [INVERT_MOUSE_CHECKBOX]
-command = ["click", "upstep", "event:eControlCheckBox", "downstep", "event:eControlCheckBox", "rightstep", "event:eControlCheckBox", "leftstep", "event:eControlCheckBox", "rclick", "event:ShowInfo", "select:INVERT_MOUSE_CHECKBOX"]
+command = ["click", ["upstep", "event:eControlCheckBox"], ["downstep", "event:eControlCheckBox"], ["rightstep", "event:eControlCheckBox"], ["leftstep", "event:eControlCheckBox"], ["rclick", "event:ShowInfo", "select:INVERT_MOUSE_CHECKBOX"]]
 position = [443, 207, 766, 231]
 alignment = "left"
 iconsize = [16, 16]
 individualpos = 1
-section1 = ["0", "0", "Invert", "Vertical", "Mouse", "Control"]
+section1 = ["0", "0", "Invert Vertical Mouse Control"]
 fontscale = 0.9
 bshowglowcursor = 0
 
 [VMOUSE_SENSITIVITY_SLIDE]
-command = ["leftstep", "speedleft", "rightstep", "speedright", "deactivate", "event:eControlDeactivate", "upstep", "select:DIALOG_SLIDE", "downstep", "select:HMOUSE_SENSITIVITY_SLIDE", "click", "rclick", "event:ShowInfo", "select:VMOUSE_SENSITIVITY_SLIDE"]
+command = ["leftstep", "speedleft", "rightstep", "speedright", ["deactivate", "event:eControlDeactivate"], ["upstep", "select:DIALOG_SLIDE"], ["downstep", "select:HMOUSE_SENSITIVITY_SLIDE"], ",click", ["rclick", "event:ShowInfo", "select:VMOUSE_SENSITIVITY_SLIDE"]]
 position = [457, 131, 756, 147]
 pointerwidth = 16
 pointerheight = 20
 glowoffset = [0, 0]
 
 [HMOUSE_SENSITIVITY_SLIDE]
-command = ["leftstep", "speedleft", "rightstep", "speedright", "deactivate", "event:eControlDeactivate", "upstep", "select:VMOUSE_SENSITIVITY_SLIDE", "downstep", "select:BTN_CONTROLS_DEFAULT", "click", "rclick", "event:ShowInfo", "select:HMOUSE_SENSITIVITY_SLIDE"]
+command = ["leftstep", "speedleft", "rightstep", "speedright", ["deactivate", "event:eControlDeactivate"], ["upstep", "select:VMOUSE_SENSITIVITY_SLIDE"], ["downstep", "select:BTN_CONTROLS_DEFAULT"], ",click", ["rclick", "event:ShowInfo", "select:HMOUSE_SENSITIVITY_SLIDE"]]
 position = [457, 172, 756, 188]
 pointerwidth = 16
 pointerheight = 20
@@ -231,9 +232,9 @@ glowoffset = [0, 0]
 
 [BTN_CONTROLS_DEFAULT]
 bbreakcommand = 1
-command = ["click", "event:eventBtnAction", "activate", "event:eventBtnAction", "upstep", "select:HMOUSE_SENSITIVITY_SLIDE", "downstep", "select:BTN_CANCEL"]
+command = [["click", "event:eventBtnAction"], ["activate", "event:eventBtnAction"], ["upstep", "select:HMOUSE_SENSITIVITY_SLIDE"], ["downstep", "select:BTN_CANCEL"]]
 position = [464, 504, 744, 536]
-string = ["Restore", "The", "Default", "Buttons"]
+string = "Restore The Default Buttons"
 glowoffset = [0, 0]
 presspictureoffset = [2, 2]
 
@@ -251,9 +252,9 @@ position = [759, 298, 771, 498]
 ownedcontrol = "CONTROLS_LIST"
 
 [CONTROLS_LIST]
-command = ["click", "select:CONTROLS_LIST", "upstep", "downstep", "dblclick", "event:eventKeyChange", "activate", "event:eventKeyChange"]
+command = [["click", "select:CONTROLS_LIST"], ",upstep", "downstep", ["dblclick", "event:eventKeyChange"], ["activate", "event:eventKeyChange"]]
 position = [435, 296, 757, 498]
-backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "118", "118", "128)"]
+backimage = ["piclist=PAPIRUS", " piccutuv=(0.0", "0.0)", " color=(255", "118", "118", "128)"]
 scroller = "SCROLL_CONTROLS"
 rowquantity = 11
 colquantity = 2
@@ -296,33 +297,33 @@ position = [432, 270, 518, 295]
 fontscale = 0.8
 linespace = 12
 valignment = 1
-string = ["Sailing", "1St", "Person"]
+string = "Sailing 1St Person"
 
 [TABSTR_PRIMARY_LAND]
 position = [518, 270, 604, 295]
 fontscale = 0.8
 linespace = 12
 valignment = 1
-string = ["Primary", "Land"]
+string = "Primary Land"
 
 [TABSTR_SAILING_3RD]
 position = [604, 270, 690, 295]
 fontscale = 0.8
 linespace = 12
 valignment = 1
-string = ["Sailing", "3rd", "Person"]
+string = "Sailing 3rd Person"
 
 [TABSTR_FIGHT_MODE]
 position = [690, 270, 776, 295]
 fontscale = 0.8
 linespace = 12
 valignment = 1
-string = ["Fight", "Mode"]
+string = "Fight Mode"
 
 [TITLES_IMAGES]
 offset = [0, -163]
 groupname = "main_icons"
-picture = ["editsection:", "video", "settings", "title", "skillborder", "col:{255", "128", "128", "128}", "pos:{20", "46", "394", "66}", "editsection:", "sea", "detail", "title", "skillborder", "col:{255", "128", "128", "128}", "pos:{20", "181", "394", "201}", "editsection:", "herb", "box", "title", "skillborder", "col:{255", "128", "128", "128}", "pos:{20", "229", "394", "249}", "editsection:", "hud", "title", "skillborder", "col:{255", "128", "128", "128}", "pos:{20", "279", "394", "299}", "editsection:", "sound", "settings", "title", "skillborder", "col:{255", "128", "128", "128}", "pos:{20", "355", "394", "375}", "editsection:", "controls", "title", "skillborder", "col:{255", "128", "128", "128}", "pos:{431", "46", "777", "66}", "editsection:", "buttons", "title", "skillborder", "col:{255", "128", "128", "128}", "pos:{431", "238", "777", "258}", "editsection:", "other", "title", "skillborder", "col:{255", "128", "128", "128}", "pos:{20", "475", "394", "495}"]
+picture = ["editsection: video settings title", ["skillborder", "col:{255", "128", "128", "128}", "pos:{20", "46", "394", "66}"], ",editsection: sea detail title", ["skillborder", "col:{255", "128", "128", "128}", "pos:{20", "181", "394", "201}"], ",editsection: herb box title", ["skillborder", "col:{255", "128", "128", "128}", "pos:{20", "229", "394", "249}"], ",editsection: hud title", ["skillborder", "col:{255", "128", "128", "128}", "pos:{20", "279", "394", "299}"], ",editsection: sound settings title", ["skillborder", "col:{255", "128", "128", "128}", "pos:{20", "355", "394", "375}"], ",editsection: controls title", ["skillborder", "col:{255", "128", "128", "128}", "pos:{431", "46", "777", "66}"], ",editsection: buttons title", ["skillborder", "col:{255", "128", "128", "128}", "pos:{431", "238", "777", "258}"], ",editsection: other title", ["skillborder", "col:{255", "128", "128", "128}", "pos:{20", "475", "394", "495}"]]
 
 [TITLES_STR]
-string = ["Video", "Settings", "font:interface_normal", "pos:{206", "47}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "Controls", "font:interface_normal", "pos:{604", "49}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "Gamma", "font:interface_normal", "pos:{80", "73}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}", "Brightness", "font:interface_normal", "pos:{76", "98}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}", "Contrast", "font:interface_normal", "pos:{60", "125}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}", "Glow", "font:interface_normal", "pos:{72", "150}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}", "Sea", "Detail", "font:interface_normal", "pos:{206", "183}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "Herb", "Quantity", "font:interface_normal", "pos:{206", "231}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "HUD", "font:interface_normal", "pos:{206", "281}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "HudMin", "font:interface_normal", "pos:{43", "328}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "HudMax", "font:interface_normal", "pos:{372", "328}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "Sounds", "font:interface_normal", "pos:{206", "357}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "Music", "Volume", "font:interface_normal", "pos:{80", "390}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}", "Sound", "Volume", "font:interface_normal", "pos:{75", "419}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}", "Dialog", "Volume", "font:interface_normal", "pos:{81", "448}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}", "Other", "Settings", "font:interface_normal", "pos:{206", "477}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}", "Vertical", "Mouse", "Sensitivity", "font:interface_normal", "pos:{604", "110}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}", "Horizontal", "Mouse", "Sensitivity", "font:interface_normal", "pos:{604", "152}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}", "Button", "Settings", "font:interface_normal", "pos:{604", "239}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]
+string = [["Video Settings", "font:interface_normal", "pos:{206", "47}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["Controls", "font:interface_normal", "pos:{604", "49}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["Gamma", "font:interface_normal", "pos:{80", "73}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}"], ["Brightness", "font:interface_normal", "pos:{76", "98}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}"], ["Contrast", "font:interface_normal", "pos:{60", "125}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}"], ["Glow", "font:interface_normal", "pos:{72", "150}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}"], ["Sea Detail", "font:interface_normal", "pos:{206", "183}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["Herb Quantity", "font:interface_normal", "pos:{206", "231}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["HUD", "font:interface_normal", "pos:{206", "281}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["HudMin", "font:interface_normal", "pos:{43", "328}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["HudMax", "font:interface_normal", "pos:{372", "328}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["Sounds", "font:interface_normal", "pos:{206", "357}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["Music Volume", "font:interface_normal", "pos:{80", "390}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}"], ["Sound Volume", "font:interface_normal", "pos:{75", "419}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}"], ["Dialog Volume", "font:interface_normal", "pos:{81", "448}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}"], ["Other Settings", "font:interface_normal", "pos:{206", "477}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"], ["Vertical Mouse Sensitivity", "font:interface_normal", "pos:{604", "110}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}"], ["Horizontal Mouse Sensitivity", "font:interface_normal", "pos:{604", "152}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.90", "state:{CS}"], ["Button Settings", "font:interface_normal", "pos:{604", "239}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:1.00", "state:{CS}"]]

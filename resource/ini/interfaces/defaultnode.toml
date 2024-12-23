@@ -10,42 +10,42 @@ offset = [40, 30]
 backtexture = "interfaces\\glow_button.tga"
 
 [TEXTBUTTON]
-facecolor = [255, 128, 128, 128]
+facecolor_ = [255, 128, 128, 128]
 facecolorpressed = [255, 128, 128, 128]
 facecolorselected = [255, 128, 128, 128]
-shadowcolor = [255, 0, 0, 0]
-fontcolor = [255, 255, 255, 255]
+shadowcolor_ = [255, 0, 0, 0]
+fontcolor_ = [255, 255, 255, 255]
 unselectablefontcolor = [255, 128, 128, 128]
-group = "MAIN_ICONS"
+group_ = "MAIN_ICONS"
 presspictureoffset = [2, 2]
-pressdelay = 20
-font = "interface_button"
-stroffset = 7
-buttonleft = ["left", "side", "button"]
-buttonmiddle = ["middle", "side", "button"]
-selectbuttonmiddle = ["select", "middle", "side", "button"]
-selectbuttonleft = ["select", "left", "side", "button"]
-backcolor = [0, 0, 0, 0]
-class = "TEXTBUTTON"
+pressdelay_ = 20
+font_ = "interface_button"
+stroffset_ = 7
+buttonleft_ = "left side button"
+buttonmiddle = "middle side button"
+selectbuttonmiddle = "select middle side button"
+selectbuttonleft_ = "select left side button"
+backcolor_ = [0, 0, 0, 0]
+class_ = "TEXTBUTTON"
 useactionbydeclick = 1
 
 [TEXTBUTTON2]
-facecolor = [255, 128, 128, 128]
+facecolor_ = [255, 128, 128, 128]
 facecolorpressed = [255, 128, 128, 128]
 facecolorselected = [255, 128, 128, 128]
-shadowcolor = [255, 0, 0, 0]
-fontcolor = [255, 255, 255, 255]
+shadowcolor_ = [255, 0, 0, 0]
+fontcolor_ = [255, 255, 255, 255]
 unselectablefontcolor = [255, 128, 128, 128]
-group = "MAIN_ICONS"
-pressdelay = 20
-font = "interface_button"
-stroffset = 7
-buttonleft = ["left", "side", "button2"]
-buttonmiddle = ["middle", "side", "button"]
-selectbuttonmiddle = ["select", "middle", "side", "button"]
-selectbuttonleft = ["select", "left", "side", "button2"]
-backcolor = [0, 0, 0, 0]
-class = "TEXTBUTTON"
+group_ = "MAIN_ICONS"
+pressdelay_ = 20
+font_ = "interface_button"
+stroffset_ = 7
+buttonleft_ = "left side button2"
+buttonmiddle = "middle side button"
+selectbuttonmiddle = "select middle side button"
+selectbuttonleft_ = "select left side button2"
+backcolor_ = [0, 0, 0, 0]
+class_ = "TEXTBUTTON"
 presspictureoffset = [2, 2]
 useactionbydeclick = 1
 
@@ -89,7 +89,7 @@ bottomcolor = [205, 100, 50, 11]
 position = [5, 176, 635, 475]
 color = [96, 128, 128, 128]
 groupname = "ICONS"
-pictures = ["border", "angle", "border", "line"]
+pictures = ["border angle", "border line"]
 linesize = [43, 21]
 
 [TITLE]
@@ -133,7 +133,7 @@ dwselectcolorargb1 = [255, 48, 48, 48]
 dwnormalcolorargb2 = [255, 128, 128, 128]
 dwselectcolorargb2 = [255, 168, 168, 168]
 bordershowup = 1
-border = ["ICONS", "select", "border"]
+border = ["ICONS", "select border"]
 font1 = "interface_normal"
 dwyoffset1 = 92
 dwforecolor1 = [255, 255, 255, 155]
@@ -182,7 +182,7 @@ commoncolor = [255, 128, 128, 128]
 lightselectcol = [255, 168, 168, 168]
 darkselectcol = [255, 48, 48, 48]
 wblinddelay = 500
-border = ["ICONS", "select", "border"]
+border = ["ICONS", "select border"]
 position1 = [15, 187, 143, 315]
 position2 = [497, 187, 625, 315]
 position3 = [15, 335, 143, 463]
@@ -190,8 +190,8 @@ position4 = [497, 335, 625, 463]
 
 [STATUSLINE]
 groupname = "ICONS"
-filledpicture = ["status", "line", "filled"]
-emptypicture = ["status", "line", "empty"]
+filledpicture = "status line filled"
+emptypicture = "status line empty"
 
 [SCROLLBAR]
 fontid = "interface_normal"
@@ -205,10 +205,10 @@ presspictureoffset = [2, 2]
 shadowoffset = [3, 3]
 pressshadowoffset = [1, 1]
 pressdelay = 20
-leftpicture = ["left", "arrow"]
-rightpicture = ["right", "arrow"]
+leftpicture = "left arrow"
+rightpicture = "right arrow"
 centerpicture = "scrollbar"
-selectcenterpicture = ["select", "scrollbar"]
+selectcenterpicture = "select scrollbar"
 barwidth = 100
 valueshow = 0
 valuemin = 0
@@ -225,8 +225,8 @@ lightselectcolor = [255, 168, 168, 168]
 darkselectcolor = [255, 48, 48, 48]
 blinddelay = 400
 group = "ICONS"
-lpicture = ["left", "arrow"]
-rpicture = ["right", "arrow"]
+lpicture = "left arrow"
+rpicture = "right arrow"
 presspictureoffset = [2, 2]
 shadowoffset = [5, 5]
 pressshadowoffset = [0, 0]
@@ -234,12 +234,12 @@ pressdelay = 20
 
 [VIMAGESCROLL]
 babsoluterectangle = 5
-position = [16, 200, 144, 480]
+position_ = [16, 200, 144, 480]
 fmovedelta = 35.0
-speedmul = 3
+speedmul_ = 3
 imagesize = [128, 128]
 fboundscale = 1.0
-wdelta = 4
+wdelta_ = 4
 blendcolor = [255, 128, 128, 128]
 blinddelay = 400
 layerquantity = 1
@@ -248,13 +248,13 @@ dwselectcolorargb1 = [255, 48, 48, 48]
 dwnormalcolorargb2 = [255, 128, 128, 128]
 dwselectcolorargb2 = [255, 168, 168, 168]
 bordershowup = 1
-border = ["ICONS", "select", "border"]
-font1 = "interface_normal"
+border_ = ["ICONS", "select border"]
+font1_ = "interface_normal"
 dwyoffset1 = 42
 dwxoffset1 = 82
 dwforecolor1 = [255, 255, 255, 155]
 dwbackcolor1 = [0, 0, 0, 0]
-font2 = "interface_normal"
+font2_ = "interface_normal"
 dwforecolor2 = [255, 255, 255, 255]
 dwbackcolor2 = [0, 0, 0, 0]
 lefttextlimit = 0
@@ -325,7 +325,7 @@ fonttitlecolor = [255, 255, 255, 156]
 fonttitlescale = 1.0
 fonttitlealignment = "center"
 fonttitlevalignment = "center"
-backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "128", "128", "128)"]
+backimage = ["piclist=PAPIRUS", " piccutuv=(0.0", "0.0)", " color=(255", "128", "128", "128)"]
 selectimage = ["color=(100", "200", "120", "55)"]
 iscolselect = 0
 bordericongroup = "MAIN_ICONS"
@@ -349,7 +349,7 @@ bordercornersize = [9, 9]
 cellspacesize = [2, 0]
 
 [FRAME]
-backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "128", "128", "128)"]
+backimage = ["piclist=PAPIRUS", " piccutuv=(0.0", "0.0)", " color=(255", "128", "128", "128)"]
 color = [255, 128, 128, 128]
 groupname = "main_icons"
 lefttop_pic = "border_upleft"
@@ -370,7 +370,7 @@ rightline_pic = "border_left"
 rightline_width = 4
 
 [FRAME_METAL]
-backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "128", "128", "128)"]
+backimage = ["piclist=PAPIRUS", " piccutuv=(0.0", "0.0)", " color=(255", "128", "128", "128)"]
 color = [255, 128, 128, 128]
 groupname = "main_icons"
 lefttop_pic = "border_upleft"
@@ -389,7 +389,7 @@ leftline_pic = "border_left"
 leftline_width = 4
 rightline_pic = "border_left"
 rightline_width = 4
-class = "FRAME"
+class_ = "FRAME"
 
 [ToolTip]
 font_id = "interface_normal"
@@ -412,7 +412,7 @@ vertdowncursoroffset = 32
 [TOOLTIP_FRAME]
 class = "frame"
 position = [204, 123, 610, 487]
-backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "128", "128", "128)"]
+backimage = ["piclist=PAPIRUS", " piccutuv=(0.0", "0.0)", " color=(255", "128", "128", "128)"]
 color = [255, 128, 128, 128]
 groupname = "main_icons"
 lefttop_pic = "border_upleft"
@@ -432,7 +432,7 @@ leftline_width = 4
 rightline_pic = "border_left"
 rightline_width = 4
 captionheight = 32
-captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionimage = ["piclist=SKILLS", " picname=SKILLBORDER", " color=(255", "128", "128", "128)"]
 captionoffset = [0, 3, 0, 0]
 captiondividerheight = 4
 

@@ -2055,7 +2055,7 @@ void StartLanguageSetting(string lngID)
 		Trace("Error! Can`t Load Segment: " + segmentName);
 	}
 
-	segmentName = LanguageGetLanguage() + "\Greetings_alias.ini";
+	segmentName = LanguageGetLanguage() + "\Greetings_alias.toml";
 	SendMessage( &Sound, "ls", MSG_SOUND_ALIAS_ADD,  segmentName);
 	//SendMessage( &Sound, "ls", MSG_SOUND_ALIAS_ADD, LanguageGetLanguage() + "\talk_" + LanguageGetLanguage() + ".lng" );
 }

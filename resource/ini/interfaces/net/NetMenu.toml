@@ -1,5 +1,5 @@
 [MAIN]
-item = ["501", "FRAME", "FRAME_NETMENU", "502", "IMAGECOLLECTION", "BORDER_NETMENU", "503", "FORMATEDTEXT", "TEXT_NETMENU", "503", "STRINGCOLLECTION", "STRINGS_NETMENU", "503", "TEXTBUTTON2", "BTN_NETMENU_DISCONNECT", "503", "TEXTBUTTON2", "BTN_ENDGAME_RETURN"]
+item = [["501", "FRAME", "FRAME_NETMENU"], ["502", "IMAGECOLLECTION", "BORDER_NETMENU"], ["503", "FORMATEDTEXT", "TEXT_NETMENU"], ["503", "STRINGCOLLECTION", "STRINGS_NETMENU"], ["503", "TEXTBUTTON2", "BTN_NETMENU_DISCONNECT"], ["503", "TEXTBUTTON2", "BTN_ENDGAME_RETURN"]]
 start = "BTN_ENDGAME_RETURN"
 
 [FRAME_NETMENU]
@@ -7,7 +7,7 @@ position = [220, 184, 580, 360]
 
 [BTN_NETMENU_DISCONNECT]
 bbreakcommand = 1
-command = ["click", "event:OnNetMenuDisconnect", "activate", "event:OnNetMenuDisconnect", "deactivate", "event:OnNetMenuReturn"]
+command = [["click", "event:OnNetMenuDisconnect"], ["activate", "event:OnNetMenuDisconnect"], ["deactivate", "event:OnNetMenuReturn"]]
 position = [300, 243, 497, 275]
 string = "btnNM_Disconnect"
 glowoffset = [0, 0]
@@ -15,7 +15,7 @@ presspictureoffset = [2, 2]
 
 [BTN_ENDGAME_RETURN]
 bbreakcommand = 1
-command = ["click", "event:OnNetMenuReturn", "activate", "event:OnNetMenuReturn", "deactivate", "event:OnNetMenuReturn"]
+command = [["click", "event:OnNetMenuReturn"], ["activate", "event:OnNetMenuReturn"], ["deactivate", "event:OnNetMenuReturn"]]
 position = [300, 293, 497, 325]
 string = "btnNM_Return"
 glowoffset = [0, 0]

@@ -1,5 +1,5 @@
 [MAIN]
-item = ["PICTURE", "MAIN_BACK", "83", "PCEDITBOX", "EDITBOX_STRING", "200", "FORMATEDTEXT", "CAPTION_STRING", "200", "TEXTBUTTON2", "BTN_SEND"]
+item = [["PICTURE", "MAIN_BACK"], ["83", "PCEDITBOX", "EDITBOX_STRING"], ["200", "FORMATEDTEXT", "CAPTION_STRING"], ["200", "TEXTBUTTON2", "BTN_SEND"]]
 start = "EDITBOX_STRING"
 
 [MAIN_BACK]
@@ -15,7 +15,7 @@ color = [255, 255, 255, 156]
 string = "capNetCS_GameName"
 
 [EDITBOX_STRING]
-command = ["click", "select:EDITBOX_STRING", "deactivate", "event:OnCancel", "activate"]
+command = [["click", "select:EDITBOX_STRING"], ["deactivate", "event:OnCancel"], ",activate"]
 position = [75, 569, 680, 596]
 strfont = "interface_normal"
 fontscale = 1.0
@@ -23,11 +23,11 @@ argbfontcolor = [255, 255, 255, 255]
 stringlength = 100
 stringoffset = [4, 7]
 stringalign = "left"
-middleimage = ["color=(255", "128", "128", "128)", "piclist=MAIN_ICONS", "picname=middle", "side", "button"]
+middleimage = ["color=(255", "128", "128", "128)", " piclist=MAIN_ICONS", " picname=middle side button"]
 
 [BTN_SEND]
 bbreakcommand = 1
-command = ["deactivate", "event:OnCancel", "click", "event:OnSend"]
+command = [["deactivate", "event:OnCancel"], ["click", "event:OnSend"]]
 position = [686, 566, 793, 598]
 string = "btnChatString_Send"
 glowoffset = [0, 0]

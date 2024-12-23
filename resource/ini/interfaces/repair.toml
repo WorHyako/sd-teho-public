@@ -1,20 +1,21 @@
 [MAIN]
-item = ["FRAME", "MAIN_FRAME", "100", "pc", "BUTTON", "EXIT_BTN", "201", "PICTURE", "MAIN_CHARACTER_PICTURE", "201", "PICTURE", "MAIN_CHARACTER_BORDER", "201", "PICTURE", "OTHER_PICTURE", "201", "PICTURE", "OTHER_BORDER", "201", "FORMATEDTEXT", "NAME_STR", "201", "FORMATEDTEXT", "LOCATION_STR", "201", "FORMATEDTEXT", "TIME_STR", "201", "FORMATEDTEXT", "REPAIR_STATUS_HULL_STR", "201", "FORMATEDTEXT", "REPAIR_STATUS_MAST_STR", "201", "FORMATEDTEXT", "REPAIR_STATUS_SAIL_STR", "201", "FORMATEDTEXT", "REPAIR_QTY_HULL_STR", "201", "FORMATEDTEXT", "REPAIR_QTY_MAST_STR", "201", "FORMATEDTEXT", "REPAIR_QTY_SAIL_STR", "201", "IMAGECOLLECTION", "BIG_PICTURE_BORDER", "555", "SCROLLIMAGE", "SHIPS_SCROLL", "555", "BUTTON", "LEFTSCROLLBUTTON", "555", "BUTTON", "RIGHTSCROLLBUTTON", "555", "FORMATEDTEXT", "REPAIR_WINDOW_CAPTION", "555", "FORMATEDTEXT", "REPAIR_HULL_CAPTION", "555", "FORMATEDTEXT", "REPAIR_MAST_CAPTION", "555", "FORMATEDTEXT", "REPAIR_SAIL_CAPTION", "555", "FORMATEDTEXT", "REPAIR_SHIP_NAME", "555", "PICTURE", "REPAIR_Hull_PIC", "555", "PICTURE", "REPAIR_Sail_PIC", "555", "PICTURE", "REPAIR_Mast_PIC", "600", "BUTTON", "REPAIR_LEFT_H", "600", "BUTTON", "REPAIR_RIGHT_H", "600", "BUTTON", "REPAIR_LEFT_S", "600", "BUTTON", "REPAIR_RIGHT_S", "600", "BUTTON", "REPAIR_LEFT_M", "600", "BUTTON", "REPAIR_RIGHT_M", "555", "FORMATEDTEXT", "REPAIR_QTY_H", "555", "FORMATEDTEXT", "REPAIR_QTY_S", "555", "FORMATEDTEXT", "REPAIR_QTY_M", "555", "PICTURE", "REPAIR_HULL_P_PIC", "555", "PICTURE", "REPAIR_MAST_P_PIC", "555", "PICTURE", "REPAIR_SAIL_S_PIC", "555", "TEXTBUTTON2", "REPAIR_OK", "555", "TEXTBUTTON2", "REPAIR_CANCEL", "555", "TEXTBUTTON2", "REPAIR_ALL_SHIP", "555", "TEXTBUTTON2", "REPAIR_ALL_SQUADRON"]
+item = [["FRAME", "MAIN_FRAME"], ["100", "pc", "BUTTON", "EXIT_BTN"], ["201", "PICTURE", "MAIN_CHARACTER_PICTURE"], ["201", "PICTURE", "MAIN_CHARACTER_BORDER"], ["201", "PICTURE", "OTHER_PICTURE"], ["201", "PICTURE", "OTHER_BORDER"], ["201", "FORMATEDTEXT", "NAME_STR"], ["201", "FORMATEDTEXT", "LOCATION_STR"], ["201", "FORMATEDTEXT", "TIME_STR"], ["201", "FORMATEDTEXT", "REPAIR_STATUS_HULL_STR"], ["201", "FORMATEDTEXT", "REPAIR_STATUS_MAST_STR"], ["201", "FORMATEDTEXT", "REPAIR_STATUS_SAIL_STR"], ["201", "FORMATEDTEXT", "REPAIR_QTY_HULL_STR"], ["201", "FORMATEDTEXT", "REPAIR_QTY_MAST_STR"], ["201", "FORMATEDTEXT", "REPAIR_QTY_SAIL_STR"], ["201", "IMAGECOLLECTION", "BIG_PICTURE_BORDER"], ["555", "SCROLLIMAGE", "SHIPS_SCROLL"], ["555", "BUTTON", "LEFTSCROLLBUTTON"], ["555", "BUTTON", "RIGHTSCROLLBUTTON"], ["555", "FORMATEDTEXT", "REPAIR_WINDOW_CAPTION"], ["555", "FORMATEDTEXT", "REPAIR_HULL_CAPTION"], ["555", "FORMATEDTEXT", "REPAIR_MAST_CAPTION"], ["555", "FORMATEDTEXT", "REPAIR_SAIL_CAPTION"], ["555", "FORMATEDTEXT", "REPAIR_SHIP_NAME"], ["555", "PICTURE", "REPAIR_Hull_PIC"], ["555", "PICTURE", "REPAIR_Sail_PIC"], ["555", "PICTURE", "REPAIR_Mast_PIC"], ["600", "BUTTON", "REPAIR_LEFT_H"], ["600", "BUTTON", "REPAIR_RIGHT_H"], ["600", "BUTTON", "REPAIR_LEFT_S"], ["600", "BUTTON", "REPAIR_RIGHT_S"], ["600", "BUTTON", "REPAIR_LEFT_M"], ["600", "BUTTON", "REPAIR_RIGHT_M"], ["555", "FORMATEDTEXT", "REPAIR_QTY_H"], ["555", "FORMATEDTEXT", "REPAIR_QTY_S"], ["555", "FORMATEDTEXT", "REPAIR_QTY_M"], ["555", "PICTURE", "REPAIR_HULL_P_PIC"], ["555", "PICTURE", "REPAIR_MAST_P_PIC"], ["555", "PICTURE", "REPAIR_SAIL_S_PIC"], ["555", "TEXTBUTTON2", "REPAIR_OK"], ["555", "TEXTBUTTON2", "REPAIR_CANCEL"], ["555", "TEXTBUTTON2", "REPAIR_ALL_SHIP"], ["555", "TEXTBUTTON2", "REPAIR_ALL_SQUADRON"]]
 start = "REPAIR_OK"
 
 [EXIT_BTN]
 position = [698, 74, 722, 98]
 group = "ICONS_SPEC"
-picture = ["exit", "button"]
-command = ["click", "event:exitCancel", "deactivate", "event:exitCancel"]
+picture = "exit button"
+command = [["click", "event:exitCancel"], ["deactivate", "event:exitCancel"]]
 shadowcolor = [0, 0, 0, 0]
-bshowglowcursor = "0;"
+bshowglowcursor = 0
 shadowoffset = [-1, -1]
 
 [REPAIR_WINDOW_CAPTION]
 command = "click"
 position = [130, 76, 670, 96]
-font = ["interface_button", "1.1"]
+font = "interface_button"
+fontscale = 1.1
 linespace = 10
 alignment = "center"
 color = [255, 255, 255, 255]
@@ -30,14 +31,14 @@ color = [255, 255, 228, 80]
 
 [REPAIR_OK]
 bbreakcommand = 0
-command = ["deactivate", "event:exitCancel", "activate", "click"]
+command = [["deactivate", "event:exitCancel"], ",activate", "click"]
 position = [310, 490, 430, 520]
 string = "Ok"
 glowoffset = [0, 0]
 
 [REPAIR_CANCEL]
 bbreakcommand = 0
-command = ["deactivate", "event:exitCancel", "activate", "click"]
+command = [["deactivate", "event:exitCancel"], ",activate", "click"]
 position = [440, 490, 560, 520]
 string = "Cancel"
 glowoffset = [0, 0]
@@ -56,10 +57,10 @@ glowoffset = [0, 0]
 
 [MAIN_FRAME]
 position = [70, 70, 730, 530]
-backimage = ["piclist=PAPIRUS", "piccutuv=(0.0", "0.0)", "color=(255", "118", "118", "128)"]
+backimage = ["piclist=PAPIRUS", " piccutuv=(0.0", "0.0)", " color=(255", "118", "118", "128)"]
 headerlineheight = 4
 captionheight = 30
-captionimage = ["piclist=SKILLS", "picname=SKILLBORDER", "color=(255", "128", "128", "128)"]
+captionimage = ["piclist=SKILLS", " picname=SKILLBORDER", " color=(255", "128", "128", "128)"]
 captionoffset = [0, 3, 0, 0]
 captiondividerheight = 4
 
@@ -103,7 +104,8 @@ color = [255, 255, 255, 255]
 
 [REPAIR_HULL_CAPTION]
 position = [300, 185, 500, 205]
-font = ["interface_button", "1.1"]
+font = "interface_button"
+fontscale = 1.1
 linespace = 10
 alignment = "center"
 color = [255, 255, 255, 255]
@@ -112,7 +114,8 @@ string = "HullRepair"
 
 [REPAIR_MAST_CAPTION]
 position = [300, 285, 500, 305]
-font = ["interface_button", "1.1"]
+font = "interface_button"
+fontscale = 1.1
 linespace = 10
 alignment = "center"
 color = [255, 255, 255, 255]
@@ -121,7 +124,8 @@ string = "MastRepair"
 
 [REPAIR_SAIL_CAPTION]
 position = [300, 385, 500, 405]
-font = ["interface_button", "1.1"]
+font = "interface_button"
+fontscale = 1.1
 linespace = 10
 alignment = "center"
 color = [255, 255, 255, 255]
@@ -129,27 +133,27 @@ backoffset = [1, 2, 0, -2]
 string = "SailRepair"
 
 [SHIPS_SCROLL]
-command = ["activate", "deactivate", "event:ExitCancel", "rightstep", "leftstep", "speedright", "speedleft", "click", "select:SHIPS_SCROLL"]
+command = ["activate", ["deactivate", "event:ExitCancel"], ",rightstep", "leftstep", "speedright", "speedleft", ["click", "select:SHIPS_SCROLL"]]
 position = [235, 105, 565, 169]
 imagesize = [64, 64]
 wdelta = 3
 glowoffset = [0, 0]
 
 [LEFTSCROLLBUTTON]
-command = ["activate", "select:SHIPS_SCROLL", "com:speedleft:SHIPS_SCROLL", "click", "select:SHIPS_SCROLL", "com:leftstep:SHIPS_SCROLL", "com:activate:LEFTSCROLLBUTTON"]
+command = [["activate", "select:SHIPS_SCROLL", "com:speedleft:SHIPS_SCROLL"], ["click", "select:SHIPS_SCROLL", "com:leftstep:SHIPS_SCROLL", "com:activate:LEFTSCROLLBUTTON"]]
 position = [335, 116, 367, 158]
 group = "ICONS"
-picture = ["left", "arrow"]
+picture = "left arrow"
 presspictureoffset = [1, 1]
 shadowoffset = [1, 1]
 pressshadowoffset = [0, 0]
 pressdelay = 10
 
 [RIGHTSCROLLBUTTON]
-command = ["activate", "select:SHIPS_SCROLL", "com:speedright:SHIPS_SCROLL", "click", "select:SHIPS_SCROLL", "com:rightstep:SHIPS_SCROLL", "com:activate:RIGHTSCROLLBUTTON"]
+command = [["activate", "select:SHIPS_SCROLL", "com:speedright:SHIPS_SCROLL"], ["click", "select:SHIPS_SCROLL", "com:rightstep:SHIPS_SCROLL", "com:activate:RIGHTSCROLLBUTTON"]]
 position = [432, 116, 464, 158]
 group = "ICONS"
-picture = ["right", "arrow"]
+picture = "right arrow"
 presspictureoffset = [1, 1]
 shadowoffset = [1, 1]
 pressshadowoffset = [0, 0]
@@ -182,7 +186,8 @@ color = [255, 255, 255, 255]
 [REPAIR_QTY_H]
 position = [360, 223, 440, 253]
 linespace = 26
-font = ["Bold_numbers", "1.2"]
+font = "Bold_numbers"
+fontscale = 1.2
 
 [REPAIR_RIGHT_H]
 command = ["click", "rclick"]
@@ -227,7 +232,8 @@ color = [255, 255, 255, 255]
 [REPAIR_QTY_M]
 position = [360, 323, 440, 353]
 linespace = 26
-font = ["Bold_numbers", "1.2"]
+font = "Bold_numbers"
+fontscale = 1.2
 
 [REPAIR_RIGHT_M]
 command = ["click", "rclick"]
@@ -272,7 +278,8 @@ color = [255, 255, 255, 255]
 [REPAIR_QTY_S]
 position = [360, 423, 440, 453]
 linespace = 26
-font = ["Bold_numbers", "1.2"]
+font = "Bold_numbers"
+fontscale = 1.2
 
 [REPAIR_RIGHT_S]
 command = ["click", "rclick"]

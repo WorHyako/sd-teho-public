@@ -1,5 +1,5 @@
 [MAIN]
-item = ["PICTURE", "MAIN_BACK", "FRAME", "FRAME1", "FRAME", "FRAME2", "FRAME", "FRAME3", "TITLE", "TITLE", "100", "pc", "BUTTON", "EXIT_BTN", "100", "PICTURE", "ICON_1", "100", "PICTURE", "ICON_2", "100", "PICTURE", "FlagPic", "TEXTBUTTON2", "FLAGS", "RECTANGLE", "ENG_RECT", "RECTANGLE", "FRA_RECT", "RECTANGLE", "SPA_RECT", "RECTANGLE", "HOL_RECT", "FORMATEDTEXT", "ENG_Text", "FORMATEDTEXT", "FRA_Text", "FORMATEDTEXT", "SPA_Text", "FORMATEDTEXT", "HOL_Text", "BUTTON", "LEFTCHANGE_NATION", "BUTTON", "RIGHTCHANGE_NATION", "FORMATEDTEXT", "INFO_CLICK", "FORMATEDTEXT", "INFO_CLICK2", "200", "BUTTON", "I_CHARACTER_2", "200", "BUTTON", "I_SHIP_2", "200", "BUTTON", "I_QUESTBOOK_2", "200", "BUTTON", "I_TRADEBOOK_2", "200", "BUTTON", "I_ITEMS_2", "100", "pc", "BUTTON", "I_CHARACTER", "100", "pc", "BUTTON", "I_SHIP", "100", "pc", "BUTTON", "I_QUESTBOOK", "100", "pc", "BUTTON", "I_TRADEBOOK", "100", "pc", "BUTTON", "I_ITEMS", "STRINGCOLLECTION", "STR_BUTTONS"]
+item = [["PICTURE", "MAIN_BACK"], ["FRAME", "FRAME1"], ["FRAME", "FRAME2"], ["FRAME", "FRAME3"], ["TITLE", "TITLE"], ["100", "pc", "BUTTON", "EXIT_BTN"], ["100", "PICTURE", "ICON_1"], ["100", "PICTURE", "ICON_2"], ["100", "PICTURE", "FlagPic"], ["TEXTBUTTON2", "FLAGS"], ["RECTANGLE", "ENG_RECT"], ["RECTANGLE", "FRA_RECT"], ["RECTANGLE", "SPA_RECT"], ["RECTANGLE", "HOL_RECT"], ["FORMATEDTEXT", "ENG_Text"], ["FORMATEDTEXT", "FRA_Text"], ["FORMATEDTEXT", "SPA_Text"], ["FORMATEDTEXT", "HOL_Text"], ["BUTTON", "LEFTCHANGE_NATION"], ["BUTTON", "RIGHTCHANGE_NATION"], ["FORMATEDTEXT", "INFO_CLICK"], ["FORMATEDTEXT", "INFO_CLICK2"], ["200", "BUTTON", "I_CHARACTER_2"], ["200", "BUTTON", "I_SHIP_2"], ["200", "BUTTON", "I_QUESTBOOK_2"], ["200", "BUTTON", "I_TRADEBOOK_2"], ["200", "BUTTON", "I_ITEMS_2"], ["100", "pc", "BUTTON", "I_CHARACTER"], ["100", "pc", "BUTTON", "I_SHIP"], ["100", "pc", "BUTTON", "I_QUESTBOOK"], ["100", "pc", "BUTTON", "I_TRADEBOOK"], ["100", "pc", "BUTTON", "I_ITEMS"], ["STRINGCOLLECTION", "STR_BUTTONS"]]
 
 [MAIN_BACK]
 babsoluterectangle = 5
@@ -18,7 +18,7 @@ position = [590, 415, 780, 580]
 [EXIT_BTN]
 position = [774, 45, 796, 67]
 group = "ICONS_SPEC"
-picture = ["exit", "button"]
+picture = "exit button"
 command = ["click", "event:exitCancel"]
 shadowcolor = [0, 0, 0, 0]
 
@@ -29,13 +29,13 @@ position = [117, 104, 167, 154]
 position = [48, 161, 98, 211]
 
 [FlagPic]
-command = ["click", "deactivate", "event:exitCancel", "rclick", "select:FlagPic", "event:ShowInfoWindow"]
+command = ["click", ["deactivate", "event:exitCancel"], ["rclick", "select:FlagPic", "event:ShowInfoWindow"]]
 position = [648, 455, 715, 522]
 bshowglowcursor = 0
 
 [FLAGS]
 bbreakcommand = 1
-command = ["activate", "event:FlagsPress", "delay:150", "click", "event:FlagsPress", "delay:150", "deactivate", "event:exitCancel"]
+command = [["activate", "event:FlagsPress", "delay:150"], ["click", "event:FlagsPress", "delay:150"], ["deactivate", "event:exitCancel"]]
 position = [618, 538, 748, 564]
 font = "INTERFACE_SMALL_BUTTON"
 string = "ChangeFlag"
@@ -46,14 +46,14 @@ bbreakcommand = 1
 command = ["activate", "click"]
 position = [615, 470, 635, 510]
 group = "ICONS"
-picture = ["small", "left", "arrow"]
+picture = "small left arrow"
 
 [RIGHTCHANGE_NATION]
 bbreakcommand = 1
 command = ["activate", "click"]
 position = [725, 470, 745, 510]
 group = "ICONS"
-picture = ["small", "right", "arrow"]
+picture = "small right arrow"
 
 [ENG_RECT]
 position = [603, 130, 768, 174]
@@ -86,75 +86,79 @@ bottomcolor = [128, 50, 30, 30]
 [ENG_TEXT]
 position = [653, 147, 752, 177]
 linespace = 13
-font = ["interface_ultrasmall", "1"]
+font = "interface_ultrasmall"
+fontscale = 1
 
 [FRA_TEXT]
 position = [653, 203, 752, 233]
 linespace = 13
-font = ["interface_ultrasmall", "1"]
+font = "interface_ultrasmall"
+fontscale = 1
 
 [SPA_TEXT]
 position = [653, 260, 752, 290]
 linespace = 13
-font = ["interface_ultrasmall", "1"]
+font = "interface_ultrasmall"
+fontscale = 1
 
 [HOL_Text]
 position = [653, 315, 752, 345]
 linespace = 13
-font = ["interface_ultrasmall", "1"]
+font = "interface_ultrasmall"
+fontscale = 1
 
 [INFO_CLICK]
-command = ["click", "deactivate", "event:exitCancel", "rclick", "select:INFO_CLICK", "event:ShowInfoWindow"]
+command = ["click", ["deactivate", "event:exitCancel"], ["rclick", "select:INFO_CLICK", "event:ShowInfoWindow"]]
 bshowglowcursor = 0
 position = [599, 96, 768, 386]
 linespace = 13
 
 [INFO_CLICK2]
-command = ["click", "deactivate", "event:exitCancel", "rclick", "select:FlagPic", "event:ShowInfoWindow"]
+command = ["click", ["deactivate", "event:exitCancel"], ["rclick", "select:FlagPic", "event:ShowInfoWindow"]]
 bshowglowcursor = 0
 position = [30, 96, 566, 571]
 linespace = 13
 
 [STR_BUTTONS]
-string = ["buttonCharacter", "font:INTERFACE_TITLE", "pos:{70", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}", "buttonShip", "font:INTERFACE_TITLE", "pos:{230", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}", "buttonQuestBook", "font:INTERFACE_TITLE", "pos:{390", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}", "buttonTradeBook", "font:INTERFACE_TITLE", "pos:{550", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}", "Sel", "Items", "font:INTERFACE_TITLE", "pos:{710", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}"]
+string = [["buttonCharacter", "font:INTERFACE_TITLE", "pos:{70", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}"], ["buttonShip", "font:INTERFACE_TITLE", "pos:{230", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}"], ["buttonQuestBook", "font:INTERFACE_TITLE", "pos:{390", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}"], ["buttonTradeBook", "font:INTERFACE_TITLE", "pos:{550", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}"], ["Sel Items", "font:INTERFACE_TITLE", "pos:{710", "15}", "fc:{255", "255", "255", "255}", "bc:{0", "128", "128", "128}", "scale:0.7", "state:{S}"]]
 
 [I_CHARACTER]
 bbreakcommand = 1
-command = ["click", "deactivate", "event:exitCancel"]
+command = ["click", ["deactivate", "event:exitCancel"]]
 group = "ICONS_SPEC"
-picture = ["pers", "button"]
+picture = "pers button"
 position = [0, 0, 50, 50]
 shadowcolor = [0, 0, 0, 0]
 
 [I_SHIP]
 bbreakcommand = 1
-command = ["click", "deactivate", "event:exitCancel"]
+command = ["click", ["deactivate", "event:exitCancel"]]
 group = "ICONS_SPEC"
-picture = ["ship", "button"]
+picture = "ship button"
 position = [160, 0, 210, 50]
 shadowcolor = [0, 0, 0, 0]
 
 [I_QUESTBOOK]
 bbreakcommand = 1
-command = ["click", "deactivate", "event:exitCancel"]
+command = ["click", ["deactivate", "event:exitCancel"]]
 group = "ICONS_SPEC"
-picture = ["questbook", "button"]
+picture = "questbook button"
 position = [320, 0, 370, 50]
 shadowcolor = [0, 0, 0, 0]
 
 [I_TRADEBOOK]
 bbreakcommand = 1
-command = ["click", "deactivate", "event:exitCancel"]
+command = ["click", ["deactivate", "event:exitCancel"]]
 group = "ICONS_SPEC"
-picture = ["trade", "button"]
+picture = "trade button"
 position = [480, 0, 530, 50]
 shadowcolor = [0, 0, 0, 0]
 
 [I_ITEMS]
 bbreakcommand = 1
-command = ["click", "deactivate", "event:exitCancel"]
+command = ["click", ["deactivate", "event:exitCancel"]]
 group = "ICONS_SPEC"
-picture = ["items", "button"]
+picture = "items button"
 position = [640, 0, 690, 50]
 shadowcolor = [0, 0, 0, 0]
 

@@ -1,6 +1,6 @@
 [CANNON16]
 range = 400
-reload_time = 30
+reload_time_ = 30
 
 [CANNON24]
 range = 300
